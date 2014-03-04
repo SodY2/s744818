@@ -1,0 +1,13 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Expos\IeC {\'e}}{2}
+\contentsline {chapter}{\numberline {2}Inhaltliches}{3}
+\contentsline {section}{\numberline {2.1}Aufgabenstellung}{3}
+\contentsline {section}{\numberline {2.2}Abgrenzungskriterien}{3}
+\contentsline {section}{\numberline {2.3}and so on}{3}
+\contentsline {chapter}{\numberline {3}Grundlagen}{4}
+\contentsline {section}{\numberline {3.1}Begriffskl\IeC {\"a}rung}{4}
+\contentsline {chapter}{\numberline {4}dritteEinleitung}{5}
+\contentsline {chapter}{\numberline {5}Helpers}{6}
+\contentsline {section}{\numberline {5.1}quote}{6}
+\contentsline {section}{\numberline {5.2}longquote}{6}
+\contentsline {section}{\numberline {5.3}fussnote}{6}

@@ -1,0 +1,111 @@
+\documentclass[13pt,a4paper,oneside]{scrbook} %#try: report, article, book, amsart
+\RequirePackage{ifpdf}
+\usepackage{fancyunits}
+\usepackage[entwurf]{bhtThesis}
+
+
+%%
+%% Pfad zu den Bildern
+%%
+\graphicspath{
+  {pictures/}
+}
+
+%\usepackage{makeidx}
+%\makeindex
+
+
+%%
+%% Titel, Autor und Betreuer
+%%
+\version{0.1$\alpha$}
+\datum{\today}
+\fachbereich{VI -- Informatik und Medien --} 
+\studiengang{Medieninformatik}
+\autor{Adrian Randhahn}
+\edvnr{744818}
+\titel{Evaluierung von Techniken zur parallel-synchronen Bedienung einer Web-Applikation auf verschiedenen mobilen Endgeräten} 
+\abschluss{Bachelor of Science (B.Sc.)}
+
+\betreuerFeld{
+  \begin{tabular}{lr}
+    \multicolumn{2}{l}{\textbf{Gutachter}}\\
+    Prof.~Knabe & Beuth Hochschule für Technik\\
+    Prof.~Dr. Wambach & Beuth Hochschule für Technik
+  \end{tabular}
+}
+
+%%
+%% ############# Dokumentbegin
+%%
+\begin{document}
+\pagestyle{fancy}
+
+%%
+%% ############# Deckblatt
+%%
+\maketitle
+\clearpage
+
+\pagenumbering{roman}
+
+%%
+%% ############# Erklärung
+%%
+\include{./tex/erklaerung}
+
+%%
+%% ############# Datenschutz
+%%
+\include{./tex/sperrvermerk}
+
+%%
+%% ############# Inhaltsverzeichnis
+%%
+\tableofcontents
+
+%%
+%% ############# Maincontent
+%%
+\pagenumbering{arabic}
+
+%%
+%% ############# Exposé
+%%
+\chapter{Exposé}
+
+%%
+%% ############# Grundlagen
+%%
+\chapter{Inhaltliches}
+	%%
+	%% ############# Aufgabenstellung
+	%%
+	\section{Aufgabenstellung}
+	%%
+	%% ############# Abgrenzungskriterien
+	%%
+	\section{Abgrenzungskriterien}
+	\section{and so on}
+%%
+%% ############# Grundlagen
+%%
+\chapter{Grundlagen}
+	%%
+	%% ############# Begriffsklärung
+	%%
+	\section{Begriffsklärung}
+
+
+\chapter{dritteEinleitung}
+
+%%
+%% ############# Helpers
+%%
+\include{./tex/helpers}
+
+
+\end{document}
+
+
+
