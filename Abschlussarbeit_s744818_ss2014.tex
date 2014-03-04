@@ -1,4 +1,11 @@
 \documentclass[13pt,a4paper,oneside]{scrbook} %#try: report, article, book, amsart
+
+%%
+%%------------------- Eigne Kommandos
+%%
+\newcommand{\tr}[1]{TOREMOVE-->\linebreak{#1} \linebreak <--TOREMOVE}
+
+
 \RequirePackage{ifpdf}
 \usepackage{fancyunits}
 \usepackage[entwurf]{bhtThesis}
@@ -65,6 +72,16 @@
 \tableofcontents
 
 %%
+%% ############# Abbildungsverzeichnis
+%%
+\listoffigures
+
+%%
+%% ############# Tabellenverzeichnis
+%%
+\listoftables
+
+%%
 %% ############# Maincontent
 %%
 \pagenumbering{arabic}
@@ -72,32 +89,99 @@
 %%
 %% ############# Exposé
 %%
-\chapter{Exposé}
+%\chapter{Exposé}
 
 %%
-%% ############# Grundlagen
+%% ############# Einleitung
 %%
-\chapter{Inhaltliches}
+\chapter{Einleitung}
+\tr{Eine Einleitung bietet die Möglichkeiten den Sinn und Zweck der Diplomarbeit für einen Durchschnittsinformatiker (ohne die Spezialkenntnisse, die Sie jetzt haben) verständlich zu beschreiben. Hier können Sie Hintergründe darstellen, wie die Arbeit und das Thema entstanden und selbstverständlich für Ihre Arbeit werben. Interessierte Leser entscheiden hier, ob diese Arbeit für sie fachlich interessant ist.}
+
+	\section{Einleitender Satz}
+	\tr{	Eine kurze Beschreibung des allgemeinen Forschungsgebietes in ein bis zwei Absätzen. Die Einleitung sollte am Ende in ein bis zwei Sätzen die eigentlich untersuchte Fragestellung benennen.}
+
+	\section{Hintergrund}
+	\tr{Hier sollte der Hintergrund und die Motivation der Arbeit kurz angerissen werden. Nach Möglichkeit sollte man alle Aspekte, die im zweiten Kapitel ("Grundlagen") besprochen werden, hier schon einmal ansprechen, damit 		diese nicht später aus heiterem Himmel fallen. Insbesondere sollte der Hintergrund quasi "zwingend" den nächsten Teil der Einleitung motivieren:}
+	
+	\linebreak\linebreak
+	Innerhalb des Entwicklungsprozesses einer mobilen Webanwendung durchläuft diese wiederholt die Qualitätssicherung und muss auf verschiedenen Geräten getestet werden. Diese werden in vielerlei Auflösungen mit 		unterschiedlichen Betriebssystemen (hier exemplarisch Android, iOS und Windows) in verschiedenen Versionen ausgeliefert. Während des Vorgangs der Qualitätssicherung wird die mobile Anwendung in Bezug auf ihre 		Seitennavigation, die erfolgreiche Umsetzung von HCI- Kriterien1 und ihre erfolgreiche Funktionsweise getestet. Erst nach erfolgreicher Freigabe durch die Qualitätssicherung darf der Entwicklungsprozess abgeschlossen 		werden.
+
+	\section{Problemstellung}
+	\tr{
+	Aus dem Hintergrund sollte die Wissenslücke klar werden, die durch die Abschlussarbeit geschlossen werden soll. Kurz sollte beschrieben werden, mit welchen Methoden die Arbeit versuchen will, diese zu schließen 			(empirische 	Untersuchung, Loganalyse, neuartige Programmkomponenten, etc.). Schließlich sollte man herausstellen, warum es wichtig ist, diese Wissenslücke zu schließen (wie profitiert die Welt davon).
+	}
+	\linebreak\linebreak
+	Zur Qualitätsprüfung wird ein Testszenario erstellt, welches möglichst alle, oder zumindest einen Großteil der Anforderungen erfüllt. Dieses Szenario wird nun, von Hand, an jedem vorhandenen Testgerät durchgeführt, und 		dies möglichst immer konstant. Das Ergebnis wird dem Softwareentwickler mitgeteilt, welcher gegebenenfalls die Software anpasst. Dieser Vorgang wiederholt sich solange bis das erwünschte Ergebnis erreicht ist. Bei einer 	Vielzahl von Testgeräten entsteht das Problem, dass die Testszenarien durch Nachlässigkeit, Unachtsamkeit oder auch Routine nicht immer vollständig durchlaufen werden, was schlussfolgernd zu verminderter Qualität führt.
+
+	\section{Annahmen und Einschränkungen}
+	\tr{
+	Wenn die Arbeit wichtige Annahmen trifft, unter denen die Untersuchungsergebnisse gültig sind, oder die Allgemeinheit der getroffenen Aussagen wichtigen Einschränkungen unterliegt, sollten diese ebenfalls in der Einleitung 	beschrieben werden.
+	}
+
 	%%
-	%% ############# Aufgabenstellung
+	%% ############# Zielsetzung
 	%%
-	\section{Aufgabenstellung}
+	\section{Zielsetzung}
 	%%
 	%% ############# Abgrenzungskriterien
 	%%
 	\section{Abgrenzungskriterien}
-	\section{and so on}
+	\tr{
+	Hier werden die Grundlagen für das zu entwickelnde Softwaresystem definiert. Zwar noch aus fachtechnischer Sicht werden hier die Anforderungen an das geplante Softwaresystem in möglichst formaler Form spezifiziert. Es 	sollen hier keine Lösungen präsentiert werden, sondern möglichst präzise die Anforderungen (Sollkonzept) an das geplante Softwaresystem mit seinen Schnittstellen, Informationsflüssen und Systemfunktionen dokumentiert 	werden. Verwendete Methoden können z.B. SA, SADT, Petri-Netze oder andere sein.
+	Das Ergebnis ist ein für die Systementwicklung verwendbares Pflichtenheft. Über Art und Umfang des Pflichtenhefts sollten Sie mit Ihrem Betreuer sprechen.
+	}
+
+%%
+%% ############# Aufgabenstellung
+%%
+\chapter{Aufgabenstellung}
+\tr{
+Durch eine klare Beschreibung der Aufgabenstellung wird die zu lösende Aufgabe deutlich. Vorhandene Teillösungen oder -systeme können hier ebenfalls dargestellt werden. In vielen Fällen ist es auch hilfreich Sachverhalte oder Problemstellungen zu beschreiben, die nicht zur Aufgabenstellung gehören (Abgrenzung).
+}
+	%%
+	%% ############# Zielsetzung
+	%%
+	\section{Zielsetzung}
+	%%
+	%% ############# Abgrenzungskriterien
+	%%
+	\section{Abgrenzungskriterien}
+	\tr{
+	Hier werden die Grundlagen für das zu entwickelnde Softwaresystem definiert. Zwar noch aus fachtechnischer Sicht werden hier die Anforderungen an das geplante Softwaresystem in möglichst formaler Form spezifiziert. Es 	sollen hier keine Lösungen präsentiert werden, sondern möglichst präzise die Anforderungen (Sollkonzept) an das geplante Softwaresystem mit seinen Schnittstellen, Informationsflüssen und Systemfunktionen dokumentiert 	werden. Verwendete Methoden können z.B. SA, SADT, Petri-Netze oder andere sein.
+	Das Ergebnis ist ein für die Systementwicklung verwendbares Pflichtenheft. Über Art und Umfang des Pflichtenhefts sollten Sie mit Ihrem Betreuer sprechen.
+	}
 %%
 %% ############# Grundlagen
 %%
 \chapter{Grundlagen}
+\tr{
+Dieser Teil beschreibt das fachliche Umfeld der Aufgabenstellung. Hier werden die wesentlichen fachlichen Begrifflichkeiten, die für die Aufgabe relevanten Problemstellungen und Lösungsansätze des Fachgebietes vorgestellt. Der Sprachgebrauch sollte einen direkten Bezug zum Fachgebiet haben. Die notwendigen Darstellungsmethoden, die Art und der Umfang der Beschreibung hängen wesentlich von der jeweiligen Fachdisziplin ab und sollten im Dialog mit dem Betreuer entschieden werden. Beispielsweise wird sich die Beschreibung eines Hotelreservierungssystems sehr von einer Beschreibung mathematischen Transformationen auf Grafikobjekte unterscheiden.
+
+\linebreak\linebreak
+Dies ist oft vor der Einleitung das erste Kapitel, das man schreibt, und sollte einen Überblick über die Literatur und existierende Arbeiten im Bereich der Arbeit liefern (Welche Grundlagen gibt es in diesem Bereich? Haben andere Autoren schon etwas zu verwandten Themen veröffentlicht?). Die hier vorgestellten Konzepte sollten in der Einleitung zumindest schon einmal angesprochen worden sein. Bei der Vorstellung verwandter Arbeiten sollten neuere Erkenntnisse bevorzugt werden. Bei jeder in das Grundlagenkapitel aufgenommenen Arbeit gilt es herauszustellen, was die Ergebnisse der Arbeit waren und warum diese Ergebnisse (oder Einschränkungen der vorgestellten Arbeit) eben noch keine Schließung der Wissenslücke oder keine Lösung der Aufgabenstellung darstellen? Am Ende erfolgt eine kurze Zusammenfassung der Grundlagen, die begründete Schlussfolgerung, dass das zu untersuchende Problem noch ungelöst ist, und ggf. wieder eine Vorschau auf das folgende Kapitel.
+}
 	%%
 	%% ############# Begriffsklärung
 	%%
 	\section{Begriffsklärung}
 
+%%
+%% ############# Lösungsansätze
+%%
+\chapter{Lösungsansätze}
+\tr{
+Nach der Beschreibung des fachlichen Umfeldes können ausgewählte (vielleicht alle?) für die Aufgabenstellung relevanten Probleme vorgestellt, Vor- und Nachteile bestehender Lösungen argumentiert und die voraussichtlich angestrebte (weil vorteilhafte) Lösung herausgestellt werden.
+}
+%%
+%% ############# Systementwurf
+%%
+\chapter{Systementwurf}
 
-\chapter{dritteEinleitung}
+%%
+%% ############# Technologien
+%%
+\chapter{Technologien}
+
 
 %%
 %% ############# Helpers
