@@ -2,19 +2,36 @@
 \contentsline {chapter}{\numberline {1}Einleitung}{2}
 \contentsline {section}{\numberline {1.1}Einleitender Satz}{2}
 \contentsline {section}{\numberline {1.2}Hintergrund}{2}
-\contentsline {section}{\numberline {1.3}Problemstellung}{3}
-\contentsline {section}{\numberline {1.4}Annahmen und Einschr\IeC {\"a}nkungen}{3}
-\contentsline {section}{\numberline {1.5}Zielsetzung}{3}
-\contentsline {section}{\numberline {1.6}Abgrenzungskriterien}{3}
-\contentsline {chapter}{\numberline {2}Aufgabenstellung}{5}
-\contentsline {section}{\numberline {2.1}Zielsetzung}{5}
-\contentsline {section}{\numberline {2.2}Abgrenzungskriterien}{5}
-\contentsline {chapter}{\numberline {3}Grundlagen}{6}
-\contentsline {section}{\numberline {3.1}Begriffskl\IeC {\"a}rung}{6}
-\contentsline {chapter}{\numberline {4}L\IeC {\"o}sungsans\IeC {\"a}tze}{7}
-\contentsline {chapter}{\numberline {5}Systementwurf}{8}
-\contentsline {chapter}{\numberline {6}Technologien}{9}
-\contentsline {chapter}{\numberline {7}Helpers}{10}
-\contentsline {section}{\numberline {7.1}quote}{10}
-\contentsline {section}{\numberline {7.2}longquote}{10}
-\contentsline {section}{\numberline {7.3}fussnote}{10}
+\contentsline {chapter}{\numberline {2}Aufgabenstellung}{3}
+\contentsline {section}{\numberline {2.1}Problemstellung}{3}
+\contentsline {section}{\numberline {2.2}Annahmen und Einschr\IeC {\"a}nkungen}{3}
+\contentsline {section}{\numberline {2.3}Zielsetzung}{3}
+\contentsline {section}{\numberline {2.4}Abgrenzungskriterien}{3}
+\contentsline {chapter}{\numberline {3}Grundlagen}{4}
+\contentsline {section}{\numberline {3.1}Begriffskl\IeC {\"a}rung}{4}
+\contentsline {subsection}{\numberline {3.1.1}parallel-synchron}{4}
+\contentsline {subsection}{\numberline {3.1.2}Web-Applikation}{4}
+\contentsline {subsection}{\numberline {3.1.3}Endger\IeC {\"a}te}{4}
+\contentsline {section}{\numberline {3.2}technischer Aufbau}{4}
+\contentsline {subsection}{\numberline {3.2.1}Hardware}{4}
+\contentsline {section}{\numberline {3.3}Komponenten}{4}
+\contentsline {subsection}{\numberline {3.3.1}Raspberry PI}{4}
+\contentsline {subsection}{\numberline {3.3.2}Hardware}{4}
+\contentsline {chapter}{\numberline {4}L\IeC {\"o}sungsans\IeC {\"a}tze}{5}
+\contentsline {subsection}{\numberline {4.0.3}Ghostlab}{5}
+\contentsline {subsubsection}{Einf\IeC {\"u}hrung}{5}
+\contentsline {subsubsection}{Vorteile}{5}
+\contentsline {subsubsection}{Nachteile}{5}
+\contentsline {subsection}{\numberline {4.0.4}Eignes Framework}{5}
+\contentsline {subsubsection}{Einf\IeC {\"u}hrung}{5}
+\contentsline {subsubsection}{Vorteile}{5}
+\contentsline {subsubsection}{Nachteile}{5}
+\contentsline {chapter}{\numberline {5}Systementwurf}{6}
+\contentsline {subsection}{\numberline {5.0.5}Ablaufdiagramm}{6}
+\contentsline {subsection}{\numberline {5.0.6}Klassendiagramm}{6}
+\contentsline {chapter}{\numberline {6}Technologien}{7}
+\contentsline {subsection}{\numberline {6.0.7}NodeJS}{7}
+\contentsline {chapter}{\numberline {7}Helpers}{8}
+\contentsline {section}{\numberline {7.1}quote}{8}
+\contentsline {section}{\numberline {7.2}longquote}{8}
+\contentsline {section}{\numberline {7.3}fussnote}{8}
