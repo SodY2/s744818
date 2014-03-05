@@ -1,58 +1,64 @@
 \begin{theindex}
 
-  \item Ablaufdiagram, 7
-  \item Adobe Edge Inspect, 7
+  \item Ablaufdiagram, 9
+  \item Adobe Edge Inspect, 7, 9
 
   \indexspace
 
-  \item Browser-Sync, 7
+  \item Browser-Sync, 7, 9
 
   \indexspace
 
-  \item Framework, 7
-  \item Frameworks, 3
+  \item Framework, 7, 9
+  \item Frameworks, 4
 
   \indexspace
 
-  \item Ghostlab, 5, 7
+  \item Ghostlab, 6, 7, 9
 
   \indexspace
 
-  \item jQuery, 5
+  \item jQuery, 6
 
   \indexspace
 
-  \item Klassendiagramm, 7
+  \item Kaskadierungsfehler, 2
+  \item Klassendiagramm, 9
 
   \indexspace
 
-  \item NodeJS, 5
-  \item NPM, 5
+  \item NodeJS, 6
+  \item NPM, 6
 
   \indexspace
 
-  \item Phantom Limb, 5
+  \item Phantom Limb, 6
 
   \indexspace
 
-  \item Raspberry P, 4
-  \item Remote Preview, 7
+  \item Raspberry Pi, 5
+  \item Remote Preview, 7, 9
 
   \indexspace
 
-  \item Systementwurf, 7
+  \item Systementwurf, 9
 
   \indexspace
 
-  \item Touchit, 5
-  \item touchit, 5
+  \item Touchit, 6
+  \item touchit, 6
 
   \indexspace
 
-  \item UI Touch Punch, 5
+  \item UI Touch Punch, 6
+  \item Usecases, 2
 
   \indexspace
 
-  \item W3C Touch Events Extensions, 5
+  \item W3C Touch Events Extensions, 6
+
+  \indexspace
+
+  \item Zombie.js, 6
 
 \end{theindex}
