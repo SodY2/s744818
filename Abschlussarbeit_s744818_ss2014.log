@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  5 MAR 2014 12:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  5 MAR 2014 14:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -39,26 +39,24 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 119.
-Package scrbook Info: You've used obsolete option `13pt'.
-(scrbook)             \KOMAExecuteOptions{fontsize=13pt} will be
+Package scrbook Info: You've used obsolete option `12pt'.
+(scrbook)             \KOMAExecuteOptions{fontsize=12pt} will be
 (scrbook)             used instead.
-(scrbook)             You may simply replace `13pt'
-(scrbook)             by `fontsize=13pt'.
+(scrbook)             You may simply replace `12pt'
+(scrbook)             by `fontsize=12pt'.
 Class scrbook Info: You've used standard option `oneside'.
 (scrbook)           This is correct!
 (scrbook)           Internally I'm using `twoside=false'.
 (scrbook)           If you'd like to set the option with \KOMAoptions,
 (scrbook)           you'd have to use `twoside=false' there
 (scrbook)           instead of `oneside', too.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 1368.
 
-
-Class scrbook Warning: Using fallback calculation to setup font sizes
-(scrbook)              for basic size `13pt' on input line 1368.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 1368.
-
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (12p
+t)
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
 
@@ -83,28 +81,22 @@ Package typearea Info: You've used standard option `oneside'.
 \ta@hblk=\skip42
 \ta@vblk=\skip43
 \ta@temp=\skip44
-
-Package typearea Warning: DIV for 13.0pt and used papersize
-(typearea)                not defined!
-(typearea)                Using DIV=1.
-
-DIV calculation for typearea with good linewidth.
 Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 9
+(typearea)             DIV  = 12
 (typearea)             BCOR = 0.0pt
 (typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 398.33862pt
-(typearea)              DIV departure   = 0%
-(typearea)              \evensidemargin = 27.31467pt
-(typearea)              \oddsidemargin  = 27.31467pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
 (typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 574.59857pt
-(typearea)              \topmargin      = -21.27576pt
-(typearea)              \headheight     = 19.49994pt
-(typearea)              \headsep        = 23.39993pt
-(typearea)              \topskip        = 13.0pt
-(typearea)              \footskip       = 54.59985pt
-(typearea)              \baselineskip   = 15.59996pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1213.
 )
 \c@part=\count80
@@ -781,7 +773,7 @@ Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 
 Writing index file Abschlussarbeit_s744818_ss2014.idx
 (./Abschlussarbeit_s744818_ss2014.aux (./tex/erklaerung.aux)
-(./tex/sperrvermerk.aux) (./tex/helpers.aux))
+(./tex/sperrvermerk.aux) (./tex/einleitung.aux) (./tex/helpers.aux))
 \openout1 = `Abschlussarbeit_s744818_ss2014.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -873,45 +865,8 @@ Package: everypage 2007/06/20 1.1 Hooks to run on every page
 )
 \sc@wm@fontsize=\skip66
 )
-LaTeX Font Info:    Calculating math sizes for size <6.5> on input line 58.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 58.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.54997> not available
-(Font)              size <5> substituted on input line 58.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.25> not available
-(Font)              size <5> substituted on input line 58.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 58.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.54997> not available
-(Font)              size <5> substituted on input line 58.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.25> not available
-(Font)              size <5> substituted on input line 58.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 58.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.54997> not available
-(Font)              size <5> substituted on input line 58.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.25> not available
-(Font)              size <5> substituted on input line 58.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 58.
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
@@ -926,11 +881,11 @@ File: BHT-Logo-Basis.pdf Graphic file (type pdf)
 Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 58.
 (pdftex.def)             Requested size: 128.0387pt x 42.18417pt.
 
-Overfull \hbox (2.47002pt too wide) in paragraph at lines 58--58
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 58--58
 [][] [] 
  []
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <26.96207> not available
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 58.
 ./Abschlussarbeit_s744818_ss2014.tex:58: Undefined control sequence.
 \bhtTitelSeite ...orgelegte \thethesistyp \xspace 
@@ -939,17 +894,8 @@ l.58 \maketitle
                
 ? s
 OK, entering \scrollmode...
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 58.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 58.
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 58.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 58.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
@@ -967,9 +913,9 @@ LaTeX Font Info:    Try loading font information for T1+phv on input line 1.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <13> not available
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <26.96207> not available
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--8
@@ -1000,7 +946,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--8
 
 
 Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 15.59995pt.
+ Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1020,18 +966,21 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 
 
 ]
-Kapitel 1.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <18.72003> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 103.
+\openout2 = `./tex/einleitung.aux'.
 
-./Abschlussarbeit_s744818_ss2014.tex:109: Package inputenc Error: Unicode char 
-\u8:̈ not set up for use with LaTeX.
+ (./tex/einleitung.tex
+Kapitel 1.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 4.
+
+./tex/einleitung.tex:10: Package inputenc Error: Unicode char \u8:̈ not set up
+ for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...sses einer mobilen Webanwendung durchlä
+l.10 ...esses einer mobilen Webanwendung durchlä
                                                   uft diese wiederholt die Q...
 
 Your command was ignored.
@@ -1039,14 +988,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:109: Package inputenc Error: Unicode char 
-\u8:̈ not set up for use with LaTeX.
+./tex/einleitung.tex:10: Package inputenc Error: Unicode char \u8:̈ not set up
+ for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...rchläuft diese wiederholt die Qualitä
+l.10 ...urchläuft diese wiederholt die Qualitä
                                                   tssicherung und muss auf v...
 
 Your command was ignored.
@@ -1054,14 +1003,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:109: Package inputenc Error: Unicode char 
-\u8:̈ not set up for use with LaTeX.
+./tex/einleitung.tex:10: Package inputenc Error: Unicode char \u8:̈ not set up
+ for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...cherung und muss auf verschiedenen Gerä
+l.10 ...icherung und muss auf verschiedenen Gerä
                                                   ten getestet werden. Diese...
 
 Your command was ignored.
@@ -1069,14 +1018,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:109: Package inputenc Error: Unicode char 
-\u8:̈ not set up for use with LaTeX.
+./tex/einleitung.tex:10: Package inputenc Error: Unicode char \u8:̈ not set up
+ for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...werden. Diese werden in vielerlei Auflö
+l.10 ... werden. Diese werden in vielerlei Auflö
                                                   sungen mit 		unterschiedli...
 
 Your command was ignored.
@@ -1084,14 +1033,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:109: Package inputenc Error: Unicode char 
-\u8:̈ not set up for use with LaTeX.
+./tex/einleitung.tex:10: Package inputenc Error: Unicode char \u8:̈ not set up
+ for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...erschiedenen Versionen ausgeliefert. Wä
+l.10 ...verschiedenen Versionen ausgeliefert. Wä
                                                   hrend des Vorgangs der Qua...
 
 Your command was ignored.
@@ -1099,14 +1048,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:109: Package inputenc Error: Unicode char 
-\u8:̈ not set up for use with LaTeX.
+./tex/einleitung.tex:10: Package inputenc Error: Unicode char \u8:̈ not set up
+ for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...ert. Während des Vorgangs der Qualitä
+l.10 ...fert. Während des Vorgangs der Qualitä
                                                   tssicherung wird die mobil...
 
 Your command was ignored.
@@ -1114,54 +1063,61 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:109: Package inputenc Error: Unicode char 
-\u8:̈ not set up for use with LaTeX.
+./tex/einleitung.tex:10: Package inputenc Error: Unicode char \u8:̈ not set up
+ for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 ...rfolgreicher Freigabe durch die Qualitä
+l.10 ...erfolgreicher Freigabe durch die Qualitä
                                                   tssicherung darf der Entwi...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+)
+Overfull \hbox (1.0529pt too wide) in paragraph at lines 10--100
+\T1/ptm/m/n/12 Innerhalb des Ent-wick-lungs-pro-zes-ses ei-ner mo-bi-len We-ban
+-wen-dung durch-lauft die-se wie-
+ []
+
 [2
+
 
 
 ]
 Kapitel 2.
-./Abschlussarbeit_s744818_ss2014.tex:117: Too many }'s.
-l.117 }
+./Abschlussarbeit_s744818_ss2014.tex:108: Too many }'s.
+l.108 }
        
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:124: LaTeX Error: There's no line here to 
+./Abschlussarbeit_s744818_ss2014.tex:115: LaTeX Error: There's no line here to 
 end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124 	\linebreak\linebreak
+l.115 	\linebreak\linebreak
                            
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: LaTeX Error: There's no line here to 
+./Abschlussarbeit_s744818_ss2014.tex:116: LaTeX Error: There's no line here to 
 end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 	Z
+l.116 	Z
         ur Qualitätsprüfung wird ein Testszenario erstellt, welches mö...
 
 Your command was ignored.
@@ -1169,14 +1125,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 	Zur Qualitä
+l.116 	Zur Qualitä
                     tsprüfung wird ein Testszenario erstellt, welches mö...
 
 Your command was ignored.
@@ -1184,14 +1140,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 	Zur Qualitätsprü
+l.116 	Zur Qualitätsprü
                            fung wird ein Testszenario erstellt, welches mö...
 
 Your command was ignored.
@@ -1199,14 +1155,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...d ein Testszenario erstellt, welches mö
+l.116 ...d ein Testszenario erstellt, welches mö
                                                   glichst alle, oder zuminde...
 
 Your command was ignored.
@@ -1214,14 +1170,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ... einen Großteil der Anforderungen erfü
+l.116 ... einen Großteil der Anforderungen erfü
                                                   llt. Dieses Szenario wird ...
 
 Your command was ignored.
@@ -1229,14 +1185,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...von Hand, an jedem vorhandenen Testgerä
+l.116 ...von Hand, an jedem vorhandenen Testgerä
                                                   t durchgeführt, und 		di...
 
 Your command was ignored.
@@ -1244,14 +1200,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...jedem vorhandenen Testgerät durchgefü
+l.116 ...jedem vorhandenen Testgerät durchgefü
                                                   hrt, und 		dies möglichs...
 
 Your command was ignored.
@@ -1259,14 +1215,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...stgerät durchgeführt, und 		dies mö
+l.116 ...stgerät durchgeführt, und 		dies mö
                                                   glichst immer konstant. Da...
 
 Your command was ignored.
@@ -1274,14 +1230,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...ng wiederholt sich solange bis das erwü
+l.116 ...ng wiederholt sich solange bis das erwü
                                                   nschte Ergebnis erreicht i...
 
 Your command was ignored.
@@ -1289,14 +1245,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...t ist. Bei einer 	Vielzahl von Testgerä
+l.116 ...t ist. Bei einer 	Vielzahl von Testgerä
                                                   ten entsteht das Problem, ...
 
 Your command was ignored.
@@ -1304,14 +1260,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...em, dass die Testszenarien durch Nachlä
+l.116 ...em, dass die Testszenarien durch Nachlä
                                                   ssigkeit, Unachtsamkeit od...
 
 Your command was ignored.
@@ -1319,14 +1275,14 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...t oder auch Routine nicht immer vollstä
+l.116 ...t oder auch Routine nicht immer vollstä
                                                   ndig durchlaufen werden, w...
 
 Your command was ignored.
@@ -1334,35 +1290,35 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...schlussfolgernd zu verminderter Qualitä
+l.116 ...schlussfolgernd zu verminderter Qualitä
                                                   t führt.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Abschlussarbeit_s744818_ss2014.tex:125: Package inputenc Error: Unicode char 
+./Abschlussarbeit_s744818_ss2014.tex:116: Package inputenc Error: Unicode char 
 \u8:̈ not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125 ...sfolgernd zu verminderter Qualität fü
+l.116 ...sfolgernd zu verminderter Qualität fü
                                                   hrt.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./Abschlussarbeit_s744818_ss2014.tex:132: Too many }'s.
-l.132 	}
+./Abschlussarbeit_s744818_ss2014.tex:123: Too many }'s.
+l.123 	}
         
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1370,10 +1326,11 @@ Such booboos are generally harmless, so keep going.
 [3
 
 
+
 ]
 Kapitel 3.
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.59996> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 154.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 145.
 [4
 
 
@@ -1393,7 +1350,7 @@ Kapitel 6.
 
 
 ]
-Overfull \vbox (76.51418pt too high) has occurred while \output is active []
+Overfull \vbox (35.56583pt too high) has occurred while \output is active []
 
 
 [8]
@@ -1401,39 +1358,13 @@ Overfull \vbox (76.51418pt too high) has occurred while \output is active []
 
  (./tex/helpers.tex
 Kapitel 7.
-LaTeX Font Info:    Calculating math sizes for size <10.83347> on input line 11
-.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.58339> not available
-(Font)              size <8> substituted on input line 11.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.41673> not available
-(Font)              size <5> substituted on input line 11.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.58339> not available
-(Font)              size <8> substituted on input line 11.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.41673> not available
-(Font)              size <5> substituted on input line 11.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.58339> not available
-(Font)              size <8> substituted on input line 11.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.41673> not available
-(Font)              size <5> substituted on input line 11.
-
 ) [9
 
 
 
 ]
-./Abschlussarbeit_s744818_ss2014.tex:225: Undefined control sequence.
-l.225 Above were \thewords
+./Abschlussarbeit_s744818_ss2014.tex:216: Undefined control sequence.
+l.216 Above were \thewords
                           \ words.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1452,27 +1383,23 @@ and I'll forget about whatever was undefined.
 
 ])
 (./Abschlussarbeit_s744818_ss2014.aux (./tex/erklaerung.aux)
-(./tex/sperrvermerk.aux) (./tex/helpers.aux))
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.75pt have occurred.
-
- ) 
+(./tex/sperrvermerk.aux) (./tex/einleitung.aux) (./tex/helpers.aux)) ) 
 Here is how much of TeX's memory you used:
- 6962 strings out of 493315
- 97656 string characters out of 6137904
- 189477 words of memory out of 5000000
- 10195 multiletter control sequences out of 15000+600000
- 59980 words of font info for 88 fonts, out of 8000000 for 9000
+ 6930 strings out of 493315
+ 97235 string characters out of 6137904
+ 190086 words of memory out of 5000000
+ 10160 multiletter control sequences out of 15000+600000
+ 56640 words of font info for 75 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  47i,11n,53p,1674b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/tex
-live/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/20
-13/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/
-type1/urw/times/utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (17 pages, 273256 bytes).
+{/usr/loc
+al/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/t
+imes/utmr8a.pfb>
+Output written on Abschlussarbeit_s744818_ss2014.pdf (17 pages, 273300 bytes).
 PDF statistics:
  111 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
