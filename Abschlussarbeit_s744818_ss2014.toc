@@ -1,7 +1,5 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{2}
-\contentsline {section}{\numberline {1.1}Hintergrund}{2}
-\contentsline {section}{\numberline {1.2}Problemstellung}{2}
 \contentsline {subsubsection}{Anmerkung}{2}
 \contentsline {chapter}{\numberline {2}Aufgabenstellung}{4}
 \contentsline {section}{\numberline {2.1}Problemstellung}{4}

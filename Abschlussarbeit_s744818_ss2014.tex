@@ -9,9 +9,12 @@
 %Kommando zum erzeugen eines Index Wortes
 \newcommand{\mi}[1]{\index{#1}#1}
 
+%Kommando zum erzeugen einer freizeile
+\renewcommand{\\}{\bigskip}
+
 %Kommando zum einfügen und skalieren eines Bildes
 \newcommand{\ig}[3]{
-\begin{figure}
+\begin{figure}[!h]
 	\centering
 	\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{#1}%
 	\caption[#2]{#3}%
@@ -100,16 +103,10 @@
 \pagenumbering{arabic}
 
 %%
-%% ############# Exposé
-%%
-%\chapter{Exposé}
-
-%%
 %% ############# Einleitung
 %%
 \include{./tex/einleitung}
 
-	
 %%
 %% ############# Aufgabenstellung
 %%
