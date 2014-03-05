@@ -3,7 +3,11 @@
 %%
 %%------------------- Eigne Kommandos
 %%
+%Kommando zum erzeugen eines deutlichen REMOVE Blocks
 \newcommand{\tr}[1]{TOREMOVE-->\linebreak{#1} \linebreak <--TOREMOVE}
+
+%Kommando zum erzeugen eines Index Wortes
+\newcommand{\mi}[1]{\index{#1}#1}
 
 %%
 %%------------------- Imports
@@ -45,9 +49,6 @@
   \end{tabular}
 }
 
-%%
-%% ############# Dokumentbegin
-%%
 \begin{document}
 \pagestyle{fancy}
 
@@ -101,6 +102,7 @@
 
 	\section{Einleitender Satz}
 	%\tr{	Eine kurze Beschreibung des allgemeinen Forschungsgebietes in ein bis zwei Absätzen. Die Einleitung sollte am Ende in ein bis zwei Sätzen die eigentlich untersuchte Fragestellung benennen.}
+	
 
 	\section{Hintergrund}
 	%\tr{Hier sollte der Hintergrund und die Motivation der Arbeit kurz angerissen werden. Nach Möglichkeit sollte man alle Aspekte, die im zweiten Kapitel ("Grundlagen") besprochen werden, hier schon einmal ansprechen, damit 		diese nicht später aus heiterem Himmel fallen. Insbesondere sollte der Hintergrund quasi "zwingend" den nächsten Teil der Einleitung motivieren:}
@@ -133,6 +135,7 @@
 	%% ############# Zielsetzung
 	%%
 	\section{Zielsetzung}
+	Das Ziel dieser Arbeit ist es, bestehende \mi{Frameworks} auf verschiedene Faktoren zu Evaluieren.
 	%%
 	%% ############# Abgrenzungskriterien
 	%%
@@ -159,43 +162,67 @@
 	%% ############# Komponenten
 	%%
 	\section{Komponenten}
-		\subsection{Raspberry PI}
+		\subsection{\mi{Raspberry P}}
 		\subsection{Hardware}
-%%
-%% ############# Lösungsansätze
-%%
-\chapter{Lösungsansätze}
-	\subsection{Ghostlab}
-		\subsubsection{Einführung}
-		\subsubsection{Vorteile}
-		\subsubsection{Nachteile}
-	\subsection{Eignes Framework}
-		\subsubsection{Einführung}
-		\subsubsection{Vorteile}
-		\subsubsection{Nachteile}
-
-%\tr{Nach der Beschreibung des fachlichen Umfeldes können ausgewählte (vielleicht alle?) für die Aufgabenstellung relevanten Probleme vorgestellt, Vor- und Nachteile bestehender Lösungen argumentiert und die voraussichtlich angestrebte (weil vorteilhafte) Lösung herausgestellt werden.
-}
-%%
-%% ############# Systementwurf
-%%
-\chapter{Systementwurf}
-	\subsection{Ablaufdiagramm}
-	\subsection{Klassendiagramm}
 
 %%
 %% ############# Technologien
 %%
 \chapter{Technologien}
-	\subsection{NodeJS}
-	\subsection
+	\section{\mi{Ghostlab}}
+	\section{\mi{NodeJS}}
+	\section{\mi{Zombie.js}}
+	\section{\mi{W3C Touch Events Extensions}}
+	\section{\mi{Phantom Limb}}
+	\section{\mi{jQuery} \mi{UI Touch Punch}}
+	\section{\mi{jQuery} \mi{Touchit}}
+	\section{\mi{NPM} \mi{touchit}}
 
+%%
+%% ############# Lösungsansätze
+%%
+%\tr{Nach der Beschreibung des fachlichen Umfeldes können ausgewählte (vielleicht alle?) für die Aufgabenstellung relevanten Probleme vorgestellt, Vor- und Nachteile bestehender Lösungen argumentiert und die voraussichtlich angestrebte (weil vorteilhafte) Lösung herausgestellt werden.}
+\chapter{Lösungsansätze}
+	\section{\mi{Adobe Edge Inspect}}
+	\section{\mi{Ghostlab}}
+	\section{\mi{Remote Preview}}
+	\section{\mi{Browser-Sync}}
+	\section{Eigenes \mi{Framework}}
+		
+%%
+%% ############# Evaluation
+%%
+\chapter{Evaluation}
+	\section{\mi{Adobe Edge Inspect}}
+		\subsection{Einführung}
+		\subsection{Vorteile}
+		\subsection{Nachteile}
+	\section{\mi{Ghostlab}}
+		\subsection{Einführung}
+		\subsection{Vorteile}
+		\subsection{Nachteile}
+	\section{\mi{Remote Preview}}
+		\subsection{Einführung}
+		\subsection{Vorteile}
+		\subsection{Nachteile}
+	\section{\mi{Browser-Sync}}
+		\subsection{Einführung}
+		\subsection{Vorteile}
+		\subsection{Nachteile}
+	\section{Eigenes \mi{Framework}}
+		\subsection{Einführung}
+		\subsection{\mi{Systementwurf}}
+		\subsubsection{\mi{Ablaufdiagram}}
+		\subsubsection{\mi{Klassendiagramm}}
+		\subsection{Vorteile}
+		\subsection{Nachteile}
 
 %%
 %% ############# Helpers
 %%
 \include{./tex/helpers}
 
+Above were \thewords\ words.
 \printindex
 
 \end{document}
