@@ -14,7 +14,7 @@
 
 %Kommando zum einfügen und skalieren eines Bildes
 \newcommand{\ig}[3]{
-\begin{figure}[!h]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{#1}%
 	\caption[#2]{#3}%
@@ -29,6 +29,7 @@
 \usepackage[entwurf]{bhtThesis}
 \usepackage{makeidx}
 \usepackage{graphicx}
+\usepackage{float}
 \makeindex 
 
 %%
@@ -190,7 +191,7 @@
 %%
 %% ############# Evaluation
 %%
-\chapter{Evaluation}
+\chapter{Evaluation der Techniken}
 	\section{\mi{Adobe Edge Inspect}}
 		\subsection{Einführung}
 		\subsection{Vorteile}
