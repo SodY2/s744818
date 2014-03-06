@@ -3,58 +3,44 @@
 \contentsline {subsubsection}{Anmerkung}{4}
 \contentsline {chapter}{\numberline {2}Aufgabenstellung}{5}
 \contentsline {section}{\numberline {2.1}Problemstellung}{5}
-\contentsline {section}{\numberline {2.2}Annahmen und Einschr\IeC {\"a}nkungen}{5}
-\contentsline {section}{\numberline {2.3}Zielsetzung}{5}
-\contentsline {section}{\numberline {2.4}Abgrenzungskriterien}{5}
-\contentsline {chapter}{\numberline {3}Grundlagen}{6}
-\contentsline {section}{\numberline {3.1}Begriffskl\IeC {\"a}rung}{6}
-\contentsline {subsection}{\numberline {3.1.1}parallel-synchron}{6}
-\contentsline {subsection}{\numberline {3.1.2}Web-Applikation}{6}
-\contentsline {subsection}{\numberline {3.1.3}Endger\IeC {\"a}te}{6}
-\contentsline {section}{\numberline {3.2}technischer Aufbau}{6}
-\contentsline {section}{\numberline {3.3}Komponenten}{6}
-\contentsline {subsection}{\numberline {3.3.1}Raspberry Pi}{6}
-\contentsline {subsection}{\numberline {3.3.2}Hardware}{6}
-\contentsline {chapter}{\numberline {4}Technologien}{7}
-\contentsline {section}{\numberline {4.1}Ghostlab}{7}
-\contentsline {section}{\numberline {4.2}NodeJS}{7}
-\contentsline {section}{\numberline {4.3}Zombie.js}{7}
-\contentsline {section}{\numberline {4.4}W3C Touch Events Extensions}{7}
-\contentsline {section}{\numberline {4.5}Phantom Limb}{7}
-\contentsline {section}{\numberline {4.6}jQuery UI Touch Punch}{7}
-\contentsline {section}{\numberline {4.7}jQuery Touchit}{7}
-\contentsline {section}{\numberline {4.8}NPM touchit}{7}
-\contentsline {chapter}{\numberline {5}L\IeC {\"o}sungsans\IeC {\"a}tze}{8}
-\contentsline {section}{\numberline {5.1}Adobe Edge Inspect}{8}
-\contentsline {section}{\numberline {5.2}Ghostlab}{8}
-\contentsline {section}{\numberline {5.3}Remote Preview}{8}
-\contentsline {section}{\numberline {5.4}Browser-Sync}{8}
-\contentsline {section}{\numberline {5.5}Eigenes Framework}{8}
-\contentsline {chapter}{\numberline {6}Evaluation}{9}
-\contentsline {section}{\numberline {6.1}Adobe Edge Inspect}{10}
-\contentsline {subsection}{\numberline {6.1.1}Einf\IeC {\"u}hrung}{10}
-\contentsline {subsection}{\numberline {6.1.2}Vorteile}{10}
-\contentsline {subsection}{\numberline {6.1.3}Nachteile}{10}
-\contentsline {section}{\numberline {6.2}Ghostlab}{10}
-\contentsline {subsection}{\numberline {6.2.1}Einf\IeC {\"u}hrung}{10}
-\contentsline {subsection}{\numberline {6.2.2}Vorteile}{10}
-\contentsline {subsection}{\numberline {6.2.3}Nachteile}{10}
-\contentsline {section}{\numberline {6.3}Remote Preview}{10}
-\contentsline {subsection}{\numberline {6.3.1}Einf\IeC {\"u}hrung}{10}
-\contentsline {subsection}{\numberline {6.3.2}Vorteile}{10}
-\contentsline {subsection}{\numberline {6.3.3}Nachteile}{10}
-\contentsline {section}{\numberline {6.4}Browser-Sync}{10}
-\contentsline {subsection}{\numberline {6.4.1}Einf\IeC {\"u}hrung}{10}
-\contentsline {subsection}{\numberline {6.4.2}Vorteile}{10}
-\contentsline {subsection}{\numberline {6.4.3}Nachteile}{10}
-\contentsline {section}{\numberline {6.5}Eigenes Framework}{10}
-\contentsline {subsection}{\numberline {6.5.1}Einf\IeC {\"u}hrung}{10}
-\contentsline {subsection}{\numberline {6.5.2}Systementwurf}{10}
-\contentsline {subsubsection}{Ablaufdiagram}{10}
-\contentsline {subsubsection}{Klassendiagramm}{10}
-\contentsline {subsection}{\numberline {6.5.3}Vorteile}{10}
-\contentsline {subsection}{\numberline {6.5.4}Nachteile}{10}
-\contentsline {chapter}{\numberline {7}Helpers}{11}
-\contentsline {section}{\numberline {7.1}quote}{11}
-\contentsline {section}{\numberline {7.2}longquote}{11}
-\contentsline {section}{\numberline {7.3}fussnote}{11}
+\contentsline {section}{\numberline {2.2}Annahmen und Einschr\IeC {\"a}nkungen}{7}
+\contentsline {section}{\numberline {2.3}Zielsetzung}{7}
+\contentsline {section}{\numberline {2.4}Abgrenzungskriterien}{7}
+\contentsline {chapter}{\numberline {3}Grundlagen}{8}
+\contentsline {section}{\numberline {3.1}Begriffskl\IeC {\"a}rung}{8}
+\contentsline {subsection}{\numberline {3.1.1}parallel-synchron}{8}
+\contentsline {subsection}{\numberline {3.1.2}Web-Applikation}{8}
+\contentsline {subsection}{\numberline {3.1.3}Endger\IeC {\"a}te}{8}
+\contentsline {section}{\numberline {3.2}technischer Aufbau}{8}
+\contentsline {section}{\numberline {3.3}Komponenten}{8}
+\contentsline {subsection}{\numberline {3.3.1}Raspberry Pi}{8}
+\contentsline {subsection}{\numberline {3.3.2}Hardware}{8}
+\contentsline {chapter}{\numberline {4}Technologien}{9}
+\contentsline {section}{\numberline {4.1}Ghostlab}{9}
+\contentsline {section}{\numberline {4.2}NodeJS}{9}
+\contentsline {section}{\numberline {4.3}Zombie.js}{9}
+\contentsline {section}{\numberline {4.4}W3C Touch Events Extensions}{9}
+\contentsline {section}{\numberline {4.5}Phantom Limb}{9}
+\contentsline {section}{\numberline {4.6}jQuery UI Touch Punch}{9}
+\contentsline {section}{\numberline {4.7}jQuery Touchit}{9}
+\contentsline {section}{\numberline {4.8}NPM touchit}{9}
+\contentsline {chapter}{\numberline {5}L\IeC {\"o}sungsans\IeC {\"a}tze}{10}
+\contentsline {section}{\numberline {5.1}Adobe Edge Inspect}{10}
+\contentsline {section}{\numberline {5.2}Ghostlab}{10}
+\contentsline {section}{\numberline {5.3}Remote Preview}{10}
+\contentsline {section}{\numberline {5.4}Browser-Sync}{10}
+\contentsline {section}{\numberline {5.5}Eigenes Framework}{10}
+\contentsline {chapter}{\numberline {6}Evaluation der Techniken}{11}
+\contentsline {section}{\numberline {6.1}Adobe Edge Inspect}{11}
+\contentsline {section}{\numberline {6.2}Ghostlab}{11}
+\contentsline {section}{\numberline {6.3}Remote Preview}{11}
+\contentsline {section}{\numberline {6.4}Browser-Sync}{11}
+\contentsline {section}{\numberline {6.5}Eigenes Framework}{11}
+\contentsline {subsection}{\numberline {6.5.1}Systementwurf}{11}
+\contentsline {subsubsection}{Ablaufdiagram}{11}
+\contentsline {subsubsection}{Klassendiagramm}{11}
+\contentsline {chapter}{\numberline {7}Ausblick}{12}
+\contentsline {chapter}{\numberline {8}Helpers}{13}
+\contentsline {section}{\numberline {8.1}quote}{13}
+\contentsline {section}{\numberline {8.2}longquote}{13}
+\contentsline {section}{\numberline {8.3}fussnote}{13}
