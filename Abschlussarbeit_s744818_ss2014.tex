@@ -21,6 +21,40 @@
 \end{figure}
 }
 
+%Kommando zur Erzeugung der evaluationstablle
+\newcommand{\met}[9]{
+
+	\begin{table}[h]
+ 		\centering
+			\begin{tabular}{|| p{8cm} | p{2cm} | p{2cm} ||}
+			\hline
+				Browser 	&	Punkte	&	Wertigkeit\\
+			\hline
+			\hline
+				Installation			&	#2	&	?\\
+				\hline
+				Konfiguration			&	#3	&	?\\
+				\hline
+				Funktion: Desktop		&	#4	&	?\\
+				\hline
+				Funktion: Mobil			&	#5	&	?\\
+				\hline
+				Erweiterbarkeit			&	#6	&	?\\
+				\hline
+				Komplettlösung			&	#7	&	?\\
+				\hline
+				Bedienung			&	#8	&	?\\
+				\hline
+				?????				&	#9	&	?\\
+
+				\hline
+				\end{tabular}
+			\caption{#1}
+			\tr{evaluationsschluessel}
+	\end{table}
+
+}
+
 %%
 %%------------------- Imports
 %%
@@ -84,6 +118,11 @@
 \include{./tex/sperrvermerk}
 
 %%
+%% ############# Abstract
+%%
+\include{./tex/abstract}
+
+%%
 %% ############# Inhaltsverzeichnis
 %%
 \tableofcontents
@@ -138,42 +177,71 @@ Sollte ein Szenario aufgrund eines Fehler abgebrochen worden sein, wird dem Entw
 	%% ############# Zielsetzung
 	%%
 	\section{Zielsetzung}
-	Das Ziel dieser Arbeit ist es, bestehende \mi{Frameworks} auf ihre Tauglichkeit in Bezug auf die parallel-synchrone Steuerung von mobilen Endgeräten zur Durchführung von Testszenarien zu evaulieren.
+	         Das Ziel dieser Arbeit ist es, bestehende \mi{Frameworks} auf ihre Tauglichkeit in Bezug auf die parallel-synchrone Steuerung von mobilen Endgeräten zur Durchführung von Testszenarien zu evaluieren.
+Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu kommen auf Desktopgeräten die aktuellen Versionen \tr{Versionsnummern} von Firefox, Chrome, Safari(nur für Mac-Desktopgeräte) und der Internet Explorer(nur für Windows-Desktops). Um eine Allgemeine Testbarkeit zu gewährleisten werden die Frameworks auch auf Genauigkeit in virtuellen Umgebungen analysiert. Dabei können Abweichungen, seien sie noch so klein, entstehen. Bereits 1 Pixel Abweichung kann bereits ausschlaggebend sein einen Umbruch zu erzeugen und damit das Layout negativ zu verändern.
 	%%
 	%% ############# Abgrenzungskriterien
 	%%
 	\section{Abgrenzungskriterien}
 	%\tr{Hier werden die Grundlagen für das zu entwickelnde Softwaresystem definiert. Zwar noch aus fachtechnischer Sicht werden hier die Anforderungen an das geplante Softwaresystem in möglichst formaler Form spezifiziert. 	Es 	sollen hier keine Lösungen präsentiert werden, sondern möglichst präzise die Anforderungen (Sollkonzept) an das geplante Softwaresystem mit seinen Schnittstellen, Informationsflüssen und Systemfunktionen 			dokumentiert 	werden. Verwendete Methoden können z.B. SA, SADT, Petri-Netze oder andere sein. Das Ergebnis ist ein für die Systementwicklung verwendbares Pflichtenheft. Über Art und Umfang des Pflichtenhefts sollten 	Sie mit Ihrem Betreuer sprechen.}
+	- Einarbeitungszeit
+	\newline
+	- Erweiterbarkeit in Hinsicht auf mehrerer Geräte
+	\newline
+	- Erweiterbarkeit des verwendeten Frameworks durch eigene Funktionen
+	\newline
+	- Browsersupport
+	\newline
+	- Virtuelle Umgebung
+	- ...
 
 %%
 %% ############# Grundlagen
 %%
-\chapter{Grundlagen}
-	In diesem Abschnitt behandle ich spezifische Definitionen wie zum Beispiel verwendetes Fachvokabular, allgemeine technische Abläufe die Notwendig sind um diese Arbeit und die darin verwendetet Techniken zu verstehen, sowie verwendete Hardwarekomponenten.
-%\tr{Dieser Teil beschreibt das fachliche Umfeld der Aufgabenstellung. Hier werden die wesentlichen fachlichen Begrifflichkeiten, die für die Aufgabe relevanten Problemstellungen und Lösungsansätze des Fachgebietes vorgestellt. Der Sprachgebrauch sollte einen direkten Bezug zum Fachgebiet haben. Die notwendigen Darstellungsmethoden, die Art und der Umfang der Beschreibung hängen wesentlich von der jeweiligen Fachdisziplin ab und sollten im Dialog mit dem Betreuer entschieden werden. Beispielsweise wird sich die Beschreibung eines Hotelreservierungssystems sehr von einer Beschreibung mathematischen Transformationen auf Grafikobjekte unterscheiden.Dies ist oft vor der Einleitung das erste Kapitel, das man schreibt, und sollte einen Überblick über die Literatur und existierende Arbeiten im Bereich der Arbeit liefern (Welche Grundlagen gibt es in diesem Bereich? Haben andere Autoren schon etwas zu verwandten Themen veröffentlicht?). Die hier vorgestellten Konzepte sollten in der Einleitung zumindest schon einmal angesprochen worden sein. Bei der Vorstellung verwandter Arbeiten sollten neuere Erkenntnisse bevorzugt werden. Bei jeder in das Grundlagenkapitel aufgenommenen Arbeit gilt es herauszustellen, was die Ergebnisse der Arbeit waren und warum diese Ergebnisse (oder Einschränkungen der vorgestellten Arbeit) eben noch keine Schließung der Wissenslücke oder keine Lösung der Aufgabenstellung darstellen? Am Ende erfolgt eine kurze Zusammenfassung der Grundlagen, die begründete Schlussfolgerung, dass das zu untersuchende Problem noch ungelöst ist, und ggf. wieder eine Vorschau auf das folgende Kapitel.}
-	%%
-	%% ############# Begriffsklärung
-	%%
-	\section{Begriffsklärung}	
-		\subsection{parallel-synchron}
-		\subsection{Web-Applikation}
-		\subsection{Endgeräte}
-	%%
-	%% ############# technischer Aufbau
-	%%
-	\section{technischer Aufbau}
-	%%
-	%% ############# Komponenten
-	%%
-	\section{Komponenten}
-		\subsection{\mi{Raspberry Pi}}
-		\subsection{Hardware}
+\include{./tex/begriffserklaerung}
+
 
 %%
 %% ############# Technologien
 %%
 \chapter{Technologien}
 	\section{\mi{Ghostlab}}
+	Ghostlab ist ein Framework des Schweizer Unternehmens Vanamco. Es verspricht das synchrone Testen von Websiten in Echtzeit. Weiterhin wirbt das Unternehmen mit einem umfangreichen Repertoire an nützlichen Fähigkeiten. Der Funktionsumfang umschliesst das Scrollen innerhalb einer Seite, das ausfüllen von  Formularen, das wahrnehmen und reproduzieren von Click-Events sowie dem neuladen einer Seite. Ghostlab soll ebenso einen Inspektor besitzen, welcher die Analyse des DOMs, der on the fly Bearbeitung der CSS und der Analyse und Bearbeitung von Javascriptdateien. Das Framework gibt an für alle folgenden Browser zu funktionieren ohne diese Konfigurieren zu müssen:
+
+	\begin{table}[h]
+ 		\centering
+			\begin{tabular}{|| p{5cm} | p{5cm} ||}
+			\hline
+				Browser 	& 	Version\\
+			\hline
+			\hline
+				Firefox	&	latest\\
+				\hline
+				Chrome	&	latest\\
+				\hline
+				Safari	&	latest\\
+				\hline
+				Internet Explorer	&	8/9/10\\
+				\hline
+				Opera Mobile	&	supportet\\
+				\hline
+				Opera	&	11\\
+				\hline
+				FireFox Mobile	&	supportet\\
+				\hline
+				Blackberry	&	supportet\\
+				\hline
+				Windows Phone	&	supportet\\
+				\hline
+				Safari mobile	&	supportet\\	
+				\hline
+				Android	&	2.3 - 4.2\\
+				\hline
+				\end{tabular}
+			\caption{von Ghostlab getestete Browser (stand 10.03.2014, Version 1.2.3)}
+	\end{table}
+
+Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspricht 35,30€ beim aktuellen Umrechnungswert).
 	\section{\mi{NodeJS}}
 	\section{\mi{Zombie.js}}
 	\section{\mi{W3C Touch Events Extensions}}
@@ -181,24 +249,28 @@ Sollte ein Szenario aufgrund eines Fehler abgebrochen worden sein, wird dem Entw
 	\section{\mi{jQuery} \mi{UI Touch Punch}}
 	\section{\mi{jQuery} \mi{Touchit}}
 	\section{\mi{NPM} \mi{touchit}}
-
-%%
-%% ############# Lösungsansätze
-%%
-%\tr{Nach der Beschreibung des fachlichen Umfeldes können ausgewählte (vielleicht alle?) für die Aufgabenstellung relevanten Probleme vorgestellt, Vor- und Nachteile bestehender Lösungen argumentiert und die voraussichtlich angestrebte (weil vorteilhafte) Lösung herausgestellt werden.}
-\chapter{Lösungsansätze}
+	
 	\section{\mi{Adobe Edge Inspect}}
-	\section{\mi{Ghostlab}}
 	\section{\mi{Remote Preview}}
 	\section{\mi{Browser-Sync}}
 	\section{Eigenes \mi{Framework}}
+
 		
 %%
 %% ############# Evaluation
 %%
 \chapter{Evaluation der Techniken}
-	\section{\mi{Adobe Edge Inspect}}
 	\section{\mi{Ghostlab}}
+		\subsection {Einrichtung der Testumgebung}
+		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Ich habe  in diesem Fall sowohl eine Seite auf einem lokalen Apache Server getestet, als auch die Demoseite von Ghostlab.
+			version 1.2.3 noch kein Master/Slave Modus
+			
+			
+			\met{test}{1}{2}{3}{4}{5}{6}{7}{8}
+			\\
+	\section{\mi{Adobe Edge Inspect}}
+	
+
 	\section{\mi{Remote Preview}}
 	\section{\mi{Browser-Sync}}
 	\section{Eigenes \mi{Framework}}

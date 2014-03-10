@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  6 MAR 2014 17:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  10 MAR 2014 18:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -818,29 +818,31 @@ or  <return>  to continue without it.
 
 Writing index file Abschlussarbeit_s744818_ss2014.idx
 (./Abschlussarbeit_s744818_ss2014.aux (./tex/erklaerung.aux)
-(./tex/sperrvermerk.aux) (./tex/einleitung.aux) (./tex/helpers.aux))
+(./tex/sperrvermerk.aux) (./tex/abstract.aux) (./tex/einleitung.aux)
+(./tex/begriffserklaerung.aux) (./tex/helpers.aux))
 \openout1 = `Abschlussarbeit_s744818_ss2014.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
+
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 66.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 100.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -910,49 +912,49 @@ Package: everypage 2007/06/20 1.1 Hooks to run on every page
 )
 \sc@wm@fontsize=\skip66
 )
-LaTeX Font Info:    Calculating math sizes for size <6.5> on input line 72.
+LaTeX Font Info:    Calculating math sizes for size <6.5> on input line 106.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 72.
+(Font)              size <6> substituted on input line 106.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.54997> not available
-(Font)              size <5> substituted on input line 72.
+(Font)              size <5> substituted on input line 106.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.25> not available
-(Font)              size <5> substituted on input line 72.
+(Font)              size <5> substituted on input line 106.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 72.
+(Font)              size <6> substituted on input line 106.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.54997> not available
-(Font)              size <5> substituted on input line 72.
+(Font)              size <5> substituted on input line 106.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.25> not available
-(Font)              size <5> substituted on input line 72.
+(Font)              size <5> substituted on input line 106.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 72.
+(Font)              size <6> substituted on input line 106.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.54997> not available
-(Font)              size <5> substituted on input line 72.
+(Font)              size <5> substituted on input line 106.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.25> not available
-(Font)              size <5> substituted on input line 72.
+(Font)              size <5> substituted on input line 106.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 72.
+LaTeX Font Info:    Try loading font information for U+msa on input line 106.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 72.
+LaTeX Font Info:    Try loading font information for U+msb on input line 106.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -960,20 +962,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <BHT-Logo-Basis.pdf, id=1, 303.39667pt x 99.95987pt>
 File: BHT-Logo-Basis.pdf Graphic file (type pdf)
  <use BHT-Logo-Basis.pdf>
-Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 72.
+Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 106.
 (pdftex.def)             Requested size: 128.0387pt x 42.18417pt.
 
-Overfull \hbox (2.47002pt too wide) in paragraph at lines 72--72
+Overfull \hbox (2.47002pt too wide) in paragraph at lines 106--106
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <26.96207> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
-./Abschlussarbeit_s744818_ss2014.tex:72: Undefined control sequence.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
+./Abschlussarbeit_s744818_ss2014.tex:106: Undefined control sequence.
 \bhtTitelSeite ...orgelegte \thethesistyp \xspace 
                                                   \\ zur Erlangung des akade...
-l.72 \maketitle
-               
+l.106 \maketitle
+                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -981,23 +983,23 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 72.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 72.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 106.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 106.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 72.
+(Font)              size <12> substituted on input line 106.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 72.
+(Font)              size <12> substituted on input line 106.
 
 
-Overfull \hbox (36.98495pt too wide) in paragraph at lines 72--73
+Overfull \hbox (36.98495pt too wide) in paragraph at lines 106--107
 [][][][]\T1/ptm/m/n/13 [1.5ex]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
@@ -1025,12 +1027,36 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <26.96207> not available
 \openout2 = `./tex/sperrvermerk.aux'.
 
 
-(./tex/sperrvermerk.tex) [3
+(./tex/sperrvermerk.tex
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <18.72003> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 15.59995pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3
 
 
+]
+\openout2 = `./tex/abstract.aux'.
+
+ (./tex/abstract.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 5--123
+\T1/ptm/m/n/13 TOREMOVE-->
+ []
 
 
-] (./Abschlussarbeit_s744818_ss2014.toc [4
+Underfull \hbox (badness 10000) in paragraph at lines 5--123
+\T1/ptm/m/n/13 english trans-la-ti-on
+ []
+
+[4
+
+
+] (./Abschlussarbeit_s744818_ss2014.toc [5
 
 
 
@@ -1038,18 +1064,12 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <26.96207> not available
 \tf@toc=\write6
 \openout6 = `Abschlussarbeit_s744818_ss2014.toc'.
 
-
-
-Package Fancyhdr Warning: \headheight is too small (14.0pt): 
- Make it at least 15.59995pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5] (./Abschlussarbeit_s744818_ss2014.lof)
+ [6]
+(./Abschlussarbeit_s744818_ss2014.lof)
 \tf@lof=\write7
 \openout7 = `Abschlussarbeit_s744818_ss2014.lof'.
 
- [6
+ [7
 
 
 ]
@@ -1098,7 +1118,7 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.58339> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.41673> not available
 (Font)              size <5> substituted on input line 11.
 
-<pictures/../pictures/Entwicklungsprozess.jpg, id=61, 586.19pt x 586.19pt>
+<pictures/../pictures/Entwicklungsprozess.jpg, id=64, 586.19pt x 586.19pt>
 File: pictures/../pictures/Entwicklungsprozess.jpg Graphic file (type jpg)
 
 <use pictures/../pictures/Entwicklungsprozess.jpg>
@@ -1112,28 +1132,26 @@ nput line 17.
 ] [3 <./pictures/../pictures/Entwicklungsprozess.jpg>]) [4]
 Kapitel 2.
 
-Overfull \hbox (17.16805pt too wide) in paragraph at lines 116--120
+Overfull \hbox (17.16805pt too wide) in paragraph at lines 155--159
 \T1/ptm/m/n/13 Die Auf-ga-ben die-ser The-sis ist die Eva-lu-ie-rung von Tech-n
 i-ken zur parallel-synchronen
  []
 
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <18.72003> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 120.
-<pictures/../pictures/Testszenario.jpg, id=71, 483.8075pt x 549.05125pt>
+<pictures/../pictures/Testszenario.jpg, id=74, 483.8075pt x 549.05125pt>
 File: pictures/../pictures/Testszenario.jpg Graphic file (type jpg)
 
 <use pictures/../pictures/Testszenario.jpg>
 Package pdftex.def Info: pictures/../pictures/Testszenario.jpg used on input li
-ne 128.
+ne 167.
 (pdftex.def)             Requested size: 426.80759pt x 484.36462pt.
 
-Underfull \hbox (badness 1895) in paragraph at lines 128--128
+Underfull \hbox (badness 1895) in paragraph at lines 167--167
 []\T1/ptm/m/n/13 Darstellung ei-nes Qua-li-täts-si-che-rungs-ab-lau-fes in der 
 mo-bi-len
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:128: Too many }'s.
-l.128 ...es in der mobilen Anwendungsentwicklung}}
+./Abschlussarbeit_s744818_ss2014.tex:167: Too many }'s.
+l.167 ...es in der mobilen Anwendungsentwicklung}}
                                                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1143,6 +1161,15 @@ Such booboos are generally harmless, so keep going.
 
 
 ] [6 <./pictures/../pictures/Testszenario.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 180--185
+\T1/ptm/m/n/13 sio-nen TOREMOVE-->
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--185
+\T1/ptm/m/n/13 Versionsnummern
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (15.59995pt): 
  Make it at least 15.6325pt.
@@ -1150,42 +1177,46 @@ Package Fancyhdr Warning: \headheight is too small (15.59995pt):
  This may cause the page layout to be inconsistent, however.
 
 [7]
+\openout2 = `./tex/begriffserklaerung.aux'.
+
+ (./tex/begriffserklaerung.tex
 Kapitel 3.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.59996> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 158.
-[8
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 9.
+) [8
 
 
-]
+
+] [9]
 Kapitel 4.
-[9
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 244.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [10
 
 
-]
+
+] [11]
 Kapitel 5.
-[10
-
-
-]
-Kapitel 6.
-[11
-
-
-]
-Kapitel 7.
 [12
+
+
+] [13]
+Kapitel 6.
+[14
 
 
 ]
 \openout2 = `./tex/helpers.aux'.
 
  (./tex/helpers.tex
-Kapitel 8.
-) [13
+Kapitel 7.
+) [15
 
 
 
-] (./Abschlussarbeit_s744818_ss2014.ind [14
+] (./Abschlussarbeit_s744818_ss2014.ind [16
 
 
 
@@ -1195,30 +1226,31 @@ Kapitel 8.
 
 ])
 (./Abschlussarbeit_s744818_ss2014.aux (./tex/erklaerung.aux)
-(./tex/sperrvermerk.aux) (./tex/einleitung.aux) (./tex/helpers.aux))
+(./tex/sperrvermerk.aux) (./tex/abstract.aux) (./tex/einleitung.aux)
+(./tex/begriffserklaerung.aux) (./tex/helpers.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.75pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 7041 strings out of 493315
- 99095 string characters out of 6137904
- 191218 words of memory out of 5000000
- 10257 multiletter control sequences out of 15000+600000
- 59980 words of font info for 88 fonts, out of 8000000 for 9000
+ 7091 strings out of 493315
+ 100034 string characters out of 6137904
+ 192179 words of memory out of 5000000
+ 10289 multiletter control sequences out of 15000+600000
+ 60294 words of font info for 89 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 47i,11n,53p,1674b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,11n,53p,1709b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/20
 13/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (20 pages, 336563 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (23 pages, 346169 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 132 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
