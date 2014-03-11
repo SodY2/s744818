@@ -22,31 +22,37 @@
 }
 
 %Kommando zur Erzeugung der evaluationstablle
+\usepackage{fp} 
+\newcommand{\Kraft}{450} 
+\newcommand{\Laenge}{10} 
+\newcommand\Moment{\directlua{tex.print(\Kraft*\Laenge)}} 
+
+
+
+
+
+\usepackage[table]{xcolor}
+
 \newcommand{\met}[9]{
 
 	\begin{table}[h]
  		\centering
-			\begin{tabular}{|| p{8cm} | p{2cm} | p{2cm} ||}
+		\rowcolors{1}{white}{lightgray}
+			\begin{tabular}{| p{8cm} | p{2cm} | p{2cm} |}
 			\hline
 				Komponente		 	&	Punkte	&	Wertigkeit\\
 			\hline
 			\hline
 				Installation			&	#2	&	10 \%\\
-				\hline
 				Konfiguration			&	#3	&	10 \%\\
-				\hline
 				Funktion: Desktop		&	#4	&	25 \%\\
-				\hline
 				Funktion: Mobil			&	#5	&	25 \%\\
-				\hline
 				Erweiterbarkeit			&	#6	&	10 \%\\
-				\hline
-				Komplettlösung			&	#7	&	10 \%\\
-				\hline
-				Aktivität				&	#8	&	10 \%\\
+				Komplettl{\"o}sung			&	#7	&	10 \%\\
+				Aktivit{\"a}t				&	#8	&	10 \%\\
 				\hline
 				\hline
-				Gesamt				&	#9	&	100 \%\\
+				Gesamt				&	\FPeval\resultfp{clip((#2*1)+(#3*1)+(#4*2.5)+(#5*2.5)+(#6*1)+(#7*1)+(#8*1))} 												\resultfp 	&	100 \%\\
 				\hline
 				\end{tabular}
 			\caption{#1}
@@ -63,6 +69,7 @@
 \usepackage{makeidx}
 \usepackage{graphicx}
 \usepackage{float}
+
 \makeindex 
 
 %%
@@ -209,33 +216,24 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 
 	\begin{table}[h]
  		\centering
-			\begin{tabular}{|| p{5cm} | p{5cm} ||}
+		\rowcolors{1}{white}{lightgray}
+			\begin{tabular}{| p{5cm} | p{5cm} |}
+			
 			\hline
 				Browser 	& 	Version\\
 			\hline
 			\hline
 				Firefox	&	latest\\
-				\hline
 				Chrome	&	latest\\
-				\hline
 				Safari	&	latest\\
-				\hline
 				Internet Explorer	&	8/9/10\\
-				\hline
 				Opera Mobile	&	supportet\\
-				\hline
 				Opera	&	11\\
-				\hline
 				FireFox Mobile	&	supportet\\
-				\hline
 				Blackberry	&	supportet\\
-				\hline
 				Windows Phone	&	supportet\\
-				\hline
 				Safari mobile	&	supportet\\	
-				\hline
 				Android	&	2.3 - 4.2\\
-				\hline
 				\end{tabular}
 			\caption{von Ghostlab getestete Browser (stand 10.03.2014, Version 1.2.3)}
 	\end{table}
@@ -259,27 +257,38 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 %% ############# Evaluation
 %%
 \chapter{Evaluation der Techniken}
+
+%%
+%% ############# Ghostlab
+%%
 	\section{\mi{Ghostlab}}
 		\subsection {Einrichtung der Testumgebung}
-		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine Seite auf einem lokalen Apache Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des Ghostlabservers ist dieser über den "localhost" auf Port 8005 (Default) von allen zu testenden Geräten erreichbar.
+		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das 		Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine 		Seite auf einem lokalen Apache Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des 			Ghostlabservers ist dieser über den localhost\footnote{IP-Adresse des lokalen Rechners} auf Port 8005 (Default) von allen zu testenden Geräten erreichbar.
 		\ig{../pictures/ghostlab/startbildschirm}{Startbildschirm Ghostlab}{Startbildschirm von Ghostlab nach der Installation}
-		\subsection{Testen von Websites}
+		
+		\subsection{Testen von Desktopwebsites}
+		\ig{../pictures/ghostlab/uebersicht_desktop}{Übersicht Desktopbrowser Ghostlab}{Ghostlabübersicht der verbundenen Clients}
+
+		
 		
 		\pagebreak
+		
 		\subsection{Fazit zu Ghostlab}
-		Zum Stand dieser Arbeit wurde Version 1.2.3 von Ghostlab genutzt. Zu diesem Zeitpunkt verfügte die Software noch über keinen Master/Slave-Modus\footnote{ein Gerät dient als Steuergerät, alle anderen folgen ihm}, dadurch kam es bei meinen Testgeräten \tr{Geräte spezifizieren} bereits nach wenigen Minuten zu dem Problem, dass die Geräte sich in einer Endlosschelife von Senden und Empfangen der Steuerbefehle befanden. Für kommende Versionen ist ein solcher Modus laut den Entwicklern aber geplant. Das Problem rührt daher, dass einige Geräte schneller auf die übermittelten Befehle reagieren als andere. Das führt dazu, dass die langsam ladenden Geräte in dem Augenblick wo sie das Signal umsetzen, für die schnelleren Geräte bereits wieder als Sender fungieren. Dieses Problem sehe ich bei einer bereits kleinen Anzahl von Geräten als kritisch an. 
+		Zum Stand dieser Arbeit wurde Version 1.2.3 von Ghostlab genutzt. Zu diesem Zeitpunkt verfügte die Software noch über 		keinen Master/Slave-Modus\footnote{ein Gerät dient als Steuergerät, alle anderen folgen ihm}, dadurch kam es bei meinen 		Testgeräten \tr{Geräte spezifizieren} bereits nach wenigen Minuten zu dem Problem, dass die Geräte sich in einer 				Endlosschelife von Senden und Empfangen der Steuerbefehle befanden. Für kommende Versionen ist ein solcher Modus 		laut den Entwicklern aber geplant. Das Problem rührt daher, dass einige Geräte schneller auf die übermittelten Befehle 			reagieren als andere. Das führt dazu, dass die langsam ladenden Geräte in dem Augenblick wo sie das Signal umsetzen, 		für die schnelleren Geräte bereits wieder als Sender fungieren. Dieses Problem sehe ich bei einer bereits kleinen Anzahl 			von Geräten als kritisch an. 
 
-\\Das testen in mehreren Browsern auf einem Rechner lief hingegen sehr gut. Das ausführen von Javascript läuft einwandfrei. Das ausfüllen von Inputs, Checkboxen, Radioboxen und das absenden des Formulars funktionierte bis auf die Kalenderauswahl im Firefox anstandslos.
+		\\Das testen in mehreren Browsern auf einem Rechner lief hingegen sehr gut. Das ausführen von Javascript läuft 				einwandfrei. Das ausfüllen von Inputs, Checkboxen, Radioboxen und das absenden des Formulars funktionierte bis auf die 		Kalenderauswahl im Firefox Browsers anstandslos.
 
-\\Ghostlab unterstützt die Funktion von Workspaces\footnote{Arbeitsumgebung oder auch Arbeitsumfeld}, welche sich die Position und Größe der verschiedenen Browserfenster speichert. Per Knopfdruck lassen diese sich dann im Kollektiv öffnen sofern in den Browsereinstellungen die Popups aktiviert sind für die zu testende Seite. Dieses Feature\footnote{Funktion welche ein Teil der Anwendung ist} bewerte ich als Positiv in Hinsicht der Zeitersparnis, diesen Vorgang immer wieder von Hand auszuführen.
+		\\Das arbeiten in einer Virtuellen Umgebung\footnote{es wurde VirtualBox von Oracle genutzt} wird problemlos unterstützt. 		Das einzige Problem was ich analysieren konnte war, dass sich virtuelle Browser nicht in einen Workspace integrieren 			lassen.
 
-\\Als Kritikpunkt bewerte ich die nicht existente Möglichkeit die Anwendung um eigene Funktionen zu erweitern.
+		\\Ghostlab unterstützt die Funktion von Workspaces\footnote{Arbeitsumgebung oder auch Arbeitsumfeld}, welche sich die 		Position und Größe der verschiedenen Browserfenster speichert. Per Knopfdruck lassen diese sich dann im Kollektiv öffnen 		sofern in den Browsereinstellungen die Popups aktiviert sind für die zu testende Seite. Dieses Feature\footnote{Funktion 			welche ein Teil der Anwendung ist} bewerte ich als Positiv in Hinsicht der Zeitersparnis, diesen Vorgang immer wieder von 		Hand auszuführen.
 
-\subsection{Tabellarische Evaluation}
-	\met{test}{10}{8}{9}{3}{0}{10}{9}{-}
-	\section{\mi{Adobe Edge Inspect}}
+		\\Als Kritikpunkt bewerte ich die nicht existente Möglichkeit die Anwendung um eigene Funktionalität zu erweitern.
+		\pagebreak
+		
+		\subsection{Tabellarische Evaluation}
+			\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{8}{9}{3}{0}{10}{9}{}
 	
-
+	\section{\mi{Adobe Edge Inspect}}
 	\section{\mi{Remote Preview}}
 	\section{\mi{Browser-Sync}}
 	\section{Eigenes \mi{Framework}}

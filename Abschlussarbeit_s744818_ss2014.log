@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  11 MAR 2014 12:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  11 MAR 2014 15:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -120,7 +120,99 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
-) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count89
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count90
+\FP@xia=\count91
+\FP@xib=\count92
+\FP@xfa=\count93
+\FP@xfb=\count94
+\FP@rega=\count95
+\FP@regb=\count96
+\FP@regs=\count97
+\FP@times=\count98
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count99
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks15
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+\everycr=\toks16
+\minrowclearance=\skip49
+)
+\rownum=\count101
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -213,8 +305,8 @@ Package: amstext 2000/06/29 v2.01
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks15
-\ex@=\dimen103
+\@emptytoks=\toks17
+\ex@=\dimen105
 )))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/bhtThesis.sty
 Package: bhtThesis 2010/07/21 v0.1 Beuth-Hochschule Abschlussarbeit-Style
@@ -236,28 +328,9 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count89
-))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen106
-\extrarowheight=\dimen107
-\NC@list=\toks16
-\extratabsurround=\skip47
-\backup@length=\skip48
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
@@ -266,25 +339,25 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@old@col=\dimen110
 \TX@target=\dimen111
 \TX@delta=\dimen112
-\TX@cols=\count90
-\TX@ftn=\toks17
+\TX@cols=\count102
+\TX@ftn=\toks18
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
-\c@tracingmulticols=\count91
+\c@tracingmulticols=\count103
 \mult@box=\box27
 \multicol@leftmargin=\dimen113
-\c@unbalance=\count92
-\c@collectmore=\count93
-\doublecol@number=\count94
-\multicoltolerance=\count95
-\multicolpretolerance=\count96
+\c@unbalance=\count104
+\c@collectmore=\count105
+\doublecol@number=\count106
+\multicoltolerance=\count107
+\multicolpretolerance=\count108
 \full@width=\dimen114
 \page@free=\dimen115
 \premulticols=\dimen116
 \postmulticols=\dimen117
-\multicolsep=\skip49
-\multicolbaselineskip=\skip50
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
 \partial@page=\box28
 \last@line=\box29
 \mult@rightbox=\box30
@@ -308,45 +381,28 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \@tempa=\box48
 \@tempa=\box49
 \@tempa=\box50
-\c@columnbadness=\count97
-\c@finalcolumnbadness=\count98
+\c@columnbadness=\count109
+\c@finalcolumnbadness=\count110
 \last@try=\dimen118
 \multicolovershoot=\dimen119
 \multicolundershoot=\dimen120
 \mult@nat@firstbox=\box51
 \colbreak@box=\box52
-\multicol@sort@counter=\count99
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
-Package xcolor Info: Model `RGB' extended on input line 1353.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+\multicol@sort@counter=\count111
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/changebar/changebar.sty
 Package: changebar 2005/09/18 v3.5c Indicate changes with marginal bars
-\cb@nextpoint=\count100
-\cb@topleft=\count101
-\cb@topright=\count102
-\cb@botleft=\count103
-\cb@botright=\count104
-\cb@cnta=\count105
-\cb@cntb=\count106
+\cb@nextpoint=\count112
+\cb@topleft=\count113
+\cb@topright=\count114
+\cb@botleft=\count115
+\cb@botright=\count116
+\cb@cnta=\count117
+\cb@cntb=\count118
 \cb@dima=\dimen121
 \cb@curbarwd=\dimen122
-\cb@page=\count107
-\cb@pagecount=\count108
+\cb@page=\count119
+\cb@pagecount=\count120
 \cb@odd@left=\dimen123
 \cb@odd@right=\dimen124
 \cb@even@left=\dimen125
@@ -355,10 +411,10 @@ Package: changebar 2005/09/18 v3.5c Indicate changes with marginal bars
 \cb@readxy=\read1
 \openout3 = `Abschlussarbeit_s744818_ss2014.cb2'.
 
-\changebarwidth=\skip51
-\deletebarwidth=\skip52
-\changebarsep=\skip53
-\c@changebargrey=\count109
+\changebarwidth=\skip52
+\deletebarwidth=\skip53
+\changebarsep=\skip54
+\c@changebargrey=\count121
 \cb@write=\write4
 \cb@read=\read2
 \openout4 = `Abschlussarbeit_s744818_ss2014.cb'.
@@ -366,8 +422,8 @@ Package: changebar 2005/09/18 v3.5c Indicate changes with marginal bars
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -664,7 +720,7 @@ Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 
 (/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2013/05/16 v3.9f Babel common definitions
-\babel@savecnt=\count110
+\babel@savecnt=\count122
 \U@D=\dimen127
 )
 \l@naustrian = a dialect from \language\l@ngerman 
@@ -712,7 +768,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip54
+\@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -722,13 +778,13 @@ Package: amsbsy 1999/11/29 v1.2d
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count111
+\inf@bad=\count123
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count112
-\leftroot@=\count113
+\uproot@=\count124
+\leftroot@=\count125
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count114
-\DOTSCASE@=\count115
+\classnum@=\count126
+\DOTSCASE@=\count127
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -737,50 +793,50 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen129
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count116
-\c@MaxMatrixCols=\count117
+\macc@depth=\count128
+\c@MaxMatrixCols=\count129
 \dotsspace@=\muskip10
-\c@parentequation=\count118
-\dspbrk@lvl=\count119
-\tag@help=\toks20
-\row@=\count120
-\column@=\count121
-\maxfields@=\count122
-\andhelp@=\toks21
+\c@parentequation=\count130
+\dspbrk@lvl=\count131
+\tag@help=\toks21
+\row@=\count132
+\column@=\count133
+\maxfields@=\count134
+\andhelp@=\toks22
 \eqnshift@=\dimen130
 \alignsep@=\dimen131
 \tagshift@=\dimen132
 \tagwidth@=\dimen133
 \totwidth@=\dimen134
 \lineht@=\dimen135
-\@envbody=\toks22
-\multlinegap=\skip55
-\multlinetaggap=\skip56
-\mathdisplay@stack=\toks23
+\@envbody=\toks23
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 BHT style for pdfLaTeX is used
 (/usr/local/texlive/2013/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip57
-\f@ncyO@elh=\skip58
-\f@ncyO@erh=\skip59
-\f@ncyO@olh=\skip60
-\f@ncyO@orh=\skip61
-\f@ncyO@elf=\skip62
-\f@ncyO@erf=\skip63
-\f@ncyO@olf=\skip64
-\f@ncyO@orf=\skip65
+\fancy@headwidth=\skip58
+\f@ncyO@elh=\skip59
+\f@ncyO@erh=\skip60
+\f@ncyO@olh=\skip61
+\f@ncyO@orh=\skip62
+\f@ncyO@elf=\skip63
+\f@ncyO@erf=\skip64
+\f@ncyO@olf=\skip65
+\f@ncyO@orf=\skip66
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
 (/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count123
-\float@exts=\toks24
+\c@float@type=\count135
+\float@exts=\toks25
 \float@box=\box55
-\@float@everytoks=\toks25
+\@float@everytoks=\toks26
 
 
 /usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty:102: LaTeX Error: 
@@ -822,43 +878,44 @@ Writing index file Abschlussarbeit_s744818_ss2014.idx
 (./tex/begriffserklaerung.aux) (./tex/helpers.aux))
 \openout1 = `Abschlussarbeit_s744818_ss2014.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 106.
+
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 99.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 106.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count124
+\scratchcounter=\count136
 \scratchdimen=\dimen136
 \scratchbox=\box57
-\nofMPsegments=\count125
-\nofMParguments=\count126
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count127
+\nofMPsegments=\count137
+\nofMParguments=\count138
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count139
 \MPscratchDim=\dimen137
-\MPnumerator=\count128
-\makeMPintoPDFobject=\count129
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count140
+\makeMPintoPDFobject=\count141
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -909,51 +966,51 @@ Package: draftwatermark 2006/06/30 1.0 Put a gray textual watermark on document
 (/usr/local/texlive/2013/texmf-dist/tex/latex/everypage/everypage.sty
 Package: everypage 2007/06/20 1.1 Hooks to run on every page
 )
-\sc@wm@fontsize=\skip66
+\sc@wm@fontsize=\skip67
 )
-LaTeX Font Info:    Calculating math sizes for size <6.5> on input line 105.
+LaTeX Font Info:    Calculating math sizes for size <6.5> on input line 112.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 105.
+(Font)              size <6> substituted on input line 112.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.54997> not available
-(Font)              size <5> substituted on input line 105.
+(Font)              size <5> substituted on input line 112.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.25> not available
-(Font)              size <5> substituted on input line 105.
+(Font)              size <5> substituted on input line 112.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 105.
+(Font)              size <6> substituted on input line 112.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.54997> not available
-(Font)              size <5> substituted on input line 105.
+(Font)              size <5> substituted on input line 112.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.25> not available
-(Font)              size <5> substituted on input line 105.
+(Font)              size <5> substituted on input line 112.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 105.
+(Font)              size <6> substituted on input line 112.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.54997> not available
-(Font)              size <5> substituted on input line 105.
+(Font)              size <5> substituted on input line 112.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.25> not available
-(Font)              size <5> substituted on input line 105.
+(Font)              size <5> substituted on input line 112.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 105.
+LaTeX Font Info:    Try loading font information for U+msa on input line 112.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 105.
+LaTeX Font Info:    Try loading font information for U+msb on input line 112.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -961,19 +1018,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <BHT-Logo-Basis.pdf, id=1, 303.39667pt x 99.95987pt>
 File: BHT-Logo-Basis.pdf Graphic file (type pdf)
  <use BHT-Logo-Basis.pdf>
-Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 105.
+Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 112.
 (pdftex.def)             Requested size: 128.0387pt x 42.18417pt.
 
-Overfull \hbox (2.47002pt too wide) in paragraph at lines 105--105
+Overfull \hbox (2.47002pt too wide) in paragraph at lines 112--112
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <26.96207> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 105.
-./Abschlussarbeit_s744818_ss2014.tex:105: Undefined control sequence.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 112.
+./Abschlussarbeit_s744818_ss2014.tex:112: Undefined control sequence.
 \bhtTitelSeite ...orgelegte \thethesistyp \xspace 
                                                   \\ zur Erlangung des akade...
-l.105 \maketitle
+l.112 \maketitle
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -982,23 +1039,23 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 105.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 105.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 112.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 112.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 105.
+(Font)              size <12> substituted on input line 112.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 105.
+(Font)              size <12> substituted on input line 112.
 
 
-Overfull \hbox (36.98495pt too wide) in paragraph at lines 105--106
+Overfull \hbox (36.98495pt too wide) in paragraph at lines 112--113
 [][][][]\T1/ptm/m/n/13 [1.5ex]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
@@ -1043,12 +1100,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 \openout2 = `./tex/abstract.aux'.
 
  (./tex/abstract.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--122
+Underfull \hbox (badness 10000) in paragraph at lines 5--129
 \T1/ptm/m/n/13 TOREMOVE-->
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--122
+Underfull \hbox (badness 10000) in paragraph at lines 5--129
 \T1/ptm/m/n/13 english trans-la-ti-on
  []
 
@@ -1131,7 +1188,7 @@ nput line 17.
 ] [3 <./pictures/../pictures/Entwicklungsprozess.jpg>]) [4]
 Kapitel 2.
 
-Overfull \hbox (17.16805pt too wide) in paragraph at lines 154--158
+Overfull \hbox (17.16805pt too wide) in paragraph at lines 161--165
 \T1/ptm/m/n/13 Die Auf-ga-ben die-ser The-sis ist die Eva-lu-ie-rung von Tech-n
 i-ken zur parallel-synchronen
  []
@@ -1141,16 +1198,16 @@ File: pictures/../pictures/Testszenario.jpg Graphic file (type jpg)
 
 <use pictures/../pictures/Testszenario.jpg>
 Package pdftex.def Info: pictures/../pictures/Testszenario.jpg used on input li
-ne 166.
+ne 173.
 (pdftex.def)             Requested size: 426.80759pt x 484.36462pt.
 
-Underfull \hbox (badness 1895) in paragraph at lines 166--166
+Underfull \hbox (badness 1895) in paragraph at lines 173--173
 []\T1/ptm/m/n/13 Darstellung ei-nes Qua-li-täts-si-che-rungs-ab-lau-fes in der 
 mo-bi-len
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:166: Too many }'s.
-l.166 ...es in der mobilen Anwendungsentwicklung}}
+./Abschlussarbeit_s744818_ss2014.tex:173: Too many }'s.
+l.173 ...es in der mobilen Anwendungsentwicklung}}
                                                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1160,12 +1217,12 @@ Such booboos are generally harmless, so keep going.
 
 
 ] [6 <./pictures/../pictures/Testszenario.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 179--184
+Underfull \hbox (badness 10000) in paragraph at lines 186--191
 \T1/ptm/m/n/13 sio-nen TOREMOVE-->
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--184
+Underfull \hbox (badness 10000) in paragraph at lines 186--191
 \T1/ptm/m/n/13 Versionsnummern
  []
 
@@ -1188,7 +1245,7 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.59996> not available
 
 ] [9]
 Kapitel 4.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 243.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 241.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1205,25 +1262,33 @@ File: pictures/../pictures/ghostlab/startbildschirm.png Graphic file (type png)
 
  <use pictures/../pictures/ghostlab/startbildschirm.png>
 Package pdftex.def Info: pictures/../pictures/ghostlab/startbildschirm.png used
- on input line 265.
+ on input line 267.
 (pdftex.def)             Requested size: 426.79953pt x 332.77686pt.
  [12
 
 
- <./pictures/../pictures/ghostlab/startbildschirm.png>] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+ <./pictures/../pictures/ghostlab/startbildschirm.png>]
+<pictures/../pictures/ghostlab/uebersicht_desktop.png, id=102, 807.015pt x 624.
+3325pt>
+File: pictures/../pictures/ghostlab/uebersicht_desktop.png Graphic file (type p
+ng)
+ <use pictures/../pictures/ghostlab/uebersicht_desktop.png>
+Package pdftex.def Info: pictures/../pictures/ghostlab/uebersicht_desktop.png u
+sed on input line 270.
+(pdftex.def)             Requested size: 426.79236pt x 330.18016pt.
+ [13 <./pictures/../pictures/ghostlab/uebersicht_desktop.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \T1/ptm/m/n/13 kam es bei mei-nen Test-ge-rä-ten TOREMOVE-->
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 \T1/ptm/m/n/13 Geräte spe-zi-fi-zie-ren
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14] [15]
+[14] ( FP-EVAL ( FP-UPN ( FP-MUL ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD )
+( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL )
+( FP-ADD ) ( FP-CLIP ) ) ) [15]
 Kapitel 6.
 [16
 
@@ -1255,10 +1320,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 7104 strings out of 493315
- 100397 string characters out of 6137904
- 193184 words of memory out of 5000000
- 10299 multiletter control sequences out of 15000+600000
+ 7863 strings out of 493315
+ 109592 string characters out of 6137904
+ 218821 words of memory out of 5000000
+ 11016 multiletter control sequences out of 15000+600000
  60294 words of font info for 89 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  47i,11n,53p,1709b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1268,10 +1333,10 @@ live/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/20
 13/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-d
 ist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (25 pages, 480973 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (25 pages, 539534 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
+ 141 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
