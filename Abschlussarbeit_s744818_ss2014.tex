@@ -16,21 +16,13 @@
 \newcommand{\ig}[3]{
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=\linewidth,height=\textheight,keepaspectratio]{#1}%
+	\includegraphics[width=400,keepaspectratio]{#1}%
 	\caption[#2]{#3}%
 \end{figure}
 }
 
 %Kommando zur Erzeugung der evaluationstablle
 \usepackage{fp} 
-\newcommand{\Kraft}{450} 
-\newcommand{\Laenge}{10} 
-\newcommand\Moment{\directlua{tex.print(\Kraft*\Laenge)}} 
-
-
-
-
-
 \usepackage[table]{xcolor}
 
 \newcommand{\met}[9]{
@@ -59,6 +51,29 @@
 	\end{table}
 
 }
+
+\newcommand{\mmet}[6]{
+	\subsubsection{#1}\\
+	\begin{table}[h]
+ 		\centering
+		\rowcolors{1}{white}{lightgray}
+			\begin{tabular}{| p{8cm} | p{5cm} |}
+			\hline
+				Komponente		 &	\\
+			\hline
+			\hline
+				Betriebssystem				&	#2	\\
+				Versionsnummer			&	#3	\\
+				Bildschirmdiagonale			&	#4	\\
+				Aufl{\"o}sung				&	#5	\\
+				priem{\"a}re Ausrichtung		&	#6	\\
+				\end{tabular}
+			\caption{{\"U}bersicht #1}
+	\end{table}
+
+}
+
+
 
 %%
 %%------------------- Imports
@@ -263,11 +278,17 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 %%
 	\section{\mi{Ghostlab}}
 		\subsection {Einrichtung der Testumgebung}
-		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das 		Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine 		Seite auf einem lokalen Apache Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des 			Ghostlabservers ist dieser über den localhost\footnote{IP-Adresse des lokalen Rechners} auf Port 8005 (Default) von allen zu testenden Geräten erreichbar.
+		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das 		Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine 		Seite auf einem lokalen Apache Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des 			Ghostlabservers ist dieser über den localhost\footnote{IP-Adresse des lokalen Rechners} auf Port 8005 (Default) von allen 		zu testenden Geräten erreichbar.
 		\ig{../pictures/ghostlab/startbildschirm}{Startbildschirm Ghostlab}{Startbildschirm von Ghostlab nach der Installation}
 		
 		\subsection{Testen von Desktopwebsites}
-		\ig{../pictures/ghostlab/uebersicht_desktop}{Übersicht Desktopbrowser Ghostlab}{Ghostlabübersicht der verbundenen Clients}
+		Durch aufrufen der IP-Adresse des Rechners auf dem der Ghostlabserver läuft verbindet sich der Browser als Client und 			wird fortan durch gesendete Signale beeinflusst. Hierzu zählen auch virtuelle Browser. Jeder Client wird nun gleichzeitig 			Sender und Empfänger für Signale, dass bedeutet das jede Aktion parallel-synchron auf allen anderen Clients gespiegelt 			wird. Hierzu zählen Javascriptevents, das ausfüllen eines Formulars oder das neuladen der gesamten Seite.
+		\ig{../pictures/ghostlab/workspaces}{Übersicht Clients}{Darstellung von 4 verschiedenen Clients } 
+		
+		Über den Übersichtsbildschirm kann jeder verbundene Client einzeln inspiziert werden. Hier ist der Nutzer in der Lage sich 		durch das DOM zu navigieren oder temporäre CSS Anpassungen vorzunehmen. Die Handhabung ist intuitiv, was jedoch an 		dem verwendeten Framework \mi{Weinre} liegt.
+		\ig{../pictures/ghostlab/weinre}{Exemplarisch Weinreansicht}{ausgewähltes DOM-Element in Weinre}
+		
+		\ig{../pictures/ghostlab/uebersicht_mobil}{Übersicht mobile Clients Ghostlab}{Ghostlabübersicht der verbundenen Clients}
 
 		
 		
@@ -283,8 +304,7 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 		\\Ghostlab unterstützt die Funktion von Workspaces\footnote{Arbeitsumgebung oder auch Arbeitsumfeld}, welche sich die 		Position und Größe der verschiedenen Browserfenster speichert. Per Knopfdruck lassen diese sich dann im Kollektiv öffnen 		sofern in den Browsereinstellungen die Popups aktiviert sind für die zu testende Seite. Dieses Feature\footnote{Funktion 			welche ein Teil der Anwendung ist} bewerte ich als Positiv in Hinsicht der Zeitersparnis, diesen Vorgang immer wieder von 		Hand auszuführen.
 
 		\\Als Kritikpunkt bewerte ich die nicht existente Möglichkeit die Anwendung um eigene Funktionalität zu erweitern.
-		\pagebreak
-		
+
 		\subsection{Tabellarische Evaluation}
 			\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{8}{9}{3}{0}{10}{9}{}
 	
