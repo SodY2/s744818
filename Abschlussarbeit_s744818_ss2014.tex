@@ -27,7 +27,8 @@
 
 \newcommand{\met}[9]{
 
-	\begin{table}[h]
+	\begin{table}[H]
+	 \vspace{-20pt}
  		\centering
 		\rowcolors{1}{white}{lightgray}
 			\begin{tabular}{| p{8cm} | p{2cm} | p{2cm} |}
@@ -53,8 +54,9 @@
 }
 
 \newcommand{\mmet}[6]{
-	\subsubsection{#1}\\
-	\begin{table}[h]
+	\subsubsection{#1}
+	 \vspace{-20pt}
+	\begin{table}[H]
  		\centering
 		\rowcolors{1}{white}{lightgray}
 			\begin{tabular}{| p{8cm} | p{5cm} |}
@@ -281,13 +283,14 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das 		Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine 		Seite auf einem lokalen Apache Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des 			Ghostlabservers ist dieser über den localhost\footnote{IP-Adresse des lokalen Rechners} auf Port 8005 (Default) von allen 		zu testenden Geräten erreichbar.
 		\ig{../pictures/ghostlab/startbildschirm}{Startbildschirm Ghostlab}{Startbildschirm von Ghostlab nach der Installation}
 		
-		\subsection{Testen von Desktopwebsites}
+		\subsection{Testen von Desktopbrowsern}
 		Durch aufrufen der IP-Adresse des Rechners auf dem der Ghostlabserver läuft verbindet sich der Browser als Client und 			wird fortan durch gesendete Signale beeinflusst. Hierzu zählen auch virtuelle Browser. Jeder Client wird nun gleichzeitig 			Sender und Empfänger für Signale, dass bedeutet das jede Aktion parallel-synchron auf allen anderen Clients gespiegelt 			wird. Hierzu zählen Javascriptevents, das ausfüllen eines Formulars oder das neuladen der gesamten Seite.
 		\ig{../pictures/ghostlab/workspaces}{Übersicht Clients}{Darstellung von 4 verschiedenen Clients } 
 		
 		Über den Übersichtsbildschirm kann jeder verbundene Client einzeln inspiziert werden. Hier ist der Nutzer in der Lage sich 		durch das DOM zu navigieren oder temporäre CSS Anpassungen vorzunehmen. Die Handhabung ist intuitiv, was jedoch an 		dem verwendeten Framework \mi{Weinre} liegt.
 		\ig{../pictures/ghostlab/weinre}{Exemplarisch Weinreansicht}{ausgewähltes DOM-Element in Weinre}
 		
+		\subsection{Testen von mobilen Browsern}
 		\ig{../pictures/ghostlab/uebersicht_mobil}{Übersicht mobile Clients Ghostlab}{Ghostlabübersicht der verbundenen Clients}
 
 		
@@ -317,11 +320,6 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 		\subsubsection{\mi{Klassendiagramm}}
 
 \chapter{Ausblick}
-
-%%
-%% ############# Helpers
-%%
-\include{./tex/helpers}
 
 \printindex
 
