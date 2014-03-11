@@ -52,16 +52,17 @@
 \contentsline {section}{\numberline {5.1}Ghostlab}{12}
 \contentsline {subsection}{\numberline {5.1.1}Einrichtung der Testumgebung}{12}
 \contentsline {subsection}{\numberline {5.1.2}Testen von Websites}{13}
-\contentsline {subsection}{\numberline {5.1.3}Fazit zu Ghostlab}{13}
-\contentsline {section}{\numberline {5.2}Adobe Edge Inspect}{14}
-\contentsline {section}{\numberline {5.3}Remote Preview}{14}
-\contentsline {section}{\numberline {5.4}Browser-Sync}{14}
-\contentsline {section}{\numberline {5.5}Eigenes Framework}{14}
-\contentsline {subsection}{\numberline {5.5.1}Systementwurf}{14}
-\contentsline {subsubsection}{Ablaufdiagram}{14}
-\contentsline {subsubsection}{Klassendiagramm}{14}
-\contentsline {chapter}{\numberline {6}Ausblick}{15}
-\contentsline {chapter}{\numberline {7}Helpers}{16}
-\contentsline {section}{\numberline {7.1}quote}{16}
-\contentsline {section}{\numberline {7.2}longquote}{16}
-\contentsline {section}{\numberline {7.3}fussnote}{16}
+\contentsline {subsection}{\numberline {5.1.3}Fazit zu Ghostlab}{14}
+\contentsline {subsection}{\numberline {5.1.4}Tabellarische Evaluation}{15}
+\contentsline {section}{\numberline {5.2}Adobe Edge Inspect}{15}
+\contentsline {section}{\numberline {5.3}Remote Preview}{15}
+\contentsline {section}{\numberline {5.4}Browser-Sync}{15}
+\contentsline {section}{\numberline {5.5}Eigenes Framework}{15}
+\contentsline {subsection}{\numberline {5.5.1}Systementwurf}{15}
+\contentsline {subsubsection}{Ablaufdiagram}{15}
+\contentsline {subsubsection}{Klassendiagramm}{15}
+\contentsline {chapter}{\numberline {6}Ausblick}{16}
+\contentsline {chapter}{\numberline {7}Helpers}{17}
+\contentsline {section}{\numberline {7.1}quote}{17}
+\contentsline {section}{\numberline {7.2}longquote}{17}
+\contentsline {section}{\numberline {7.3}fussnote}{17}
