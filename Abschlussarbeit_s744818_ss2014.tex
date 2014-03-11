@@ -46,7 +46,6 @@
 				Bedienung			&	#8	&	?\\
 				\hline
 				?????				&	#9	&	?\\
-
 				\hline
 				\end{tabular}
 			\caption{#1}
@@ -262,11 +261,19 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 \chapter{Evaluation der Techniken}
 	\section{\mi{Ghostlab}}
 		\subsection {Einrichtung der Testumgebung}
-		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Ich habe  in diesem Fall sowohl eine Seite auf einem lokalen Apache Server getestet, als auch die Demoseite von Ghostlab.
-			version 1.2.3 noch kein Master/Slave Modus
+		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine Seite auf einem lokalen Apache Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des Ghostlabservers ist dieser über den "localhost" auf Port 8005 (Default) von allen zu testenden Geräten erreichbar.
+		\ig{../pictures/ghostlab/startbildschirm}{Startbildschirm Ghostlab}{Startbildschirm von Ghostlab nach der Installation}
+		\subsection{Testen von Websites}
+		
+		\subsection{Fazit zu Ghostlab}
+		Zum Stand dieser Arbeit wurde Version 1.2.3 von Ghostlab genutzt. Zu diesem Zeitpunkt verfügte die Software noch über keinen Master/Slave-Modus\footnote{ein Gerät dient als Steuergerät, alle anderen folgen ihm}, dadurch kam es bei meinen Testgeräten \tr{Geräte spezifizieren} bereits nach wenigen Minuten zu dem Problem, dass die Geräte sich in einer Endlosschelife von Senden und Empfangen der Steuerbefehle befanden. Für kommende Versionen ist ein solcher Modus laut den Entwicklern aber geplant. Das Problem rührt daher, dass einige Geräte schneller auf die übermittelten Befehle reagieren als andere. Das führt dazu, dass die langsam ladenden Geräte in dem Augenblick wo sie das Signal umsetzen, für die schnelleren Geräte bereits wieder als Sender fungieren. Dieses Problem sehe ich bei einer bereits kleinen Anzahl von Geräten als kritisch an. 
+		\\
+		Das testen in mehreren Browsern auf einem Rechner lief hingegen sehr gut. Das ausführen von Javascript läuft einwandfrei. Das ausfüllen von Inputs, Checkboxen, Radioboxen und das absenden des Formulars funktionierte bis auf die Kalenderauswahl im Firefox anstandslos.
+		\\
+		Ghostlab unterstützt die Funktion von Workspaces, welche 
+						
 			
-			
-			\met{test}{1}{2}{3}{4}{5}{6}{7}{8}
+			\met{test}{-}{-}{-}{-}{-}{-}{-}{-}
 			\\
 	\section{\mi{Adobe Edge Inspect}}
 	
