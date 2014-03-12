@@ -345,7 +345,7 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 %%
 %% ############# Ghostlab
 %%
-	\section{\mi{Ghostlab}}
+	\section{\mi{Ghostlab} Version 1.2.3}
 		\subsection {Einrichtung der Testumgebung}
 		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das 		Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine 		Seite auf einem lokalen Apache Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des 			Ghostlabservers ist dieser über den localhost\footnote{IP-Adresse des lokalen Rechners} auf Port 8005 (Default) von allen 		zu testenden Geräten erreichbar.
 		\ig{../pictures/ghostlab/startbildschirm}{Startbildschirm Ghostlab}{Startbildschirm von Ghostlab nach der Installation}
@@ -381,9 +381,19 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 		\subsection{Tabellarische Evaluation}
 			\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{8}{7}{3}{0}{10}{9}
 	
-	\section{\mi{Adobe Edge Inspect}}
-		\subsection{}
+	\pagebreak
+	\section{\mi{Adobe Edge Inspect} CC }
+		\subsection {Einrichtung der Testumgebung}
+		Es sind 3 Schritte Notwendig Adobe Edge Inspect zum Einsatz bereit zu machen. Als erstes benötigen wir den Client aus 		der Adobe Creative Cloud (CC) Kollektion. Diese gibt es zum Zeitpunkt dieser Arbeit in verschiedenen Modellen und 			beginnt bei der kostenlose 30-Tage Testversion, geht über die Einzellizenz, für ausschliesslich Adobe Edge Inspect, von 			24,59€ / Monat bis hin zum Komplett-Abo was dann mit 61,49€ / Monat zu Buche schlägt. Dieser wird gestartet und läuft 		ab diesem Zeitpunkt als Deamon im Hintergrund. 
 		
+		\\Als zweiten Schritt benötigen wir die zugehörige Chrome Extension von Adobe Edge Inspect. Diese wird über den Chrome 		Appstore installiert und kann nach einem Browserneustart aktiviert werden.
+		
+		\\Als letzes benötigen wir noch die kostenlos erhältliche App aus dem jeweiligen Shop. hier gilt für Android der Play Store, 		für iOS Geräte der AppStore. Windowsgeräte werden derzeit nicht unterstützt.
+		
+		\\Sind diese 3 Schritte erfolgreich durchgeführt worden, müssen nun die Geräte mit dem Server verbunden werden. Hierzu 		wird die App gestartet (der folgende Prozess verläuft unter Android wie auch unter iOS identisch) und per IP-Adresse mit 			der Adobe Edge Inspect Chrome Extension verbunden werden. Diese verlangt im Gegenzug einen Identifikationscode, 			welcher auf dem jeweiligen Gerät generiert wurde. Nach erfolgreicher Synchronisation wird das Gerät im Gerätemanager 		angezeigt.
+		
+		Diese hat mehrere Funktionen. 
+				
 	\section{\mi{Remote Preview}}
 	\section{\mi{Browser-Sync}}
 	\section{Eigenes \mi{Framework}}

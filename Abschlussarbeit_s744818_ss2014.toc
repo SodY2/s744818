@@ -32,44 +32,47 @@
 \contentsline {subsection}{\numberline {3.1.22}Form, Checkbox, Radiobox, Inputs}{9}
 \contentsline {subsection}{\numberline {3.1.23}Workspace}{9}
 \contentsline {subsection}{\numberline {3.1.24}Commit}{9}
+\contentsline {subsection}{\numberline {3.1.25}Deamon}{9}
+\contentsline {subsection}{\numberline {3.1.26}App}{9}
 \contentsline {section}{\numberline {3.2}verwendete Hardware}{9}
 \contentsline {subsection}{\numberline {3.2.1}Apple iMac 27\texttt "}{9}
-\contentsline {subsection}{\numberline {3.2.2}mobile Endger\IeC {\"a}te}{10}
-\contentsline {subsubsection}{Nokia Lumina 920}{10}
-\contentsline {subsubsection}{LG Nexus 4}{10}
-\contentsline {subsubsection}{Apple iPhone4 32 GB}{10}
-\contentsline {subsubsection}{Apple iPhone5s 16 GB}{11}
-\contentsline {subsubsection}{Apple iPad mini Wi-Fi 32GB}{11}
-\contentsline {subsubsection}{Microsoft Surfcae}{11}
-\contentsline {section}{\numberline {3.3}verwendete Browser}{12}
-\contentsline {subsection}{\numberline {3.3.1}Raspberry Pi}{12}
-\contentsline {subsection}{\numberline {3.3.2}Hardware}{12}
-\contentsline {chapter}{\numberline {4}Technologien}{13}
-\contentsline {section}{\numberline {4.1}Ghostlab}{13}
-\contentsline {section}{\numberline {4.2}NodeJS}{14}
-\contentsline {section}{\numberline {4.3}Zombie.js}{14}
-\contentsline {section}{\numberline {4.4}W3C Touch Events Extensions}{14}
-\contentsline {section}{\numberline {4.5}Phantom Limb}{14}
-\contentsline {section}{\numberline {4.6}jQuery UI Touch Punch}{14}
-\contentsline {section}{\numberline {4.7}jQuery Touchit}{14}
-\contentsline {section}{\numberline {4.8}NPM touchit}{14}
-\contentsline {section}{\numberline {4.9}Adobe Edge Inspect}{14}
-\contentsline {section}{\numberline {4.10}Remote Preview}{14}
-\contentsline {section}{\numberline {4.11}Browser-Sync}{14}
-\contentsline {section}{\numberline {4.12}Eigenes Framework}{14}
-\contentsline {chapter}{\numberline {5}Evaluation der Techniken}{15}
-\contentsline {section}{\numberline {5.1}Auflistung des Evaluationsschl\IeC {\"u}ssels}{15}
-\contentsline {section}{\numberline {5.2}Ghostlab}{16}
-\contentsline {subsection}{\numberline {5.2.1}Einrichtung der Testumgebung}{16}
-\contentsline {subsection}{\numberline {5.2.2}Testen von Desktopbrowsern}{17}
-\contentsline {subsection}{\numberline {5.2.3}Testen von mobilen Browsern}{19}
-\contentsline {subsection}{\numberline {5.2.4}Fazit zu Ghostlab}{20}
-\contentsline {subsection}{\numberline {5.2.5}Tabellarische Evaluation}{21}
-\contentsline {section}{\numberline {5.3}Adobe Edge Inspect}{21}
-\contentsline {section}{\numberline {5.4}Remote Preview}{21}
-\contentsline {section}{\numberline {5.5}Browser-Sync}{21}
-\contentsline {section}{\numberline {5.6}Eigenes Framework}{21}
-\contentsline {subsection}{\numberline {5.6.1}Systementwurf}{21}
-\contentsline {subsubsection}{Ablaufdiagram}{21}
-\contentsline {subsubsection}{Klassendiagramm}{21}
-\contentsline {chapter}{\numberline {6}Ausblick}{22}
+\contentsline {subsection}{\numberline {3.2.2}mobile Endger\IeC {\"a}te}{11}
+\contentsline {subsubsection}{Nokia Lumina 920}{11}
+\contentsline {subsubsection}{LG Nexus 4}{11}
+\contentsline {subsubsection}{Apple iPhone4 32 GB}{11}
+\contentsline {subsubsection}{Apple iPhone5s 16 GB}{12}
+\contentsline {subsubsection}{Apple iPad mini Wi-Fi 32GB}{12}
+\contentsline {subsubsection}{Microsoft Surfcae}{12}
+\contentsline {section}{\numberline {3.3}verwendete Browser}{13}
+\contentsline {subsection}{\numberline {3.3.1}Raspberry Pi}{13}
+\contentsline {subsection}{\numberline {3.3.2}Hardware}{13}
+\contentsline {chapter}{\numberline {4}Technologien}{14}
+\contentsline {section}{\numberline {4.1}Ghostlab}{14}
+\contentsline {section}{\numberline {4.2}NodeJS}{15}
+\contentsline {section}{\numberline {4.3}Zombie.js}{15}
+\contentsline {section}{\numberline {4.4}W3C Touch Events Extensions}{15}
+\contentsline {section}{\numberline {4.5}Phantom Limb}{15}
+\contentsline {section}{\numberline {4.6}jQuery UI Touch Punch}{15}
+\contentsline {section}{\numberline {4.7}jQuery Touchit}{15}
+\contentsline {section}{\numberline {4.8}NPM touchit}{15}
+\contentsline {section}{\numberline {4.9}Adobe Edge Inspect}{15}
+\contentsline {section}{\numberline {4.10}Remote Preview}{15}
+\contentsline {section}{\numberline {4.11}Browser-Sync}{15}
+\contentsline {section}{\numberline {4.12}Eigenes Framework}{15}
+\contentsline {chapter}{\numberline {5}Evaluation der Techniken}{16}
+\contentsline {section}{\numberline {5.1}Auflistung des Evaluationsschl\IeC {\"u}ssels}{16}
+\contentsline {section}{\numberline {5.2}Ghostlab Version 1.2.3}{17}
+\contentsline {subsection}{\numberline {5.2.1}Einrichtung der Testumgebung}{17}
+\contentsline {subsection}{\numberline {5.2.2}Testen von Desktopbrowsern}{18}
+\contentsline {subsection}{\numberline {5.2.3}Testen von mobilen Browsern}{20}
+\contentsline {subsection}{\numberline {5.2.4}Fazit zu Ghostlab}{21}
+\contentsline {subsection}{\numberline {5.2.5}Tabellarische Evaluation}{22}
+\contentsline {section}{\numberline {5.3}Adobe Edge Inspect CC}{23}
+\contentsline {subsection}{\numberline {5.3.1}Einrichtung der Testumgebung}{23}
+\contentsline {section}{\numberline {5.4}Remote Preview}{23}
+\contentsline {section}{\numberline {5.5}Browser-Sync}{23}
+\contentsline {section}{\numberline {5.6}Eigenes Framework}{23}
+\contentsline {subsection}{\numberline {5.6.1}Systementwurf}{23}
+\contentsline {subsubsection}{Ablaufdiagram}{23}
+\contentsline {subsubsection}{Klassendiagramm}{23}
+\contentsline {chapter}{\numberline {6}Ausblick}{24}
