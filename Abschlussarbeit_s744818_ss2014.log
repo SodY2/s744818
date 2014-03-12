@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  11 MAR 2014 18:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  12 MAR 2014 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -875,7 +875,7 @@ or  <return>  to continue without it.
 Writing index file Abschlussarbeit_s744818_ss2014.idx
 (./Abschlussarbeit_s744818_ss2014.aux (./tex/erklaerung.aux)
 (./tex/sperrvermerk.aux) (./tex/abstract.aux) (./tex/einleitung.aux)
-(./tex/begriffserklaerung.aux) (./tex/helpers.aux))
+(./tex/begriffserklaerung.aux))
 \openout1 = `Abschlussarbeit_s744818_ss2014.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
@@ -1293,13 +1293,13 @@ Kapitel 3.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.59996> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <15.59996> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 44.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 45.
 [8
 
 
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 48.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [9]
@@ -1311,14 +1311,17 @@ Kapitel 4.
 
 ] [14]
 Kapitel 5.
+[15
 
-<pictures/../pictures/ghostlab/startbildschirm.png, id=109, 811.03pt x 632.3625
+
+]
+<pictures/../pictures/ghostlab/startbildschirm.png, id=112, 811.03pt x 632.3625
 pt>
-./Abschlussarbeit_s744818_ss2014.tex:284: Illegal unit of measure (pt inserted)
+./Abschlussarbeit_s744818_ss2014.tex:351: Illegal unit of measure (pt inserted)
 .
 <to be read again> 
                    \relax 
-l.284 ...chirm von Ghostlab nach der Installation}
+l.351 ...chirm von Ghostlab nach der Installation}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1327,11 +1330,11 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:284: Illegal unit of measure (pt inserted)
+./Abschlussarbeit_s744818_ss2014.tex:351: Illegal unit of measure (pt inserted)
 .
 <to be read again> 
                    \relax 
-l.284 ...chirm von Ghostlab nach der Installation}
+l.351 ...chirm von Ghostlab nach der Installation}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1344,16 +1347,16 @@ File: pictures/../pictures/ghostlab/startbildschirm.png Graphic file (type png)
 
 <use pictures/../pictures/ghostlab/startbildschirm.png>
 Package pdftex.def Info: pictures/../pictures/ghostlab/startbildschirm.png used
- on input line 284.
+ on input line 351.
 (pdftex.def)             Requested size: 400.0pt x 311.88664pt.
 
-<pictures/../pictures/ghostlab/workspaces.png, id=110, 2557.555pt x 1263.72125p
+<pictures/../pictures/ghostlab/workspaces.png, id=113, 2557.555pt x 1263.72125p
 t>
-./Abschlussarbeit_s744818_ss2014.tex:288: Illegal unit of measure (pt inserted)
+./Abschlussarbeit_s744818_ss2014.tex:355: Illegal unit of measure (pt inserted)
 .
 <to be read again> 
                    \relax 
-l.288 ...Darstellung von 4 verschiedenen Clients }
+l.355 ...Darstellung von 4 verschiedenen Clients }
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1362,11 +1365,11 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:288: Illegal unit of measure (pt inserted)
+./Abschlussarbeit_s744818_ss2014.tex:355: Illegal unit of measure (pt inserted)
 .
 <to be read again> 
                    \relax 
-l.288 ...Darstellung von 4 verschiedenen Clients }
+l.355 ...Darstellung von 4 verschiedenen Clients }
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1378,18 +1381,15 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/ghostlab/workspaces.png Graphic file (type png)
 <use pictures/../pictures/ghostlab/workspaces.png>
 Package pdftex.def Info: pictures/../pictures/ghostlab/workspaces.png used on i
-nput line 288.
+nput line 355.
 (pdftex.def)             Requested size: 400.0pt x 197.6295pt.
- [15
-
-
- <./pictures/../pictures/ghostlab/startbildschirm.png>]
-<pictures/../pictures/ghostlab/weinre.png, id=114, 1284.8pt x 1328.965pt>
-./Abschlussarbeit_s744818_ss2014.tex:291: Illegal unit of measure (pt inserted)
+ [16]
+<pictures/../pictures/ghostlab/weinre.png, id=117, 1284.8pt x 1328.965pt>
+./Abschlussarbeit_s744818_ss2014.tex:358: Illegal unit of measure (pt inserted)
 .
 <to be read again> 
                    \relax 
-l.291 ...cht}{ausgewähltes DOM-Element in Weinre}
+l.358 ...cht}{ausgewähltes DOM-Element in Weinre}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1398,11 +1398,11 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:291: Illegal unit of measure (pt inserted)
+./Abschlussarbeit_s744818_ss2014.tex:358: Illegal unit of measure (pt inserted)
 .
 <to be read again> 
                    \relax 
-l.291 ...cht}{ausgewähltes DOM-Element in Weinre}
+l.358 ...cht}{ausgewähltes DOM-Element in Weinre}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1414,16 +1414,24 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/ghostlab/weinre.png Graphic file (type png)
 <use pictures/../pictures/ghostlab/weinre.png>
 Package pdftex.def Info: pictures/../pictures/ghostlab/weinre.png used on input
- line 291.
+ line 358.
 (pdftex.def)             Requested size: 400.0pt x 413.7391pt.
+ [17 <./pictures/../pictures/ghostlab/startbildschirm.png>] [18 <./pictures/../
+pictures/ghostlab/workspaces.png> <./pictures/../pictures/ghostlab/weinre.png>]
 
-<pictures/../pictures/ghostlab/uebersicht_mobil.png, id=115, 803.0pt x 625.3362
+Overfull \hbox (10.30403pt too wide) in paragraph at lines 363--364
+\T1/ptm/m/n/13 Das ein-rich-ten zum tes-ten auf mo-bi-len End-ge-r�-ten ver-l�u
+ft syn-chron zu den Desktop-
+ []
+
+
+<pictures/../pictures/ghostlab/uebersicht_mobil.png, id=125, 803.0pt x 625.3362
 4pt>
-./Abschlussarbeit_s744818_ss2014.tex:294: Illegal unit of measure (pt inserted)
+./Abschlussarbeit_s744818_ss2014.tex:366: Illegal unit of measure (pt inserted)
 .
 <to be read again> 
                    \relax 
-l.294 ...ostlabübersicht der verbundenen Clients}
+l.366 ...ostlabübersicht der verbundenen Clients}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1432,11 +1440,11 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:294: Illegal unit of measure (pt inserted)
+./Abschlussarbeit_s744818_ss2014.tex:366: Illegal unit of measure (pt inserted)
 .
 <to be read again> 
                    \relax 
-l.294 ...ostlabübersicht der verbundenen Clients}
+l.366 ...ostlabübersicht der verbundenen Clients}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1449,28 +1457,17 @@ File: pictures/../pictures/ghostlab/uebersicht_mobil.png Graphic file (type png
 )
 <use pictures/../pictures/ghostlab/uebersicht_mobil.png>
 Package pdftex.def Info: pictures/../pictures/ghostlab/uebersicht_mobil.png use
-d on input line 294.
+d on input line 366.
 (pdftex.def)             Requested size: 400.0pt x 311.50325pt.
- [16 <./pictures/../pictures/ghostlab/workspaces.png>] [17 <./pictures/../pictu
-res/ghostlab/weinre.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
-\T1/ptm/m/n/13 kam es bei mei-nen Test-ge-r�-ten TOREMOVE-->
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
-\T1/ptm/m/n/13 Ger�te spe-zi-fi-zie-ren
- []
-
-[18 <./pictures/../pictures/ghostlab/uebersicht_mobil.png>] ( FP-EVAL ( FP-UPN
-( FP-MUL ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD )
-( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-CLIP )
-) ) [19] [20]
+ [19 <./pictures/../pictures/ghostlab/uebersicht_mobil.png>] ( FP-EVAL ( FP-UPN
+ ( FP-MUL ) ( FP-MUL )
+( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD )
+( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-CLIP ) ) ) [20] [21]
 Kapitel 6.
-(./Abschlussarbeit_s744818_ss2014.ind [21
+(./Abschlussarbeit_s744818_ss2014.ind [22
 
 
-] [22
+] [23
 
 
 
@@ -1487,13 +1484,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 7910 strings out of 493315
- 110470 string characters out of 6137904
- 221060 words of memory out of 5000000
- 11058 multiletter control sequences out of 15000+600000
+ 7906 strings out of 493315
+ 110413 string characters out of 6137904
+ 220756 words of memory out of 5000000
+ 11057 multiletter control sequences out of 15000+600000
  61536 words of font info for 93 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 47i,11n,53p,1709b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,11n,53p,1709b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/tex
 live/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/201
@@ -1502,10 +1499,10 @@ dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (29 pages, 925897 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (30 pages, 928593 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 167 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -41,8 +41,8 @@
 				Funktion: Desktop		&	#4	&	25 \%\\
 				Funktion: Mobil			&	#5	&	25 \%\\
 				Erweiterbarkeit			&	#6	&	10 \%\\
-				Komplettl{\"o}sung			&	#7	&	10 \%\\
-				Aktivit{\"a}t				&	#8	&	10 \%\\
+				unterst{\"u}tze Browser				&	#7	&	10 \%\\
+				Aktivit{\"a}t			&	#8	&	10 \%\\
 				\hline
 				\hline
 				Gesamt				&	\FPeval\resultfp{clip((#2*1)+(#3*1)+(#4*2.5)+(#5*2.5)+(#6*1)+(#7*1)+(#8*1))} 												\resultfp 	&	100 \%\\
@@ -255,7 +255,9 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 			\caption{von Ghostlab getestete Browser (stand 10.03.2014, Version 1.2.3)}
 	\end{table}
 
-Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspricht 35,30€ beim aktuellen Umrechnungswert).
+Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspricht 35,30€ beim aktuellen Umrechnungswert). Zur Erstellung dieser Thesis wurde die 7-Tage-Testvollversion genutzt.
+
+
 	\section{\mi{NodeJS}}
 	\section{\mi{Zombie.js}}
 	\section{\mi{W3C Touch Events Extensions}}
@@ -274,6 +276,71 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 %% ############# Evaluation
 %%
 \chapter{Evaluation der Techniken}
+\section{Auflistung des Evaluationsschlüssels}
+
+\begin{enumerate}
+\item Installation 
+	\begin{enumerate}
+		\item sind zusatzinstallationen notwendig (basiert das Werkzeug auf anderen Technologien) 4Pt
+		\item kann nach der Installation die Software direkt genutzt werden ? 2Pt
+		\item gibt es eine zur Version passende installationsanleitung? 2Pt
+		\item gibt es eine FAQ? 2Pt
+	\end{enumerate}
+	
+	\item Konfiguration
+	\begin{enumerate}
+		\item mann die Software out-of-the-Box\footnote{ohne weitere Konfiguration nach der Installation} genutzt werden ? 4Pt
+		\item ist die Software Konfigurierbar in Hinsicht auf IP-Adressen und Ports? 1Pt
+		\item kann man verschiedene Konfigurationen abspeichern ? (für z.B. verschiedene Arbeitsumgebungen) 2Pt
+		\item gibt es Support (Wiki, Helpdesk, EMail, Forum)? 2Pt
+		\item Intuitive Benutzeroberfläche 1Pt
+	\end{enumerate}
+	
+	\item Funktion: Desktop
+	\begin{enumerate}
+		\item Darstellung : normale Seiten 1Pt
+		\item Darstellung : gesicherte Seiten 1Pt
+		\item Darstellung: normale( < 1 Sekunde) Reaktionsgeschwindigkeit 2Pt
+		\item Funktion: Seitensteuerung 4Pt
+		\item Funktion: Gestenkontrolle 1Pt
+		\item Funktion: Javascript 1Pt
+	\end{enumerate}
+	
+	\item Funktion: Mobil
+	\begin{enumerate}
+		\item Darstellung : normale Seiten 1Pt
+		\item Darstellung : gesicherte Seiten 1Pt
+		\item Darstellung: normale( < 1 Sekunde) Reaktionsgeschwindigkeit 2Pt
+		\item Funktion: Seitensteuerung 4Pt
+		\item Funktion: Gestenkontrolle 1Pt
+		\item Funktion: Javascript 1Pt
+	\end{enumerate}
+	
+	\item Erweiterbarkeit
+	\begin{enumerate}
+		\item gibt es eine API zur Implementierung in eigenen Entwicklungen ? 5Pt
+		\item Ist die API rechtlich durch Lizenzen geschützt? 2Pt
+		\item ist die API Dokumentiert? 3Pt
+	\end{enumerate}
+	
+	\item unterstützte Browser (aktuelle Version zum Zeitpunkt der Erstellung dieser Thesis)
+	\begin{enumerate}
+		\item mobile Plattformen (iOS, Android, Windows) 3Pt
+		\item Unterstützung von Browser innerhalb einer virtuellen Umgebung 2Pt
+		\item Chrome 1Pt
+		\item Opera 1Pt
+		\item Firefox 1Pt
+		\item Safari 1Pt
+		\item Internet Explorer 1Pt
+	\end{enumerate}
+	
+	\item Aktivität
+	\begin{enumerate}
+		\item wird die Software noch entwickelt? (letzes Release, Commit Häufigkeit) 5Pt
+		\item gibt es ein aktives Forum (letzter Beitrag jünger 14 Tage) 5Pt
+	\end{enumerate}
+
+\end{enumerate}
 
 %%
 %% ############# Ghostlab
@@ -290,17 +357,20 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 		Über den Übersichtsbildschirm kann jeder verbundene Client einzeln inspiziert werden. Hier ist der Nutzer in der Lage sich 		durch das DOM zu navigieren oder temporäre CSS Anpassungen vorzunehmen. Die Handhabung ist intuitiv, was jedoch an 		dem verwendeten Framework \mi{Weinre} liegt.
 		\ig{../pictures/ghostlab/weinre}{Exemplarisch Weinreansicht}{ausgewähltes DOM-Element in Weinre}
 		
+		\pagebreak
 		\subsection{Testen von mobilen Browsern}
-		\ig{../pictures/ghostlab/uebersicht_mobil}{Übersicht mobile Clients Ghostlab}{Ghostlabübersicht der verbundenen Clients}
-
 		
+		Das einrichten zum testen auf mobilen Endgeräten verläuft synchron zu den Desktopbrowsern. Man ruft innerhalb des 			Browsers die IP-Adresse des Ghostlabrechners auf und ist schon nach wenigen Sekunden\footnote{abhängig von der 			Geschwindigkeit des Testgerätes} in der Clientliste aufgenommen.
+		
+		\\Bei dem Testen auf mobilen Browserns ist es bei Ghostlab\footnote{Version 1.2.3} Notwendig ausreichend Zeit zwischen 		den Eingaben zu lassen, da es sonst bei unterschiedlich schnellen Geräten zu einem Effekt kommt, bei dem die 				langsameren Geräte beim ausführen des Letzen Signals gleichzeitig wieder zum Sender für alle anderen Geräte wird.
+		\ig{../pictures/ghostlab/uebersicht_mobil}{Übersicht mobile Clients Ghostlab}{Ghostlabübersicht der verbundenen Clients}
 		
 		\pagebreak
 		
 		\subsection{Fazit zu Ghostlab}
-		Zum Stand dieser Arbeit wurde Version 1.2.3 von Ghostlab genutzt. Zu diesem Zeitpunkt verfügte die Software noch über 		keinen Master/Slave-Modus\footnote{ein Gerät dient als Steuergerät, alle anderen folgen ihm}, dadurch kam es bei meinen 		Testgeräten \tr{Geräte spezifizieren} bereits nach wenigen Minuten zu dem Problem, dass die Geräte sich in einer 				Endlosschelife von Senden und Empfangen der Steuerbefehle befanden. Für kommende Versionen ist ein solcher Modus 		laut den Entwicklern aber geplant. Das Problem rührt daher, dass einige Geräte schneller auf die übermittelten Befehle 			reagieren als andere. Das führt dazu, dass die langsam ladenden Geräte in dem Augenblick wo sie das Signal umsetzen, 		für die schnelleren Geräte bereits wieder als Sender fungieren. Dieses Problem sehe ich bei einer bereits kleinen Anzahl 			von Geräten als kritisch an. 
+		Zum Stand dieser Arbeit wurde Version 1.2.3 von Ghostlab genutzt. Zu diesem Zeitpunkt verfügte die Software noch über 		keinen Master/Slave-Modus\footnote{ein Gerät dient als Steuergerät, alle anderen folgen ihm}, dadurch kam es bei meinen 		Testgeräten bereits nach wenigen Minuten zu dem Problem, dass die Geräte sich in einer 								Endlosschelife von Senden und Empfangen der Steuerbefehle befanden. Für kommende Versionen ist ein solcher Modus 		laut den Entwicklern aber geplant. Das Problem rührt daher, dass einige Geräte schneller auf die übermittelten Befehle 			reagieren als andere. Das führt dazu, dass die langsam ladenden Geräte in dem Augenblick wo sie das Signal umsetzen, 		für die schnelleren Geräte bereits wieder als Sender fungieren. Dieses Problem sehe ich bei einer bereits kleinen Anzahl 			von Geräten als kritisch an. 
 
-		\\Das testen in mehreren Browsern auf einem Rechner lief hingegen sehr gut. Das ausführen von Javascript läuft 				einwandfrei. Das ausfüllen von Inputs, Checkboxen, Radioboxen und das absenden des Formulars funktionierte bis auf die 		Kalenderauswahl im Firefox Browsers anstandslos.
+		\\Das testen in mehreren Browsern auf einem Rechner lief hingegen sehr gut. Das ausführen von Javascript läuft 				einwandfrei. Das ausfüllen von Inputs, Checkboxen, Radioboxen und das absenden des Formulars funktionierte bis auf die 		Kalenderauswahl im Firefox Browsers anstandslos. Ein Problem scheint das Werkzeug mit Passwortgeschützten Seiten zu 		haben. Diese lassen sich erst nach mehrfacher, abhängig vom jeweiligen Browser, Eingabe des Passwortes aufrufen. 			Diese Prozedur wiederholt sich für jede weitere Unterseite erneut. 
 
 		\\Das arbeiten in einer Virtuellen Umgebung\footnote{es wurde VirtualBox von Oracle genutzt} wird problemlos unterstützt. 		Das einzige Problem was ich analysieren konnte war, dass sich virtuelle Browser nicht in einen Workspace integrieren 			lassen.
 
@@ -309,9 +379,11 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 		\\Als Kritikpunkt bewerte ich die nicht existente Möglichkeit die Anwendung um eigene Funktionalität zu erweitern.
 
 		\subsection{Tabellarische Evaluation}
-			\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{8}{9}{3}{0}{10}{9}{}
+			\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{8}{7}{3}{0}{10}{9}
 	
 	\section{\mi{Adobe Edge Inspect}}
+		\subsection{}
+		
 	\section{\mi{Remote Preview}}
 	\section{\mi{Browser-Sync}}
 	\section{Eigenes \mi{Framework}}

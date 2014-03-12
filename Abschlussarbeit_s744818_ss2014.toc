@@ -31,6 +31,7 @@
 \contentsline {subsection}{\numberline {3.1.21}Apache}{9}
 \contentsline {subsection}{\numberline {3.1.22}Form, Checkbox, Radiobox, Inputs}{9}
 \contentsline {subsection}{\numberline {3.1.23}Workspace}{9}
+\contentsline {subsection}{\numberline {3.1.24}Commit}{9}
 \contentsline {section}{\numberline {3.2}verwendete Hardware}{9}
 \contentsline {subsection}{\numberline {3.2.1}Apple iMac 27\texttt "}{9}
 \contentsline {subsection}{\numberline {3.2.2}mobile Endger\IeC {\"a}te}{10}
@@ -57,17 +58,18 @@
 \contentsline {section}{\numberline {4.11}Browser-Sync}{14}
 \contentsline {section}{\numberline {4.12}Eigenes Framework}{14}
 \contentsline {chapter}{\numberline {5}Evaluation der Techniken}{15}
-\contentsline {section}{\numberline {5.1}Ghostlab}{15}
-\contentsline {subsection}{\numberline {5.1.1}Einrichtung der Testumgebung}{15}
-\contentsline {subsection}{\numberline {5.1.2}Testen von Desktopbrowsern}{16}
-\contentsline {subsection}{\numberline {5.1.3}Testen von mobilen Browsern}{16}
-\contentsline {subsection}{\numberline {5.1.4}Fazit zu Ghostlab}{18}
-\contentsline {subsection}{\numberline {5.1.5}Tabellarische Evaluation}{19}
-\contentsline {section}{\numberline {5.2}Adobe Edge Inspect}{20}
-\contentsline {section}{\numberline {5.3}Remote Preview}{20}
-\contentsline {section}{\numberline {5.4}Browser-Sync}{20}
-\contentsline {section}{\numberline {5.5}Eigenes Framework}{20}
-\contentsline {subsection}{\numberline {5.5.1}Systementwurf}{20}
-\contentsline {subsubsection}{Ablaufdiagram}{20}
-\contentsline {subsubsection}{Klassendiagramm}{20}
-\contentsline {chapter}{\numberline {6}Ausblick}{21}
+\contentsline {section}{\numberline {5.1}Auflistung des Evaluationsschl\IeC {\"u}ssels}{15}
+\contentsline {section}{\numberline {5.2}Ghostlab}{16}
+\contentsline {subsection}{\numberline {5.2.1}Einrichtung der Testumgebung}{16}
+\contentsline {subsection}{\numberline {5.2.2}Testen von Desktopbrowsern}{17}
+\contentsline {subsection}{\numberline {5.2.3}Testen von mobilen Browsern}{19}
+\contentsline {subsection}{\numberline {5.2.4}Fazit zu Ghostlab}{20}
+\contentsline {subsection}{\numberline {5.2.5}Tabellarische Evaluation}{21}
+\contentsline {section}{\numberline {5.3}Adobe Edge Inspect}{21}
+\contentsline {section}{\numberline {5.4}Remote Preview}{21}
+\contentsline {section}{\numberline {5.5}Browser-Sync}{21}
+\contentsline {section}{\numberline {5.6}Eigenes Framework}{21}
+\contentsline {subsection}{\numberline {5.6.1}Systementwurf}{21}
+\contentsline {subsubsection}{Ablaufdiagram}{21}
+\contentsline {subsubsection}{Klassendiagramm}{21}
+\contentsline {chapter}{\numberline {6}Ausblick}{22}

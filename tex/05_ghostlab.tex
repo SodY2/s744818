@@ -1,0 +1,36 @@
+\chapter{Evaluation der Techniken}
+\section{\mi{Ghostlab}}
+		\subsection {Einrichtung der Testumgebung}
+		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das 		Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine 		Seite auf einem lokalen Apache Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des 			Ghostlabservers ist dieser über den localhost\footnote{IP-Adresse des lokalen Rechners} auf Port 8005 (Default) von allen 		zu testenden Geräten erreichbar.
+		\ig{../pictures/ghostlab/startbildschirm}{Startbildschirm Ghostlab}{Startbildschirm von Ghostlab nach der Installation}
+		
+		\subsection{Testen von Desktopbrowsern}
+		Durch aufrufen der IP-Adresse des Rechners auf dem der Ghostlabserver läuft verbindet sich der Browser als Client und 			wird fortan durch gesendete Signale beeinflusst. Hierzu zählen auch virtuelle Browser. Jeder Client wird nun gleichzeitig 			Sender und Empfänger für Signale, dass bedeutet das jede Aktion parallel-synchron auf allen anderen Clients gespiegelt 			wird. Hierzu zählen Javascriptevents, das ausfüllen eines Formulars oder das neuladen der gesamten Seite.
+		\ig{../pictures/ghostlab/workspaces}{Übersicht Clients}{Darstellung von 4 verschiedenen Clients } 
+		
+		Über den Übersichtsbildschirm kann jeder verbundene Client einzeln inspiziert werden. Hier ist der Nutzer in der Lage sich 		durch das DOM zu navigieren oder temporäre CSS Anpassungen vorzunehmen. Die Handhabung ist intuitiv, was jedoch an 		dem verwendeten Framework \mi{Weinre} liegt.
+		\ig{../pictures/ghostlab/weinre}{Exemplarisch Weinreansicht}{ausgewähltes DOM-Element in Weinre}
+		
+		\pagebreak
+		\subsection{Testen von mobilen Browsern}
+		
+		Das einrichten zum testen auf mobilen Endgeräten verläuft synchron zu den Desktopbrowsern. Man ruft innerhalb des 			Browsers die IP-Adresse des Ghostlabrechners auf und ist schon nach wenigen Sekunden\footnote{abhängig von der 			Geschwindigkeit des Testgerätes} in der Clientliste aufgenommen.
+		
+		\\Bei dem Testen auf mobilen Browserns ist es bei Ghostlab\footnote{Version 1.2.3} Notwendig ausreichend Zeit zwischen 		den Eingaben zu lassen, da es sonst bei unterschiedlich schnellen Geräten zu einem Effekt kommt, bei dem die 				langsameren Geräte beim ausführen des Letzen Signals gleichzeitig wieder zum Sender für alle anderen Geräte wird.
+		\ig{../pictures/ghostlab/uebersicht_mobil}{Übersicht mobile Clients Ghostlab}{Ghostlabübersicht der verbundenen Clients}
+		
+		\pagebreak
+		
+		\subsection{Fazit zu Ghostlab}
+		Zum Stand dieser Arbeit wurde Version 1.2.3 von Ghostlab genutzt. Zu diesem Zeitpunkt verfügte die Software noch über 		keinen Master/Slave-Modus\footnote{ein Gerät dient als Steuergerät, alle anderen folgen ihm}, dadurch kam es bei meinen 		Testgeräten bereits nach wenigen Minuten zu dem Problem, dass die Geräte sich in einer 								Endlosschelife von Senden und Empfangen der Steuerbefehle befanden. Für kommende Versionen ist ein solcher Modus 		laut den Entwicklern aber geplant. Das Problem rührt daher, dass einige Geräte schneller auf die übermittelten Befehle 			reagieren als andere. Das führt dazu, dass die langsam ladenden Geräte in dem Augenblick wo sie das Signal umsetzen, 		für die schnelleren Geräte bereits wieder als Sender fungieren. Dieses Problem sehe ich bei einer bereits kleinen Anzahl 			von Geräten als kritisch an. 
+
+		\\Das testen in mehreren Browsern auf einem Rechner lief hingegen sehr gut. Das ausführen von Javascript läuft 				einwandfrei. Das ausfüllen von Inputs, Checkboxen, Radioboxen und das absenden des Formulars funktionierte bis auf die 		Kalenderauswahl im Firefox Browsers anstandslos. Ein Problem scheint das Werkzeug mit Passwortgeschützten Seiten zu 		haben. Diese lassen sich erst nach mehrfacher, abhängig vom jeweiligen Browser, Eingabe des Passwortes aufrufen. 			Diese Prozedur wiederholt sich für jede weitere Unterseite erneut. 
+
+		\\Das arbeiten in einer Virtuellen Umgebung\footnote{es wurde VirtualBox von Oracle genutzt} wird problemlos unterstützt. 		Das einzige Problem was ich analysieren konnte war, dass sich virtuelle Browser nicht in einen Workspace integrieren 			lassen.
+
+		\\Ghostlab unterstützt die Funktion von Workspaces\footnote{Arbeitsumgebung oder auch Arbeitsumfeld}, welche sich die 		Position und Größe der verschiedenen Browserfenster speichert. Per Knopfdruck lassen diese sich dann im Kollektiv öffnen 		sofern in den Browsereinstellungen die Popups aktiviert sind für die zu testende Seite. Dieses Feature\footnote{Funktion 			welche ein Teil der Anwendung ist} bewerte ich als Positiv in Hinsicht der Zeitersparnis, diesen Vorgang immer wieder von 		Hand auszuführen.
+
+		\\Als Kritikpunkt bewerte ich die nicht existente Möglichkeit die Anwendung um eigene Funktionalität zu erweitern.
+
+		\subsection{Tabellarische Evaluation}
+			\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{8}{7}{3}{0}{10}{9}
