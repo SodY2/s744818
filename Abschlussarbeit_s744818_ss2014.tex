@@ -21,6 +21,22 @@
 \end{figure}
 }
 
+\newcommand{\iga}[3]{
+\begin{figure}[H]
+	\centering
+	\includegraphics[keepaspectratio]{#1}%
+	\caption[#2]{#3}%
+\end{figure}
+}
+
+\newcommand{\igp}[5]{
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=#4, height=#5,,keepaspectratio]{#1}%
+	\caption[#2]{#3}%
+\end{figure}
+}
+
 %Kommando zur Erzeugung der evaluationstablle
 \usepackage{fp} 
 \usepackage[table]{xcolor}
@@ -298,11 +314,10 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 	
 	\item Funktion: Desktop
 	\begin{enumerate}
-		\item Darstellung : normale Seiten 1Pt
-		\item Darstellung : gesicherte Seiten 1Pt
+		\item Darstellung : normale Seiten 2Pt
+		\item Darstellung : gesicherte Seiten 2Pt
 		\item Darstellung: normale( < 1 Sekunde) Reaktionsgeschwindigkeit 2Pt
-		\item Funktion: Seitensteuerung 4Pt
-		\item Funktion: Gestenkontrolle 1Pt
+		\item Funktion: Seitensteuerung 3Pt
 		\item Funktion: Javascript 1Pt
 	\end{enumerate}
 	
@@ -345,6 +360,7 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 %%
 %% ############# Ghostlab
 %%
+	\pagebreak
 	\section{\mi{Ghostlab} Version 1.2.3}
 		\subsection {Einrichtung der Testumgebung}
 		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das 		Tool Installiert wurde erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine 		Seite auf einem lokalen Apache Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des 			Ghostlabservers ist dieser über den localhost\footnote{IP-Adresse des lokalen Rechners} auf Port 8005 (Default) von allen 		zu testenden Geräten erreichbar.
@@ -379,20 +395,44 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 		\\Als Kritikpunkt bewerte ich die nicht existente Möglichkeit die Anwendung um eigene Funktionalität zu erweitern.
 
 		\subsection{Tabellarische Evaluation}
-			\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{8}{7}{3}{0}{10}{9}
+			\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{10}{8}{5}{0}{10}{5}
 	
 	\pagebreak
 	\section{\mi{Adobe Edge Inspect} CC }
 		\subsection {Einrichtung der Testumgebung}
 		Es sind 3 Schritte Notwendig Adobe Edge Inspect zum Einsatz bereit zu machen. Als erstes benötigen wir den Client aus 		der Adobe Creative Cloud (CC) Kollektion. Diese gibt es zum Zeitpunkt dieser Arbeit in verschiedenen Modellen und 			beginnt bei der kostenlose 30-Tage Testversion, geht über die Einzellizenz, für ausschliesslich Adobe Edge Inspect, von 			24,59€ / Monat bis hin zum Komplett-Abo was dann mit 61,49€ / Monat zu Buche schlägt. Dieser wird gestartet und läuft 		ab diesem Zeitpunkt als Deamon im Hintergrund. 
+		\iga{../pictures/adobeedgeinspect/icon}{Adobe Edge Inspect Deamon Icon}{Der laufende Deamon von Adobe Edge Inspect}
 		
 		\\Als zweiten Schritt benötigen wir die zugehörige Chrome Extension von Adobe Edge Inspect. Diese wird über den Chrome 		Appstore installiert und kann nach einem Browserneustart aktiviert werden.
 		
 		\\Als letzes benötigen wir noch die kostenlos erhältliche App aus dem jeweiligen Shop. hier gilt für Android der Play Store, 		für iOS Geräte der AppStore. Windowsgeräte werden derzeit nicht unterstützt.
 		
 		\\Sind diese 3 Schritte erfolgreich durchgeführt worden, müssen nun die Geräte mit dem Server verbunden werden. Hierzu 		wird die App gestartet (der folgende Prozess verläuft unter Android wie auch unter iOS identisch) und per IP-Adresse mit 			der Adobe Edge Inspect Chrome Extension verbunden werden. Diese verlangt im Gegenzug einen Identifikationscode, 			welcher auf dem jeweiligen Gerät generiert wurde. Nach erfolgreicher Synchronisation wird das Gerät im Gerätemanager 		angezeigt.
+		\igp{../pictures/adobeedgeinspect/iphone_2}{Adobe Edge Inspect App Client hinzufügen}{Eingabe der IP-Adresse zum 			Edge Inspect Rechner}{200}{350}
+		\iga{../pictures/adobeedgeinspect/desktop_2}{Adobe Edge Inspect Chrome Extension}{Eingabe des Sicherheitscodes in die 		Chrome Extension}
+
+		\\Dieser hat mehrere Funktionen. Er liefert eine Übersicht aller verbundenen Clients und ermöglicht das aufrufen von 			\mi{Weinre} um z.B. das DOM zu inspizieren, verwendete Ressourcen zu inspizieren oder Javascript auszuführen. Über 			den Gerätemanager lassen sich auch verbundene Geräte wieder durch einen Klick entfernen. Desweiteren kann man über 		dieses Interface Screenshot von allen verbundenen Geräten im aktuellen Zustand aufnehmen und anzeigen lassen. 			Weiterhin besteht die Möglichkeit den Darstellungsmodus auf den verbundenen Clients von der Appdarstellung in den 			Vollbildmodus zu wechseln.
+		\iga{../pictures/adobeedgeinspect/desktop_3}{Adobe Edge Inspect Gerätemanager}{Übersicht der verbundenen Clients}
 		
-		Diese hat mehrere Funktionen. 
+		\subsection{Testen von Desktopbrowsern}
+		Es gibt zum Zeitpunkt der Erstellung dieser Arbeit keine Möglichkeiten Desktopseiten mit Adobe Edge Inspect zu testen.
+		
+		\subsection{Testen von mobilen Browsern}
+		Die Funktionalität zum testen von mobilen Seiten beschränkt sich derzeit nur auf den synchronen Aufruf von Seiten über 			den Chromebrowser mit installierter Extension als Steuergerät. Die verbundenen Geräte erkennen den Aufruf von Links 			und das wechseln von Tabs innerhalb des Browsers. Es besteht wie bereits beschrieben die Option die einzelnen Clients 			per \mi{Weinre} zu untersuchen.
+		
+		\\Die simulierung eines Scrollevents oder das ausfüllen eines Formulars ist nicht möglich. Es werden lediglich die 				Informationen Dargestellt die am Steuergerät aufgerufen wurden. Jedoch wird der Client, sofern vorhanden auf die mobile 		Seite weitergeleitet. Während des Testens in der App wird das Display aktiv gehalten, wodurch es sich nicht von selbst 			abschaltet. Ein gutes Feature von Adobe Edge Inspect ist die Möglichkeit aus dem Gerätemanager des Browsers 				Screenshots der verbundenen Geräte anzufordern. Diese werden zusammen mit einer Beschreibung des Geräts, dessen 		Modellbezeichnung , die Auflösung sowie Pixeldichte, dem Betriebssystems, der aufgerufenen URL sowie der aktuellen 			Ausrichtung des Bildschirms ausgeliefert.
+		\igp{../pictures/adobeedgeinspect/iphone_3}{Adobe Edge Inspect App Content Darstellung}{Darstellung von Content in der Adobe Edge Inspect App}{200}{350}
+		
+		\tr{iOS 6 gesicherte Seiten}
+		
+		\subsection{Fazit zu Adobe Edge Inspect}
+		Adobe Edge Inspect bedarf viel Aufwand für relativ geringes Ergebnis. Man muss an 3 verschiedenen Punkten Installationen vornehmen, die dann jedoch ohne Probleme miteinander harmoniert haben. Als besonders Positiv möchte ich die Screenshotfunktion bewerten. In Zusammenspiel mit der öffentlich zugänglichen API lassen sich hierüber Screenshots im Landschafts, als auch im Portraitmodus anfordern und durch externe Applikationen auswerten lassen. 
+		
+	\\Der Nutzen des Werkzeugs liegt am ehesten bei One-Page-Sites\footnote{Webseiten dessen Inhalt sich füllend auf die gesamte Seite erstreckt} oder für Fehlersuche innerhalbs des DOM oder CSS Anpassungen. Unter dem Aspekt des parrallel-synchronen Testens ist Adobe Edge Inspect leider nicht sinnvoll zu verwenden, da weder Scrollevents oder andere Gesten umgesetzt werden, noch werden die Nutzereingaben in Eingabefeldern mit anderen verbundenen Clients geteilt. Alle verbunden Clients sind nur Empfänger und besitzen keine Möglichkeit als Sender zu fungieren. Folglich gehen alle Steuerbefehle vom Edge-Server aus.
+	
+	\subsection{Tabellarische Evaluation}
+		\met{Gewichtungstabelle Evaluation von Adobe Edge Inspect}{10}{7}{0}{4}{8}{3}{10}
+
 				
 	\section{\mi{Remote Preview}}
 	\section{\mi{Browser-Sync}}
