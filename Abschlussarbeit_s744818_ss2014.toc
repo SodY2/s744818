@@ -14,69 +14,74 @@
 \contentsline {subsection}{\numberline {3.1.4}Webbrowser}{8}
 \contentsline {subsection}{\numberline {3.1.5}Desktopcomputer / Desktops}{8}
 \contentsline {subsection}{\numberline {3.1.6}Mobiles Endger\IeC {\"a}t}{8}
-\contentsline {subsection}{\numberline {3.1.7}Javascript}{9}
-\contentsline {subsection}{\numberline {3.1.8}Framework}{9}
-\contentsline {subsection}{\numberline {3.1.9}Nodejs}{9}
-\contentsline {subsection}{\numberline {3.1.10}PHP}{9}
-\contentsline {subsection}{\numberline {3.1.11}NPM}{9}
-\contentsline {subsection}{\numberline {3.1.12}Qualit\IeC {\"a}tssicherung}{9}
-\contentsline {subsection}{\numberline {3.1.13}VirtualBox / virtuelle Umgebung}{9}
-\contentsline {subsection}{\numberline {3.1.14}Smartphone}{9}
-\contentsline {subsection}{\numberline {3.1.15}Tablet}{9}
-\contentsline {subsection}{\numberline {3.1.16}Panorama / Portrait View}{9}
-\contentsline {subsection}{\numberline {3.1.17}Pixel}{9}
-\contentsline {subsection}{\numberline {3.1.18}Aufl\IeC {\"o}sung}{9}
-\contentsline {subsection}{\numberline {3.1.19}Event}{9}
-\contentsline {subsection}{\numberline {3.1.20}DOM}{9}
-\contentsline {subsection}{\numberline {3.1.21}Apache}{9}
-\contentsline {subsection}{\numberline {3.1.22}Form, Checkbox, Radiobox, Inputs}{9}
-\contentsline {subsection}{\numberline {3.1.23}Workspace}{9}
-\contentsline {subsection}{\numberline {3.1.24}Commit}{9}
-\contentsline {subsection}{\numberline {3.1.25}Deamon}{9}
-\contentsline {subsection}{\numberline {3.1.26}App}{9}
-\contentsline {section}{\numberline {3.2}verwendete Hardware}{9}
-\contentsline {subsection}{\numberline {3.2.1}Apple iMac 27\texttt "}{9}
-\contentsline {subsection}{\numberline {3.2.2}mobile Endger\IeC {\"a}te}{11}
-\contentsline {subsubsection}{Nokia Lumina 920}{11}
-\contentsline {subsubsection}{LG Nexus 4}{11}
-\contentsline {subsubsection}{Apple iPhone4 32 GB}{11}
-\contentsline {subsubsection}{Apple iPhone5s 16 GB}{12}
-\contentsline {subsubsection}{Apple iPad mini Wi-Fi 32GB}{12}
-\contentsline {subsubsection}{Microsoft Surfcae}{12}
-\contentsline {section}{\numberline {3.3}verwendete Browser}{13}
-\contentsline {subsection}{\numberline {3.3.1}Raspberry Pi}{13}
-\contentsline {subsection}{\numberline {3.3.2}Hardware}{13}
-\contentsline {chapter}{\numberline {4}Technologien}{14}
-\contentsline {section}{\numberline {4.1}Ghostlab}{14}
-\contentsline {section}{\numberline {4.2}NodeJS}{15}
-\contentsline {section}{\numberline {4.3}Zombie.js}{15}
-\contentsline {section}{\numberline {4.4}W3C Touch Events Extensions}{15}
-\contentsline {section}{\numberline {4.5}Phantom Limb}{15}
-\contentsline {section}{\numberline {4.6}jQuery UI Touch Punch}{15}
-\contentsline {section}{\numberline {4.7}jQuery Touchit}{15}
-\contentsline {section}{\numberline {4.8}NPM touchit}{15}
-\contentsline {section}{\numberline {4.9}Adobe Edge Inspect}{15}
-\contentsline {section}{\numberline {4.10}Remote Preview}{15}
-\contentsline {section}{\numberline {4.11}Browser-Sync}{15}
-\contentsline {section}{\numberline {4.12}Eigenes Framework}{15}
-\contentsline {chapter}{\numberline {5}Evaluation der Techniken}{16}
-\contentsline {section}{\numberline {5.1}Auflistung des Evaluationsschl\IeC {\"u}ssels}{16}
-\contentsline {section}{\numberline {5.2}Ghostlab Version 1.2.3}{18}
-\contentsline {subsection}{\numberline {5.2.1}Einrichtung der Testumgebung}{18}
-\contentsline {subsection}{\numberline {5.2.2}Testen von Desktopbrowsern}{18}
-\contentsline {subsection}{\numberline {5.2.3}Testen von mobilen Browsern}{21}
-\contentsline {subsection}{\numberline {5.2.4}Fazit zu Ghostlab}{22}
-\contentsline {subsection}{\numberline {5.2.5}Tabellarische Evaluation}{23}
-\contentsline {section}{\numberline {5.3}Adobe Edge Inspect CC}{24}
-\contentsline {subsection}{\numberline {5.3.1}Einrichtung der Testumgebung}{24}
-\contentsline {subsection}{\numberline {5.3.2}Testen von Desktopbrowsern}{26}
-\contentsline {subsection}{\numberline {5.3.3}Testen von mobilen Browsern}{26}
-\contentsline {subsection}{\numberline {5.3.4}Fazit zu Adobe Edge Inspect}{27}
-\contentsline {subsection}{\numberline {5.3.5}Tabellarische Evaluation}{28}
-\contentsline {section}{\numberline {5.4}Remote Preview}{28}
-\contentsline {section}{\numberline {5.5}Browser-Sync}{28}
-\contentsline {section}{\numberline {5.6}Eigenes Framework}{28}
-\contentsline {subsection}{\numberline {5.6.1}Systementwurf}{28}
-\contentsline {subsubsection}{Ablaufdiagram}{28}
-\contentsline {subsubsection}{Klassendiagramm}{28}
-\contentsline {chapter}{\numberline {6}Ausblick}{29}
+\contentsline {subsection}{\numberline {3.1.7}Javascript}{10}
+\contentsline {subsection}{\numberline {3.1.8}Framework}{10}
+\contentsline {subsection}{\numberline {3.1.9}Nodejs}{10}
+\contentsline {subsection}{\numberline {3.1.10}PHP}{10}
+\contentsline {subsection}{\numberline {3.1.11}NPM}{10}
+\contentsline {subsection}{\numberline {3.1.12}Qualit\IeC {\"a}tssicherung}{10}
+\contentsline {subsection}{\numberline {3.1.13}VirtualBox / virtuelle Umgebung}{10}
+\contentsline {subsection}{\numberline {3.1.14}Smartphone}{10}
+\contentsline {subsection}{\numberline {3.1.15}Tablet}{10}
+\contentsline {subsection}{\numberline {3.1.16}Panorama / Portrait View}{10}
+\contentsline {subsection}{\numberline {3.1.17}Pixel}{10}
+\contentsline {subsection}{\numberline {3.1.18}Aufl\IeC {\"o}sung}{10}
+\contentsline {subsection}{\numberline {3.1.19}Event}{10}
+\contentsline {subsection}{\numberline {3.1.20}DOM}{10}
+\contentsline {subsection}{\numberline {3.1.21}Apache}{10}
+\contentsline {subsection}{\numberline {3.1.22}Form, Checkbox, Radiobox, Inputs}{10}
+\contentsline {subsection}{\numberline {3.1.23}Workspace}{10}
+\contentsline {subsection}{\numberline {3.1.24}Commit}{10}
+\contentsline {subsection}{\numberline {3.1.25}Deamon}{10}
+\contentsline {subsection}{\numberline {3.1.26}App}{10}
+\contentsline {subsection}{\numberline {3.1.27}htacess}{10}
+\contentsline {subsection}{\numberline {3.1.28}GNU Lizenz}{10}
+\contentsline {subsection}{\numberline {3.1.29}MIT Lizenz}{10}
+\contentsline {section}{\numberline {3.2}verwendete Hardware}{10}
+\contentsline {subsection}{\numberline {3.2.1}Apple iMac 27\texttt "}{10}
+\contentsline {subsection}{\numberline {3.2.2}mobile Endger\IeC {\"a}te}{12}
+\contentsline {subsubsection}{Nokia Lumina 920}{12}
+\contentsline {subsubsection}{LG Nexus 4}{12}
+\contentsline {subsubsection}{Apple iPhone4 32 GB}{12}
+\contentsline {subsubsection}{Apple iPhone5s 16 GB}{13}
+\contentsline {subsubsection}{Apple iPad mini Wi-Fi 32GB}{13}
+\contentsline {subsubsection}{Microsoft Surfcae}{13}
+\contentsline {section}{\numberline {3.3}verwendete Browser}{14}
+\contentsline {subsection}{\numberline {3.3.1}Raspberry Pi}{14}
+\contentsline {subsection}{\numberline {3.3.2}Hardware}{14}
+\contentsline {chapter}{\numberline {4}Technologien}{15}
+\contentsline {section}{\numberline {4.1}Ghostlab}{15}
+\contentsline {section}{\numberline {4.2}Adobe Edge Inspect}{16}
+\contentsline {section}{\numberline {4.3}Remote Preview}{16}
+\contentsline {section}{\numberline {4.4}NodeJS}{17}
+\contentsline {section}{\numberline {4.5}Zombie.js}{17}
+\contentsline {section}{\numberline {4.6}W3C Touch Events Extensions}{17}
+\contentsline {section}{\numberline {4.7}Phantom Limb}{17}
+\contentsline {section}{\numberline {4.8}jQuery UI Touch Punch}{17}
+\contentsline {section}{\numberline {4.9}jQuery Touchit}{17}
+\contentsline {section}{\numberline {4.10}NPM touchit}{17}
+\contentsline {section}{\numberline {4.11}Adobe Edge Inspect}{17}
+\contentsline {section}{\numberline {4.12}Remote Preview}{17}
+\contentsline {section}{\numberline {4.13}Browser-Sync}{17}
+\contentsline {section}{\numberline {4.14}Eigenes Framework}{17}
+\contentsline {chapter}{\numberline {5}Evaluation der Techniken}{18}
+\contentsline {section}{\numberline {5.1}Auflistung des Evaluationsschl\IeC {\"u}ssels}{18}
+\contentsline {section}{\numberline {5.2}Ghostlab Version 1.2.3}{20}
+\contentsline {subsection}{\numberline {5.2.1}Einrichtung der Testumgebung}{20}
+\contentsline {subsection}{\numberline {5.2.2}Testen von Desktopbrowsern}{20}
+\contentsline {subsection}{\numberline {5.2.3}Testen von mobilen Browsern}{23}
+\contentsline {subsection}{\numberline {5.2.4}Fazit zu Ghostlab}{24}
+\contentsline {subsection}{\numberline {5.2.5}Tabellarische Evaluation}{25}
+\contentsline {section}{\numberline {5.3}Adobe Edge Inspect CC}{26}
+\contentsline {subsection}{\numberline {5.3.1}Einrichtung der Testumgebung}{26}
+\contentsline {subsection}{\numberline {5.3.2}Testen von Desktopbrowsern}{28}
+\contentsline {subsection}{\numberline {5.3.3}Testen von mobilen Browsern}{28}
+\contentsline {subsection}{\numberline {5.3.4}Fazit zu Adobe Edge Inspect}{30}
+\contentsline {subsection}{\numberline {5.3.5}Tabellarische Evaluation}{30}
+\contentsline {section}{\numberline {5.4}Remote Preview}{31}
+\contentsline {section}{\numberline {5.5}Browser-Sync}{31}
+\contentsline {section}{\numberline {5.6}Eigenes Framework}{31}
+\contentsline {subsection}{\numberline {5.6.1}Systementwurf}{31}
+\contentsline {subsubsection}{Ablaufdiagram}{31}
+\contentsline {subsubsection}{Klassendiagramm}{31}
+\contentsline {chapter}{\numberline {6}Ausblick}{32}

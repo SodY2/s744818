@@ -267,11 +267,48 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 				Windows Phone	&	supportet\\
 				Safari mobile	&	supportet\\	
 				Android	&	2.3 - 4.2\\
+				\hline
 				\end{tabular}
 			\caption{von Ghostlab getestete Browser (stand 10.03.2014, Version 1.2.3)}
 	\end{table}
 
-Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspricht 35,30€ beim aktuellen Umrechnungswert). Zur Erstellung dieser Thesis wurde die 7-Tage-Testvollversion genutzt.
+	Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspricht 35,30€ beim aktuellen Umrechnungswert). Zur 	Erstellung dieser Thesis wurde die 7-Tage-Testvollversion genutzt.
+	
+	\section{\mi{Adobe Edge Inspect}}
+	Die Anwendung Edge Inspect stammt von Adobe und wird derzeit in der CC\footnote{Creative Cloud} Version vertrieben. Um 		Adobe Edge Inspect nutzen zu können bedarf es 3 separaten Komponenten. Adobe wirbt mit synchronem aufrufen und 			auffrischen von Websites, sowie deren Inspizierung per Weinre. Besonders angepriesen wird von Adobe die Nutzung und 		Verwendung der Adobe Edge Inspect API, welche auf GitHub zur Verfügung gestellt wird. Des weiteren kann Adobe Edge 		Inspect in andere Edge Produkte\footnote{zum Beispiel Edge Reflow CC und Edge Code CC} innegriert werden. 
+	
+	\\Adobe Edge Inspect CC steht 30 Tage kostenlos zum testen bereit. Danach fallen ab 24,59/ Monat für die Nutzung des 			Einzelprodukt-Abos an.
+	
+	\\Die Anwendung läuft nur auf mobilen Endgeräten mit iOS oder Android Betriebssystem.
+	
+	\section{\mi{Remote Preview}}
+	Remote Preview ist ein kleines Javascript Framework von dem Web Designer Viljami Salminen aus Helsinki, Finnland. Er wirbt 	mit dem synchronen Aufruf von Websiten auf einer Vielzahl von Plattformen: 
+	
+	\begin{table}[h]
+ 		\centering
+		\rowcolors{1}{white}{lightgray}
+			\begin{tabular}{| p{13cm} |}
+			
+			\hline
+				Plattform\\
+			\hline
+			\hline
+				Android OS 2.1 - 4.1.2 (Default browser + Chrome)\\
+				Blackberry OS 7.0 (Default browser)\\
+				iOS 4.2.1 - 6 (Default browser)\\
+				Mac OS X (Safari, Chrome, Firefox, Opera)\\
+				Maemo 5.0 (Default browser)\\
+				Meego 1.2 (Default browser)\\
+				Symbian 3 (Default browser)\\
+				Symbian Belle (Default browser)\
+				WebOS 3.0.5 (Default browser)\\
+				Windows Phone 7.5 (Default browser)\\	
+				Windows 7 (IE9)\\
+				\hline
+				\end{tabular}
+			\caption{von Remote Preview unterstützte Plattformen (stand 19.03.2014, letzter Commit 7dc48caa84)}
+	\end{table}
+	Das Framework ist Kostenlos erhältlich und läuft unter der MIT Lizenz. Zum Zeitpunkt dieser Arbeit scheint das Projekt nicht weiter entwickelt zu werden, da seit 5 Monaten auf der Projektseite keinerlei Aktualisierungen vorgenommen wurden.
 
 
 	\section{\mi{NodeJS}}
@@ -421,20 +458,25 @@ Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspric
 		Die Funktionalität zum testen von mobilen Seiten beschränkt sich derzeit nur auf den synchronen Aufruf von Seiten über 			den Chromebrowser mit installierter Extension als Steuergerät. Die verbundenen Geräte erkennen den Aufruf von Links 			und das wechseln von Tabs innerhalb des Browsers. Es besteht wie bereits beschrieben die Option die einzelnen Clients 			per \mi{Weinre} zu untersuchen.
 		
 		\\Die simulierung eines Scrollevents oder das ausfüllen eines Formulars ist nicht möglich. Es werden lediglich die 				Informationen Dargestellt die am Steuergerät aufgerufen wurden. Jedoch wird der Client, sofern vorhanden auf die mobile 		Seite weitergeleitet. Während des Testens in der App wird das Display aktiv gehalten, wodurch es sich nicht von selbst 			abschaltet. Ein gutes Feature von Adobe Edge Inspect ist die Möglichkeit aus dem Gerätemanager des Browsers 				Screenshots der verbundenen Geräte anzufordern. Diese werden zusammen mit einer Beschreibung des Geräts, dessen 		Modellbezeichnung , die Auflösung sowie Pixeldichte, dem Betriebssystems, der aufgerufenen URL sowie der aktuellen 			Ausrichtung des Bildschirms ausgeliefert.
-		\igp{../pictures/adobeedgeinspect/iphone_3}{Adobe Edge Inspect App Content Darstellung}{Darstellung von Content in der Adobe Edge Inspect App}{200}{350}
+		\igp{../pictures/adobeedgeinspect/iphone_3}{Adobe Edge Inspect App Content Darstellung}{Darstellung von Content in der 		Adobe Edge Inspect App unter iOS}{200}{350}
 		
-		\tr{iOS 6 gesicherte Seiten}
+		Während meiner Versuche ist mir aufgefallen, dass Adobe Edge Inspect unter iOS 6.1.3, Seiten die durch htaccess 				gesichert Sind nicht darstellen kann. Auf den anderen Testgeräten verlief der Prozess der Authentifizierung problemlos. 
 		
+		\pagebreak
 		\subsection{Fazit zu Adobe Edge Inspect}
-		Adobe Edge Inspect bedarf viel Aufwand für relativ geringes Ergebnis. Man muss an 3 verschiedenen Punkten Installationen vornehmen, die dann jedoch ohne Probleme miteinander harmoniert haben. Als besonders Positiv möchte ich die Screenshotfunktion bewerten. In Zusammenspiel mit der öffentlich zugänglichen API lassen sich hierüber Screenshots im Landschafts, als auch im Portraitmodus anfordern und durch externe Applikationen auswerten lassen. 
+		Adobe Edge Inspect bedarf viel Aufwand für ein relativ geringes Ergebnis. Man muss an 3 verschiedenen Punkten 				Installationen vornehmen, die dann jedoch ohne Probleme miteinander harmoniert haben. Als besonders Positiv möchte ich 		die Screenshotfunktion bewerten. In Zusammenspiel mit der öffentlich zugänglichen API lassen sich hierüber Screenshots 		im Landschafts, als auch im Portraitmodus anfordern und durch eine externe Applikationen auswerten. 
 		
-	\\Der Nutzen des Werkzeugs liegt am ehesten bei One-Page-Sites\footnote{Webseiten dessen Inhalt sich füllend auf die gesamte Seite erstreckt} oder für Fehlersuche innerhalbs des DOM oder CSS Anpassungen. Unter dem Aspekt des parrallel-synchronen Testens ist Adobe Edge Inspect leider nicht sinnvoll zu verwenden, da weder Scrollevents oder andere Gesten umgesetzt werden, noch werden die Nutzereingaben in Eingabefeldern mit anderen verbundenen Clients geteilt. Alle verbunden Clients sind nur Empfänger und besitzen keine Möglichkeit als Sender zu fungieren. Folglich gehen alle Steuerbefehle vom Edge-Server aus.
+		\\Der Nutzen des Werkzeugs liegt am ehesten bei One-Page-Sites\footnote{Webseiten dessen Inhalt sich füllend auf die 			gesamte Seite erstrecken} oder für Fehlersuche innerhalbs des DOM oder CSS Anpassungen mit \mi{Weinre}. Unter dem 		Aspekt 	des parrallel-synchronen Testens ist Adobe Edge Inspect leider nicht sinnvoll zu verwenden, da wed er 				Steuerbefehle oder 		andere Gesten umgesetzt werden, noch werden die Nutzereingaben in Eingabefeldern mit 			anderen verbundenen Clients geteilt. 	Alle verbunden Clients sind nur Empfänger und besitzen keine Möglichkeit 			als 			Sender zu fungieren. Folglich gehen alle 			Steuerbefehle vom Edge-Server aus.
 	
 	\subsection{Tabellarische Evaluation}
 		\met{Gewichtungstabelle Evaluation von Adobe Edge Inspect}{10}{7}{0}{4}{8}{3}{10}
 
 				
 	\section{\mi{Remote Preview}}
+		\subsection {Einrichtung der Testumgebung}
+		Es gibt zwei Möglichkeiten dieses Werkzeug zu nutzen. Die eine ist die Installation auf einem lokalen Apache-Server mit PHP. Die andere ist die Installation auf einem Cloud-Dienst wie z.B. Dropbox.
+		
+	
 	\section{\mi{Browser-Sync}}
 	\section{Eigenes \mi{Framework}}
 		\subsection{\mi{Systementwurf}}
