@@ -282,7 +282,7 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	\\Die Anwendung läuft nur auf mobilen Endgeräten mit iOS oder Android Betriebssystem.
 	
 	\section{\mi{Remote Preview}}
-	Remote Preview ist ein kleines Javascript Framework von dem Web Designer Viljami Salminen aus Helsinki, Finnland. Er wirbt 	mit dem synchronen Aufruf von Websiten auf einer Vielzahl von Plattformen: 
+	Remote Preview ist ein kleines Javascript Framework von dem Web Designer Viljami Salminen aus Helsinki, Finnland. Es überprüft alle 1100ms per AJAX-Request ob sich die Quellurl geändert hat und teilt dies dann den verbundenen Testgeräten mit. Er wirbt 	mit dem synchronen Aufruf von Websiten auf einer Vielzahl von Plattformen: 
 	
 	\begin{table}[h]
  		\centering
@@ -474,7 +474,25 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 				
 	\section{\mi{Remote Preview}}
 		\subsection {Einrichtung der Testumgebung}
-		Es gibt zwei Möglichkeiten dieses Werkzeug zu nutzen. Die eine ist die Installation auf einem lokalen Apache-Server mit PHP. Die andere ist die Installation auf einem Cloud-Dienst wie z.B. Dropbox.
+		Es gibt zwei Möglichkeiten dieses Werkzeug zu nutzen. Die eine ist die Installation auf einem lokalen Apache-Server mit 			PHP. Die andere ist die Installation auf einem Cloud-Dienst wie z.B. Dropbox. Die Ergebnisse dieser Arbeit hab ich mit der 		lokalen Apache Installation erzielt. Die Installation sieht lediglich vor das Framework in einen lokalen Entwicklungszweig zu 		entpacken.
+		
+		\subsection{Testen von Desktopseiten}
+		Alle Clients die in die Testumgebung eingebunden werden sollen müssen lediglich die IP-Adresse des Servers eingeben.
+		Die Steuerung der Seiten erfolgt sowohl für Desktopseiten als auch für die mobilen Vertreter über die Browsermaske des 			Frameworks. In das untere der beiden Eingabefelder gibt man die aufzurufende URL inklusive Präfix\footnote{http://} ein. 			Diese wird dann auf allen verbundenen Clients innerhalb eines iFrames dargestellt. 
+		\ig{../pictures/remotepreview/eingabemaske}{Remote Preview Steuerungsmaske}{Steuerungsmaske zur Eingabe der 			aufzurufenden URL}
+				
+		 \subsection{Testen von mobilen Browsern}
+		 Das Testen der mobilen Browser funktioniert parallel zum testen von Desktopseiten. Positiv möchte ich hier erwähnen, 			dass das Framework auch wenn es dafür nicht ausgelegt ist, dennoch unter aktuellen Windowsgeräten funktioniert.			
+		
+		\subsection{Fazit zu Remote Preview}
+		Ein positiver Punkt ist die Möglichkeit letztendlich jeden Browser unabhängig von dessen Betriebssystems in die 				Testumgebung zu integrieren, da diese einfach nurauf den ApacheServer oder die Dropbox zugreifen müssen. Als Negativ 		führe ich hier die Tatsache auf das es ähnlich Adobe Edge Inspect lediglich dem Aufruf von Seiten dient, jedoch nicht 			dessen Bedienung. So ist es nicht möglich weiteren Verlinkungen zu folgen ohne diese von Hand in der Eingabemaske 			einzutragen oder Formulare auszufüllen. Bedingt funktioniert das Darstellen von Seiten mit Ankern. Das Aufrufen von 			gesicherten Seiten gelang mir nicht. Ebenfalls war es  mir nicht möglich zertifizierte Webseiten aufzurufen, was den 				Nutzungsgrad des Frameworks stark einschränkt. Gut finde ich die Tatsache das Quellcode komplett zugänglich ist und 			jederzeit in eigene Projekte eingebunden oder um eigene Funktionalität erweitert werden kann.	
+		
+				
+		\subsection{Tabellarische Evaluation}
+		\met{Gewichtungstabelle Evaluation von Remote Preview}{8}{6}{3}{3}{8}{10}{0}
+	
+		
+		
 		
 	
 	\section{\mi{Browser-Sync}}

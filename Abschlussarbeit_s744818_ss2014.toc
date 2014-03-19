@@ -15,28 +15,31 @@
 \contentsline {subsection}{\numberline {3.1.5}Desktopcomputer / Desktops}{8}
 \contentsline {subsection}{\numberline {3.1.6}Mobiles Endger\IeC {\"a}t}{8}
 \contentsline {subsection}{\numberline {3.1.7}Javascript}{10}
-\contentsline {subsection}{\numberline {3.1.8}Framework}{10}
-\contentsline {subsection}{\numberline {3.1.9}Nodejs}{10}
-\contentsline {subsection}{\numberline {3.1.10}PHP}{10}
-\contentsline {subsection}{\numberline {3.1.11}NPM}{10}
-\contentsline {subsection}{\numberline {3.1.12}Qualit\IeC {\"a}tssicherung}{10}
-\contentsline {subsection}{\numberline {3.1.13}VirtualBox / virtuelle Umgebung}{10}
-\contentsline {subsection}{\numberline {3.1.14}Smartphone}{10}
-\contentsline {subsection}{\numberline {3.1.15}Tablet}{10}
-\contentsline {subsection}{\numberline {3.1.16}Panorama / Portrait View}{10}
-\contentsline {subsection}{\numberline {3.1.17}Pixel}{10}
-\contentsline {subsection}{\numberline {3.1.18}Aufl\IeC {\"o}sung}{10}
-\contentsline {subsection}{\numberline {3.1.19}Event}{10}
-\contentsline {subsection}{\numberline {3.1.20}DOM}{10}
-\contentsline {subsection}{\numberline {3.1.21}Apache}{10}
-\contentsline {subsection}{\numberline {3.1.22}Form, Checkbox, Radiobox, Inputs}{10}
-\contentsline {subsection}{\numberline {3.1.23}Workspace}{10}
-\contentsline {subsection}{\numberline {3.1.24}Commit}{10}
-\contentsline {subsection}{\numberline {3.1.25}Deamon}{10}
-\contentsline {subsection}{\numberline {3.1.26}App}{10}
-\contentsline {subsection}{\numberline {3.1.27}htacess}{10}
-\contentsline {subsection}{\numberline {3.1.28}GNU Lizenz}{10}
-\contentsline {subsection}{\numberline {3.1.29}MIT Lizenz}{10}
+\contentsline {subsection}{\numberline {3.1.8}AJAX}{10}
+\contentsline {subsection}{\numberline {3.1.9}Framework}{10}
+\contentsline {subsection}{\numberline {3.1.10}Nodejs}{10}
+\contentsline {subsection}{\numberline {3.1.11}PHP}{10}
+\contentsline {subsection}{\numberline {3.1.12}NPM}{10}
+\contentsline {subsection}{\numberline {3.1.13}Qualit\IeC {\"a}tssicherung}{10}
+\contentsline {subsection}{\numberline {3.1.14}VirtualBox / virtuelle Umgebung}{10}
+\contentsline {subsection}{\numberline {3.1.15}Smartphone}{10}
+\contentsline {subsection}{\numberline {3.1.16}Tablet}{10}
+\contentsline {subsection}{\numberline {3.1.17}Panorama / Portrait View}{10}
+\contentsline {subsection}{\numberline {3.1.18}Pixel}{10}
+\contentsline {subsection}{\numberline {3.1.19}Aufl\IeC {\"o}sung}{10}
+\contentsline {subsection}{\numberline {3.1.20}Event}{10}
+\contentsline {subsection}{\numberline {3.1.21}DOM}{10}
+\contentsline {subsection}{\numberline {3.1.22}Apache}{10}
+\contentsline {subsection}{\numberline {3.1.23}Form, Checkbox, Radiobox, Inputs, Anker, Zertifizierung}{10}
+\contentsline {subsection}{\numberline {3.1.24}Workspace}{10}
+\contentsline {subsection}{\numberline {3.1.25}Commit}{10}
+\contentsline {subsection}{\numberline {3.1.26}Deamon}{10}
+\contentsline {subsection}{\numberline {3.1.27}App}{10}
+\contentsline {subsection}{\numberline {3.1.28}htacess}{10}
+\contentsline {subsection}{\numberline {3.1.29}GNU Lizenz}{10}
+\contentsline {subsection}{\numberline {3.1.30}MIT Lizenz}{10}
+\contentsline {subsection}{\numberline {3.1.31}Cloud-Dienst}{10}
+\contentsline {subsection}{\numberline {3.1.32}iFrame}{10}
 \contentsline {section}{\numberline {3.2}verwendete Hardware}{10}
 \contentsline {subsection}{\numberline {3.2.1}Apple iMac 27\texttt "}{10}
 \contentsline {subsection}{\numberline {3.2.2}mobile Endger\IeC {\"a}te}{12}
@@ -78,10 +81,15 @@
 \contentsline {subsection}{\numberline {5.3.3}Testen von mobilen Browsern}{28}
 \contentsline {subsection}{\numberline {5.3.4}Fazit zu Adobe Edge Inspect}{30}
 \contentsline {subsection}{\numberline {5.3.5}Tabellarische Evaluation}{30}
-\contentsline {section}{\numberline {5.4}Remote Preview}{31}
-\contentsline {section}{\numberline {5.5}Browser-Sync}{31}
-\contentsline {section}{\numberline {5.6}Eigenes Framework}{31}
-\contentsline {subsection}{\numberline {5.6.1}Systementwurf}{31}
-\contentsline {subsubsection}{Ablaufdiagram}{31}
-\contentsline {subsubsection}{Klassendiagramm}{31}
-\contentsline {chapter}{\numberline {6}Ausblick}{32}
+\contentsline {section}{\numberline {5.4}Remote Preview}{30}
+\contentsline {subsection}{\numberline {5.4.1}Einrichtung der Testumgebung}{30}
+\contentsline {subsection}{\numberline {5.4.2}Testen von Desktopseiten}{31}
+\contentsline {subsection}{\numberline {5.4.3}Testen von mobilen Browsern}{31}
+\contentsline {subsection}{\numberline {5.4.4}Fazit zu Remote Preview}{31}
+\contentsline {subsection}{\numberline {5.4.5}Tabellarische Evaluation}{32}
+\contentsline {section}{\numberline {5.5}Browser-Sync}{32}
+\contentsline {section}{\numberline {5.6}Eigenes Framework}{32}
+\contentsline {subsection}{\numberline {5.6.1}Systementwurf}{32}
+\contentsline {subsubsection}{Ablaufdiagram}{32}
+\contentsline {subsubsection}{Klassendiagramm}{32}
+\contentsline {chapter}{\numberline {6}Ausblick}{33}
