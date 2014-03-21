@@ -247,7 +247,7 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	\section{\mi{Ghostlab}}
 	Ghostlab ist ein Framework des Schweizer Unternehmens Vanamco. Es verspricht das synchrone Testen von Websiten in Echtzeit. Weiterhin wirbt das Unternehmen mit einem umfangreichen Repertoire an nützlichen Fähigkeiten. Der Funktionsumfang umschliesst das Scrollen innerhalb einer Seite, das ausfüllen von  Formularen, das wahrnehmen und reproduzieren von Click-Events sowie dem neuladen einer Seite. Ghostlab soll ebenso einen Inspektor besitzen, welcher die Analyse des DOMs, der on the fly Bearbeitung der CSS und der Analyse und Bearbeitung von Javascriptdateien. Das Framework gibt an für alle folgenden Browser zu funktionieren ohne diese Konfigurieren zu müssen:
 
-	\begin{table}[h]
+	\begin{table}[H]
  		\centering
 		\rowcolors{1}{white}{lightgray}
 			\begin{tabular}{| p{5cm} | p{5cm} |}
@@ -260,8 +260,8 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 				Chrome	&	latest\\
 				Safari	&	latest\\
 				Internet Explorer	&	8/9/10\\
-				Opera Mobile	&	supportet\\
 				Opera	&	11\\
+				Opera Mobile	&	supportet\\
 				FireFox Mobile	&	supportet\\
 				Blackberry	&	supportet\\
 				Windows Phone	&	supportet\\
@@ -269,7 +269,7 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 				Android	&	2.3 - 4.2\\
 				\hline
 				\end{tabular}
-			\caption{von Ghostlab getestete Browser (stand 10.03.2014, Version 1.2.3)}
+			\caption{von Ghostlab getestete Browser (Stand 10.03.2014, Version 1.2.3)}
 	\end{table}
 
 	Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspricht 35,30€ beim aktuellen Umrechnungswert). Zur 	Erstellung dieser Thesis wurde die 7-Tage-Testvollversion genutzt.
@@ -284,7 +284,7 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	\section{\mi{Remote Preview}}
 	Remote Preview ist ein kleines Javascript Framework von dem Web Designer Viljami Salminen aus Helsinki, Finnland. Es überprüft alle 1100ms per AJAX-Request ob sich die Quellurl geändert hat und teilt dies dann den verbundenen Testgeräten mit. Er wirbt 	mit dem synchronen Aufruf von Websiten auf einer Vielzahl von Plattformen: 
 	
-	\begin{table}[h]
+	\begin{table}[H]
  		\centering
 		\rowcolors{1}{white}{lightgray}
 			\begin{tabular}{| p{13cm} |}
@@ -308,8 +308,39 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 				\end{tabular}
 			\caption{von Remote Preview unterstützte Plattformen (stand 19.03.2014, letzter Commit 7dc48caa84)}
 	\end{table}
-	Das Framework ist Kostenlos erhältlich und läuft unter der MIT Lizenz. Zum Zeitpunkt dieser Arbeit scheint das Projekt nicht weiter entwickelt zu werden, da seit 5 Monaten auf der Projektseite keinerlei Aktualisierungen vorgenommen wurden.
+	Das Framework ist Kostenlos erhältlich und läuft unter der MIT Lizenz. Zum Zeitpunkt dieser Arbeit scheint das Projekt nicht 		weiter entwickelt zu werden, da seit 5 Monaten auf der Projektseite keinerlei Aktualisierungen vorgenommen wurden.
 
+		
+	\section{\mi{Browser-Sync}}
+	Browser-Sync wurde von Shane Osbourne entwickelt und soll im Zuge dieser Arbeit den Ansprüchen des Themas gerecht werden. Es wirbt mit synchronisierter Steuerung, dem Entwickeln an Stiles und anderen Projektdateien in Echtzeit, der Installation unter Windows, MacOS und Linux und einer umfangreichen Palette an unterstützen Plattformen. Jedoch unterstützt das Framework im Gegensatz zu Ghostlab oder Adobe Edge Inspect keine Remoteinspection des DOM und den Netzwerkaktivitäten.
+	
+		\begin{table}[H]
+ 		\centering
+		\rowcolors{1}{white}{lightgray}
+			\begin{tabular}{| p{5cm} | p{5cm} |}
+			
+			\hline
+				Browser 	& 	Version\\
+			\hline
+			\hline
+				Firefox	&	latest\\
+				Chrome	&	latest\\
+				Safari	&	latest\\
+				Internet Explorer	&	7/8/9/10\\
+				Opera	&	latest\\
+				Opera Mobile	&	supportet\\
+				FireFox Mobile	&	supportet\\
+				Blackberry	&	supportet\\
+				Windows Phone	&	supportet\\
+				Safari mobile	&	supportet\\	
+				Android	&	supportet\\
+				iOS		&	supportet\\
+				\hline
+				\end{tabular}
+			\caption{von Browser-Sync getestete Browser (Stand 21.03.2014, Version 0.7.2)}
+	\end{table}
+	
+	Das Framework basiert auf dem NodeJS Framework und besitzt dadurch ein hohes Erweiterungspotential. Eine parallel zu Browser-Sync entwickelte Erweiterung kombiniert Browser-Sync mit Grunt, was automatisierte Abläufe ermöglicht. Diese fördert die Produktivität durch das einbinden des Frameworks in bestehende Arbeitsabläufe. Die Software ist kostenlos erhältlich und steht unter der MIT Lizenz. Das Projekt befindend sich zum Zeitpunkt dieser Arbeit in der Version 0.7.2 und wird täglich weiterentwickelt.
 
 	\section{\mi{NodeJS}}
 	\section{\mi{Zombie.js}}
@@ -319,9 +350,7 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	\section{\mi{jQuery} \mi{Touchit}}
 	\section{\mi{NPM} \mi{touchit}}
 	
-	\section{\mi{Adobe Edge Inspect}}
-	\section{\mi{Remote Preview}}
-	\section{\mi{Browser-Sync}}
+
 	\section{Eigenes \mi{Framework}}
 
 		
@@ -434,6 +463,9 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 		\subsection{Tabellarische Evaluation}
 			\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{10}{8}{5}{0}{10}{5}
 	
+%%
+%% ############# Adobe Edge Inspect
+%%
 	\pagebreak
 	\section{\mi{Adobe Edge Inspect} CC }
 		\subsection {Einrichtung der Testumgebung}
@@ -471,7 +503,11 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	\subsection{Tabellarische Evaluation}
 		\met{Gewichtungstabelle Evaluation von Adobe Edge Inspect}{10}{7}{0}{4}{8}{3}{10}
 
-				
+
+%%
+%% ############# Remote Preview
+%%
+	\pagebreak			
 	\section{\mi{Remote Preview}}
 		\subsection {Einrichtung der Testumgebung}
 		Es gibt zwei Möglichkeiten dieses Werkzeug zu nutzen. Die eine ist die Installation auf einem lokalen Apache-Server mit 			PHP. Die andere ist die Installation auf einem Cloud-Dienst wie z.B. Dropbox. Die Ergebnisse dieser Arbeit hab ich mit der 		lokalen Apache Installation erzielt. Die Installation sieht lediglich vor das Framework in einen lokalen Entwicklungszweig zu 		entpacken.
@@ -485,17 +521,63 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 		 Das Testen der mobilen Browser funktioniert parallel zum testen von Desktopseiten. Positiv möchte ich hier erwähnen, 			dass das Framework auch wenn es dafür nicht ausgelegt ist, dennoch unter aktuellen Windowsgeräten funktioniert.			
 		
 		\subsection{Fazit zu Remote Preview}
-		Ein positiver Punkt ist die Möglichkeit letztendlich jeden Browser unabhängig von dessen Betriebssystems in die 				Testumgebung zu integrieren, da diese einfach nurauf den ApacheServer oder die Dropbox zugreifen müssen. Als Negativ 		führe ich hier die Tatsache auf das es ähnlich Adobe Edge Inspect lediglich dem Aufruf von Seiten dient, jedoch nicht 			dessen Bedienung. So ist es nicht möglich weiteren Verlinkungen zu folgen ohne diese von Hand in der Eingabemaske 			einzutragen oder Formulare auszufüllen. Bedingt funktioniert das Darstellen von Seiten mit Ankern. Das Aufrufen von 			gesicherten Seiten gelang mir nicht. Ebenfalls war es  mir nicht möglich zertifizierte Webseiten aufzurufen, was den 				Nutzungsgrad des Frameworks stark einschränkt. Gut finde ich die Tatsache das Quellcode komplett zugänglich ist und 			jederzeit in eigene Projekte eingebunden oder um eigene Funktionalität erweitert werden kann.	
+		Ein positiver Punkt ist die Möglichkeit letztendlich jeden Browser unabhängig von dessen Betriebssystems in die 				Testumgebung zu integrieren, da diese einfach nur auf den ApacheServer oder die Dropbox zugreifen müssen. Als Negativ 		führe ich hier die Tatsache auf das es ähnlich Adobe Edge Inspect lediglich dem Aufruf von Seiten dient, jedoch nicht 			dessen Bedienung. So ist es nicht möglich weiteren Verlinkungen zu folgen ohne diese von Hand in der Eingabemaske 			einzutragen oder Formulare auszufüllen. Bedingt funktioniert das Darstellen von Seiten mit Ankern. Das Aufrufen von 			gesicherten Seiten gelang mir nicht. Ebenfalls war es  mir nicht möglich zertifizierte Webseiten aufzurufen, was den 				Nutzungsgrad des Frameworks stark einschränkt. Gut finde ich die Tatsache das Quellcode komplett zugänglich ist, da er 		unter der MIT Lizenz steht und	jederzeit in eigene Projekte eingebunden oder um eigene Funktionalität erweitert werden 			kann. Somit kann man Remote Preview nutzen und es um erweiterte Funktionalität erweitern kann. Das Projekt 				scheint zum Zeitpunkt dieser Arbeit nicht weiter entwickelt zu werden. Für den Aufruf einer einfachen Seite auf n-Geräten 		ist dieses Projekt eine kostenlose Alternative zu Adobe Edge Inspect mit geringerem Funktionsumfang.
 		
 				
 		\subsection{Tabellarische Evaluation}
 		\met{Gewichtungstabelle Evaluation von Remote Preview}{8}{6}{3}{3}{8}{10}{0}
 	
+	
 		
 		
 		
 	
+%%
+%% ############# Browser-Sync
+%%
+\pagebreak
 	\section{\mi{Browser-Sync}}
+	iOS 6 : nein, bzw nokia lumia
+	folgen interne links : ok
+	zurück von internen links : nein
+	externe links : ok
+	https: ok
+	scroll: nicht ausgerichtet an Elementen
+	click: ok
+	forms: ok ausser multiselect
+	javascript : bedingt, lightbox nur öffnen, slider nein, datepicker nein , jquery Mäßig , hover nein
+	nur lokales testen
+	
+	grunt Automatisierung
+	
+	\subsection{Einrichtung der Testumgebung}
+	Um Remote-Sync nutzen zu können wird zu Beginn erst einmal eine NodeJS Implementation benötigt. Diese kann entweder über die Konsole installiert werden oder per Installationstool von der NodeJS Homepage.
+	
+	\\Nach der NodeJS Installation wird per NPM das Paket von Browser-Sync per Konsole einmalig installiert:
+	\iga{../pictures/browser-sync/install}{Browser-Sync Installation per Konsole}{Konsolenbefehl um Browser-Sync zu installieren}
+	
+	Nun muss für jedes neue oder bestehende Projekt einmalig im Projektordner Browser-Sync initialisiert werden. Browser-Sync legt in dem aktuellen Verzeichnis eine Konfigurationsdatei ab, in welcher man einzelne Optionen wie die zu beobachtenden Dateien oder Einstellungen zum Synchronisationsverhalten. Dies geschieht ebenfalls über die Konsole:
+	\igp{../pictures/browser-sync/init}{Browser-Sync Initiierung per Konsole}{Konsolenbefehl um Browser-Sync zu imitieren}{450}{200}
+	
+	Nach der Initiierung des Servers startet man diesen mit dem Befehl :
+	\iga{../pictures/browser-sync/start}{Browser-Sync Starten per Konsole}{Konsolenbefehl um Browser-Sync zu starten}
+	
+	Um nun die Kommunikation zwischen dem Server und dem Projekt zu gewährleisten muss vor dem Ende des Body Elements der Indexdatei zusätzlicher Scriptcode eingefügt werden, welcher jedoch zum Release entfernt werden sollte. Der einzufügende Code  wird anhand der Konfigurationsdatei und der IP-Adresse des Servers generiert und per Konsole dem Nutzer mitgeteilt.
+	\igp{../pictures/browser-sync/start2}{Browser-Sync Script-Tag}{Konsolenausgabe mit einzufügendem Quellcode}{450}{200}
+	
+	In künftigen Versionen wird es laut Entwickler nicht mehr Notwendig sein die Versionsnummer mit anzugeben.
+	
+
+	
+	
+	\subsection{Testen von Desktopseiten}
+	\subsection{Testen von mobilen Browsern}
+	\subsection{Fazit zu Remote Preview}
+	
+	\subsection{Tabellarische Evaluation}
+		\met{Gewichtungstabelle Evaluation von Remote Preview}{5}{2}{9}{7}{8}{10}{10}
+	
+	
 	\section{Eigenes \mi{Framework}}
 		\subsection{\mi{Systementwurf}}
 		\subsubsection{\mi{Ablaufdiagram}}
