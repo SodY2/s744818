@@ -567,12 +567,16 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	
 	In künftigen Versionen wird es laut Entwickler nicht mehr Notwendig sein die Versionsnummer mit anzugeben.
 	
-
-	
-	
 	\subsection{Testen von Desktopseiten}
+	Das Testen erfolgt durch Aufruf der Seite, in die der Steuercode eingetragen wurde, über den Browser. In der Regel ist dies die Indexdatei. Die parallele Steuerung erfolgt direkt Mund synchron. Ist ein Browser erfolgreich verbunden, wird dies in der Konsole des Servers angezeigt.
+	\iga{../pictures/browser-sync/connected}{Browser-Sync verbundener Client}{Konsolenausgabe bei erfolgreich verbundenem Client}
+	Das folgen von internen Links funktioniert nur Unidirektional, sofern der Steuercode nicht mittels Framework oder von Hand in die verlinkten Dateien eingefügt wurde. Das folgen externer Links erfolgt nur Unidirektional. Auch das aufrufen zertifizierter oder gesicherter Seiten mit Passworteingabe funktioniert Problemlos. Beim nutzen von Steuerbefehlen traten nur bedingt Probleme auf. So gibt es zum Zeitpunk dieser Arbeit Defizite im Umgang mit dem Javascriptframework jQuery. So lassen sich z.B. Lightboxen öffnen, jedoch werden dann Befehle zum Schliessen des Fensters nicht mehr erkannt und übermittelt. Das ausfüllen von Formularen verlief bis auf eine Mehrfachauswahl fehlerfrei. Das erkennen von Hoverevents funktionierte in der Version 0.7.2 noch nicht. Auch das parallele Nutzen von Sliderelementen war zu diesem Zeitpunkt noch nicht implementiert.
+	
 	\subsection{Testen von mobilen Browsern}
-	\subsection{Fazit zu Remote Preview}
+	Das testen von mobilen Browsern verläuft parallel zu Desktopseiten. Ein Aufruf über den internen Browser genügt um den Client am Server zu registrieren. Als zusätzliches Problem trat bei den mobilen Geräten ein Verzug an Elementen auf. Die Geräte richten sich anhand der gescrollten Entfernung aus und bieten zum Zeitpunkt dieser Thesis nicht die Möglichkeit der Ausrichtung an Elementen der Internetseite. So kommt es bei den Testgeräten zu Unstimmigkeiten im dargestellten Inhalt, welche durch die Unterschiedlichen Auflösungen und Ausrichtungen der Geräte zu Stande kommen.
+	
+	\subsection{Fazit zu Browser-Sync}
+	
 	
 	\subsection{Tabellarische Evaluation}
 		\met{Gewichtungstabelle Evaluation von Remote Preview}{5}{2}{9}{7}{8}{10}{10}

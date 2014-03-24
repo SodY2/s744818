@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  21 MAR 2014 14:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  24 MAR 2014 14:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1711,10 +1711,18 @@ Overfull \hbox (23.20471pt too wide) in paragraph at lines 566--566
 
 [34 <./pictures/../pictures/browser-sync/install.png> <./pictures/../pictures/b
 rowser-sync/init.png> <./pictures/../pictures/browser-sync/start.png>]
-( FP-EVAL ( FP-UPN ( FP-MUL ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD )
-( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL )
-( FP-ADD ) ( FP-CLIP ) ) ) [35 <./pictures/../pictures/browser-sync/start2.png>
-] [36]
+<pictures/../pictures/browser-sync/connected.png, id=190, 412.54124pt x 19.0712
+4pt>
+File: pictures/../pictures/browser-sync/connected.png Graphic file (type png)
+ <use pictures/../pictures/browser-sync/connected.png>
+Package pdftex.def Info: pictures/../pictures/browser-sync/connected.png used o
+n input line 572.
+(pdftex.def)             Requested size: 412.54024pt x 19.07118pt.
+ [35 <./pictures/../pictures/browser-sync/start2.png> <./pictures/../pictures/b
+rowser-sync/connected.png>] ( FP-EVAL ( FP-UPN ( FP-MUL ) ( FP-MUL ) ( FP-ADD )
+ ( FP-MUL ) ( FP-ADD
+) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL ) ( FP-ADD ) ( FP-MUL )
+( FP-ADD ) ( FP-CLIP ) ) ) [36]
 Kapitel 6.
 (./Abschlussarbeit_s744818_ss2014.ind [37
 
@@ -1736,10 +1744,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 7965 strings out of 493315
- 112810 string characters out of 6137904
+ 7970 strings out of 493315
+ 113030 string characters out of 6137904
  220893 words of memory out of 5000000
- 11100 multiletter control sequences out of 15000+600000
+ 11104 multiletter control sequences out of 15000+600000
  61536 words of font info for 93 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  47i,11n,53p,1709b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1751,11 +1759,11 @@ dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (46 pages, 1255707 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (46 pages, 1258552 bytes).
 
 PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
+ 231 PDF objects out of 1000 (max. 8388607)
  143 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

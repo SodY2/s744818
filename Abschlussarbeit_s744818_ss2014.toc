@@ -89,9 +89,9 @@
 \contentsline {section}{\numberline {5.5}Browser-Sync}{34}
 \contentsline {subsection}{\numberline {5.5.1}Einrichtung der Testumgebung}{34}
 \contentsline {subsection}{\numberline {5.5.2}Testen von Desktopseiten}{35}
-\contentsline {subsection}{\numberline {5.5.3}Testen von mobilen Browsern}{35}
-\contentsline {subsection}{\numberline {5.5.4}Fazit zu Remote Preview}{35}
-\contentsline {subsection}{\numberline {5.5.5}Tabellarische Evaluation}{35}
+\contentsline {subsection}{\numberline {5.5.3}Testen von mobilen Browsern}{36}
+\contentsline {subsection}{\numberline {5.5.4}Fazit zu Browser-Sync}{36}
+\contentsline {subsection}{\numberline {5.5.5}Tabellarische Evaluation}{36}
 \contentsline {section}{\numberline {5.6}Eigenes Framework}{36}
 \contentsline {subsection}{\numberline {5.6.1}Systementwurf}{36}
 \contentsline {subsubsection}{Ablaufdiagram}{36}
