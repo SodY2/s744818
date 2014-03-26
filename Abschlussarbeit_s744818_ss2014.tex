@@ -243,8 +243,9 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 %%
 %% ############# Technologien
 %%
-\chapter{Technologien}
-	\section{\mi{Ghostlab}}
+\chapter{Auswahl der Frameworks}
+\section{Frameworks als Komplettlösung}
+	\subsection{\mi{Ghostlab}}
 	Ghostlab ist ein Framework des Schweizer Unternehmens Vanamco. Es verspricht das synchrone Testen von Websiten in Echtzeit. Weiterhin wirbt das Unternehmen mit einem umfangreichen Repertoire an nützlichen Fähigkeiten. Der Funktionsumfang umschliesst das Scrollen innerhalb einer Seite, das ausfüllen von  Formularen, das wahrnehmen und reproduzieren von Click-Events sowie dem neuladen einer Seite. Ghostlab soll ebenso einen Inspektor besitzen, welcher die Analyse des DOMs, der on the fly Bearbeitung der CSS und der Analyse und Bearbeitung von Javascriptdateien. Das Framework gibt an für alle folgenden Browser zu funktionieren ohne diese Konfigurieren zu müssen:
 
 	\begin{table}[H]
@@ -274,14 +275,14 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 
 	Der Kostenpunkt der Lizenz liegt zur Erstellung dieser Arbeit bei 49\$ (entspricht 35,30€ beim aktuellen Umrechnungswert). Zur 	Erstellung dieser Thesis wurde die 7-Tage-Testvollversion genutzt.
 	
-	\section{\mi{Adobe Edge Inspect}}
+	\subsection{\mi{Adobe Edge Inspect}}
 	Die Anwendung Edge Inspect stammt von Adobe und wird derzeit in der CC\footnote{Creative Cloud} Version vertrieben. Um 		Adobe Edge Inspect nutzen zu können bedarf es 3 separaten Komponenten. Adobe wirbt mit synchronem aufrufen und 			auffrischen von Websites, sowie deren Inspizierung per Weinre. Besonders angepriesen wird von Adobe die Nutzung und 		Verwendung der Adobe Edge Inspect API, welche auf GitHub zur Verfügung gestellt wird. Des weiteren kann Adobe Edge 		Inspect in andere Edge Produkte\footnote{zum Beispiel Edge Reflow CC und Edge Code CC} innegriert werden. 
 	
 	\\Adobe Edge Inspect CC steht 30 Tage kostenlos zum testen bereit. Danach fallen ab 24,59/ Monat für die Nutzung des 			Einzelprodukt-Abos an.
 	
 	\\Die Anwendung läuft nur auf mobilen Endgeräten mit iOS oder Android Betriebssystem.
 	
-	\section{\mi{Remote Preview}}
+	\subsection{\mi{Remote Preview}}
 	Remote Preview ist ein kleines Javascript Framework von dem Web Designer Viljami Salminen aus Helsinki, Finnland. Es überprüft alle 1100ms per AJAX-Request ob sich die Quellurl geändert hat und teilt dies dann den verbundenen Testgeräten mit. Er wirbt 	mit dem synchronen Aufruf von Websiten auf einer Vielzahl von Plattformen: 
 	
 	\begin{table}[H]
@@ -311,7 +312,7 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	Das Framework ist Kostenlos erhältlich und läuft unter der MIT Lizenz. Zum Zeitpunkt dieser Arbeit scheint das Projekt nicht 		weiter entwickelt zu werden, da seit 5 Monaten auf der Projektseite keinerlei Aktualisierungen vorgenommen wurden.
 
 		
-	\section{\mi{Browser-Sync}}
+	\subsection{\mi{Browser-Sync}}
 	Browser-Sync wurde von Shane Osbourne entwickelt und soll im Zuge dieser Arbeit den Ansprüchen des Themas gerecht werden. Es wirbt mit synchronisierter Steuerung, dem Entwickeln an Stiles und anderen Projektdateien in Echtzeit, der Installation unter Windows, MacOS und Linux und einer umfangreichen Palette an unterstützen Plattformen. Jedoch unterstützt das Framework im Gegensatz zu Ghostlab oder Adobe Edge Inspect keine Remoteinspection des DOM und den Netzwerkaktivitäten.
 	
 		\begin{table}[H]
@@ -341,14 +342,14 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	\end{table}
 	
 	Das Framework basiert auf dem NodeJS Framework und besitzt dadurch ein hohes Erweiterungspotential. Eine parallel zu Browser-Sync entwickelte Erweiterung kombiniert Browser-Sync mit Grunt, was automatisierte Abläufe ermöglicht. Diese fördert die Produktivität durch das einbinden des Frameworks in bestehende Arbeitsabläufe. Die Software ist kostenlos erhältlich und steht unter der MIT Lizenz. Das Projekt befindend sich zum Zeitpunkt dieser Arbeit in der Version 0.7.2 und wird täglich weiterentwickelt.
-
-	\section{\mi{NodeJS}}
-	\section{\mi{Zombie.js}}
-	\section{\mi{W3C Touch Events Extensions}}
-	\section{\mi{Phantom Limb}}
-	\section{\mi{jQuery} \mi{UI Touch Punch}}
-	\section{\mi{jQuery} \mi{Touchit}}
-	\section{\mi{NPM} \mi{touchit}}
+\section{Frameworks als Einzelkomponente}
+	\subsection{\mi{NodeJS}}
+	\subsection{\mi{Zombie.js}}
+	\subsection{\mi{W3C Touch Events Extensions}}
+	\subsection{\mi{Phantom Limb}}
+	\subsection{\mi{jQuery} \mi{UI Touch Punch}}
+	\subsection{\mi{jQuery} \mi{Touchit}}
+	\subsection{\mi{NPM} \mi{touchit}}
 	
 
 	\section{Eigenes \mi{Framework}}
@@ -357,7 +358,7 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 %%
 %% ############# Evaluation
 %%
-\chapter{Evaluation der Techniken}
+\chapter{Evaluation der Frameworks}
 \section{Auflistung des Evaluationsschlüssels}
 
 \begin{enumerate}
@@ -565,18 +566,18 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	Um nun die Kommunikation zwischen dem Server und dem Projekt zu gewährleisten muss vor dem Ende des Body Elements der Indexdatei zusätzlicher Scriptcode eingefügt werden, welcher jedoch zum Release entfernt werden sollte. Der einzufügende Code  wird anhand der Konfigurationsdatei und der IP-Adresse des Servers generiert und per Konsole dem Nutzer mitgeteilt.
 	\igp{../pictures/browser-sync/start2}{Browser-Sync Script-Tag}{Konsolenausgabe mit einzufügendem Quellcode}{450}{200}
 	
-	In künftigen Versionen wird es laut Entwickler nicht mehr Notwendig sein die Versionsnummer mit anzugeben.
+	In künftigen Versionen wird es laut dem Entwickler nicht mehr Notwendig sein die Versionsnummer mit anzugeben.
 	
 	\subsection{Testen von Desktopseiten}
-	Das Testen erfolgt durch Aufruf der Seite, in die der Steuercode eingetragen wurde, über den Browser. In der Regel ist dies die Indexdatei. Die parallele Steuerung erfolgt direkt Mund synchron. Ist ein Browser erfolgreich verbunden, wird dies in der Konsole des Servers angezeigt.
+	Das Testen erfolgt durch Aufruf der Seite, in die der Steuercode eingetragen wurde, über den Browser. Die parallele Steuerung erfolgt direkt und synchron. Ist ein Browser erfolgreich verbunden, wird dies in der Konsole des Servers angezeigt.
 	\iga{../pictures/browser-sync/connected}{Browser-Sync verbundener Client}{Konsolenausgabe bei erfolgreich verbundenem Client}
-	Das folgen von internen Links funktioniert nur Unidirektional, sofern der Steuercode nicht mittels Framework oder von Hand in die verlinkten Dateien eingefügt wurde. Das folgen externer Links erfolgt nur Unidirektional. Auch das aufrufen zertifizierter oder gesicherter Seiten mit Passworteingabe funktioniert Problemlos. Beim nutzen von Steuerbefehlen traten nur bedingt Probleme auf. So gibt es zum Zeitpunk dieser Arbeit Defizite im Umgang mit dem Javascriptframework jQuery. So lassen sich z.B. Lightboxen öffnen, jedoch werden dann Befehle zum Schliessen des Fensters nicht mehr erkannt und übermittelt. Das ausfüllen von Formularen verlief bis auf eine Mehrfachauswahl fehlerfrei. Das erkennen von Hoverevents funktionierte in der Version 0.7.2 noch nicht. Auch das parallele Nutzen von Sliderelementen war zu diesem Zeitpunkt noch nicht implementiert.
+	Das folgen von internen Links funktioniert nur Unidirektional, sofern der Steuercode nicht mittels Framework oder von Hand in die verlinkten Dateien eingefügt wurde. Das folgen externer Links erfolgt nur Unidirektional. Auch das aufrufen zertifizierter oder gesicherter Seiten mit Passworteingabe funktioniert Problemlos. Beim nutzen von Steuerbefehlen traten nur bedingt Probleme auf. So gibt es zum Zeitpunk dieser Arbeit Defizite im Umgang mit dem Javascriptframework jQuery. So lassen sich z.B. Lightboxen öffnen, jedoch werden dann Befehle zum Schliessen des Fensters nicht mehr erkannt und übermittelt. Das ausfüllen von Formularen verlief bis auf eine Mehrfachauswahl fehlerfrei. Das erkennen von Hoverevents funktionierte in der Version 0.7.2 noch nicht. Auch das parallele Verwenden von Sliderelementen war zu diesem Zeitpunkt noch nicht implementiert.
 	
 	\subsection{Testen von mobilen Browsern}
 	Das testen von mobilen Browsern verläuft parallel zu Desktopseiten. Ein Aufruf über den internen Browser genügt um den Client am Server zu registrieren. Als zusätzliches Problem trat bei den mobilen Geräten ein Verzug an Elementen auf. Die Geräte richten sich anhand der gescrollten Entfernung aus und bieten zum Zeitpunkt dieser Thesis nicht die Möglichkeit der Ausrichtung an Elementen der Internetseite. So kommt es bei den Testgeräten zu Unstimmigkeiten im dargestellten Inhalt, welche durch die Unterschiedlichen Auflösungen und Ausrichtungen der Geräte zu Stande kommen.
 	
 	\subsection{Fazit zu Browser-Sync}
-	
+	Browser-Sync ist ein viel Versprechendes Framework, welches die zu untersuchenden Aspekte vollkommen abdeckt. Es bestehen noch relativ viele unausgereifte Komponenten, jedoch werden diese bei auftreten, Zeitnah behoben. Generell scheint das Framework zum Zeitpunkt dieser Arbeit eine hohe Entwicklungsgeschwindigkeit zu besitzen. Es trat gelegentlich ein Fehler auf bei dem ein verbundener Client, selbst nach mehrfacher Neuverbindung, nicht mehr auf die Steuersignale reagierte. Dieser Fehler trat bei meistens bei mehr als 6 verbundenen Klienten auf. Das Framework ist zum validieren von Websites gedacht, die sich noch in der Entwicklung befinden. Das testen ist aufgrund der notwendingen Testumgebung nur zum lokalen Arbeiten vorgesehen. Als Pluspunkt wird das injecten von geändertem Code zur Entwicklungszeit gewertet. So ist es Möglichen zum Beispiel vorgenommene Änderungen am Styling oder dem DOM ohne weitere Handgriffe direkt auf allen Testgeräten zu begutachten.
 	
 	\subsection{Tabellarische Evaluation}
 		\met{Gewichtungstabelle Evaluation von Remote Preview}{5}{2}{9}{7}{8}{10}{10}
@@ -586,6 +587,7 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 		\subsection{\mi{Systementwurf}}
 		\subsubsection{\mi{Ablaufdiagram}}
 		\subsubsection{\mi{Klassendiagramm}}
+	\section{Zusammenfassendes Fazit}
 
 \chapter{Ausblick}
 

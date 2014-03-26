@@ -53,20 +53,22 @@
 \contentsline {section}{\numberline {3.3}verwendete Browser}{14}
 \contentsline {subsection}{\numberline {3.3.1}Raspberry Pi}{14}
 \contentsline {subsection}{\numberline {3.3.2}Hardware}{14}
-\contentsline {chapter}{\numberline {4}Technologien}{15}
-\contentsline {section}{\numberline {4.1}Ghostlab}{15}
-\contentsline {section}{\numberline {4.2}Adobe Edge Inspect}{16}
-\contentsline {section}{\numberline {4.3}Remote Preview}{16}
-\contentsline {section}{\numberline {4.4}Browser-Sync}{17}
-\contentsline {section}{\numberline {4.5}NodeJS}{18}
-\contentsline {section}{\numberline {4.6}Zombie.js}{18}
-\contentsline {section}{\numberline {4.7}W3C Touch Events Extensions}{18}
-\contentsline {section}{\numberline {4.8}Phantom Limb}{18}
-\contentsline {section}{\numberline {4.9}jQuery UI Touch Punch}{18}
-\contentsline {section}{\numberline {4.10}jQuery Touchit}{18}
-\contentsline {section}{\numberline {4.11}NPM touchit}{18}
-\contentsline {section}{\numberline {4.12}Eigenes Framework}{18}
-\contentsline {chapter}{\numberline {5}Evaluation der Techniken}{19}
+\contentsline {chapter}{\numberline {4}Auswahl der Frameworks}{15}
+\contentsline {section}{\numberline {4.1}Frameworks als Komplettl\IeC {\"o}sung}{15}
+\contentsline {subsection}{\numberline {4.1.1}Ghostlab}{15}
+\contentsline {subsection}{\numberline {4.1.2}Adobe Edge Inspect}{16}
+\contentsline {subsection}{\numberline {4.1.3}Remote Preview}{16}
+\contentsline {subsection}{\numberline {4.1.4}Browser-Sync}{17}
+\contentsline {section}{\numberline {4.2}Frameworks als Einzelkomponente}{18}
+\contentsline {subsection}{\numberline {4.2.1}NodeJS}{18}
+\contentsline {subsection}{\numberline {4.2.2}Zombie.js}{18}
+\contentsline {subsection}{\numberline {4.2.3}W3C Touch Events Extensions}{18}
+\contentsline {subsection}{\numberline {4.2.4}Phantom Limb}{18}
+\contentsline {subsection}{\numberline {4.2.5}jQuery UI Touch Punch}{18}
+\contentsline {subsection}{\numberline {4.2.6}jQuery Touchit}{18}
+\contentsline {subsection}{\numberline {4.2.7}NPM touchit}{18}
+\contentsline {section}{\numberline {4.3}Eigenes Framework}{18}
+\contentsline {chapter}{\numberline {5}Evaluation der Frameworks}{19}
 \contentsline {section}{\numberline {5.1}Auflistung des Evaluationsschl\IeC {\"u}ssels}{19}
 \contentsline {section}{\numberline {5.2}Ghostlab Version 1.2.3}{21}
 \contentsline {subsection}{\numberline {5.2.1}Einrichtung der Testumgebung}{21}
@@ -92,8 +94,9 @@
 \contentsline {subsection}{\numberline {5.5.3}Testen von mobilen Browsern}{36}
 \contentsline {subsection}{\numberline {5.5.4}Fazit zu Browser-Sync}{36}
 \contentsline {subsection}{\numberline {5.5.5}Tabellarische Evaluation}{36}
-\contentsline {section}{\numberline {5.6}Eigenes Framework}{36}
-\contentsline {subsection}{\numberline {5.6.1}Systementwurf}{36}
-\contentsline {subsubsection}{Ablaufdiagram}{36}
-\contentsline {subsubsection}{Klassendiagramm}{36}
-\contentsline {chapter}{\numberline {6}Ausblick}{37}
+\contentsline {section}{\numberline {5.6}Eigenes Framework}{37}
+\contentsline {subsection}{\numberline {5.6.1}Systementwurf}{37}
+\contentsline {subsubsection}{Ablaufdiagram}{37}
+\contentsline {subsubsection}{Klassendiagramm}{37}
+\contentsline {section}{\numberline {5.7}Zusammenfassendes Fazit}{37}
+\contentsline {chapter}{\numberline {6}Ausblick}{38}
