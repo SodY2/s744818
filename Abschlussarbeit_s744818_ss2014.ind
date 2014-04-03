@@ -1,13 +1,13 @@
 \begin{theindex}
 
   \item Abgrenzungskriterien, 4
-  \item Ablaufdiagram, 28
+  \item Ablaufdiagram, 37
   \item Abschlussthesis, 4
-  \item Adobe Edge Inspect, 15, 24
+  \item Adobe Edge Inspect, 16, 27
 
   \indexspace
 
-  \item Browser-Sync, 15, 28
+  \item Browser-Sync, 17, 34
 
   \indexspace
 
@@ -15,59 +15,56 @@
 
   \indexspace
 
-  \item Framework, 15, 28
+  \item Framework, 18, 37
   \item Frameworks, 2, 4, 7
 
   \indexspace
 
-  \item Ghostlab, 14, 18
+  \item Ghostlab, 15, 21
 
   \indexspace
 
-  \item jQuery, 15
+  \item jQuery Touchit, 18
+  \item jQuery UI Touch Punch, 18
 
   \indexspace
 
   \item Kaskadierungsfehler, 2
-  \item Klassendiagramm, 28
+  \item Klassendiagramm, 37
 
   \indexspace
 
-  \item NodeJS, 15
-  \item NPM, 15
+  \item NodeJS, 18
+  \item NPM, 18
 
   \indexspace
 
-  \item Phantom Limb, 15
+  \item Phantom Limb, 18
 
   \indexspace
 
-  \item Raspberry Pi, 13
-  \item Remote Preview, 15, 28
+  \item Remote Preview, 16, 32
 
   \indexspace
 
+  \item socket.io, 18
   \item Softwareframeworks, 2
-  \item Systementwurf, 28
+  \item Systementwurf, 37
 
   \indexspace
 
   \item Testunits, 2
-  \item Touchit, 15
-  \item touchit, 15
 
   \indexspace
 
-  \item UI Touch Punch, 15
   \item Usecases, 2
 
   \indexspace
 
-  \item W3C Touch Events Extensions, 15
-  \item Weinre, 19, 26
+  \item Weinre, 22, 29, 31
 
   \indexspace
 
-  \item Zombie.js, 15
+  \item Zombie.js, 18
 
 \end{theindex}

@@ -38,9 +38,11 @@
 \contentsline {subsection}{\numberline {3.1.28}htacess}{10}
 \contentsline {subsection}{\numberline {3.1.29}GNU Lizenz}{10}
 \contentsline {subsection}{\numberline {3.1.30}MIT Lizenz}{10}
-\contentsline {subsection}{\numberline {3.1.31}Cloud-Dienst}{10}
-\contentsline {subsection}{\numberline {3.1.32}iFrame}{10}
-\contentsline {subsection}{\numberline {3.1.33}Grunt}{10}
+\contentsline {subsection}{\numberline {3.1.31}Apache Lizenz 2}{10}
+\contentsline {subsection}{\numberline {3.1.32}Cloud-Dienst}{10}
+\contentsline {subsection}{\numberline {3.1.33}iFrame}{10}
+\contentsline {subsection}{\numberline {3.1.34}Grunt}{10}
+\contentsline {subsection}{\numberline {3.1.35}Test/Testsuite}{10}
 \contentsline {section}{\numberline {3.2}verwendete Hardware}{10}
 \contentsline {subsection}{\numberline {3.2.1}Apple iMac 27\texttt "}{10}
 \contentsline {subsection}{\numberline {3.2.2}mobile Endger\IeC {\"a}te}{12}
@@ -51,22 +53,19 @@
 \contentsline {subsubsection}{Apple iPad mini Wi-Fi 32GB}{13}
 \contentsline {subsubsection}{Microsoft Surfcae}{13}
 \contentsline {section}{\numberline {3.3}verwendete Browser}{14}
-\contentsline {subsection}{\numberline {3.3.1}Raspberry Pi}{14}
-\contentsline {subsection}{\numberline {3.3.2}Hardware}{14}
 \contentsline {chapter}{\numberline {4}Auswahl der Frameworks}{15}
 \contentsline {section}{\numberline {4.1}Frameworks als Komplettl\IeC {\"o}sung}{15}
 \contentsline {subsection}{\numberline {4.1.1}Ghostlab}{15}
 \contentsline {subsection}{\numberline {4.1.2}Adobe Edge Inspect}{16}
 \contentsline {subsection}{\numberline {4.1.3}Remote Preview}{16}
 \contentsline {subsection}{\numberline {4.1.4}Browser-Sync}{17}
-\contentsline {section}{\numberline {4.2}Frameworks als Einzelkomponente}{18}
-\contentsline {subsection}{\numberline {4.2.1}NodeJS}{18}
+\contentsline {section}{\numberline {4.2}Frameworks als Einzelkomponente}{17}
+\contentsline {subsection}{\numberline {4.2.1}NodeJS+socket.io}{18}
 \contentsline {subsection}{\numberline {4.2.2}Zombie.js}{18}
-\contentsline {subsection}{\numberline {4.2.3}W3C Touch Events Extensions}{18}
-\contentsline {subsection}{\numberline {4.2.4}Phantom Limb}{18}
-\contentsline {subsection}{\numberline {4.2.5}jQuery UI Touch Punch}{18}
-\contentsline {subsection}{\numberline {4.2.6}jQuery Touchit}{18}
-\contentsline {subsection}{\numberline {4.2.7}NPM touchit}{18}
+\contentsline {subsection}{\numberline {4.2.3}Phantom Limb}{18}
+\contentsline {subsection}{\numberline {4.2.4}jQuery UI Touch Punch}{18}
+\contentsline {subsection}{\numberline {4.2.5}jQuery Touchit}{18}
+\contentsline {subsection}{\numberline {4.2.6}NPM touchit}{18}
 \contentsline {section}{\numberline {4.3}Eigenes Framework}{18}
 \contentsline {chapter}{\numberline {5}Evaluation der Frameworks}{19}
 \contentsline {section}{\numberline {5.1}Auflistung des Evaluationsschl\IeC {\"u}ssels}{19}

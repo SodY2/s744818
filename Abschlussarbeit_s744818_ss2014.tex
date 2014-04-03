@@ -283,7 +283,7 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	\\Die Anwendung läuft nur auf mobilen Endgeräten mit iOS oder Android Betriebssystem.
 	
 	\subsection{\mi{Remote Preview}}
-	Remote Preview ist ein kleines Javascript Framework von dem Web Designer Viljami Salminen aus Helsinki, Finnland. Es überprüft alle 1100ms per AJAX-Request ob sich die Quellurl geändert hat und teilt dies dann den verbundenen Testgeräten mit. Er wirbt 	mit dem synchronen Aufruf von Websiten auf einer Vielzahl von Plattformen: 
+	Remote Preview ist ein kleines Javascript Framework von dem Web Designer Viljami Salminen aus Helsinki, Finnland. Es überprüft alle 1100ms per AJAX-Request ob sich die Quellurl geändert hat und teilt dies dann den verbundenen Testgeräten mit. Er wirbt mit dem synchronen Aufruf von Websiten auf einer Vielzahl von Plattformen: 
 	
 	\begin{table}[H]
  		\centering
@@ -343,13 +343,17 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	
 	Das Framework basiert auf dem NodeJS Framework und besitzt dadurch ein hohes Erweiterungspotential. Eine parallel zu Browser-Sync entwickelte Erweiterung kombiniert Browser-Sync mit Grunt, was automatisierte Abläufe ermöglicht. Diese fördert die Produktivität durch das einbinden des Frameworks in bestehende Arbeitsabläufe. Die Software ist kostenlos erhältlich und steht unter der MIT Lizenz. Das Projekt befindend sich zum Zeitpunkt dieser Arbeit in der Version 0.7.2 und wird täglich weiterentwickelt.
 \section{Frameworks als Einzelkomponente}
-	\subsection{\mi{NodeJS}}
+	Als Einzelkomponenten werden hier Frameworks spezifiziert, welche dazu beitragen, das in der Thesis geforderte Werkzeug selbst zu entwickeln. Diese decken verschiedene Einzelkomponenten ab, wie zum Beispiel die Clientverwaltung, Steuerbefehle oder setzen die Vorraussetzung fuer eigene Testszenarien.
+	
+	\subsection{\mi{NodeJS}+\mi{socket.io}}
 	\subsection{\mi{Zombie.js}}
-	\subsection{\mi{W3C Touch Events Extensions}}
+	Das Framework Zombie.js ist ein Open-Source Projekt einer ganzen Gruppe von Entwicklern\footnote{https://github.com/assaf/zombie/graphs/contributors}, welches von dem in Californien sitzenden Assaf Arkin ins Leben gerufen wurde. Zombie.js wirbt mit seiner Einfachheit Tests zu erstellen und in Testsuiten zu integrieren. Zombie.js emuliert einen sogenannten headless\footnote{Kopflos} Browser. Dies hat zur Folge das natürlich nur non-visuelle Aspekte in Tests integriert werden können, wie etwa das ausfüllen von Formularen, das navigieren durch den Navigationsbaum oder das testen von Links.
+
 	\subsection{\mi{Phantom Limb}}
-	\subsection{\mi{jQuery} \mi{UI Touch Punch}}
-	\subsection{\mi{jQuery} \mi{Touchit}}
-	\subsection{\mi{NPM} \mi{touchit}}
+	Phantom Limb ist ein von Brian Carstensen entwickeltes Werkzeug welches es ermöglichen soll, die Computermaus generierten Bewegungen in äquivalente Touchevents umwandelt. Das Framework läuft unter der Apache Lizenz 2 und kann kostenlos verwendet werden. Es kam in die Auswahl der Frameworks, da es von Nutzen ist das Steuergerät für die Tests an einem Computer zu verwenden.
+	\subsection{\mi{jQuery UI Touch Punch}}
+	\subsection{\mi{jQuery Touchit}}
+	\subsection{\mi{\mi{NPM} touchit}}
 	
 
 	\section{Eigenes \mi{Framework}}
@@ -577,7 +581,7 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	Das testen von mobilen Browsern verläuft parallel zu Desktopseiten. Ein Aufruf über den internen Browser genügt um den Client am Server zu registrieren. Als zusätzliches Problem trat bei den mobilen Geräten ein Verzug an Elementen auf. Die Geräte richten sich anhand der gescrollten Entfernung aus und bieten zum Zeitpunkt dieser Thesis nicht die Möglichkeit der Ausrichtung an Elementen der Internetseite. So kommt es bei den Testgeräten zu Unstimmigkeiten im dargestellten Inhalt, welche durch die Unterschiedlichen Auflösungen und Ausrichtungen der Geräte zu Stande kommen.
 	
 	\subsection{Fazit zu Browser-Sync}
-	Browser-Sync ist ein viel Versprechendes Framework, welches die zu untersuchenden Aspekte vollkommen abdeckt. Es bestehen noch relativ viele unausgereifte Komponenten, jedoch werden diese bei auftreten, Zeitnah behoben. Generell scheint das Framework zum Zeitpunkt dieser Arbeit eine hohe Entwicklungsgeschwindigkeit zu besitzen. Es trat gelegentlich ein Fehler auf bei dem ein verbundener Client, selbst nach mehrfacher Neuverbindung, nicht mehr auf die Steuersignale reagierte. Dieser Fehler trat bei meistens bei mehr als 6 verbundenen Klienten auf. Das Framework ist zum validieren von Websites gedacht, die sich noch in der Entwicklung befinden. Das testen ist aufgrund der notwendingen Testumgebung nur zum lokalen Arbeiten vorgesehen. Als Pluspunkt wird das injecten von geändertem Code zur Entwicklungszeit gewertet. So ist es Möglichen zum Beispiel vorgenommene Änderungen am Styling oder dem DOM ohne weitere Handgriffe direkt auf allen Testgeräten zu begutachten.
+	Browser-Sync ist ein viel Versprechendes Framework, welches die zu untersuchenden Aspekte vollkommen abdeckt. Es bestehen noch relativ viele unausgereifte Komponenten, jedoch werden diese bei auftreten, Zeitnah behoben. Generell scheint das Framework zum Zeitpunkt dieser Arbeit eine hohe Entwicklungsgeschwindigkeit zu besitzen. Es trat gelegentlich ein Fehler auf bei dem ein verbundener Client, selbst nach mehrfacher Neuverbindung, nicht mehr auf die Steuersignale reagierte. Dieser Fehler trat bei meistens bei mehr als 6 verbundenen Klienten auf. Das Framework ist zum validieren von Websites gedacht, die sich noch in der Entwicklung befinden. Das testen ist aufgrund der notwendingen Testumgebung nur zum lokalen Arbeiten vorgesehen. Als Pluspunkt wird das injizieren von geändertem Code zur Entwicklungszeit gewertet. So ist es Möglichen zum Beispiel vorgenommene Änderungen am Styling oder dem DOM ohne weitere Handgriffe direkt auf allen Testgeräten zu begutachten.
 	
 	\subsection{Tabellarische Evaluation}
 		\met{Gewichtungstabelle Evaluation von Remote Preview}{5}{2}{9}{7}{8}{10}{10}
