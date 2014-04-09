@@ -342,21 +342,29 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	\end{table}
 	
 	Das Framework basiert auf dem NodeJS Framework und besitzt dadurch ein hohes Erweiterungspotential. Eine parallel zu Browser-Sync entwickelte Erweiterung kombiniert Browser-Sync mit Grunt, was automatisierte Abläufe ermöglicht. Diese fördert die Produktivität durch das einbinden des Frameworks in bestehende Arbeitsabläufe. Die Software ist kostenlos erhältlich und steht unter der MIT Lizenz. Das Projekt befindend sich zum Zeitpunkt dieser Arbeit in der Version 0.7.2 und wird täglich weiterentwickelt.
+
+\pagebreak
 \section{Frameworks als Einzelkomponente}
 	Als Einzelkomponenten werden hier Frameworks spezifiziert, welche dazu beitragen, das in der Thesis geforderte Werkzeug selbst zu entwickeln. Diese decken verschiedene Einzelkomponenten ab, wie zum Beispiel die Clientverwaltung, Steuerbefehle oder setzen die Vorraussetzung fuer eigene Testszenarien.
 	
-	\subsection{\mi{NodeJS}+\mi{socket.io}}
+	\subsection{\mi{NodeJS}}
+	Node.JS Aufgabe besteht darin, anstelle von zum Beispiel Apache, einen Webserver zur verfügung zu stellen, welcher nur auf Javascript basiert. Alle Notwendigen serverseitigen Anfragen und Funktionen erfolgen in Javascript. Entwickelt wird Node.JS von der Californischen Firma Joyent und befindet sich derzeit in Version 0.10.26. Geführt wird Node.JS unter der MIT Lizenz und steht kostenlos auf nodejs.org oder unter GitHub zum Download bereit.
+	
+	\subsection{NPM \mi{socket.io}}
+	socket.io ist ein Framework welches die WebSocket Technologie aktueller Browser auf Javascript Ebene abbildet. Der Gedanke der Technologie dahinter verfolgt den Gedanken nicht in regelmässigen Abständen Anfragen an den Server zu stellen und damit unnötig viel Datenvolumen zu generieren, sondern eine permanente Verbindung zum Server aufrecht zu halten um auf Statusänderungen am Server zu reagieren. socket.io wurde von Guillermo Rauch unter der MIT Lizenz entwickelt und steht derzeit in der Version 0.9.16 auf GitHub oder per NPM zur verfügung.
+	
 	\subsection{\mi{Zombie.js}}
-	Das Framework Zombie.js ist ein Open-Source Projekt einer ganzen Gruppe von Entwicklern\footnote{https://github.com/assaf/zombie/graphs/contributors}, welches von dem in Californien sitzenden Assaf Arkin ins Leben gerufen wurde. Zombie.js wirbt mit seiner Einfachheit Tests zu erstellen und in Testsuiten zu integrieren. Zombie.js emuliert einen sogenannten headless\footnote{Kopflos} Browser. Dies hat zur Folge das natürlich nur non-visuelle Aspekte in Tests integriert werden können, wie etwa das ausfüllen von Formularen, das navigieren durch den Navigationsbaum oder das testen von Links.
+	Das Framework Zombie.js ist ein Open-Source Projekt einer ganzen Gruppe von Entwicklern\footnote{https://github.com/assaf/zombie/graphs/contributors}, welches von dem in Californien sitzenden Assaf Arkin ins Leben gerufen wurde. Zombie.js wirbt mit seiner Einfachheit Tests zu erstellen und in Testsuiten zu integrieren. Zombie.js emuliert einen sogenannten headless\footnote{Kopflos - ohne Gerüst das ihn umschliesst, oder auch virtuell} Browser. Dies hat zur Folge das natürlich nur non-visuelle Aspekte in Tests integriert werden können, wie etwa das ausfüllen von Formularen, das navigieren durch den Navigationsbaum oder das testen von Links.
 
 	\subsection{\mi{Phantom Limb}}
 	Phantom Limb ist ein von Brian Carstensen entwickeltes Werkzeug welches es ermöglichen soll, die Computermaus generierten Bewegungen in äquivalente Touchevents umwandelt. Das Framework läuft unter der Apache Lizenz 2 und kann kostenlos verwendet werden. Es kam in die Auswahl der Frameworks, da es von Nutzen ist das Steuergerät für die Tests an einem Computer zu verwenden.
-	\subsection{\mi{jQuery UI Touch Punch}}
-	\subsection{\mi{jQuery Touchit}}
-	\subsection{\mi{\mi{NPM} touchit}}
 	
+	\subsection{\mi{jQuery UI Touch Punch}}
+	jQuery UI Touch Punch ist eine Erweiterung zu der UI Bibliothek von jQuery die David Furfero entwickelt hat. Diese erlaubt von Hause aus nicht die Nutzung von Touch Events auf mobilen Endgeräten. Die Erweiterung hebt diese Restriktion auf ohne weiter Konfiguriert werden zu müssen. An Quellcode kommen lediglich weitere 584 Bytes hinzu. Die Frameworkerweiterung läuft unter der MIT und der GPL Lizenz, wodurch es dem Endnutzer freisteht die Bibliothek unter den Lizenzen des eigenen Projektes zu verwenden.
+	
+	\subsection{\mi{jQuery Touchit}}
+	Das von Daniel Glyde entwickelte Framework jQuery Touchit wandelt Berührungen in äquivalente Mausevents um und ermittelt deren relative Position in Bezug auf den Viewport. Desweitere löst es das Problem bei bereits bestehenden jQuery Anwendungen und deren Darstellung auf mobilen Endgeräten wo verschiedene Funktionalitäten , wie zum Beispiel die Verwendung von Slidern, nicht Nutzbar sind.
 
-	\section{Eigenes \mi{Framework}}
 
 		
 %%
@@ -588,9 +596,15 @@ Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu komme
 	
 	
 	\section{Eigenes \mi{Framework}}
-		\subsection{\mi{Systementwurf}}
-		\subsubsection{\mi{Ablaufdiagram}}
-		\subsubsection{\mi{Klassendiagramm}}
+	Der Ursprüngliche Gedanke dieser Arbeit verfolgte dn Ansatz ein eigenes Framework zu entwickeln, was die parallel-synchrone Steuerung auf mehreren Endgeräten insbesondere auf mobilen Geräten ermöglicht. Diesen Gedanken berücksichtigend erfolgte eine Validierung verschiedener Einzeltechnologien die nur gewisse Aspekte abdecken. Untersucht wurden diese in Hinsicht auf ihre tatsächliche Funktionalität, ihre Installation und Kombinierbarkeit mit anderen verwendeten Frameworks. 
+	\\
+	Die Bibliotheken insbesondere auf ihre Implementation in einen Node.JS Server überprüft.
+
+	\subsection{Installation eines Node.JS Servers}
+	\subsection{Einbinden von socket.io}
+	\subsection{Generierung von Steuerbefehlen über socket.io}
+	\subsubsection{\mi{Ablaufdiagramm}}
+	
 	\section{Zusammenfassendes Fazit}
 
 \chapter{Ausblick}
