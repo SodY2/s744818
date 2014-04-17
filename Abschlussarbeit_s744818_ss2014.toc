@@ -2,13 +2,12 @@
 \contentsline {subsubsection}{Anmerkung}{4}
 \contentsline {chapter}{\numberline {2}Aufgabenstellung}{5}
 \contentsline {section}{\numberline {2.1}Problemstellung}{5}
-\contentsline {section}{\numberline {2.2}Annahmen und Einschr\IeC {\"a}nkungen}{7}
-\contentsline {section}{\numberline {2.3}Zielsetzung}{7}
-\contentsline {section}{\numberline {2.4}Abgrenzungskriterien}{7}
-\contentsline {subsubsection}{Einarbeitungszeit}{7}
-\contentsline {subsubsection}{Erweiterbarkeit}{7}
-\contentsline {subsubsection}{Unterst\IeC {\"u}tze Browser}{7}
-\contentsline {subsubsection}{Virtuelle Umgebung}{7}
+\contentsline {section}{\numberline {2.2}Zielsetzung}{7}
+\contentsline {section}{\numberline {2.3}Abgrenzungskriterien}{7}
+\contentsline {subsubsection}{Zeit}{7}
+\contentsline {subsubsection}{Erweiterbarkeit}{8}
+\contentsline {subsubsection}{Unterst\IeC {\"u}tze Browser}{8}
+\contentsline {subsubsection}{Virtuelle Umgebung}{8}
 \contentsline {chapter}{\numberline {3}Grundlagen}{9}
 \contentsline {section}{\numberline {3.1}Begriffskl\IeC {\"a}rung}{9}
 \contentsline {subsection}{\numberline {3.1.1}parallel-synchron}{9}
@@ -74,6 +73,13 @@
 \contentsline {subsection}{\numberline {4.2.6}jQuery Touchit}{20}
 \contentsline {chapter}{\numberline {5}Evaluation der Frameworks}{21}
 \contentsline {section}{\numberline {5.1}Auflistung des Evaluationsschl\IeC {\"u}ssels}{21}
+\contentsline {subsubsection}{Installation}{21}
+\contentsline {subsubsection}{Konfiguration}{21}
+\contentsline {subsubsection}{Funktion: Desktop}{21}
+\contentsline {subsubsection}{Funktion: Mobil}{22}
+\contentsline {subsubsection}{Erweiterbarkeit}{22}
+\contentsline {subsubsection}{Browser Support (aktuelle Versionen)}{22}
+\contentsline {subsubsection}{Aktivit\IeC {\"a}t}{22}
 \contentsline {section}{\numberline {5.2}Ghostlab Version 1.2.3}{23}
 \contentsline {subsection}{\numberline {5.2.1}Einrichtung der Testumgebung}{23}
 \contentsline {subsection}{\numberline {5.2.2}Testen von Desktopbrowsern}{23}

@@ -111,6 +111,9 @@
 
 \makeindex 
 
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
 %%
 %% Pfad zu den Bildern
 %%
@@ -127,7 +130,7 @@
 %% ############# Deckblatt
 %%
 \maketitle
-
+\chapter* { }
 \pagenumbering{roman}
 
 %%
@@ -191,68 +194,145 @@
 \chapter{Evaluation der Frameworks}
 \section{Auflistung des Evaluationsschlüssels}
 
-\begin{enumerate}
-\item Installation 
-	\begin{enumerate}
-		\item sind zusatzinstallationen notwendig (basiert das Werkzeug auf anderen Technologien) 4Pt
-		\item kann nach der Installation die Software direkt genutzt werden ? 2Pt
-		\item gibt es eine zur Version passende installationsanleitung? 2Pt
-		\item gibt es eine FAQ? 2Pt
-	\end{enumerate}
-	
-	\item Konfiguration
-	\begin{enumerate}
-		\item mann die Software out-of-the-Box\footnote{ohne weitere Konfiguration nach der Installation} genutzt werden ? 4Pt
-		\item ist die Software Konfigurierbar in Hinsicht auf IP-Adressen und Ports? 1Pt
-		\item kann man verschiedene Konfigurationen abspeichern ? (für z.B. verschiedene Arbeitsumgebungen) 2Pt
-		\item gibt es Support (Wiki, Helpdesk, EMail, Forum)? 2Pt
-		\item Intuitive Benutzeroberfläche 1Pt
-	\end{enumerate}
-	
-	\item Funktion: Desktop
-	\begin{enumerate}
-		\item Darstellung : normale Seiten 2Pt
-		\item Darstellung : gesicherte Seiten 2Pt
-		\item Darstellung: normale( < 1 Sekunde) Reaktionsgeschwindigkeit 2Pt
-		\item Funktion: Seitensteuerung 3Pt
-		\item Funktion: Javascript 1Pt
-	\end{enumerate}
-	
-	\item Funktion: Mobil
-	\begin{enumerate}
-		\item Darstellung : normale Seiten 1Pt
-		\item Darstellung : gesicherte Seiten 1Pt
-		\item Darstellung: normale( < 1 Sekunde) Reaktionsgeschwindigkeit 2Pt
-		\item Funktion: Seitensteuerung 4Pt
-		\item Funktion: Gestenkontrolle 1Pt
-		\item Funktion: Javascript 1Pt
-	\end{enumerate}
-	
-	\item Erweiterbarkeit
-	\begin{enumerate}
-		\item gibt es eine API zur Implementierung in eigenen Entwicklungen ? 5Pt
-		\item Ist die API rechtlich durch Lizenzen geschützt? 2Pt
-		\item ist die API Dokumentiert? 3Pt
-	\end{enumerate}
-	
-	\item unterstützte Browser (aktuelle Version zum Zeitpunkt der Erstellung dieser Thesis)
-	\begin{enumerate}
-		\item mobile Plattformen (iOS, Android, Windows) 3Pt
-		\item Unterstützung von Browser innerhalb einer virtuellen Umgebung 2Pt
-		\item Chrome 1Pt
-		\item Opera 1Pt
-		\item Firefox 1Pt
-		\item Safari 1Pt
-		\item Internet Explorer 1Pt
-	\end{enumerate}
-	
-	\item Aktivität
-	\begin{enumerate}
-		\item wird die Software noch entwickelt? (letzes Release, Commit Häufigkeit) 5Pt
-		\item gibt es ein aktives Forum (letzter Beitrag jünger 14 Tage) 5Pt
-	\end{enumerate}
 
-\end{enumerate}
+\subsubsection{Installation}
+\begin{table}[H]
+ 	\vspace{-30pt}
+ 	\centering
+	\rowcolors{1}{white}{lightgray}
+		\begin{tabular}{| p{12cm} | c|}
+			\hline
+				Kriterium		 &	Punktezahl\\
+			\hline
+			\hline
+				Notwendigkeit von anderen Technologien				&4\\
+				Nutzbar direkt nach der Installation			&	2	\\
+				Installationsanleitung vorhanden			&	2	\\
+				FAQ vorhanden				&	2	\\
+				\hline
+		\end{tabular}
+	\caption{Kriterienübersicht: Installation}
+\end{table}
+
+\subsubsection{Konfiguration}
+\begin{table}[H]
+ 	\vspace{-30pt}
+ 	\centering
+	\rowcolors{1}{white}{lightgray}
+		\begin{tabular}{| p{12cm} | c|}
+			\hline
+				Kriterium		 &	Punktezahl\\
+			\hline
+			\hline
+				Nutzbar ohne Konfiguration			&4\\
+				Konfigurierbarkeit(IP und Ports)			&	1	\\
+				Konfigurierbare Workspaces			&	2	\\
+				Support vorhanden (Wiki, Helpdesk, EMail, Forum)				&	2	\\
+				Intuitive Benutzeroberfläche			&	1	\\
+				\hline
+		\end{tabular}
+	\caption{Kriterienübersicht: Konfiguration}
+\end{table}
+
+\subsubsection{Funktion: Desktop}
+\begin{table}[H]
+ 	\vspace{-30pt}
+ 	\centering
+	\rowcolors{1}{white}{lightgray}
+		\begin{tabular}{| p{12cm} | c|}
+			\hline
+				Kriterium		 &	Punktezahl\\
+			\hline
+			\hline
+				Darstellung : normale Seiten			&2\\
+				Darstellung : gesicherte Seiten		&	2	\\
+				 Darstellung: normale Reaktionsgeschwindigkeit ( < 1 Sekunde)	&	2	\\
+				Funktion: Seitensteuerung			&	3	\\
+				Funktion: Javascript			&	1	\\
+				\hline
+		\end{tabular}
+	\caption{Kriterienübersicht: Desktop}
+\end{table}
+
+\subsubsection{Funktion: Mobil}
+\begin{table}[H]
+ 	\vspace{-30pt}
+ 	\centering
+	\rowcolors{1}{white}{lightgray}
+		\begin{tabular}{| p{12cm} | c|}
+			\hline
+				Kriterium		 &	Punktezahl\\
+			\hline
+			\hline
+				Darstellung : normale Seiten			&1\\
+				Darstellung : gesicherte Seiten		&	1	\\
+				 Darstellung: normale Reaktionsgeschwindigkeit ( < 1 Sekunde)	&	2	\\
+				Funktion: Seitensteuerung			&	4	\\
+				Funktion: Javascript			&	1	\\
+				Funktion: Gestenkontrolle			&	1	\\
+				\hline
+		\end{tabular}
+	\caption{Kriterienübersicht: Mobil}
+\end{table}
+
+\subsubsection{Erweiterbarkeit}
+\begin{table}[H]
+ 	\vspace{-30pt}
+ 	\centering
+	\rowcolors{1}{white}{lightgray}
+		\begin{tabular}{| p{12cm} | c|}
+			\hline
+				Kriterium		 &	Punktezahl\\
+			\hline
+			\hline
+				API Zugang			&5\\
+				API lizenzteschnich gesichert	&	2	\\
+				API Dokumentation	&	3	\\
+				\hline
+		\end{tabular}
+	\caption{Kriterienübersicht: Erweiterbarkeit}
+\end{table}
+	
+\subsubsection{Browser Support (aktuelle Versionen)} 
+\begin{table}[H]
+ 	\vspace{-30pt}
+ 	\centering
+	\rowcolors{1}{white}{lightgray}
+		\begin{tabular}{| p{12cm} | c|}
+			\hline
+				Kriterium		 &	Punktezahl\\
+			\hline
+			\hline
+				mobile Plattformen (iOS, Android, Windows)			&3\\
+				Virtuelle Browser	&	2	\\
+				Chrome				&	1	\\
+				Opera				&	1	\\
+				Firefox				&	1	\\
+				Safari				&	1	\\
+				Internet Explorer		&	1	\\
+				\hline
+		\end{tabular}
+	\caption{Kriterienübersicht: Browser}
+\end{table}
+
+\subsubsection{Aktivität}
+\begin{table}[H]
+ 	\vspace{-30pt}
+ 	\centering
+	\rowcolors{1}{white}{lightgray}
+		\begin{tabular}{| p{12cm} | c|}
+			\hline
+				Kriterium		 &	Punktezahl\\
+			\hline
+			\hline
+				Noch in der Entwicklung (letzes Release, Commit Häufigkeit)			&5\\
+				Aktives Forum	&	5	\\
+				\hline
+		\end{tabular}
+	\caption{Kriterienübersicht: Aktivität}
+\end{table}
+
+
 
 %%
 %% ############# Ghostlab
@@ -292,7 +372,7 @@
 		\\Als Kritikpunkt bewerte ich die nicht existente Möglichkeit die Anwendung um eigene Funktionalität zu erweitern.
 
 		\subsection{Tabellarische Evaluation}
-			\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{10}{8}{5}{0}{10}{5}
+		\met{Gewichtungstabelle Evaluation von Ghostlab}{10}{10}{8}{5}{0}{10}{5}
 	
 %%
 %% ############# Adobe Edge Inspect
@@ -357,30 +437,13 @@
 				
 		\subsection{Tabellarische Evaluation}
 		\met{Gewichtungstabelle Evaluation von Remote Preview}{8}{6}{3}{3}{8}{10}{0}
-	
-	
-		
-		
 		
 	
 %%
 %% ############# Browser-Sync
 %%
 \pagebreak
-	\section{\mi{Browser-Sync}}
-	iOS 6 : nein, bzw nokia lumia
-	folgen interne links : ok
-	zurück von internen links : nein
-	externe links : ok
-	https: ok
-	scroll: nicht ausgerichtet an Elementen
-	click: ok
-	forms: ok ausser multiselect
-	javascript : bedingt, lightbox nur öffnen, slider nein, datepicker nein , jquery Mäßig , hover nein
-	nur lokales testen
-	
-	grunt Automatisierung
-	
+	\section{\mi{Browser-Sync}}	
 	\subsection{Einrichtung der Testumgebung}
 	Um Remote-Sync nutzen zu können wird zu Beginn erst einmal eine NodeJS Implementation benötigt. Diese kann entweder über die Konsole installiert werden oder per Installationstool von der NodeJS Homepage.
 	
@@ -407,16 +470,16 @@
 	Das testen von mobilen Browsern verläuft parallel zu Desktopseiten. Ein Aufruf über den internen Browser genügt um den Client am Server zu registrieren. Als zusätzliches Problem trat bei den mobilen Geräten ein Verzug an Elementen auf. Die Geräte richten sich anhand der gescrollten Entfernung aus und bieten zum Zeitpunkt dieser Thesis nicht die Möglichkeit der Ausrichtung an Elementen der Internetseite. So kommt es bei den Testgeräten zu Unstimmigkeiten im dargestellten Inhalt, welche durch die Unterschiedlichen Auflösungen und Ausrichtungen der Geräte zu Stande kommen.
 	
 	\subsection{Fazit zu Browser-Sync}
-	Browser-Sync ist ein viel Versprechendes Framework, welches die zu untersuchenden Aspekte vollkommen abdeckt. Es bestehen noch relativ viele unausgereifte Komponenten, jedoch werden diese bei auftreten, Zeitnah behoben. Generell scheint das Framework zum Zeitpunkt dieser Arbeit eine hohe Entwicklungsgeschwindigkeit zu besitzen. Es trat gelegentlich ein Fehler auf bei dem ein verbundener Client, selbst nach mehrfacher Neuverbindung, nicht mehr auf die Steuersignale reagierte. Dieser Fehler trat bei meistens bei mehr als 6 verbundenen Klienten auf. Das Framework ist zum validieren von Websites gedacht, die sich noch in der Entwicklung befinden. Das testen ist aufgrund der notwendingen Testumgebung nur zum lokalen Arbeiten vorgesehen. Als Pluspunkt wird das injizieren von geändertem Code zur Entwicklungszeit gewertet. So ist es Möglichen zum Beispiel vorgenommene Änderungen am Styling oder dem DOM ohne weitere Handgriffe direkt auf allen Testgeräten zu begutachten.
+	Browser-Sync ist ein viel Versprechendes Framework, welches die zu untersuchenden Aspekte vollkommen abdeckt. Es bestehen noch relativ viele unausgereifte Komponenten, jedoch werden diese bei auftreten, Zeitnah von den Entwicklern behoben. Generell scheint das Framework zum Zeitpunkt dieser Arbeit eine hohe Entwicklungsgeschwindigkeit zu besitzen. Es trat gelegentlich ein Fehler auf bei dem ein verbundener Client, selbst nach mehrfacher Neuverbindung, nicht mehr auf die Steuersignale reagierte. Dieser Fehler trat bei meistens bei mehr als 6 verbundenen Klienten auf. Das Framework ist zum validieren von Websites gedacht, die sich noch in der Entwicklung befinden. Das testen ist aufgrund der notwendingen Testumgebung nur zum lokalen Arbeiten vorgesehen. Als Pluspunkt wird das injizieren von geändertem Code zur Entwicklungszeit gewertet. So ist es Möglichen zum Beispiel vorgenommene Änderungen am Styling oder dem DOM ohne weitere Handgriffe direkt auf allen Testgeräten zu begutachten.
 	
 	\subsection{Tabellarische Evaluation}
 		\met{Gewichtungstabelle Evaluation von Remote Preview}{5}{2}{9}{7}{8}{10}{10}
 	
 	
 	\section{Eigenes \mi{Framework}}
-	Der Ursprüngliche Gedanke dieser Arbeit verfolgte dn Ansatz ein eigenes Framework zu entwickeln, was die parallel-synchrone Steuerung auf mehreren Endgeräten insbesondere auf mobilen Geräten ermöglicht. Diesen Gedanken berücksichtigend erfolgte eine Validierung verschiedener Einzeltechnologien die nur gewisse Aspekte abdecken. Untersucht wurden diese in Hinsicht auf ihre tatsächliche Funktionalität, ihre Installation und Kombinierbarkeit mit anderen verwendeten Frameworks. 
-	\\
-	Die Bibliotheken insbesondere auf ihre Implementation in einen Node.JS Server überprüft.
+	Der Ursprüngliche Gedanke dieser Arbeit verfolgte dn Ansatz ein eigenes Framework zu entwickeln, was die parallel-synchrone Steuerung auf mehreren Endgeräten insbesondere auf mobilen Geräten ermöglicht. Diesen Gedanken berücksichtigend erfolgte eine Validierung verschiedener Einzeltechnologien die nur gewisse Aspekte abdecken. Untersucht wurden diese in Hinsicht auf ihre tatsächliche Funktionalität, ihre Installation und Kombinierbarkeit mit anderen verwendeten Frameworks.
+	
+\\Die Bibliotheken werden insbesondere auf ihre Implementation in einen Node.JS Server überprüft.
 
 	\subsection{Installation eines Node.JS Servers}
 	\subsection{Einbinden von socket.io}

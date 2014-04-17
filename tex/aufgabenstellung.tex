@@ -18,7 +18,8 @@ Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchr
 	%%
 	%% ############# Annahmen und Einschränkungen
 	%%
-	\section{Annahmen und Einschränkungen}
+	
+	%\section{Annahmen und Einschränkungen}
 	%\tr{Wenn die Arbeit wichtige Annahmen trifft, unter denen die Untersuchungsergebnisse gültig sind, oder die Allgemeinheit der 	getroffenen Aussagen wichtigen Einschränkungen unterliegt, sollten diese ebenfalls in der 		Einleitung 	beschrieben 		werden.}
 	
 	%%
@@ -32,9 +33,29 @@ Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchr
 	%%
 	\section{Abgrenzungskriterien}
 	%\tr{Hier werden die Grundlagen für das zu entwickelnde Softwaresystem definiert. Zwar noch aus fachtechnischer Sicht werden 	hier die Anforderungen an das geplante Softwaresystem in möglichst formaler Form spezifiziert. 	Es 	sollen hier keine 		Lösungen präsentiert werden, sondern möglichst präzise die Anforderungen (Sollkonzept) an das geplante Softwaresystem mit 	seinen Schnittstellen, Informationsflüssen und Systemfunktionen 			dokumentiert 	werden. Verwendete Methoden 	können z.B. SA, SADT, Petri-Netze oder andere sein. Das Ergebnis ist ein für die Systementwicklung verwendbares 			Pflichtenheft. Über Art und Umfang des Pflichtenhefts sollten 	Sie mit Ihrem Betreuer sprechen.}
-	\subsubsection{Einarbeitungszeit}
-	Als erstes Abgrenzungskriterium ist die Einarbeitungszeit zu bewerten. Hier gilt je kürzer desto besser, immer gesehn in Relation 	zu dem Umfang des Frameworks. 
-	
+	\subsubsection{Zeit}
+	Als eins der wichtigsten Abgrenzungskriterien gilt es die Einarbeitungszeit zu bewerten. Hier gilt je kürzer desto besser, immer gesehen in Relation 	zu dem Umfang des Frameworks. So ist ein Framework qualitativer zu bewerten, wenn es exponentielle Lernkurve in Relation zur Zeit vorweist.
+
+\begin{figure}[H]
+	\centering
+	\begin{tikzpicture}
+		
+	\draw[thick,->] (0,0) -- (10,0) node[right]{$Zeit$};
+	\draw[thick,->] (0,0) -- (0,10) node[above]{$Lernfortschritt$};
+
+	\draw[red,id=test1,samples=100,domain=0.0:9.0] plot(\x,{1.3*ln(\x+1)}); 
+	\draw[blue,domain=0:3.3] plot (\x,{-1+exp(ln(2)*\x)});
+	\draw[red,thick] (9,5) -- +(0.3,0) node[anchor=mid west,black] {schlechte Lernkurve};
+	\draw[blue,thick] (9,5.5) -- +(0.3,0) node[anchor=mid west,black] {gute Lernkurve};
+
+	\end{tikzpicture}
+	\vspace{-25pt}
+	\caption[Darstellung der Lernkurve für Frameworks]{Lernkurve für Frameworks}
+\end{figure}
+\vspace{-40pt}
+
+
+	\pagebreak
 	 \subsubsection{Erweiterbarkeit}
 	 in Hinsicht auf mehrere Endgeräte gibt es mehrere Aspekte zum analysieren. Zum einen ob das Framework auf verschiedene 	Arten an System gebunden sind, wie etwa Android oder iOS. Zum anderen ob es eine limitierung der Anzahl der 				anzuschliessenden Geräte gibt. 
 
