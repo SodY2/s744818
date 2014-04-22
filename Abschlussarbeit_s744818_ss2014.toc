@@ -73,41 +73,40 @@
 \contentsline {subsection}{\numberline {4.2.6}jQuery Touchit}{20}
 \contentsline {chapter}{\numberline {5}Evaluation der Frameworks}{21}
 \contentsline {section}{\numberline {5.1}Auflistung des Evaluationsschl\IeC {\"u}ssels}{21}
-\contentsline {subsubsection}{Installation}{21}
-\contentsline {subsubsection}{Konfiguration}{21}
-\contentsline {subsubsection}{Funktion: Desktop}{21}
-\contentsline {subsubsection}{Funktion: Mobil}{22}
-\contentsline {subsubsection}{Erweiterbarkeit}{22}
-\contentsline {subsubsection}{Browser Support (aktuelle Versionen)}{22}
-\contentsline {subsubsection}{Aktivit\IeC {\"a}t}{22}
-\contentsline {section}{\numberline {5.2}Ghostlab Version 1.2.3}{23}
-\contentsline {subsection}{\numberline {5.2.1}Einrichtung der Testumgebung}{23}
-\contentsline {subsection}{\numberline {5.2.2}Testen von Desktopbrowsern}{23}
-\contentsline {subsection}{\numberline {5.2.3}Testen von mobilen Browsern}{26}
-\contentsline {subsection}{\numberline {5.2.4}Fazit zu Ghostlab}{27}
-\contentsline {subsection}{\numberline {5.2.5}Tabellarische Evaluation}{28}
-\contentsline {section}{\numberline {5.3}Adobe Edge Inspect CC}{29}
-\contentsline {subsection}{\numberline {5.3.1}Einrichtung der Testumgebung}{29}
-\contentsline {subsection}{\numberline {5.3.2}Testen von Desktopbrowsern}{31}
-\contentsline {subsection}{\numberline {5.3.3}Testen von mobilen Browsern}{31}
-\contentsline {subsection}{\numberline {5.3.4}Fazit zu Adobe Edge Inspect}{33}
-\contentsline {subsection}{\numberline {5.3.5}Tabellarische Evaluation}{33}
-\contentsline {section}{\numberline {5.4}Remote Preview}{34}
-\contentsline {subsection}{\numberline {5.4.1}Einrichtung der Testumgebung}{34}
-\contentsline {subsection}{\numberline {5.4.2}Testen von Desktopseiten}{34}
-\contentsline {subsection}{\numberline {5.4.3}Testen von mobilen Browsern}{34}
-\contentsline {subsection}{\numberline {5.4.4}Fazit zu Remote Preview}{35}
-\contentsline {subsection}{\numberline {5.4.5}Tabellarische Evaluation}{35}
-\contentsline {section}{\numberline {5.5}Browser-Sync}{36}
-\contentsline {subsection}{\numberline {5.5.1}Einrichtung der Testumgebung}{36}
-\contentsline {subsection}{\numberline {5.5.2}Testen von Desktopseiten}{37}
-\contentsline {subsection}{\numberline {5.5.3}Testen von mobilen Browsern}{38}
-\contentsline {subsection}{\numberline {5.5.4}Fazit zu Browser-Sync}{38}
-\contentsline {subsection}{\numberline {5.5.5}Tabellarische Evaluation}{38}
-\contentsline {section}{\numberline {5.6}Eigenes Framework}{39}
-\contentsline {subsection}{\numberline {5.6.1}Installation eines Node.JS Servers}{39}
-\contentsline {subsection}{\numberline {5.6.2}Einbinden von socket.io}{39}
-\contentsline {subsection}{\numberline {5.6.3}Generierung von Steuerbefehlen \IeC {\"u}ber socket.io}{39}
-\contentsline {subsubsection}{Ablaufdiagramm}{39}
-\contentsline {section}{\numberline {5.7}Zusammenfassendes Fazit}{39}
-\contentsline {chapter}{\numberline {6}Ausblick}{40}
+\contentsline {subsubsection}{Installation}{22}
+\contentsline {subsubsection}{Konfiguration}{22}
+\contentsline {subsubsection}{Funktion: Desktop}{22}
+\contentsline {subsubsection}{Funktion: Mobil}{23}
+\contentsline {subsubsection}{Erweiterbarkeit}{23}
+\contentsline {subsubsection}{Browser Support (aktuelle Versionen)}{23}
+\contentsline {subsubsection}{Aktivit\IeC {\"a}t}{23}
+\contentsline {section}{\numberline {5.2}Ghostlab Version 1.2.3}{24}
+\contentsline {subsection}{\numberline {5.2.1}Einrichtung der Testumgebung}{24}
+\contentsline {subsection}{\numberline {5.2.2}Testen von Desktopbrowsern}{24}
+\contentsline {subsection}{\numberline {5.2.3}Testen von mobilen Browsern}{27}
+\contentsline {subsection}{\numberline {5.2.4}Fazit zu Ghostlab}{28}
+\contentsline {subsection}{\numberline {5.2.5}Tabellarische Evaluation}{29}
+\contentsline {section}{\numberline {5.3}Adobe Edge Inspect CC}{30}
+\contentsline {subsection}{\numberline {5.3.1}Einrichtung der Testumgebung}{30}
+\contentsline {subsection}{\numberline {5.3.2}Testen von Desktopbrowsern}{32}
+\contentsline {subsection}{\numberline {5.3.3}Testen von mobilen Browsern}{32}
+\contentsline {subsection}{\numberline {5.3.4}Fazit zu Adobe Edge Inspect}{34}
+\contentsline {subsection}{\numberline {5.3.5}Tabellarische Evaluation}{34}
+\contentsline {section}{\numberline {5.4}Remote Preview}{35}
+\contentsline {subsection}{\numberline {5.4.1}Einrichtung der Testumgebung}{35}
+\contentsline {subsection}{\numberline {5.4.2}Testen von Desktopseiten}{35}
+\contentsline {subsection}{\numberline {5.4.3}Testen von mobilen Browsern}{35}
+\contentsline {subsection}{\numberline {5.4.4}Fazit zu Remote Preview}{36}
+\contentsline {subsection}{\numberline {5.4.5}Tabellarische Evaluation}{36}
+\contentsline {section}{\numberline {5.5}Browser-Sync}{37}
+\contentsline {subsection}{\numberline {5.5.1}Einrichtung der Testumgebung}{37}
+\contentsline {subsection}{\numberline {5.5.2}Testen von Desktopseiten}{38}
+\contentsline {subsection}{\numberline {5.5.3}Testen von mobilen Browsern}{39}
+\contentsline {subsection}{\numberline {5.5.4}Fazit zu Browser-Sync}{39}
+\contentsline {subsection}{\numberline {5.5.5}Tabellarische Evaluation}{39}
+\contentsline {section}{\numberline {5.6}Eigenes Framework}{40}
+\contentsline {subsection}{\numberline {5.6.1}Installation eines Node.JS Servers}{40}
+\contentsline {subsection}{\numberline {5.6.2}Einbinden von socket.io}{40}
+\contentsline {subsection}{\numberline {5.6.3}Generierung von Steuerbefehlen \IeC {\"u}ber socket.io}{41}
+\contentsline {section}{\numberline {5.7}Zusammenfassendes Fazit}{41}
+\contentsline {chapter}{\numberline {6}Ausblick}{42}

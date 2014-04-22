@@ -194,6 +194,17 @@
 \chapter{Evaluation der Frameworks}
 \section{Auflistung des Evaluationsschlüssels}
 
+Um die einzelnen Frameworks zu Evaluieren habe ich einen Schlüssel aufgelistet, welcher messbare Aspekte abdeckt, die ich im Vorfeld der Arbeit bereits als wichtig erachtet habe um die aufgestellte Thesis in Zahlen darzustellen. Ergänzend kamen Punkte hinzu die bei der Installation und der Nutzung auffielen und sich als wichtig erwiesen. 
+
+\\Ich habe den Schlüssel in 7 Hauptkategorien aufgeteilt. Die Abschnitte Installation und Konfiguration befassen sich in erster Linie mit der Verfügbarkeit, dem Zugang zu dem Framework, deren Installation und Dokumentation sowie der Voraussetzung andere Technologien um es zu nutzen.
+
+\\Der Teilschlüssel Funktion wurde dupliziert und in einen Mobilteil und einen Desktopteil aufgeteilt. Das hat den Grund, dass das testen von mobilen Seiten andere Schwerpunkte der Bewertung haben sollte, als das testen von Desktopseiten. So ist eine funktionierende synchrone Gestenkontrolle beim testen von mobilen Seiten zum Beispiel unerlässlich, wohingegen sie auf Desktops durch den Einsatz einer Maus tendenziell eher unhandlich in der Nutzung ist.
+
+\\Da es in der Praxis kein Framework gab, welches zum Zeitpunkt dieser Arbeit in der Lage war alle gewünschten Aspekte abzudecken, war es wichtig das Werkzeug um eigene Funktionen oder externe Frameworks zu ergänzen. Dies wurde unter Berücksichtigung der API, dessen Lizenz und Dokumentation bewertet.
+
+\\Ein weiterer wichtiger Aspekt ist die Unterstützung möglichst vieler verschiedener Browser auf dem Desktop, auf dem Mobilgerät und in der virtuellen Umgebung.
+
+\\Die Aktivität einer Software lässt darauf schließen, ob und gegebenenfalls wie diese sich in Zukunft Entwickeln kann. So sind von einem inaktiven Entwicklungsstand von über einem halben Jahr keine neuen Ergebnisse mehr zu erwarten und man muss davon ausgehen das die Software um keine neuen Features erweitert werden wird.
 
 \subsubsection{Installation}
 \begin{table}[H]
@@ -482,9 +493,13 @@
 \\Die Bibliotheken werden insbesondere auf ihre Implementation in einen Node.JS Server überprüft.
 
 	\subsection{Installation eines Node.JS Servers}
+	Die Installation des Node.JS Servers erfolgt einfach über die Konsole unter Mac oder den Installer\footnote{erhältlich unter Nodejs.org}. Alleinstehend erfüllt dieser Server keinerlei der gewünschten Funktionen, jedoch dient dieser als Grundlage für einige nachfolgende Frameworks. Node.JS ist eine gute Wahl aufgrund der hohen Verarbeitungsgeschwindigkeit sowohl Client als auch Server seitig. Weitere Pluspunkte sind die rasche Entwicklungsgeschwindigkeit, die hohe Vielfalt an Erweiterungen und Plugins, sowie eine sehr große aktive Entwicklergemeinde.
 	\subsection{Einbinden von socket.io}
+	socket.io lässt sich einfach über den NPM installieren. Es ermöglicht das herstellen einer permanenten Verbindung mit dem Server über einen Socket. Der Vorteil liegt hierbei darin, dass keine zyklischen Anfragen an den Server gesendet werden. Stattdessen wird hier das Observer-Pattern umgesetzt und alle verbundenen Clients werden vom Server informiert sobald eine Änderung des Status stattgefunden hat. 
+	
 	\subsection{Generierung von Steuerbefehlen über socket.io}
-	\subsubsection{\mi{Ablaufdiagramm}}
+	\igp{../pictures/broadcast}{socket.io vereinfachte Darstellung eines Broadcasts}{socket.io Broadcast \cite{3}}{300}{300}
+	\igp{../pictures/broadcastroom}{socket.io vereinfachte Darstellung eines Broadcasts mit einem Aktionraum}{socket.io Broadcast mit Aktionsraum}{300}{300}
 	
 	\section{Zusammenfassendes Fazit}
 
@@ -496,6 +511,7 @@
 
 \bibitem[RJBF88]{1}Ralph E. Johnson, Brian Foote: “Designing Reusable Classes” im "Journal of Object-Oriented Programming" (1988)
 \bibitem[Wiki01]{2} \url{http://de.wikipedia.org/w/index.php?title=Ajax\_(Programmierung)&oldid=129355492}
+\bibitem[ScVi]{3}\url{http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/}
 \end{thebibliography}
 
 \end{document}
