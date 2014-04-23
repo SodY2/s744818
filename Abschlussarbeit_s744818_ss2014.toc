@@ -73,10 +73,10 @@
 \contentsline {subsection}{\numberline {4.2.6}jQuery Touchit}{20}
 \contentsline {chapter}{\numberline {5}Evaluation der Frameworks}{21}
 \contentsline {section}{\numberline {5.1}Auflistung des Evaluationsschl\IeC {\"u}ssels}{21}
-\contentsline {subsubsection}{Installation}{22}
-\contentsline {subsubsection}{Konfiguration}{22}
+\contentsline {subsubsection}{Installation}{21}
+\contentsline {subsubsection}{Konfiguration}{21}
 \contentsline {subsubsection}{Funktion: Desktop}{22}
-\contentsline {subsubsection}{Funktion: Mobil}{23}
+\contentsline {subsubsection}{Funktion: Mobil}{22}
 \contentsline {subsubsection}{Erweiterbarkeit}{23}
 \contentsline {subsubsection}{Browser Support (aktuelle Versionen)}{23}
 \contentsline {subsubsection}{Aktivit\IeC {\"a}t}{23}
@@ -107,6 +107,9 @@
 \contentsline {section}{\numberline {5.6}Eigenes Framework}{40}
 \contentsline {subsection}{\numberline {5.6.1}Installation eines Node.JS Servers}{40}
 \contentsline {subsection}{\numberline {5.6.2}Einbinden von socket.io}{40}
-\contentsline {subsection}{\numberline {5.6.3}Generierung von Steuerbefehlen \IeC {\"u}ber socket.io}{41}
-\contentsline {section}{\numberline {5.7}Zusammenfassendes Fazit}{41}
-\contentsline {chapter}{\numberline {6}Ausblick}{42}
+\contentsline {subsection}{\numberline {5.6.3}Generierung von Steuerbefehlen \IeC {\"u}ber socket.io}{40}
+\contentsline {subsection}{\numberline {5.6.4}Implementierung eines einfachen Broadcast}{42}
+\contentsline {subsubsection}{Serverseitig}{42}
+\contentsline {subsubsection}{Clientseitig}{43}
+\contentsline {section}{\numberline {5.7}Zusammenfassendes Fazit}{44}
+\contentsline {chapter}{\numberline {6}Ausblick}{45}

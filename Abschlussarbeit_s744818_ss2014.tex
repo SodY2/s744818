@@ -198,14 +198,6 @@ Um die einzelnen Frameworks zu Evaluieren habe ich einen Schlüssel aufgelistet,
 
 \\Ich habe den Schlüssel in 7 Hauptkategorien aufgeteilt. Die Abschnitte Installation und Konfiguration befassen sich in erster Linie mit der Verfügbarkeit, dem Zugang zu dem Framework, deren Installation und Dokumentation sowie der Voraussetzung andere Technologien um es zu nutzen.
 
-\\Der Teilschlüssel Funktion wurde dupliziert und in einen Mobilteil und einen Desktopteil aufgeteilt. Das hat den Grund, dass das testen von mobilen Seiten andere Schwerpunkte der Bewertung haben sollte, als das testen von Desktopseiten. So ist eine funktionierende synchrone Gestenkontrolle beim testen von mobilen Seiten zum Beispiel unerlässlich, wohingegen sie auf Desktops durch den Einsatz einer Maus tendenziell eher unhandlich in der Nutzung ist.
-
-\\Da es in der Praxis kein Framework gab, welches zum Zeitpunkt dieser Arbeit in der Lage war alle gewünschten Aspekte abzudecken, war es wichtig das Werkzeug um eigene Funktionen oder externe Frameworks zu ergänzen. Dies wurde unter Berücksichtigung der API, dessen Lizenz und Dokumentation bewertet.
-
-\\Ein weiterer wichtiger Aspekt ist die Unterstützung möglichst vieler verschiedener Browser auf dem Desktop, auf dem Mobilgerät und in der virtuellen Umgebung.
-
-\\Die Aktivität einer Software lässt darauf schließen, ob und gegebenenfalls wie diese sich in Zukunft Entwickeln kann. So sind von einem inaktiven Entwicklungsstand von über einem halben Jahr keine neuen Ergebnisse mehr zu erwarten und man muss davon ausgehen das die Software um keine neuen Features erweitert werden wird.
-
 \subsubsection{Installation}
 \begin{table}[H]
  	\vspace{-30pt}
@@ -245,6 +237,7 @@ Um die einzelnen Frameworks zu Evaluieren habe ich einen Schlüssel aufgelistet,
 	\caption{Kriterienübersicht: Konfiguration}
 \end{table}
 
+\\Der Teilschlüssel Funktion wurde dupliziert und in einen Mobilteil und einen Desktopteil aufgeteilt. Das hat den Grund, dass das testen von mobilen Seiten andere Schwerpunkte der Bewertung haben sollte, als das testen von Desktopseiten. So ist eine funktionierende synchrone Gestenkontrolle beim testen von mobilen Seiten zum Beispiel unerlässlich, wohingegen sie auf Desktops durch den Einsatz einer Maus tendenziell eher unhandlich in der Nutzung ist.
 \subsubsection{Funktion: Desktop}
 \begin{table}[H]
  	\vspace{-30pt}
@@ -286,6 +279,7 @@ Um die einzelnen Frameworks zu Evaluieren habe ich einen Schlüssel aufgelistet,
 	\caption{Kriterienübersicht: Mobil}
 \end{table}
 
+\\Da es in der Praxis kein Framework gab, welches zum Zeitpunkt dieser Arbeit in der Lage war alle gewünschten Aspekte abzudecken, war es wichtig das Werkzeug um eigene Funktionen oder externe Frameworks zu ergänzen. Dies wurde unter Berücksichtigung der API, dessen Lizenz und Dokumentation bewertet.
 \subsubsection{Erweiterbarkeit}
 \begin{table}[H]
  	\vspace{-30pt}
@@ -303,7 +297,9 @@ Um die einzelnen Frameworks zu Evaluieren habe ich einen Schlüssel aufgelistet,
 		\end{tabular}
 	\caption{Kriterienübersicht: Erweiterbarkeit}
 \end{table}
-	
+
+\\Ein weiterer wichtiger Aspekt ist die Unterstützung möglichst vieler verschiedener Browser auf dem Desktop, auf dem Mobilgerät und in der virtuellen Umgebung.
+
 \subsubsection{Browser Support (aktuelle Versionen)} 
 \begin{table}[H]
  	\vspace{-30pt}
@@ -326,6 +322,7 @@ Um die einzelnen Frameworks zu Evaluieren habe ich einen Schlüssel aufgelistet,
 	\caption{Kriterienübersicht: Browser}
 \end{table}
 
+\\Die Aktivität einer Software lässt darauf schließen, ob und gegebenenfalls wie diese sich in Zukunft Entwickeln kann. So sind von einem inaktiven Entwicklungsstand von über einem halben Jahr keine neuen Ergebnisse mehr zu erwarten und man muss davon ausgehen das die Software um keine neuen Features erweitert werden wird.
 \subsubsection{Aktivität}
 \begin{table}[H]
  	\vspace{-30pt}
@@ -498,8 +495,35 @@ Um die einzelnen Frameworks zu Evaluieren habe ich einen Schlüssel aufgelistet,
 	socket.io lässt sich einfach über den NPM installieren. Es ermöglicht das herstellen einer permanenten Verbindung mit dem Server über einen Socket. Der Vorteil liegt hierbei darin, dass keine zyklischen Anfragen an den Server gesendet werden. Stattdessen wird hier das Observer-Pattern umgesetzt und alle verbundenen Clients werden vom Server informiert sobald eine Änderung des Status stattgefunden hat. 
 	
 	\subsection{Generierung von Steuerbefehlen über socket.io}
+	Der generelle Aufbau von socket.io sieht vor, dass der Client sicht mit dem Server verbindet und eine permanente Verbindung mit diesem aufrecht erhällt. Identifizierbar bleibt diese über eine generierte, einzigartige, alphanumerische Session ID. socket.io funktioniert nach den Observer-Pattern, dass bedeutet das der Client nicht in zyklischen Abständen Anfragen an den Server sendet, sondern bei einer Änderung der Modelle oder zum Beispiel einem Funktionsaufruf vom Server mittels eines Broadcasts informiert wird. So entsteht das Problem, dass wenn ein Client eine Nachricht an den Server sendet, dieser allen Clients (auch dem Auslöser) diese Nachricht sendet. 
+	
 	\igp{../pictures/broadcast}{socket.io vereinfachte Darstellung eines Broadcasts}{socket.io Broadcast \cite{3}}{300}{300}
-	\igp{../pictures/broadcastroom}{socket.io vereinfachte Darstellung eines Broadcasts mit einem Aktionraum}{socket.io Broadcast mit Aktionsraum}{300}{300}
+	
+Für die entwicklung eines eigenen Frameworks wirft dies einige Probleme auf.
+\\ Ein  Beispiel: Ein Nutzer klickt auf einer Seite auf einen Button. Das senden-Event wird an den Server gesendet und an alle per socket verbundenen Clients dupliziert. Somit würde der ursprüngliche Sender des Signals, erneut das selbe Event erhalten. Das Resultat wäre, dass dieser Den Button zweimalig drückt. Das kann zu Problemen führen, weil beispielsweise eine Clientseitie Aktion mehrfach ausgeführt wird. Ein weiteres Problem kann durch rekursives Aufrufen einer Methode einen Dead-Lock erzeugen. Clients die empfangen Signale langsamer als andere verarbeiten, können in dem Moment vom Empfänger direkt wieder zum Sender werden.
+	
+	\\Daher ist der Ansatz ein Master-Slave-Pattern umzusetzen denkbar sinnvoll. Es wird ein Steuergerät definiert, welches seine Aktionen dem Server mitteilt und dieser die Events dann an alle verbundenen Clients innerhalb eines Aktionsraumes sendet.
+	
+	\igp{../pictures/broadcastroom}{socket.io vereinfachte Darstellung eines Broadcasts mit einem Aktionraum}{socket.io Broadcast mit Aktionsraum}{350}{350}
+	
+	\subsection{Implementierung eines einfachen Broadcast}
+	Das Beispiel soll veranschaulichen wie ein einfacher Broadcast ohne Aktionsraum implementiert werden kann. Das Beispiel soll das Scrollevent des Clients abfangen und auf allen verbundenen Clients an die selbe Position auf dem Bildschirm scrollen.
+	
+	\subsubsection{Serverseitig}
+	Zu Begin werden die notwendigen Bibliotheken eingebunden um einen NodeJS Server starten zu können (Zeilen: 1-2). Im Anschluss wird  eine Serverinstanz von NodeJS erstellt (Zeile: 4) und gestartet auf Port 8001 (Zeile: 6). Dieser wird nun mit der socket.io Bibliothek verknüpft (Zeile: 7). Sofern nun ein Client sich mit dem Server verbindet wird das \frqq connection\flqq-Event gefeuert (Zeile: 9) und der Client wartet auf ein selbstdefinierten Methodenaufruf vom  \frqq scroll\flqq (Zeile: 11).
+	
+	\\Wenn am Server ein Srollevent eingegangen ist sendet dieser dies per Broadcast an alle verbundenen Clienten (Zeile: 12).
+	
+	\igp{../pictures/socketio/server_1}{socket.io Quellcode Scrollbeispiel Serverseitig}{minifizierter Quellcode Serverseitig}{350}{350}
+	\subsubsection{Clientseitig}
+	Auf der Seite des Clients müssen zwei Methoden implementiert werden. Zum einen die Methode die das Scrollevent des Browsers, was hier über jQuery erfolgt, abfängt und über die Socketverbindung die Servermethode \frqq scroll\flqq  aufruft und die aktuelle Scrollposition zum oberen Bildschirmrand übergibt.
+	
+	\igp{../pictures/socketio/client_1}{socket.io Quellcode Scrollbeispiel Clientseitig}{minifizierter Quellcode Clientseitig}{350}{350}
+	
+	Zum anderen muss die Methode implementiert werden, welche vom Server gesendete Events abfängt und verarbeitet. In diesem Beispiel wartet der Client auf ein Event vom Typ \frqq scroll \flqq. Dieses bekommt einen Datensatz, die Scrollposition, mitgeliefert. Nach erfolgreichem Eventaufruf wird per jQuery die Position des Bildausschnittes an den des mitgelieferten Datensatzes angepasst.
+	
+	\igp{../pictures/socketio/client_2}{socket.io Quellcode Scrollbeispiel Clientseitig}{minifizierter Quellcode Clientseitig}{250}{250}
+
 	
 	\section{Zusammenfassendes Fazit}
 

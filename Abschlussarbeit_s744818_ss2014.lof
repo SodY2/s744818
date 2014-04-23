@@ -22,5 +22,8 @@
 \contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Browser-Sync Script-Tag}}{38}
 \contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Browser-Sync verbundener Client}}{38}
 \contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces socket.io vereinfachte Darstellung eines Broadcasts}}{41}
-\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces socket.io vereinfachte Darstellung eines Broadcasts mit einem Aktionraum}}{41}
+\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces socket.io vereinfachte Darstellung eines Broadcasts mit einem Aktionraum}}{42}
+\contentsline {figure}{\numberline {\relax 5.18}{\ignorespaces socket.io Quellcode Scrollbeispiel Serverseitig}}{43}
+\contentsline {figure}{\numberline {\relax 5.19}{\ignorespaces socket.io Quellcode Scrollbeispiel Clientseitig}}{43}
+\contentsline {figure}{\numberline {\relax 5.20}{\ignorespaces socket.io Quellcode Scrollbeispiel Clientseitig}}{43}
 \addvspace {10\p@ }
