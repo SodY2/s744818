@@ -1,0 +1,51 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{A}\relax \glsresetentrylist %
+\glossaryentryfield{Ajax}{\glsnamefont{Ajax}}{\z {Ajax (Apronym von engl. Asynchronous JavaScript and XML) bezeichnet ein Konzept der asynchronen Datenübertragung zwischen einem Browser und dem Server. Dieses ermöglicht es, HTTP-Anfragen durchzuführen, während eine HTML-Seite angezeigt wird, und die Seite zu verändern, ohne sie komplett neu zu laden}{2} }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{B}\relax \glsresetentrylist %
+\glossaryentryfield{BA}{\glsnamefont{Bildauflösung}}{\z {Die Bildauflösung ist ein umgangssprachliches Maß für die Bildgröße einer Rastergrafik. Sie wird durch die Gesamtzahl der Bildpunkte oder durch die Anzahl der Spalten (Breite) und Zeilen (Höhe) einer Rastergrafik angegeben.}{5}}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{F}\relax \glsresetentrylist %
+\glossaryentryfield{Framework}{\glsnamefont{Framework}}{\z {Ein Framework ist eine semi-vollständige Applikation. Es stellt für Applikationen eine wiederverwendbare, gemeinsame Struktur zur Verfügung. Die Entwickler bauen das Framework in ihre eigene Applikation ein, und erweitern es derart, dass es ihren spezifischen Anforderungen entspricht. Frameworks unterscheiden sich von Toolkits dahingehend, dass sie eine kohärente Struktur zur Verfügung stellen, anstatt einer einfachen Menge von Hilfsklassen.}{1} Der Einfachheit halber wurden Sammlungen die nach dieser Definition eventuell unter den Begriff eines Toolkits fallen, ebenfalls als Framework betitelt }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{41}}}\glsgroupskip
+\glsgroupheading{H}\relax \glsresetentrylist %
+\glossaryentryfield{HTML}{\glsnamefont{HTML}}{Die Hypertext Markup Language ist eine Auszeichnungsprache zur Beschreibung von Inhalten. Sie dient der Strukturierung von Texten, Links\footnote {Verweise zu anderen Inhalten}, Listen und Bildern eines Dokumentes. Eine HTML Seite wird von einem Webbrowser interpretiert und anschließend dargestellt. Die Entwicklung von HTML geschieht durch das World Wide Web Consortium(W3C) und den Web Hypertext Application Technology Working Group (WHATWG) }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{J}\relax \glsresetentrylist %
+\glossaryentryfield{Javascript}{\glsnamefont{Javascript}}{\z {JavaScript (kurz JS) ist eine Skriptsprache, die ursprünglich für dynamisches HTML in Webbrowsern entwickelt wurde, um Benutzerinteraktionen auszuwerten, Inhalte zu verändern, nachzuladen oder zu generieren und so die Möglichkeiten von HTML und CSS zu erweitern. Heute findet JavaScript auch außerhalb von Browsern Anwendung, so etwa auf Servern und in Microcontrollern}{4}}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{M}\relax \glsresetentrylist %
+\glossaryentryfield{moEn}{\glsnamefont{mobiles Endgerät}}{Komponenten mit primärer mobiler Nutzung werden umfassend als mobile Endgeräte gruppiert. Hierzu zählen Smarthphones, Tablets, sowie das Microsoft Surface}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{N}\relax \glsresetentrylist %
+\glossaryentryfield{NodeJS}{\glsnamefont{NodeJS}}{Plattform um serverseitige eventgesteuerte Javascriptanwendungen zu entwickeln}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}%
+\glossaryentryfield{NPM}{\glsnamefont{NPM}}{Node Packaged Modules, eine Software zur Installation von NodeJS Bibliotheken}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{P}\relax \glsresetentrylist %
+\glossaryentryfield{PaW}{\glsnamefont{Panorama View}}{Horizontalausrichtung des Bildschirms eines mobilen Endgerätes}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}%
+\glossaryentryfield{PHP}{\glsnamefont{PHP}}{Eine an C und Perl angelehnte Scriptsprache für dynamische Webseiten}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}%
+\glossaryentryfield{Pixel}{\glsnamefont{Pixel}}{Auch bekannt als Bildpunkt. Farbwert einer digitalen Rastergrafik}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}%
+\glossaryentryfield{PoW}{\glsnamefont{Portrait View}}{Vertikalausrichtung des Bildschirms eines mobilen Endgerätes}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{Q}\relax \glsresetentrylist %
+\glossaryentryfield{qs}{\glsnamefont{Qualitätssicherung}}{Station, welche ein Produkt (hier die Anwendung) durchlaufen und bestehen muss um eine gewisse Qualität zu gewährleisten}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossaryentryfield{Smartphone}{\glsnamefont{Smartphone}}{Mobiltelefon mit Computerähnlicher Struktur, meist mit Touchdisplay ausgestattet}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{T}\relax \glsresetentrylist %
+\glossaryentryfield{Tablet}{\glsnamefont{Tablet}}{tragbarer flacher Computer mit einem Touchscreen}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{V}\relax \glsresetentrylist %
+\glossaryentryfield{VirtualBox}{\glsnamefont{VirtualBox}}{Virtuelle Desktopumgebung von Oracle. Wird genutzt um zum Beispiel ein anderes Betriebssystem als das eigentlich genutzte zu Emulieren}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+\glsgroupheading{W}\relax \glsresetentrylist %
+\glossaryentryfield{Webbrowser}{\glsnamefont{Webbrowser}}{Computerprogramm zur Darstellung von Inhalten des World Wide Web}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{9}}}%
+\end{theglossary}\glossarypostamble
