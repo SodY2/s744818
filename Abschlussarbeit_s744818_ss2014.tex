@@ -108,8 +108,130 @@
 \usepackage{makeidx}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage[toc]{glossaries}
 
 \makeindex 
+
+
+ 
+\makeglossaries
+ 
+ 
+%%
+%% ======================= GLOSSAR ANFANG
+%% 
+ 
+\newglossaryentry{Ajax}
+{
+    name=Ajax,
+    description={\z{Ajax (Apronym von engl. Asynchronous JavaScript and XML) bezeichnet ein Konzept der asynchronen 				Datenübertragung zwischen einem Browser und dem Server. Dieses ermöglicht es, HTTP-Anfragen durchzuführen, während 		eine HTML-Seite angezeigt wird, und die Seite zu verändern, ohne sie komplett neu zu laden}{2}
+	}
+}
+
+ \newglossaryentry{moEn}
+{
+    name=mobiles Endgerät,
+    description={Komponenten mit primärer mobiler Nutzung werden umfassend als mobile Endgeräte gruppiert. Hierzu zählen 			Smarthphones, Tablets, sowie das Microsoft Surface}
+}
+
+ \newglossaryentry{Framework}
+{
+    name=Framework,
+    description={\z{Ein Framework ist eine semi-vollständige Applikation. Es stellt für Applikationen eine wiederverwendbare, 			gemeinsame Struktur zur Verfügung. Die Entwickler bauen das Framework in ihre eigene Applikation ein, und erweitern es 		derart, dass es ihren spezifischen Anforderungen entspricht. Frameworks unterscheiden sich von Toolkits dahingehend, dass sie 	eine kohärente Struktur zur Verfügung stellen, anstatt einer einfachen Menge von Hilfsklassen.}{1}
+    Der Einfachheit halber wurden Sammlungen die nach dieser Definition eventuell unter den Begriff eines Toolkits fallen, ebenfalls als Framework betitelt
+	}
+}
+ 
+\newglossaryentry{Webbrowser}
+{
+    name=Webbrowser,
+    description={Computerprogramm zur Darstellung von Inhalten des World Wide Web}
+}
+
+\newglossaryentry{HTML}
+{
+    name=HTML,
+    description={Die Hypertext Markup Language ist eine Auszeichnungsprache zur Beschreibung von Inhalten. Sie dient der Strukturierung von Texten, Links\footnote{Verweise zu anderen Inhalten}, Listen und Bildern eines Dokumentes. Eine HTML Seite wird von einem Webbrowser interpretiert und anschließend dargestellt. Die Entwicklung von HTML geschieht durch das World Wide Web Consortium(W3C) und den Web Hypertext Application Technology Working Group (WHATWG) }
+}
+
+\newglossaryentry{Javascript}
+{
+    name=Javascript,
+    description={\z{JavaScript (kurz JS) ist eine Skriptsprache, die ursprünglich für dynamisches HTML in Webbrowsern entwickelt wurde, um Benutzerinteraktionen auszuwerten, Inhalte zu verändern, nachzuladen oder zu generieren und so die Möglichkeiten von HTML und CSS zu erweitern. Heute findet JavaScript auch außerhalb von Browsern Anwendung, so etwa auf Servern und in Microcontrollern}{4}}
+}
+
+\newglossaryentry{NodeJS}
+{
+    name=NodeJS,
+    description={Plattform um serverseitige eventgesteuerte Javascriptanwendungen zu entwickeln}
+}
+
+\newglossaryentry{PHP}
+{
+    name=PHP,
+    description={Eine an C und Perl angelehnte Scriptsprache für dynamische Webseiten}
+}
+
+\newglossaryentry{NPM}
+{
+    name=NPM,
+    description={Node Packaged Modules, eine Software zur Installation von NodeJS Bibliotheken}
+}
+
+\newglossaryentry{qs}
+{
+    name=Qualitätssicherung,
+    description={Station, welche ein Produkt (hier die Anwendung) durchlaufen und bestehen muss um eine gewisse Qualität zu gewährleisten}
+}
+
+\newglossaryentry{VirtualBox}
+{
+    name=VirtualBox,
+    description={Virtuelle Desktopumgebung von Oracle. Wird genutzt um zum Beispiel ein anderes Betriebssystem als das eigentlich genutzte zu Emulieren}
+}
+
+\newglossaryentry{Smartphone}
+{
+    name=Smartphone,
+    description={Mobiltelefon mit Computerähnlicher Struktur, meist mit Touchdisplay ausgestattet}
+}
+
+\newglossaryentry{Tablet}
+{
+    name=Tablet,
+    description={tragbarer flacher Computer mit einem Touchscreen}
+}
+
+\newglossaryentry{PoW}
+{
+    name=Portrait View,
+    description={Vertikalausrichtung des Bildschirms eines mobilen Endgerätes}
+}
+
+\newglossaryentry{PaW}
+{
+    name=Panorama View,
+    description={Horizontalausrichtung des Bildschirms eines mobilen Endgerätes}
+}
+
+\newglossaryentry{Pixel}
+{
+    name=Pixel,
+    description={Auch bekannt als Bildpunkt. Farbwert einer digitalen Rastergrafik}
+}
+
+\newglossaryentry{BA}
+{
+    name=Bildauflösung,
+    description={\z{Die Bildauflösung ist ein umgangssprachliches Maß für die Bildgröße einer Rastergrafik. Sie wird durch die Gesamtzahl der Bildpunkte oder durch die Anzahl der Spalten (Breite) und Zeilen (Höhe) einer Rastergrafik angegeben.}{5}}
+}
+
+
+
+%%
+%% ======================= GLOSSAR ENDE
+%%
+
 
 \usepackage{tikz}
 \usetikzlibrary{calc}
@@ -500,6 +622,7 @@ Um die einzelnen Frameworks zu Evaluieren habe ich einen Schlüssel aufgelistet,
 	\igp{../pictures/broadcast}{socket.io vereinfachte Darstellung eines Broadcasts}{socket.io Broadcast \cite{3}}{300}{300}
 	
 Für die entwicklung eines eigenen Frameworks wirft dies einige Probleme auf.
+
 \\ Ein  Beispiel: Ein Nutzer klickt auf einer Seite auf einen Button. Das senden-Event wird an den Server gesendet und an alle per socket verbundenen Clients dupliziert. Somit würde der ursprüngliche Sender des Signals, erneut das selbe Event erhalten. Das Resultat wäre, dass dieser Den Button zweimalig drückt. Das kann zu Problemen führen, weil beispielsweise eine Clientseitie Aktion mehrfach ausgeführt wird. Ein weiteres Problem kann durch rekursives Aufrufen einer Methode einen Dead-Lock erzeugen. Clients die empfangen Signale langsamer als andere verarbeiten, können in dem Moment vom Empfänger direkt wieder zum Sender werden.
 	
 	\\Daher ist der Ansatz ein Master-Slave-Pattern umzusetzen denkbar sinnvoll. Es wird ein Steuergerät definiert, welches seine Aktionen dem Server mitteilt und dieser die Events dann an alle verbundenen Clients innerhalb eines Aktionsraumes sendet.
@@ -524,18 +647,43 @@ Für die entwicklung eines eigenen Frameworks wirft dies einige Probleme auf.
 	
 	\igp{../pictures/socketio/client_2}{socket.io Quellcode Scrollbeispiel Clientseitig}{minifizierter Quellcode Clientseitig}{250}{250}
 
+	\subsection{Einschätzung zur Umsetzung eines eigenen Frameworks}
+	Der realisierung eines eigenen Frameworks zur parallel-synchronen Steuerung von Webseiten steht nichts im wege. Die sehr schnelle Datenübertragung in nahezu Echtzeit mittels Node.JS, Vorraussetzung ist hier, dass die Geräte sich im gleichen Lokalen Netz befinden, die einfache Implementierung von Steuersignalen über socket.io und die modulare Grundstruktur der Frameworks ermöglichen einen einfachen Einstieg in die Materie.
+
+\\Die Struktur ermöglicht es sämtliche Events abzufangen, egal ob mit jQuery oder anderen Frameworks zur Eventermittlung, um diese dann in entsprechende Funktionen umzuwandeln und an alle Clients weiterzugeben. Der Einsatz eines Mastergerätes und das nutzen von Aktionsräumen verhindern die irreführende Rückkopplungen innerhalb des Nachrichtenzyklus. 
 	
 	\section{Zusammenfassendes Fazit}
 
+The \Gls{Framework} typesetting markup language is specially suitable 
+for documents that include \gls{maths}. 
+  \Gls{lctex} 
+   \Gls{lbtex} 
+
 \chapter{Ausblick}
 
+
+%%
+%% ############# Glossarausgabe
+%%
+\clearpage
+\printglossary[style=altlist,title=Glossar]
+
+%% 
+%% ############# Indexverzeichnis
 \printindex
+%%
+%% ############# Literaturverzeichnis
+%%
 
 \begin{thebibliography}{999}
 
 \bibitem[RJBF88]{1}Ralph E. Johnson, Brian Foote: “Designing Reusable Classes” im "Journal of Object-Oriented Programming" (1988)
 \bibitem[Wiki01]{2} \url{http://de.wikipedia.org/w/index.php?title=Ajax\_(Programmierung)&oldid=129355492}
 \bibitem[ScVi]{3}\url{http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/}
+\bibitem[Wiki02]{4} \url{http://de.wikipedia.org/w/index.php?title=JavaScript&oldid=129548016}
+\bibitem[Wiki03]{5}\url{http://de.wikipedia.org/w/index.php?title=Bildaufl%C3%B6sung&oldid=129700697}
+
+
 \end{thebibliography}
 
 \end{document}

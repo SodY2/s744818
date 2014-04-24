@@ -1,13 +1,12 @@
 \begin{theindex}
 
   \item Abgrenzungskriterien, 4
-  \item Ablaufdiagram, 37
   \item Abschlussthesis, 4
   \item Adobe Edge Inspect, 16, 27
 
   \indexspace
 
-  \item Browser-Sync, 17, 34
+  \item Browser-Sync, 17, 33
 
   \indexspace
 
@@ -15,27 +14,25 @@
 
   \indexspace
 
-  \item Framework, 18, 37
-  \item Frameworks, 2, 4, 7
+  \item Framework, 35
+  \item Frameworks, 3, 4, 6
 
   \indexspace
 
-  \item Ghostlab, 15, 21
+  \item Ghostlab, 15, 23
 
   \indexspace
 
-  \item jQuery Touchit, 18
-  \item jQuery UI Touch Punch, 18
+  \item jQuery Touchit, 19
+  \item jQuery UI Touch Punch, 19
 
   \indexspace
 
   \item Kaskadierungsfehler, 2
-  \item Klassendiagramm, 37
 
   \indexspace
 
   \item NodeJS, 18
-  \item NPM, 18
 
   \indexspace
 
@@ -43,17 +40,16 @@
 
   \indexspace
 
-  \item Remote Preview, 16, 32
+  \item Remote Preview, 16, 31
 
   \indexspace
 
   \item socket.io, 18
-  \item Softwareframeworks, 2
-  \item Systementwurf, 37
+  \item Softwareframeworks, 3
 
   \indexspace
 
-  \item Testunits, 2
+  \item Testunits, 3
 
   \indexspace
 
@@ -61,7 +57,7 @@
 
   \indexspace
 
-  \item Weinre, 22, 29, 31
+  \item Weinre, 23, 28, 30
 
   \indexspace
 
