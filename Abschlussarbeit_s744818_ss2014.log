@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  8 MAY 2014 12:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  8 MAY 2014 18:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2499,12 +2499,22 @@ ut line 336.
 (pdftex.def)             Requested size: 249.99797pt x 44.40115pt.
  [40 <./pictures/../pictures/socketio/server_1.png> <./pictures/../pictures/soc
 ketio/client_1.png> <./pictures/../pictures/socketio/client_2.png>]) [41]
+\openout2 = `./tex/zusammenfassung.aux'.
+
+ (./tex/zusammenfassung.tex
 Kapitel 6.
 [42
 
 
 
-] [43] (./Abschlussarbeit_s744818_ss2014.gls
+
+]
+Overfull \hbox (0.33295pt too wide) in paragraph at lines 26--27
+\T1/ptm/m/n/13 fen, wel-ches die Pro-duk-ti-vi-tät in der Web-Applikationsentwi
+cklung stark op-ti-miert.
+ []
+
+) [43] [44] (./Abschlussarbeit_s744818_ss2014.gls
 Overfull \hbox (1.65823pt too wide) in paragraph at lines 5--5
 \T1/ptm/m/n/13 schen ei-nem Brow-ser und dem Ser-ver. Die-ses er-mög-licht es, 
 HTTP-
@@ -2522,11 +2532,12 @@ Overfull \hbox (10.06506pt too wide) in paragraph at lines 5--5
  " [[]] 
  []
 
-[44
+[45
 
 
 
-] [45]) (./Abschlussarbeit_s744818_ss2014.ind [46] [47
+
+] [46]) (./Abschlussarbeit_s744818_ss2014.ind [47] [48
 
 
 
@@ -2534,8 +2545,8 @@ Overfull \hbox (10.06506pt too wide) in paragraph at lines 5--5
 
 
 ])
-./Abschlussarbeit_s744818_ss2014.tex:356: Undefined control sequence.
-l.356 \bibitem[Wiki01]{2} \url
+./Abschlussarbeit_s744818_ss2014.tex:339: Undefined control sequence.
+l.339 \bibitem[Wiki01]{2} \url
                               {http://de.wikipedia.org/w/index.php?title=Aja...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2543,8 +2554,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:356: Misplaced alignment tab character &.
-l.356 ...w/index.php?title=Ajax\_(Programmierung)&
+./Abschlussarbeit_s744818_ss2014.tex:339: Misplaced alignment tab character &.
+l.339 ...w/index.php?title=Ajax\_(Programmierung)&
                                                   oldid=129355492}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2554,13 +2565,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (66.90411pt too wide) in paragraph at lines 356--357
+Overfull \hbox (66.90411pt too wide) in paragraph at lines 339--340
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Ajax_(Programmierung
 )oldid=129355492 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:357: Undefined control sequence.
-l.357 \bibitem[ScVi]{3}\url
+./Abschlussarbeit_s744818_ss2014.tex:340: Undefined control sequence.
+l.340 \bibitem[ScVi]{3}\url
                            {http://irlnathan.github.io/sailscasts/blog/2013/...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2569,19 +2580,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 []\T1/ptm/m/n/13 http://irlnathan.github.io/sailscasts/blog/2013/10/10/building
 -a-sails-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 \T1/ptm/m/n/13 application-ep21-integrating-socket-dot-io-and-sails-with-custom
 -
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:358: Undefined control sequence.
-l.358 \bibitem[Wiki02]{4} \url
+./Abschlussarbeit_s744818_ss2014.tex:341: Undefined control sequence.
+l.341 \bibitem[Wiki02]{4} \url
                               {http://de.wikipedia.org/w/index.php?title=Jav...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2589,8 +2600,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:358: Misplaced alignment tab character &.
-l.358 ...kipedia.org/w/index.php?title=JavaScript&
+./Abschlussarbeit_s744818_ss2014.tex:341: Misplaced alignment tab character &.
+l.341 ...kipedia.org/w/index.php?title=JavaScript&
                                                   oldid=129548016}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2599,8 +2610,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Abschlussarbeit_s744818_ss2014.tex:359: Undefined control sequence.
-l.359 \bibitem[Wiki03]{5}\url
+./Abschlussarbeit_s744818_ss2014.tex:342: Undefined control sequence.
+l.342 \bibitem[Wiki03]{5}\url
                              {http://de.wikipedia.org/w/index.php?title=Bild...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2608,10 +2619,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:362: Missing } inserted.
+./Abschlussarbeit_s744818_ss2014.tex:345: Missing } inserted.
 <inserted text> 
                 }
-l.362 \end{thebibliography}
+l.345 \end{thebibliography}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2619,24 +2630,24 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[48
+[49
 
 
 
 ] (./Abschlussarbeit_s744818_ss2014.aux (./tex/erklaerung.aux)
 (./tex/sperrvermerk.aux) (./tex/abstract.aux) (./tex/einleitung.aux)
 (./tex/aufgabenstellung.aux) (./tex/begriffserklaerung.aux)
-(./tex/technologien.aux) (./tex/evaluation.aux))
+(./tex/technologien.aux) (./tex/evaluation.aux) (./tex/zusammenfassung.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.75pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 19583 strings out of 493315
- 337318 string characters out of 6137904
+ 19591 strings out of 493315
+ 337530 string characters out of 6137904
  441636 words of memory out of 5000000
- 22422 multiletter control sequences out of 15000+600000
+ 22425 multiletter control sequences out of 15000+600000
  60915 words of font info for 91 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,11n,71p,1709b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2648,11 +2659,11 @@ ive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2013
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (56 pages, 1359648 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (57 pages, 1361851 bytes).
 
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 168 compressed objects within 2 object streams
+ 274 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
