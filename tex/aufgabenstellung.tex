@@ -45,8 +45,8 @@ Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchr
 
 	\draw[red,id=test1,samples=100,domain=0.0:9.0] plot(\x,{1.3*ln(\x+1)}); 
 	\draw[blue,domain=0:3.3] plot (\x,{-1+exp(ln(2)*\x)});
-	\draw[red,thick] (9,5) -- +(0.3,0) node[anchor=mid west,black] {schlechte Lernkurve};
-	\draw[blue,thick] (9,5.5) -- +(0.3,0) node[anchor=mid west,black] {gute Lernkurve};
+	\draw[red,thick] (9,5) -- +(0.3,0) node[anchor=mid west,black] {unproduktive Lernkurve};
+	\draw[blue,thick] (9,5.5) -- +(0.3,0) node[anchor=mid west,black] {effiiziente Lernkurve};
 
 	\end{tikzpicture}
 	\vspace{-25pt}
@@ -60,6 +60,9 @@ Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchr
 	 in Hinsicht auf mehrere Endgeräte gibt es mehrere Aspekte zum analysieren. Zum einen ob das Framework auf verschiedene 	Arten an System gebunden sind, wie etwa Android oder iOS. Zum anderen ob es eine limitierung der Anzahl der 				anzuschliessenden Geräte gibt. 
 
 	\\Unter den Aspekt der Erweiterbarkeit fällt auch die Möglichkeit das Framework um eigene Funktionalitäten zu erweitern. So 		sollte im Idealfall ein Framework ein Grundgerüst liefern, auf das der Entwickler mit eigenen Erweiterungen aufbauen kann um 	das gewünscht Ziel zu erreichen.
+	
+	\subsubsection{Steuerbefehle}
+	Ein wichtiger Aspekt dieser Arbeit ist die Steuerung beziehungsweise die Generierung von Steuerbefehlen und deren Verteilung auf alle verbundenen Klienten. Insbesondere wurde in dieser Arbeit auf das Scrollen innerhalb einer Web-Applikation, das ausfüllen von Formularen mit den dazugehörigen Eingabefeldern, sowie das ausführen Eventgesteuerter Aktionen.
 
 	\subsubsection{Unterstütze Browser}
 	Ein wichtiger Aspekt der durchzuführenden Tests wird die unterstützung möglichst verschiedener Browser beinhalten. Dies hat 	den Grund, dass leidglich ein Framework was eine große Spanne an Endgeräten abdeckt in der Lage ist effektiv genutzt werden 	zu können.

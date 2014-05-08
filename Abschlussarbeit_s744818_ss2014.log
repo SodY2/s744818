@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  24 APR 2014 18:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  8 MAY 2014 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1268,7 +1268,7 @@ File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
 (./tex/deckblatt_config.tex (./Abschlussarbeit_s744818_ss2014.aux
 (./tex/erklaerung.aux) (./tex/sperrvermerk.aux) (./tex/abstract.aux)
 (./tex/einleitung.aux) (./tex/aufgabenstellung.aux)
-(./tex/begriffserklaerung.aux) (./tex/technologien.aux))
+(./tex/begriffserklaerung.aux) (./tex/technologien.aux) (./tex/evaluation.aux))
 \openout1 = `Abschlussarbeit_s744818_ss2014.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -1285,7 +1285,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
-
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -1514,12 +1513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--271
 [4
 
 
-] (./Abschlussarbeit_s744818_ss2014.toc
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 14.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [5
+] (./Abschlussarbeit_s744818_ss2014.toc [5
 
 
 
@@ -1581,7 +1575,7 @@ LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.58339> not available
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.41673> not available
 (Font)              size <5> substituted on input line 11.
 
-<pictures/../pictures/Entwicklungsprozess.jpg, id=71, 586.19pt x 586.19pt>
+<pictures/../pictures/Entwicklungsprozess.jpg, id=70, 586.19pt x 586.19pt>
 ./tex/einleitung.tex:17: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
@@ -1626,7 +1620,7 @@ Overfull \hbox (17.16805pt too wide) in paragraph at lines 3--7
 i-ken zur parallel-synchronen
  []
 
-<pictures/../pictures/Testszenario.jpg, id=81, 483.8075pt x 549.05125pt>
+<pictures/../pictures/Testszenario.jpg, id=80, 483.8075pt x 549.05125pt>
 ./tex/aufgabenstellung.tex:15: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
@@ -1673,11 +1667,15 @@ Such booboos are generally harmless, so keep going.
 
 
 
-] [6 <./pictures/../pictures/Testszenario.jpg>] [7]) [8]
+] [6 <./pictures/../pictures/Testszenario.jpg>]
+Overfull \hbox (19.29274pt too wide) in paragraph at lines 51--53
+ [][] 
+ []
+
+[7]) [8]
 \openout2 = `./tex/begriffserklaerung.aux'.
 
-
-(./tex/begriffserklaerung.tex
+ (./tex/begriffserklaerung.tex
 Kapitel 3.
 
 ./tex/begriffserklaerung.tex:9: Package glossaries Error: Glossary entry `paral
@@ -1925,15 +1923,20 @@ You need to define a glossary entry before you can use it.
 
 
 ]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.59996> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 60.
-LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <15.59996> not available
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 60.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <13> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 60.
- [10] [11]) [12]
+ [10]
+[11]) [12]
 \openout2 = `./tex/technologien.aux'.
 
  (./tex/technologien.tex
 Kapitel 4.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.59996> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 5.
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 33.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1956,9 +1959,12 @@ si-on
  []
 
 [15] [16]) [17]
+\openout2 = `./tex/evaluation.aux'.
+
+ (./tex/evaluation.tex
 Kapitel 5.
 
-Overfull \hbox (17.59639pt too wide) in paragraph at lines 362--363
+Overfull \hbox (17.59639pt too wide) in paragraph at lines 50--51
 \T1/ptm/m/n/13 Der Teil-schl�s-sel Funk-ti-on wur-de du-pli-ziert und in einen 
 Mo-bil-teil und einen Desktop-
  []
@@ -1967,14 +1973,14 @@ Mo-bil-teil und einen Desktop-
 
 
 
+
 ] [19] [20]
-<pictures/../pictures/ghostlab/startbildschirm.png, id=135, 811.03pt x 632.3625
+<pictures/../pictures/ghostlab/startbildschirm.png, id=134, 811.03pt x 632.3625
 pt>
-./Abschlussarbeit_s744818_ss2014.tex:474: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:162: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.474 ...chirm von Ghostlab nach der Installation}
+l.162 ...chirm von Ghostlab nach der Installation}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1983,11 +1989,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:474: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:162: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.474 ...chirm von Ghostlab nach der Installation}
+l.162 ...chirm von Ghostlab nach der Installation}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2000,16 +2005,15 @@ File: pictures/../pictures/ghostlab/startbildschirm.png Graphic file (type png)
 
 <use pictures/../pictures/ghostlab/startbildschirm.png>
 Package pdftex.def Info: pictures/../pictures/ghostlab/startbildschirm.png used
- on input line 474.
+ on input line 162.
 (pdftex.def)             Requested size: 400.0pt x 311.88664pt.
 
-<pictures/../pictures/ghostlab/workspaces.png, id=136, 2557.555pt x 1263.72125p
+<pictures/../pictures/ghostlab/workspaces.png, id=135, 2557.555pt x 1263.72125p
 t>
-./Abschlussarbeit_s744818_ss2014.tex:478: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:166: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.478 ...Darstellung von 4 verschiedenen Clients }
+l.166 ...Darstellung von 4 verschiedenen Clients }
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2018,11 +2022,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:478: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:166: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.478 ...Darstellung von 4 verschiedenen Clients }
+l.166 ...Darstellung von 4 verschiedenen Clients }
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2034,15 +2037,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/ghostlab/workspaces.png Graphic file (type png)
 <use pictures/../pictures/ghostlab/workspaces.png>
 Package pdftex.def Info: pictures/../pictures/ghostlab/workspaces.png used on i
-nput line 478.
+nput line 166.
 (pdftex.def)             Requested size: 400.0pt x 197.6295pt.
  [21 <./pictures/../pictures/ghostlab/startbildschirm.png>]
-<pictures/../pictures/ghostlab/weinre.png, id=140, 1284.8pt x 1328.965pt>
-./Abschlussarbeit_s744818_ss2014.tex:481: Illegal unit of measure (pt inserted)
-.
+<pictures/../pictures/ghostlab/weinre.png, id=139, 1284.8pt x 1328.965pt>
+./tex/evaluation.tex:169: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.481 ...cht}{ausgewähltes DOM-Element in Weinre}
+l.169 ...cht}{ausgewähltes DOM-Element in Weinre}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2051,11 +2053,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:481: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:169: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.481 ...cht}{ausgewähltes DOM-Element in Weinre}
+l.169 ...cht}{ausgewähltes DOM-Element in Weinre}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2067,23 +2068,22 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/ghostlab/weinre.png Graphic file (type png)
 <use pictures/../pictures/ghostlab/weinre.png>
 Package pdftex.def Info: pictures/../pictures/ghostlab/weinre.png used on input
- line 481.
+ line 169.
 (pdftex.def)             Requested size: 400.0pt x 413.7391pt.
  [22 <./pictures/../pictures/ghostlab/workspaces.png>] [23 <./pictures/../pictu
 res/ghostlab/weinre.png>]
-Overfull \hbox (10.30403pt too wide) in paragraph at lines 486--487
+Overfull \hbox (10.30403pt too wide) in paragraph at lines 174--175
 \T1/ptm/m/n/13 Das ein-rich-ten zum tes-ten auf mo-bi-len End-ge-r�-ten ver-l�u
 ft syn-chron zu den Desktop-
  []
 
 
-<pictures/../pictures/ghostlab/uebersicht_mobil.png, id=148, 803.0pt x 625.3362
+<pictures/../pictures/ghostlab/uebersicht_mobil.png, id=147, 803.0pt x 625.3362
 4pt>
-./Abschlussarbeit_s744818_ss2014.tex:489: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:177: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.489 ...ostlabübersicht der verbundenen Clients}
+l.177 ...ostlabübersicht der verbundenen Clients}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2092,11 +2092,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:489: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:177: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.489 ...ostlabübersicht der verbundenen Clients}
+l.177 ...ostlabübersicht der verbundenen Clients}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2109,24 +2108,23 @@ File: pictures/../pictures/ghostlab/uebersicht_mobil.png Graphic file (type png
 )
 <use pictures/../pictures/ghostlab/uebersicht_mobil.png>
 Package pdftex.def Info: pictures/../pictures/ghostlab/uebersicht_mobil.png use
-d on input line 489.
+d on input line 177.
 (pdftex.def)             Requested size: 400.0pt x 311.50325pt.
  [24 <./pictures/../pictures/ghostlab/uebersicht_mobil.png>] [25] [26]
-<pictures/../pictures/adobeedgeinspect/icon.png, id=158, 25.09375pt x 16.06pt>
+<pictures/../pictures/adobeedgeinspect/icon.png, id=157, 25.09375pt x 16.06pt>
 File: pictures/../pictures/adobeedgeinspect/icon.png Graphic file (type png)
 
 <use pictures/../pictures/adobeedgeinspect/icon.png>
 Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/icon.png used on
- input line 514.
+ input line 202.
 (pdftex.def)             Requested size: 25.09367pt x 16.05995pt.
 
-<pictures/../pictures/adobeedgeinspect/iphone_2.png, id=159, 642.4pt x 1140.26p
+<pictures/../pictures/adobeedgeinspect/iphone_2.png, id=158, 642.4pt x 1140.26p
 t>
-./Abschlussarbeit_s744818_ss2014.tex:521: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:209: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.521 ...se zum 			Edge Inspect Rechner}{200}{350}
+l.209 ...se zum 			Edge Inspect Rechner}{200}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2135,11 +2133,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:521: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:209: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.521 ...se zum 			Edge Inspect Rechner}{200}{350}
+l.209 ...se zum 			Edge Inspect Rechner}{200}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2152,35 +2149,34 @@ File: pictures/../pictures/adobeedgeinspect/iphone_2.png Graphic file (type png
 )
 <use pictures/../pictures/adobeedgeinspect/iphone_2.png>
 Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/iphone_2.png use
-d on input line 521.
+d on input line 209.
 (pdftex.def)             Requested size: 197.18149pt x 349.99716pt.
 
-<pictures/../pictures/adobeedgeinspect/desktop_2.png, id=160, 304.13625pt x 191
+<pictures/../pictures/adobeedgeinspect/desktop_2.png, id=159, 304.13625pt x 191
 .71625pt>
 File: pictures/../pictures/adobeedgeinspect/desktop_2.png Graphic file (type pn
 g)
  <use pictures/../pictures/adobeedgeinspect/desktop_2.png>
 Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/desktop_2.png us
-ed on input line 522.
+ed on input line 210.
 (pdftex.def)             Requested size: 304.1355pt x 191.71577pt.
  [27 <./pictures/../pictures/adobeedgeinspect/icon.png>]
-<pictures/../pictures/adobeedgeinspect/desktop_3.png, id=164, 308.15125pt x 237
+<pictures/../pictures/adobeedgeinspect/desktop_3.png, id=163, 308.15125pt x 237
 .88875pt>
 File: pictures/../pictures/adobeedgeinspect/desktop_3.png Graphic file (type pn
 g)
  <use pictures/../pictures/adobeedgeinspect/desktop_3.png>
 Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/desktop_3.png us
-ed on input line 525.
+ed on input line 213.
 (pdftex.def)             Requested size: 308.15048pt x 237.88815pt.
  [28 <./pictures/../pictures/adobeedgeinspect/iphone_2.png (PNG copy)> <./pictu
 res/../pictures/adobeedgeinspect/desktop_2.png>]
-<pictures/../pictures/adobeedgeinspect/iphone_3.png, id=168, 642.4pt x 1140.26p
+<pictures/../pictures/adobeedgeinspect/iphone_3.png, id=167, 642.4pt x 1140.26p
 t>
-./Abschlussarbeit_s744818_ss2014.tex:534: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:222: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.534 ...obe Edge Inspect App unter iOS}{200}{350}
+l.222 ...obe Edge Inspect App unter iOS}{200}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2189,11 +2185,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:534: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:222: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.534 ...obe Edge Inspect App unter iOS}{200}{350}
+l.222 ...obe Edge Inspect App unter iOS}{200}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2206,17 +2201,16 @@ File: pictures/../pictures/adobeedgeinspect/iphone_3.png Graphic file (type png
 )
 <use pictures/../pictures/adobeedgeinspect/iphone_3.png>
 Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/iphone_3.png use
-d on input line 534.
+d on input line 222.
 (pdftex.def)             Requested size: 197.18149pt x 349.99716pt.
  [29 <./pictures/../pictures/adobeedgeinspect/desktop_3.png>] [30 <./pictures/.
 ./pictures/adobeedgeinspect/iphone_3.png (PNG copy)>] [31]
-<pictures/../pictures/remotepreview/eingabemaske.png, id=179, 819.06pt x 418.56
+<pictures/../pictures/remotepreview/eingabemaske.png, id=178, 819.06pt x 418.56
 375pt>
-./Abschlussarbeit_s744818_ss2014.tex:559: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:247: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.559 ...ske zur Eingabe der 			aufzurufenden URL}
+l.247 ...ske zur Eingabe der 			aufzurufenden URL}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2225,11 +2219,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:559: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:247: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.559 ...ske zur Eingabe der 			aufzurufenden URL}
+l.247 ...ske zur Eingabe der 			aufzurufenden URL}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2242,23 +2235,22 @@ File: pictures/../pictures/remotepreview/eingabemaske.png Graphic file (type pn
 g)
 <use pictures/../pictures/remotepreview/eingabemaske.png>
 Package pdftex.def Info: pictures/../pictures/remotepreview/eingabemaske.png us
-ed on input line 559.
+ed on input line 247.
 (pdftex.def)             Requested size: 400.0pt x 204.41464pt.
  [32 <./pictures/../pictures/remotepreview/eingabemaske.png>] [33]
-<pictures/../pictures/browser-sync/install.png, id=186, 198.7425pt x 29.10875pt
+<pictures/../pictures/browser-sync/install.png, id=185, 198.7425pt x 29.10875pt
 >
 File: pictures/../pictures/browser-sync/install.png Graphic file (type png)
  <use pictures/../pictures/browser-sync/install.png>
 Package pdftex.def Info: pictures/../pictures/browser-sync/install.png used on 
-input line 581.
+input line 269.
 (pdftex.def)             Requested size: 198.742pt x 29.10867pt.
 
-<pictures/../pictures/browser-sync/init.png, id=187, 639.38875pt x 50.1875pt>
-./Abschlussarbeit_s744818_ss2014.tex:584: Illegal unit of measure (pt inserted)
-.
+<pictures/../pictures/browser-sync/init.png, id=186, 639.38875pt x 50.1875pt>
+./tex/evaluation.tex:272: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.584 ...l um Browser-Sync zu imitieren}{450}{200}
+l.272 ...l um Browser-Sync zu imitieren}{450}{200}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2267,11 +2259,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:584: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:272: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.584 ...l um Browser-Sync zu imitieren}{450}{200}
+l.272 ...l um Browser-Sync zu imitieren}{450}{200}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2283,35 +2274,34 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/browser-sync/init.png Graphic file (type png)
 <use pictures/../pictures/browser-sync/init.png>
 Package pdftex.def Info: pictures/../pictures/browser-sync/init.png used on inp
-ut line 584.
+ut line 272.
 (pdftex.def)             Requested size: 450.00813pt x 35.32245pt.
 
-Overfull \hbox (23.2168pt too wide) in paragraph at lines 584--584
+Overfull \hbox (23.2168pt too wide) in paragraph at lines 272--272
  [][] 
  []
 
 
-Overfull \hbox (12.82567pt too wide) in paragraph at lines 583--584
+Overfull \hbox (12.82567pt too wide) in paragraph at lines 271--272
 []\T1/ptm/m/n/13 Nun muss f�r je-des neue oder be-ste-hen-de Pro-jekt ein-ma-li
 g im Pro-jek-t-ord-ner Browser-
  []
 
 
-<pictures/../pictures/browser-sync/start.png, id=188, 134.5025pt x 15.05624pt>
+<pictures/../pictures/browser-sync/start.png, id=187, 134.5025pt x 15.05624pt>
 File: pictures/../pictures/browser-sync/start.png Graphic file (type png)
 
 <use pictures/../pictures/browser-sync/start.png>
 Package pdftex.def Info: pictures/../pictures/browser-sync/start.png used on in
-put line 587.
+put line 275.
 (pdftex.def)             Requested size: 134.50215pt x 15.0562pt.
 
-<pictures/../pictures/browser-sync/start2.png, id=189, 621.32124pt x 113.42375p
+<pictures/../pictures/browser-sync/start2.png, id=188, 621.32124pt x 113.42375p
 t>
-./Abschlussarbeit_s744818_ss2014.tex:590: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:278: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.590 ...e mit einzufügendem Quellcode}{450}{200}
+l.278 ...e mit einzufügendem Quellcode}{450}{200}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2320,11 +2310,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:590: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:278: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.590 ...e mit einzufügendem Quellcode}{450}{200}
+l.278 ...e mit einzufügendem Quellcode}{450}{200}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2336,30 +2325,29 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/browser-sync/start2.png Graphic file (type png)
 <use pictures/../pictures/browser-sync/start2.png>
 Package pdftex.def Info: pictures/../pictures/browser-sync/start2.png used on i
-nput line 590.
+nput line 278.
 (pdftex.def)             Requested size: 449.99605pt x 82.14789pt.
 
-Overfull \hbox (23.20471pt too wide) in paragraph at lines 590--590
+Overfull \hbox (23.20471pt too wide) in paragraph at lines 278--278
  [][] 
  []
 
 [34 <./pictures/../pictures/browser-sync/install.png> <./pictures/../pictures/b
 rowser-sync/init.png> <./pictures/../pictures/browser-sync/start.png>]
-<pictures/../pictures/browser-sync/connected.png, id=194, 412.54124pt x 19.0712
+<pictures/../pictures/browser-sync/connected.png, id=193, 412.54124pt x 19.0712
 4pt>
 File: pictures/../pictures/browser-sync/connected.png Graphic file (type png)
  <use pictures/../pictures/browser-sync/connected.png>
 Package pdftex.def Info: pictures/../pictures/browser-sync/connected.png used o
-n input line 596.
+n input line 284.
 (pdftex.def)             Requested size: 412.54024pt x 19.07118pt.
  [35 <./pictures/../pictures/browser-sync/start2.png> <./pictures/../pictures/b
 rowser-sync/connected.png>] [36]
-<pictures/../pictures/broadcast.jpg, id=202, 427.5975pt x 274.02374pt>
-./Abschlussarbeit_s744818_ss2014.tex:622: Illegal unit of measure (pt inserted)
-.
+<pictures/../pictures/broadcast.jpg, id=201, 427.5975pt x 274.02374pt>
+./tex/evaluation.tex:310: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.622 ...}{socket.io Broadcast \cite{3}}{300}{300}
+l.310 ...}{socket.io Broadcast \cite{3}}{300}{300}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2368,11 +2356,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:622: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:310: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.622 ...}{socket.io Broadcast \cite{3}}{300}{300}
+l.310 ...}{socket.io Broadcast \cite{3}}{300}{300}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2384,15 +2371,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/broadcast.jpg Graphic file (type jpg)
 <use pictures/../pictures/broadcast.jpg>
 Package pdftex.def Info: pictures/../pictures/broadcast.jpg used on input line 
-622.
+310.
 (pdftex.def)             Requested size: 300.00128pt x 192.25433pt.
  [37]
-<pictures/../pictures/broadcastroom.jpg, id=206, 495.8525pt x 331.2375pt>
-./Abschlussarbeit_s744818_ss2014.tex:630: Illegal unit of measure (pt inserted)
-.
+<pictures/../pictures/broadcastroom.jpg, id=205, 495.8525pt x 331.2375pt>
+./tex/evaluation.tex:318: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.630 ...t.io Broadcast mit Aktionsraum}{350}{350}
+l.318 ...t.io Broadcast mit Aktionsraum}{350}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2401,11 +2387,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:630: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:318: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.630 ...t.io Broadcast mit Aktionsraum}{350}{350}
+l.318 ...t.io Broadcast mit Aktionsraum}{350}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2417,15 +2402,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/broadcastroom.jpg Graphic file (type jpg)
 <use pictures/../pictures/broadcastroom.jpg>
 Package pdftex.def Info: pictures/../pictures/broadcastroom.jpg used on input l
-ine 630.
+ine 318.
 (pdftex.def)             Requested size: 349.99976pt x 233.8055pt.
  [38 <./pictures/../pictures/broadcast.jpg>]
-<pictures/../pictures/socketio/server_1.png, id=210, 459.7175pt x 210.7875pt>
-./Abschlussarbeit_s744818_ss2014.tex:640: Illegal unit of measure (pt inserted)
-.
+<pictures/../pictures/socketio/server_1.png, id=209, 459.7175pt x 210.7875pt>
+./tex/evaluation.tex:328: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.640 ...zierter Quellcode Serverseitig}{350}{350}
+l.328 ...zierter Quellcode Serverseitig}{350}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2434,11 +2418,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:640: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:328: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.640 ...zierter Quellcode Serverseitig}{350}{350}
+l.328 ...zierter Quellcode Serverseitig}{350}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2450,15 +2433,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/socketio/server_1.png Graphic file (type png)
 <use pictures/../pictures/socketio/server_1.png>
 Package pdftex.def Info: pictures/../pictures/socketio/server_1.png used on inp
-ut line 640.
+ut line 328.
 (pdftex.def)             Requested size: 350.02025pt x 160.48964pt.
  [39 <./pictures/../pictures/broadcastroom.jpg>]
-<pictures/../pictures/socketio/client_1.png, id=214, 371.3875pt x 57.21375pt>
-./Abschlussarbeit_s744818_ss2014.tex:644: Illegal unit of measure (pt inserted)
-.
+<pictures/../pictures/socketio/client_1.png, id=213, 371.3875pt x 57.21375pt>
+./tex/evaluation.tex:332: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.644 ...zierter Quellcode Clientseitig}{350}{350}
+l.332 ...zierter Quellcode Clientseitig}{350}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2467,11 +2449,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:644: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:332: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.644 ...zierter Quellcode Clientseitig}{350}{350}
+l.332 ...zierter Quellcode Clientseitig}{350}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2483,15 +2464,14 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/socketio/client_1.png Graphic file (type png)
 <use pictures/../pictures/socketio/client_1.png>
 Package pdftex.def Info: pictures/../pictures/socketio/client_1.png used on inp
-ut line 644.
+ut line 332.
 (pdftex.def)             Requested size: 350.00533pt x 53.91972pt.
 
-<pictures/../pictures/socketio/client_2.png, id=215, 259.97125pt x 46.1725pt>
-./Abschlussarbeit_s744818_ss2014.tex:648: Illegal unit of measure (pt inserted)
-.
+<pictures/../pictures/socketio/client_2.png, id=214, 259.97125pt x 46.1725pt>
+./tex/evaluation.tex:336: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.648 ...zierter Quellcode Clientseitig}{250}{250}
+l.336 ...zierter Quellcode Clientseitig}{250}{250}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2500,11 +2480,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./Abschlussarbeit_s744818_ss2014.tex:648: Illegal unit of measure (pt inserted)
-.
+./tex/evaluation.tex:336: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.648 ...zierter Quellcode Clientseitig}{250}{250}
+l.336 ...zierter Quellcode Clientseitig}{250}{250}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2516,52 +2495,16 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/socketio/client_2.png Graphic file (type png)
 <use pictures/../pictures/socketio/client_2.png>
 Package pdftex.def Info: pictures/../pictures/socketio/client_2.png used on inp
-ut line 648.
+ut line 336.
 (pdftex.def)             Requested size: 249.99797pt x 44.40115pt.
  [40 <./pictures/../pictures/socketio/server_1.png> <./pictures/../pictures/soc
-ketio/client_1.png> <./pictures/../pictures/socketio/client_2.png>]
-
-./Abschlussarbeit_s744818_ss2014.tex:658: Package glossaries Error: Glossary en
-try `maths' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.658 for documents that include \gls{maths}.
-                                             
-You need to define a glossary entry before you can use it.
-
-
-./Abschlussarbeit_s744818_ss2014.tex:659: Package glossaries Error: Glossary en
-try `lctex' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.659   \Gls{lctex}
-                   
-You need to define a glossary entry before you can use it.
-
-
-./Abschlussarbeit_s744818_ss2014.tex:660: Package glossaries Error: Glossary en
-try `lbtex' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.660    \Gls{lbtex}
-                    
-You need to define a glossary entry before you can use it.
-
-[41]
+ketio/client_1.png> <./pictures/../pictures/socketio/client_2.png>]) [41]
 Kapitel 6.
 [42
 
 
-] (./Abschlussarbeit_s744818_ss2014.gls
+
+] [43] (./Abschlussarbeit_s744818_ss2014.gls
 Overfull \hbox (1.65823pt too wide) in paragraph at lines 5--5
 \T1/ptm/m/n/13 schen ei-nem Brow-ser und dem Ser-ver. Die-ses er-m�g-licht es, 
 HTTP-
@@ -2579,11 +2522,11 @@ Overfull \hbox (10.06506pt too wide) in paragraph at lines 5--5
  " [[]] 
  []
 
-[43
+[44
 
 
 
-] [44]) (./Abschlussarbeit_s744818_ss2014.ind [45] [46
+] [45]) (./Abschlussarbeit_s744818_ss2014.ind [46] [47
 
 
 
@@ -2591,8 +2534,8 @@ Overfull \hbox (10.06506pt too wide) in paragraph at lines 5--5
 
 
 ])
-./Abschlussarbeit_s744818_ss2014.tex:681: Undefined control sequence.
-l.681 \bibitem[Wiki01]{2} \url
+./Abschlussarbeit_s744818_ss2014.tex:356: Undefined control sequence.
+l.356 \bibitem[Wiki01]{2} \url
                               {http://de.wikipedia.org/w/index.php?title=Aja...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2600,8 +2543,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:681: Misplaced alignment tab character &.
-l.681 ...w/index.php?title=Ajax\_(Programmierung)&
+./Abschlussarbeit_s744818_ss2014.tex:356: Misplaced alignment tab character &.
+l.356 ...w/index.php?title=Ajax\_(Programmierung)&
                                                   oldid=129355492}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2611,13 +2554,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (66.90411pt too wide) in paragraph at lines 681--682
+Overfull \hbox (66.90411pt too wide) in paragraph at lines 356--357
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Ajax_(Programmierung
 )oldid=129355492 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:682: Undefined control sequence.
-l.682 \bibitem[ScVi]{3}\url
+./Abschlussarbeit_s744818_ss2014.tex:357: Undefined control sequence.
+l.357 \bibitem[ScVi]{3}\url
                            {http://irlnathan.github.io/sailscasts/blog/2013/...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2626,19 +2569,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 []\T1/ptm/m/n/13 http://irlnathan.github.io/sailscasts/blog/2013/10/10/building
 -a-sails-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 682--683
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 \T1/ptm/m/n/13 application-ep21-integrating-socket-dot-io-and-sails-with-custom
 -
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:683: Undefined control sequence.
-l.683 \bibitem[Wiki02]{4} \url
+./Abschlussarbeit_s744818_ss2014.tex:358: Undefined control sequence.
+l.358 \bibitem[Wiki02]{4} \url
                               {http://de.wikipedia.org/w/index.php?title=Jav...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2646,8 +2589,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:683: Misplaced alignment tab character &.
-l.683 ...kipedia.org/w/index.php?title=JavaScript&
+./Abschlussarbeit_s744818_ss2014.tex:358: Misplaced alignment tab character &.
+l.358 ...kipedia.org/w/index.php?title=JavaScript&
                                                   oldid=129548016}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2656,8 +2599,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Abschlussarbeit_s744818_ss2014.tex:684: Undefined control sequence.
-l.684 \bibitem[Wiki03]{5}\url
+./Abschlussarbeit_s744818_ss2014.tex:359: Undefined control sequence.
+l.359 \bibitem[Wiki03]{5}\url
                              {http://de.wikipedia.org/w/index.php?title=Bild...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2665,10 +2608,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:687: Missing } inserted.
+./Abschlussarbeit_s744818_ss2014.tex:362: Missing } inserted.
 <inserted text> 
                 }
-l.687 \end{thebibliography}
+l.362 \end{thebibliography}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2676,41 +2619,40 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[47
+[48
 
 
 
 ] (./Abschlussarbeit_s744818_ss2014.aux (./tex/erklaerung.aux)
 (./tex/sperrvermerk.aux) (./tex/abstract.aux) (./tex/einleitung.aux)
 (./tex/aufgabenstellung.aux) (./tex/begriffserklaerung.aux)
-(./tex/technologien.aux))
+(./tex/technologien.aux) (./tex/evaluation.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.75pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 19576 strings out of 493315
- 337148 string characters out of 6137904
- 441276 words of memory out of 5000000
- 22420 multiletter control sequences out of 15000+600000
- 61536 words of font info for 93 fonts, out of 8000000 for 9000
+ 19583 strings out of 493315
+ 337318 string characters out of 6137904
+ 441636 words of memory out of 5000000
+ 22422 multiletter control sequences out of 15000+600000
+ 60915 words of font info for 91 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,11n,71p,1709b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texl
 ive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2013
-/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
-rw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/u
-tmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (55 pages, 1358032 bytes).
+/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
+/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb>
+Output written on Abschlussarbeit_s744818_ss2014.pdf (56 pages, 1359648 bytes).
 
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
+ 271 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
