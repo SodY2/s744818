@@ -8,9 +8,9 @@ Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchr
 	%\tr{Aus dem Hintergrund sollte die Wissenslücke klar werden, die durch die Abschlussarbeit geschlossen werden soll. Kurz 		sollte beschrieben werden, mit welchen Methoden die Arbeit versuchen will, diese zu schließen 			(empirische 		Untersuchung, Loganalyse, neuartige Programmkomponenten, etc.). Schließlich sollte man herausstellen, warum es wichtig ist, 	diese Wissenslücke zu schließen (wie profitiert die Welt davon).}
 	Ein Problem in der aktuellen Softwareentwicklung ist die immer mehr wachsende Anzahl an Endgeräten, welche mit 			verschiedenen Bildschirmauflösungen und eigenen Betriebsystemen in unterschiedlichen Versionen auftreten. Ein 				Qualitätsprüfer der einen hohen Qualitätsstandard hat investiert daher linear zu der Anzahl der zu testenden Geräte ansteigend 	Zeit, lediglich um vereinzelte Testszenarien durchzuarbeiten. Solch ein Testszenraio kann Navigationsabläufe\footnote{ein 		Nutzerspezifischer Gang durch die Webseite}, das ausfüllen und validieren eines Formular oder auch das überprüfen 			funktionaler\footnote{aktive Links und deren Aufruf} Links sein. Bereits an dieser Stelle ist die zu investierende Zeit, und dies 		wiederholt, enorm.
 	\\
-	Wenn der Qualitätsprüfer innerhalb eines Testszenarios einen schwerwiegenden Fehler bei einem der Geräte entdeckt, muss 		dieser den Vorgang beenden. Abgebrochen werden muss deshalb, da bei korrigierter Implementierung der Qualitätsprüfer nicht 	davon ausgehen darf, das bereits kontrollierte Abschnitte immernoch voll funktionsfähig sind, da eventuell neue Fehler in bereits 	Kontrollierten Segmenten auftreten können.
+	Wenn der Qualitätsprüfer innerhalb eines Testszenarios einen schwerwiegenden Fehler bei einem der Geräte entdeckt, muss 		dieser den Vorgang beenden. Abgebrochen werden muss deshalb, da bei korrigierter Implementierung der Qualitätsprüfer nicht 	davon ausgehen darf, das bereits kontrollierte Abschnitte immer noch voll funktionsfähig sind, da eventuell neue Fehler in bereits 	Kontrollierten Segmenten auftreten können.
 	\\
-	Sollte ein Szenario aufgrund eines Fehler abgebrochen worden sein, wird dem Entwickler das Problem möglichst konkret 		geschildert. Dessen Aufgabe ist es nun das Problem zu beheben. Ist dies geschehen startet der Prüfer einen erneuten 			Durchgang des Szenarios. Ein generelles Problem was hier noch zusätzlich entstehen kann, ist der Umstand, dass sich grade 		bei nur kleineren fixes\footnote{Problemlösungen, Codeanpassungen} und immer wieder auftretenden Testszenarioschleifen 		eine gewisse Routine einschleichen kann, worunter die Qualität des Produkts leidet.
+	Sollte ein Szenario aufgrund eines Fehler abgebrochen worden sein, wird dem Entwickler das Problem möglichst konkret 		geschildert. Dessen Aufgabe ist es nun das Problem zu beheben. Ist dies geschehen startet der Prüfer einen erneuten 			Durchgang des Szenarios. Ein generelles Problem was hier noch zusätzlich entstehen kann, ist der Umstand, dass sich gerade 		bei nur kleineren fixes\footnote{Problemlösungen, Codeanpassungen} und immer wieder auftretenden Testszenarioschleifen 		eine gewisse Routine einschleichen kann, worunter die Qualität des Produkts leidet.
 
 	\ig{../pictures/Testszenario}{Qualitätssicherung Testszenario}{Darstellung eines Qualitätssicherungsablaufes in der mobilen 		Anwendungsentwicklung}}
 	\pagebreak
@@ -57,7 +57,7 @@ Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchr
 
 	\pagebreak
 	 \subsubsection{Erweiterbarkeit}
-	 in Hinsicht auf mehrere Endgeräte gibt es mehrere Aspekte zum analysieren. Zum einen ob das Framework auf verschiedene 	Arten an System gebunden sind, wie etwa Android oder iOS. Zum anderen ob es eine limitierung der Anzahl der 				anzuschliessenden Geräte gibt. 
+	 In Hinsicht auf mehrere Endgeräte gibt es mehrere Aspekte zum analysieren. Zum einen ob das Framework auf verschiedene 	Arten an System gebunden sind, wie etwa Android oder iOS. Zum anderen ob es eine Limitierung der Anzahl der 				anzuschliessenden Geräte gibt. 
 
 	\\Unter den Aspekt der Erweiterbarkeit fällt auch die Möglichkeit das Framework um eigene Funktionalitäten zu erweitern. So 		sollte im Idealfall ein Framework ein Grundgerüst liefern, auf das der Entwickler mit eigenen Erweiterungen aufbauen kann um 	das gewünscht Ziel zu erreichen.
 	
@@ -65,8 +65,8 @@ Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchr
 	Ein wichtiger Aspekt dieser Arbeit ist die Steuerung beziehungsweise die Generierung von Steuerbefehlen und deren Verteilung auf alle verbundenen Klienten. Insbesondere wurde in dieser Arbeit auf das Scrollen innerhalb einer Web-Applikation, das ausfüllen von Formularen mit den dazugehörigen Eingabefeldern, sowie das ausführen Eventgesteuerter Aktionen.
 
 	\subsubsection{Unterstütze Browser}
-	Ein wichtiger Aspekt der durchzuführenden Tests wird die unterstützung möglichst verschiedener Browser beinhalten. Dies hat 	den Grund, dass leidglich ein Framework was eine große Spanne an Endgeräten abdeckt in der Lage ist effektiv genutzt werden 	zu können.
+	Ein wichtiger Aspekt der durchzuführenden Tests wird die Unterstützung möglichst verschiedener Browser beinhalten. Dies hat 	den Grund, dass lediglich ein Framework was eine große Spanne an Endgeräten abdeckt in der Lage ist effektiv genutzt werden 	zu können.
 
 	\subsubsection{Virtuelle Umgebung}
-	Ein positiv in die Validierung einfliessender Aspekt ist die Einbindung oder Verwendung des Frameworks innerhalb einer 			virtuellen Umgebung. Das wird durch den Fakt begründet das der Tester nicht immer im Besitz aller Testgeräte oder 				Umgebungen ist. So ist es ohne eine virtuelle Maschiene zum Beispiel nicht möglich eien Seite im Internet Explorer innerhalb 		einer MacOS-Umgebung zu testen, da diese ihn nicht unterstützt.
+	Ein positiv in die Validierung einfließender Aspekt ist die Einbindung oder Verwendung des Frameworks innerhalb einer 			virtuellen Umgebung. Das wird durch den Fakt begründet das der Tester nicht immer im Besitz aller Testgeräte oder 				Umgebungen ist. So ist es ohne eine virtuelle Maschine zum Beispiel nicht möglich eine Seite im Internet Explorer innerhalb 		einer MacOS-Umgebung zu testen, da diese ihn nicht unterstützt.
 

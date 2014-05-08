@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  8 MAY 2014 18:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  8 MAY 2014 20:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1268,7 +1268,8 @@ File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
 (./tex/deckblatt_config.tex (./Abschlussarbeit_s744818_ss2014.aux
 (./tex/erklaerung.aux) (./tex/sperrvermerk.aux) (./tex/abstract.aux)
 (./tex/einleitung.aux) (./tex/aufgabenstellung.aux)
-(./tex/begriffserklaerung.aux) (./tex/technologien.aux) (./tex/evaluation.aux))
+(./tex/begriffserklaerung.aux) (./tex/technologien.aux) (./tex/evaluation.aux)
+(./tex/zusammenfassung.aux))
 \openout1 = `Abschlussarbeit_s744818_ss2014.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -1285,6 +1286,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -1363,49 +1365,49 @@ Package: everypage 2007/06/20 1.1 Hooks to run on every page
 nary-English.dict
 Dictionary: glossaries-dictionary, Language: English 
 ) ABD: EveryShipout initializing macros)
-LaTeX Font Info:    Calculating math sizes for size <6.5> on input line 254.
+LaTeX Font Info:    Calculating math sizes for size <6.5> on input line 264.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 254.
+(Font)              size <6> substituted on input line 264.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.54997> not available
-(Font)              size <5> substituted on input line 254.
+(Font)              size <5> substituted on input line 264.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.25> not available
-(Font)              size <5> substituted on input line 254.
+(Font)              size <5> substituted on input line 264.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 254.
+(Font)              size <6> substituted on input line 264.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.54997> not available
-(Font)              size <5> substituted on input line 254.
+(Font)              size <5> substituted on input line 264.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.25> not available
-(Font)              size <5> substituted on input line 254.
+(Font)              size <5> substituted on input line 264.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 254.
+(Font)              size <6> substituted on input line 264.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.54997> not available
-(Font)              size <5> substituted on input line 254.
+(Font)              size <5> substituted on input line 264.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.25> not available
-(Font)              size <5> substituted on input line 254.
+(Font)              size <5> substituted on input line 264.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 254.
+LaTeX Font Info:    Try loading font information for U+msa on input line 264.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 254.
+LaTeX Font Info:    Try loading font information for U+msb on input line 264.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1413,19 +1415,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <BHT-Logo-Basis.pdf, id=4, 303.39667pt x 99.95987pt>
 File: BHT-Logo-Basis.pdf Graphic file (type pdf)
  <use BHT-Logo-Basis.pdf>
-Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 254.
+Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 264.
 (pdftex.def)             Requested size: 128.0387pt x 42.18417pt.
 
-Overfull \hbox (2.47002pt too wide) in paragraph at lines 254--254
+Overfull \hbox (2.47002pt too wide) in paragraph at lines 264--264
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <26.96207> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 254.
-./Abschlussarbeit_s744818_ss2014.tex:254: Undefined control sequence.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 264.
+./Abschlussarbeit_s744818_ss2014.tex:264: Undefined control sequence.
 \bhtTitelSeite ...orgelegte \thethesistyp \xspace 
                                                   \\ zur Erlangung des akade...
-l.254 \maketitle
+l.264 \maketitle
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1434,18 +1436,18 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 254.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 254.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 264.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 264.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 254.
+(Font)              size <12> substituted on input line 264.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 254.
+(Font)              size <12> substituted on input line 264.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
@@ -1462,14 +1464,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  </usr/local/texlive/2013/texmf-dist/tex/latex/bhtThesis/tryout/pictures/BHT-Lo
 go-Basis.pdf>]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 255.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 265.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <13> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 255.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 265.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <26.96207> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 255.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 265.
 
 [1
 
@@ -1501,12 +1503,12 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 \openout2 = `./tex/abstract.aux'.
 
  (./tex/abstract.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--271
+Underfull \hbox (badness 10000) in paragraph at lines 5--281
 \T1/ptm/m/n/13 TOREMOVE-->
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--271
+Underfull \hbox (badness 10000) in paragraph at lines 5--281
 \T1/ptm/m/n/13 english trans-la-ti-on
  []
 
@@ -1702,218 +1704,206 @@ l.10 		\Gls{Web-Applikation}
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:12: Package glossaries Error: Glossary entry `Desk
-topcomputer / Desktops' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 		\Gls{Desktopcomputer / Desktops}
-                                       
-You need to define a glossary entry before you can use it.
-
-
-./tex/begriffserklaerung.tex:35: Package glossaries Error: Glossary entry `View
+./tex/begriffserklaerung.tex:34: Package glossaries Error: Glossary entry `View
 port' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 		\Gls{Viewport}
+l.34 		\Gls{Viewport}
                      
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:36: Package glossaries Error: Glossary entry `Even
+./tex/begriffserklaerung.tex:35: Package glossaries Error: Glossary entry `Even
 t' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 		\Gls{Event}
+l.35 		\Gls{Event}
                   
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:37: Package glossaries Error: Glossary entry `DOM'
+./tex/begriffserklaerung.tex:36: Package glossaries Error: Glossary entry `DOM'
  has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 		\Gls{DOM}
+l.36 		\Gls{DOM}
                 
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:38: Package glossaries Error: Glossary entry `Apac
+./tex/begriffserklaerung.tex:37: Package glossaries Error: Glossary entry `Apac
 he' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 		\Gls{Apache}
+l.37 		\Gls{Apache}
                    
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:39: Package glossaries Error: Glossary entry `Form
+./tex/begriffserklaerung.tex:38: Package glossaries Error: Glossary entry `Form
 , Checkbox, Radiobox, Inputs, Anker, Zertifizierung' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 ..., Radiobox, Inputs, Anker, Zertifizierung}
+l.38 ..., Radiobox, Inputs, Anker, Zertifizierung}
                                                   
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:40: Package glossaries Error: Glossary entry `Work
+./tex/begriffserklaerung.tex:39: Package glossaries Error: Glossary entry `Work
 space' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 		\Gls{Workspace}
+l.39 		\Gls{Workspace}
                       
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:41: Package glossaries Error: Glossary entry `Comm
+./tex/begriffserklaerung.tex:40: Package glossaries Error: Glossary entry `Comm
 it' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 		\Gls{Commit}
+l.40 		\Gls{Commit}
                    
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:42: Package glossaries Error: Glossary entry `Deam
+./tex/begriffserklaerung.tex:41: Package glossaries Error: Glossary entry `Deam
 on' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 		\Gls{Deamon}
+l.41 		\Gls{Deamon}
                    
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:43: Package glossaries Error: Glossary entry `App'
+./tex/begriffserklaerung.tex:42: Package glossaries Error: Glossary entry `App'
  has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 		\Gls{App}
+l.42 		\Gls{App}
                 
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:44: Package glossaries Error: Glossary entry `htac
+./tex/begriffserklaerung.tex:43: Package glossaries Error: Glossary entry `htac
 cess' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 		\Gls{htaccess}
+l.43 		\Gls{htaccess}
                      
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:45: Package glossaries Error: Glossary entry `GNU 
+./tex/begriffserklaerung.tex:44: Package glossaries Error: Glossary entry `GNU 
 General Public License (GPL) Lizenz' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 ...s{GNU General Public License (GPL) Lizenz}
+l.44 ...s{GNU General Public License (GPL) Lizenz}
                                                   
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:46: Package glossaries Error: Glossary entry `MIT 
+./tex/begriffserklaerung.tex:45: Package glossaries Error: Glossary entry `MIT 
 Lizenz' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 		\Gls{MIT Lizenz}
+l.45 		\Gls{MIT Lizenz}
                        
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:47: Package glossaries Error: Glossary entry `Apac
+./tex/begriffserklaerung.tex:46: Package glossaries Error: Glossary entry `Apac
 he Lizenz 2' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 		\Gls{Apache Lizenz 2}
+l.46 		\Gls{Apache Lizenz 2}
                             
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:48: Package glossaries Error: Glossary entry `Clou
+./tex/begriffserklaerung.tex:47: Package glossaries Error: Glossary entry `Clou
 d-Dienst' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 		\Gls{Cloud-Dienst}
+l.47 		\Gls{Cloud-Dienst}
                          
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:49: Package glossaries Error: Glossary entry `iFra
+./tex/begriffserklaerung.tex:48: Package glossaries Error: Glossary entry `iFra
 me' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 		\Gls{iFrame}
+l.48 		\Gls{iFrame}
                    
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:50: Package glossaries Error: Glossary entry `Grun
+./tex/begriffserklaerung.tex:49: Package glossaries Error: Glossary entry `Grun
 t' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 		\Gls{Grunt}
+l.49 		\Gls{Grunt}
                   
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:51: Package glossaries Error: Glossary entry `Test
+./tex/begriffserklaerung.tex:50: Package glossaries Error: Glossary entry `Test
 /Testsuite' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 		\Gls{Test/Testsuite}
+l.50 		\Gls{Test/Testsuite}
                            
 You need to define a glossary entry before you can use it.
 
@@ -1923,12 +1913,12 @@ You need to define a glossary entry before you can use it.
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 60.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 59.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <13> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 60.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 59.
  [10]
 [11]) [12]
 \openout2 = `./tex/technologien.aux'.
@@ -1963,12 +1953,6 @@ si-on
 
  (./tex/evaluation.tex
 Kapitel 5.
-
-Overfull \hbox (17.59639pt too wide) in paragraph at lines 50--51
-\T1/ptm/m/n/13 Der Teil-schlüs-sel Funk-ti-on wur-de du-pli-ziert und in einen 
-Mo-bil-teil und einen Desktop-
- []
-
 [18
 
 
@@ -2545,8 +2529,8 @@ Overfull \hbox (10.06506pt too wide) in paragraph at lines 5--5
 
 
 ])
-./Abschlussarbeit_s744818_ss2014.tex:339: Undefined control sequence.
-l.339 \bibitem[Wiki01]{2} \url
+./Abschlussarbeit_s744818_ss2014.tex:349: Undefined control sequence.
+l.349 \bibitem[Wiki01]{2} \url
                               {http://de.wikipedia.org/w/index.php?title=Aja...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2554,8 +2538,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:339: Misplaced alignment tab character &.
-l.339 ...w/index.php?title=Ajax\_(Programmierung)&
+./Abschlussarbeit_s744818_ss2014.tex:349: Misplaced alignment tab character &.
+l.349 ...w/index.php?title=Ajax\_(Programmierung)&
                                                   oldid=129355492}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2565,13 +2549,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (66.90411pt too wide) in paragraph at lines 339--340
+Overfull \hbox (66.90411pt too wide) in paragraph at lines 349--350
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Ajax_(Programmierung
 )oldid=129355492 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:340: Undefined control sequence.
-l.340 \bibitem[ScVi]{3}\url
+./Abschlussarbeit_s744818_ss2014.tex:350: Undefined control sequence.
+l.350 \bibitem[ScVi]{3}\url
                            {http://irlnathan.github.io/sailscasts/blog/2013/...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2580,19 +2564,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 []\T1/ptm/m/n/13 http://irlnathan.github.io/sailscasts/blog/2013/10/10/building
 -a-sails-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 \T1/ptm/m/n/13 application-ep21-integrating-socket-dot-io-and-sails-with-custom
 -
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:341: Undefined control sequence.
-l.341 \bibitem[Wiki02]{4} \url
+./Abschlussarbeit_s744818_ss2014.tex:351: Undefined control sequence.
+l.351 \bibitem[Wiki02]{4} \url
                               {http://de.wikipedia.org/w/index.php?title=Jav...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2600,8 +2584,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:341: Misplaced alignment tab character &.
-l.341 ...kipedia.org/w/index.php?title=JavaScript&
+./Abschlussarbeit_s744818_ss2014.tex:351: Misplaced alignment tab character &.
+l.351 ...kipedia.org/w/index.php?title=JavaScript&
                                                   oldid=129548016}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2610,8 +2594,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Abschlussarbeit_s744818_ss2014.tex:342: Undefined control sequence.
-l.342 \bibitem[Wiki03]{5}\url
+./Abschlussarbeit_s744818_ss2014.tex:352: Undefined control sequence.
+l.352 \bibitem[Wiki03]{5}\url
                              {http://de.wikipedia.org/w/index.php?title=Bild...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2619,10 +2603,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:345: Missing } inserted.
+./Abschlussarbeit_s744818_ss2014.tex:355: Missing } inserted.
 <inserted text> 
                 }
-l.345 \end{thebibliography}
+l.355 \end{thebibliography}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2644,10 +2628,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 19591 strings out of 493315
- 337530 string characters out of 6137904
- 441636 words of memory out of 5000000
- 22425 multiletter control sequences out of 15000+600000
+ 19623 strings out of 493315
+ 338160 string characters out of 6137904
+ 443423 words of memory out of 5000000
+ 22455 multiletter control sequences out of 15000+600000
  60915 words of font info for 91 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,11n,71p,1709b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2659,7 +2643,7 @@ ive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/2013
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (57 pages, 1361851 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (57 pages, 1361932 bytes).
 
 PDF statistics:
  274 PDF objects out of 1000 (max. 8388607)
