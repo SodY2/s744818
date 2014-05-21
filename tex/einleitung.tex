@@ -2,9 +2,9 @@
 
 In der modernen Webentwicklung durchläuft eine Anwendung verschiedene Etappen eines Entwicklungszykluses. Sie beginnt mit einem Auftrag oder einer Idee, darauf folgt dann die Spezifikation einzelner \mi{Usecases}\footnote{Szenario oder auch Anwendungsfall}. Im Anschluss folgt in der Regel die Entwicklung und Implementation\footnote{Einbindung} der einzelnen Komponenten. Am Ende der jeweiligen Implementationsphase durchläuft das Produkt\footnote{hier: einzelne Softwarekomponente} die Qualitätskontrolle. Sollten in dieser Phase Fehler auftreten wird das Produkt dem Entwickler zur erneuten Bearbeitung vorgelegt.
 
-\\Dieser Vorgang kann sich beliebig oft wiederholen. Bei großen und komplexen Softwaresystemen ist es trotz zeitgemäßer Implementierung nicht immer ausgeschlossen, dass \mi{Kaskadierungsfehler}\footnote{Fehler die nicht im eigentlichen Segment auftreten, sondern eine oder mehr Ebenen weiter unten in der Systemhirarchie} entstehen. Aus Sicht der Qualitätssicherung ist dies ein lästiges Problem, da sie  nach jedem erneuten Modifikationsvorganges eines Softwaresegments einen größeren Segmentblock, wenn nicht sogar das gesamte Softwaresystem, erneut testen muss.
+\\Dieser Vorgang kann sich beliebig oft wiederholen. Bei großen und komplexen Softwaresystemen ist es trotz zeitgemäßer Implementierung nicht immer ausgeschlossen, dass \mi{Kaskadierungsfehler}\footnote{Fehler die nicht im eigentlichen Segment auftreten, sondern eine oder mehr Ebenen weiter unten in der Systemhirarchie} entstehen. Aus Sicht der \Gls{qs} ist dies ein lästiges Problem, da sie  nach jedem erneuten Modifikationsvorganges eines Softwaresegments einen größeren Segmentblock, wenn nicht sogar das gesamte Softwaresystem, erneut testen muss.
 
-\\Bei der Entwicklung auf mobilen und für mobile Endgeräte\footnote{Smartphones, Tabletts  oder Ähnliche} kommt noch ein erschwerender Faktor hinzu, nämlich die diversen, verschiedenen Bildschirmauflösungen. Diese können nicht nur die Darstellung des Inhalts beeinflussen, sondern auch daraus folgend die Interaktionskonformität beeinflussen.
+\\Bei der Entwicklung auf mobilen und für mobile \Gls{moEn}e\footnote{Smartphones, \Gls{Tablet}ts  oder Ähnliche} kommt noch ein erschwerender Faktor hinzu, nämlich die diversen, verschiedenen Bildschirmauflösungen. Diese können nicht nur die Darstellung des Inhalts beeinflussen, sondern auch daraus folgend die Interaktionskonformität beeinflussen.
 
 \ig{../pictures/Entwicklungsprozess}{Entwicklungsprozess}{Vereinfachte Darstellung eines Softwareentwicklungsprozesses}
 
@@ -12,7 +12,7 @@ Im Optimalfall wird die Software erst nach vollständiger Homogenität auf allen
 
 \\Dieser zyklisch wiederkehrende Prozessablauf ist sehr zeitintensiv und nimmt linear mit der Anzahl der zu testenden Geräte zu.
 
-\\Das Ergebnis dieser Forschungsarbeit soll zeigen, wie verschiedene \mi{Softwareframeworks} die Zeit, die in die Qualitätssicherung investiert wird, beeinflussen können, indem sie die Steuerung diverser Geräte parallel-synchron steuern. Unter dem Wortlaut parallel-synchron wird innerhalb dieser Arbeit, die synchrone Bedienung mehrerer Endgeräte innerhalb des gleichen Zeitintervalls verstanden. Die Evaluierung soll feststellen wo die Vorteile und Nachteile der einzelnen Werkzeuge liegen. Weiterhin soll ermittelt werden ob aktuelle \mi{Frameworks} erweiterbar sind um Beispielsweise automatisierte \mi{Testunits} zu implementieren. 
+\\Das Ergebnis dieser Forschungsarbeit soll zeigen, wie verschiedene \mi{Softwareframeworks} die Zeit, die in die \Gls{qs} investiert wird, beeinflussen können, indem sie die Steuerung diverser Geräte \Gls{parallel-synchron} steuern. Unter dem Wortlaut \Gls{parallel-synchron} wird innerhalb dieser Arbeit, die simulierte synchrone Bedienung mehrerer \Gls{moEn}e innerhalb des gleichen Zeitintervalls verstanden. Die Evaluierung soll feststellen wo die Vorteile und Nachteile der einzelnen Werkzeuge liegen. Weiterhin soll ermittelt werden ob aktuelle \mi{\Gls{Framework}s} erweiterbar sind um Beispielsweise automatisierte \mi{Testunits} zu implementieren. 
 
 
 
@@ -22,9 +22,9 @@ Im Kapitel der 'Aufgabenstellung' befasse ich mich ausschließlich mit der Ausfo
 
 \\In dem darauf folgenden Kapitel 'Grundlagen' kläre ich alle allgemeinen sowie auch technischen Grundlagen, die notwendig sind diese \mi{Abschlussthesis} zu verstehen. Ich gehe ausführlich auf verwendete Begriffe ein, sowie auf Begriffe die in diesem Umfeld entstanden sind. Ein weiterer Punkt innerhalb dieses Kapitels ist die Erläuterung Technischer Versuchsaufbauten die im Rahmen der Thesis notwendig waren um eine Evaluation durchzuführen.
 
-\\Im Kapitel 'Auswahl der Frameworks' befasse ich mich kurz mit diversen \mi{Frameworks}. Ich erläutere deren Herkunft, womit sie werben und auf welchen Technologien sie aufbauen. Des Weiteren behandle ich in diesem Abschnitt Technologien die einzelne funktionelle Komponenten, welche ich in Hinsicht auf die Entwicklung eines eigenen \mi{Frameworks} zur parallel-synchronen Steuerung von Webapplikationen auf mobilen Endgeräten auf einen Mehrwert untersuchen werde.
+\\Im Kapitel 'Auswahl der \Gls{Framework}s' befasse ich mich kurz mit diversen \mi{\Gls{Framework}s}. Ich erläutere deren Herkunft, womit sie werben und auf welchen Technologien sie aufbauen. Des Weiteren behandle ich in diesem Abschnitt Technologien die einzelne funktionelle Komponenten, welche ich in Hinsicht auf die Entwicklung eines eigenen \mi{\Gls{Framework}s} zur \Gls{parallel-synchron}en Steuerung von Webapplikationen auf mobilen \Gls{moEn}en auf einen Mehrwert untersuchen werde.
 
-\\Das Kapitel 'Evaluation der Frameworks' umfasst die Auswertung der erlangten Ergebnisse. Hier erläutere ich die Resultate meiner Versuchsreihen und wie man die Ergebnisse nutzen kann, eine optimierte Qualitätssicherung von Webapplikationen, mit Fokus auf mobilen Endgeräten, vorzunehmen .
+\\Das Kapitel 'Evaluation der \Gls{Framework}s' umfasst die Auswertung der erlangten Ergebnisse. Hier erläutere ich die Resultate meiner Versuchsreihen und wie man die Ergebnisse nutzen kann, eine optimierte \Gls{qs} von Webapplikationen, mit Fokus auf mobilen \Gls{moEn}en, vorzunehmen .
 
 \\Zum Abschluss fasse ich meine Thesis noch einmal zusammen und kläre Fragen und Probleme die während der Bearbeitungszeit auftraten.
 

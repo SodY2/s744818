@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  21 MAY 2014 16:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  21 MAY 2014 18:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1001,7 +1001,7 @@ Writing index file Abschlussarbeit_s744818_ss2014.idx
 \openout7 = `Abschlussarbeit_s744818_ss2014.glo'.
 
 Package glossaries Info: Writing glossary file Abschlussarbeit_s744818_ss2014.g
-lo on input line 117.
+lo on input line 116.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
@@ -1368,19 +1368,19 @@ Dictionary: glossaries-dictionary, Language: English
 <BHT-Logo-Basis.pdf, id=4, 303.39667pt x 99.95987pt>
 File: BHT-Logo-Basis.pdf Graphic file (type pdf)
  <use BHT-Logo-Basis.pdf>
-Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 388.
+Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 399.
 (pdftex.def)             Requested size: 128.0387pt x 42.18417pt.
 
-Overfull \hbox (2.47002pt too wide) in paragraph at lines 388--388
+Overfull \hbox (2.47002pt too wide) in paragraph at lines 399--399
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <26.96207> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 388.
-./Abschlussarbeit_s744818_ss2014.tex:388: Undefined control sequence.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 399.
+./Abschlussarbeit_s744818_ss2014.tex:399: Undefined control sequence.
 \bhtTitelSeite ...orgelegte \thethesistyp \xspace 
                                                   \\ zur Erlangung des akade...
-l.388 \maketitle
+l.399 \maketitle
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1389,38 +1389,38 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 388.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 388.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 399.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 399.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 388.
+(Font)              size <6> substituted on input line 399.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 388.
+(Font)              size <12> substituted on input line 399.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 388.
+(Font)              size <6> substituted on input line 399.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 388.
+(Font)              size <12> substituted on input line 399.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 388.
+(Font)              size <6> substituted on input line 399.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 388.
+LaTeX Font Info:    Try loading font information for U+msa on input line 399.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 388.
+LaTeX Font Info:    Try loading font information for U+msb on input line 399.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
 
@@ -1437,14 +1437,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 388--389
 
  </usr/local/texlive/2013/texmf-dist/tex/latex/bhtThesis/tryout/pictures/BHT-Lo
 go-Basis.pdf>]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 389.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 400.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <13> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 389.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 400.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <26.96207> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 389.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 400.
 
 [1
 
@@ -1580,9 +1580,9 @@ nput line 9.
  (./tex/aufgabenstellung.tex
 Kapitel 2.
 
-Overfull \hbox (10.66805pt too wide) in paragraph at lines 3--7
+Overfull \hbox (11.39597pt too wide) in paragraph at lines 3--7
 \T1/ptm/m/n/13 Die Auf-ga-be die-ser The-sis ist die Eva-lu-ie-rung von Tech-ni
--ken zur parallel-synchronen
+-ken zur []Parallel-synchronen
  []
 
 <pictures/../pictures/Testszenario.jpg, id=79, 483.8075pt x 549.05125pt>
@@ -1617,8 +1617,8 @@ ne 14.
 (pdftex.def)             Requested size: 400.0pt x 453.96146pt.
 
 Underfull \hbox (badness 1895) in paragraph at lines 14--14
-[]\T1/ptm/m/n/13 Darstellung ei-nes Qua-li-täts-si-che-rungs-ab-lau-fes in der 
-mo-bi-len
+[]\T1/ptm/m/n/13 Darstellung ei-nes []Qua-li-täts-si-che-rungs-ab-lau-fes in de
+r mo-bi-len
  []
 
 ./tex/aufgabenstellung.tex:14: Too many }'s.
@@ -1678,75 +1678,20 @@ File: pictures/../pictures/netzwerkaufbau.jpg Graphic file (type jpg)
 Package pdftex.def Info: pictures/../pictures/netzwerkaufbau.jpg used on input 
 line 8.
 (pdftex.def)             Requested size: 294.0751pt x 300.00743pt.
-
-
-./tex/begriffserklaerung.tex:70: Package glossaries Error: Glossary entry `para
-llel-synchron' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 		}
-        
-You need to define a glossary entry before you can use it.
-
-
-./tex/begriffserklaerung.tex:70: Package glossaries Error: Glossary entry `Web-
-Applikation' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 		}
-        
-You need to define a glossary entry before you can use it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-\T1/ptm/m/n/13 TOREMOVE-->
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-
- []
-
-[9
+ [9
 
 
 
 
  <./pictures/../pictures/netzwerkaufbau.jpg>]
-
-./tex/begriffserklaerung.tex:70: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.70 		}
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.59995pt): 
- Make it at least 31.23247pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 79.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 20.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <13> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 79.
- [11]
-[12]) [13]
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 20.
+
+[10] [11]) [12]
 \openout2 = `./tex/technologien.aux'.
 
  (./tex/technologien.tex
@@ -1756,35 +1701,91 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.59996> not available
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 34.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [14
+) [13
 
 
 
 
-] [15]
+]
+
+./tex/technologien.tex:71: Package glossaries Error: Glossary entry `FRAMEWORK'
+ has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 
+     
+You need to define a glossary entry before you can use it.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.59995pt): 
+ Make it at least 15.6325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
 Underfull \hbox (badness 1014) in paragraph at lines 99--99
-[]\T1/ptm/m/n/13 von Browser-Sync ge-tes-te-te Brow-ser (Stand 21.03.2014, Ver-
-si-on
+[]\T1/ptm/m/n/13 von Browser-Sync ge-tes-te-te []Brow-ser (Stand 21.03.2014, Ve
+r-si-on
  []
 
-[16]
+
+./tex/technologien.tex:105: Package glossaries Error: Glossary entry `FRAMEWORK
+' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.105 \section
+              {\Gls{Framework}s als Teilkomponente}
+You need to define a glossary entry before you can use it.
+
+[15]
 Overfull \hbox (25.30664pt too wide) in paragraph at lines 118--119
-\T1/ptm/m/n/13 mög-li-chen soll, die Com-pu-ter-maus ge-ne-rier-ten Be-we-gun-g
-en in äqui-va-len-te []
+\T1/ptm/m/n/13 mög-li-chen soll, die []Com-pu-ter-maus ge-ne-rier-ten Be-we-gun
+-gen in äqui-va-len-te []
  []
 
-[17]) [18]
+
+./tex/technologien.tex:120: Package glossaries Error: Glossary entry `FRAMEWORK
+' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 	\subsection
+                  {\mi{jQuery UI Touch Punch}}
+You need to define a glossary entry before you can use it.
+
+[16])
+
+./Abschlussarbeit_s744818_ss2014.tex:456: Package glossaries Error: Glossary en
+try `FRAMEWORK' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.456 \include{./tex/technologien}
+                                  
+You need to define a glossary entry before you can use it.
+
+[17]
 \openout2 = `./tex/evaluation.aux'.
 
  (./tex/evaluation.tex
 Kapitel 5.
-[19
+[18
 
 
 
 
-] [20] [21]
-<pictures/../pictures/ghostlab/startbildschirm.png, id=137, 811.03pt x 632.3625
+] [19] [20]
+<pictures/../pictures/ghostlab/startbildschirm.png, id=134, 811.03pt x 632.3625
 pt>
 ./tex/evaluation.tex:162: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -1817,7 +1818,7 @@ Package pdftex.def Info: pictures/../pictures/ghostlab/startbildschirm.png used
  on input line 162.
 (pdftex.def)             Requested size: 400.0pt x 311.88664pt.
 
-<pictures/../pictures/ghostlab/workspaces.png, id=138, 2557.555pt x 1263.72125p
+<pictures/../pictures/ghostlab/workspaces.png, id=135, 2557.555pt x 1263.72125p
 t>
 ./tex/evaluation.tex:166: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -1848,12 +1849,12 @@ File: pictures/../pictures/ghostlab/workspaces.png Graphic file (type png)
 Package pdftex.def Info: pictures/../pictures/ghostlab/workspaces.png used on i
 nput line 166.
 (pdftex.def)             Requested size: 400.0pt x 197.6295pt.
- [22 <./pictures/../pictures/ghostlab/startbildschirm.png>]
-<pictures/../pictures/ghostlab/weinre.png, id=142, 1284.8pt x 1328.965pt>
+ [21 <./pictures/../pictures/ghostlab/startbildschirm.png>]
+<pictures/../pictures/ghostlab/weinre.png, id=139, 1284.8pt x 1328.965pt>
 ./tex/evaluation.tex:169: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.169 ...cht}{ausgewÃ¤hltes DOM-Element in Weinre}
+l.169 ...usgewÃ¤hltes \Gls{DOM}-Element in Weinre}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1865,7 +1866,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ./tex/evaluation.tex:169: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.169 ...cht}{ausgewÃ¤hltes DOM-Element in Weinre}
+l.169 ...usgewÃ¤hltes \Gls{DOM}-Element in Weinre}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1879,15 +1880,15 @@ File: pictures/../pictures/ghostlab/weinre.png Graphic file (type png)
 Package pdftex.def Info: pictures/../pictures/ghostlab/weinre.png used on input
  line 169.
 (pdftex.def)             Requested size: 400.0pt x 413.7391pt.
- [23 <./pictures/../pictures/ghostlab/workspaces.png>] [24 <./pictures/../pictu
+ [22 <./pictures/../pictures/ghostlab/workspaces.png>] [23 <./pictures/../pictu
 res/ghostlab/weinre.png>]
 Overfull \hbox (15.89426pt too wide) in paragraph at lines 174--175
-\T1/ptm/m/n/13 Das Ein-rich-ten zum Tes-ten auf mo-bi-len End-ge-rä-ten ver-läu
-ft syn-chron zu den Desktop-
+\T1/ptm/m/n/13 Das Ein-rich-ten zum Tes-ten auf mo-bi-len []End-ge-rä-ten ver-l
+äuft syn-chron zu den Desktop-
  []
 
 
-<pictures/../pictures/ghostlab/uebersicht_mobil.png, id=150, 803.0pt x 625.3362
+<pictures/../pictures/ghostlab/uebersicht_mobil.png, id=147, 803.0pt x 625.3362
 4pt>
 ./tex/evaluation.tex:177: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -1919,8 +1920,8 @@ File: pictures/../pictures/ghostlab/uebersicht_mobil.png Graphic file (type png
 Package pdftex.def Info: pictures/../pictures/ghostlab/uebersicht_mobil.png use
 d on input line 177.
 (pdftex.def)             Requested size: 400.0pt x 311.50325pt.
- [25 <./pictures/../pictures/ghostlab/uebersicht_mobil.png>] [26] [27]
-<pictures/../pictures/adobeedgeinspect/icon.png, id=160, 25.09375pt x 16.06pt>
+ [24 <./pictures/../pictures/ghostlab/uebersicht_mobil.png>] [25] [26]
+<pictures/../pictures/adobeedgeinspect/icon.png, id=157, 25.09375pt x 16.06pt>
 File: pictures/../pictures/adobeedgeinspect/icon.png Graphic file (type png)
 
 <use pictures/../pictures/adobeedgeinspect/icon.png>
@@ -1928,7 +1929,7 @@ Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/icon.png used on
  input line 202.
 (pdftex.def)             Requested size: 25.09367pt x 16.05995pt.
 
-<pictures/../pictures/adobeedgeinspect/iphone_2.png, id=161, 642.4pt x 1140.26p
+<pictures/../pictures/adobeedgeinspect/iphone_2.png, id=158, 642.4pt x 1140.26p
 t>
 ./tex/evaluation.tex:209: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -1961,7 +1962,7 @@ Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/iphone_2.png use
 d on input line 209.
 (pdftex.def)             Requested size: 197.18149pt x 349.99716pt.
 
-<pictures/../pictures/adobeedgeinspect/desktop_2.png, id=162, 304.13625pt x 191
+<pictures/../pictures/adobeedgeinspect/desktop_2.png, id=159, 304.13625pt x 191
 .71625pt>
 File: pictures/../pictures/adobeedgeinspect/desktop_2.png Graphic file (type pn
 g)
@@ -1969,8 +1970,8 @@ g)
 Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/desktop_2.png us
 ed on input line 210.
 (pdftex.def)             Requested size: 304.1355pt x 191.71577pt.
- [28 <./pictures/../pictures/adobeedgeinspect/icon.png>]
-<pictures/../pictures/adobeedgeinspect/desktop_3.png, id=166, 308.15125pt x 237
+ [27 <./pictures/../pictures/adobeedgeinspect/icon.png>]
+<pictures/../pictures/adobeedgeinspect/desktop_3.png, id=163, 308.15125pt x 237
 .88875pt>
 File: pictures/../pictures/adobeedgeinspect/desktop_3.png Graphic file (type pn
 g)
@@ -1978,14 +1979,14 @@ g)
 Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/desktop_3.png us
 ed on input line 213.
 (pdftex.def)             Requested size: 308.15048pt x 237.88815pt.
- [29 <./pictures/../pictures/adobeedgeinspect/iphone_2.png (PNG copy)> <./pictu
+ [28 <./pictures/../pictures/adobeedgeinspect/iphone_2.png (PNG copy)> <./pictu
 res/../pictures/adobeedgeinspect/desktop_2.png>]
-<pictures/../pictures/adobeedgeinspect/iphone_3.png, id=171, 642.4pt x 1140.26p
+<pictures/../pictures/adobeedgeinspect/iphone_3.png, id=167, 642.4pt x 1140.26p
 t>
 ./tex/evaluation.tex:222: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.222 ...obe Edge Inspect App unter iOS}{200}{350}
+l.222 ...ge Inspect \Gls{App} unter iOS}{200}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1997,7 +1998,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ./tex/evaluation.tex:222: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.222 ...obe Edge Inspect App unter iOS}{200}{350}
+l.222 ...ge Inspect \Gls{App} unter iOS}{200}{350}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2012,9 +2013,9 @@ File: pictures/../pictures/adobeedgeinspect/iphone_3.png Graphic file (type png
 Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/iphone_3.png use
 d on input line 222.
 (pdftex.def)             Requested size: 197.18149pt x 349.99716pt.
- [30 <./pictures/../pictures/adobeedgeinspect/desktop_3.png>] [31 <./pictures/.
-./pictures/adobeedgeinspect/iphone_3.png (PNG copy)>] [32]
-<pictures/../pictures/remotepreview/eingabemaske.png, id=181, 819.06pt x 418.56
+ [29 <./pictures/../pictures/adobeedgeinspect/desktop_3.png>] [30 <./pictures/.
+./pictures/adobeedgeinspect/iphone_3.png (PNG copy)>] [31]
+<pictures/../pictures/remotepreview/eingabemaske.png, id=178, 819.06pt x 418.56
 375pt>
 ./tex/evaluation.tex:247: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -2046,8 +2047,8 @@ g)
 Package pdftex.def Info: pictures/../pictures/remotepreview/eingabemaske.png us
 ed on input line 247.
 (pdftex.def)             Requested size: 400.0pt x 204.41464pt.
- [33 <./pictures/../pictures/remotepreview/eingabemaske.png>] [34]
-<pictures/../pictures/browser-sync/install.png, id=189, 198.7425pt x 29.10875pt
+ [32 <./pictures/../pictures/remotepreview/eingabemaske.png>] [33]
+<pictures/../pictures/browser-sync/install.png, id=185, 198.7425pt x 29.10875pt
 >
 File: pictures/../pictures/browser-sync/install.png Graphic file (type png)
  <use pictures/../pictures/browser-sync/install.png>
@@ -2055,7 +2056,7 @@ Package pdftex.def Info: pictures/../pictures/browser-sync/install.png used on
 input line 269.
 (pdftex.def)             Requested size: 198.742pt x 29.10867pt.
 
-<pictures/../pictures/browser-sync/init.png, id=190, 639.38875pt x 50.1875pt>
+<pictures/../pictures/browser-sync/init.png, id=186, 639.38875pt x 50.1875pt>
 ./tex/evaluation.tex:272: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
@@ -2097,7 +2098,7 @@ g im Pro-jek-t-ord-ner Browser-
  []
 
 
-<pictures/../pictures/browser-sync/start.png, id=191, 134.5025pt x 15.05624pt>
+<pictures/../pictures/browser-sync/start.png, id=187, 134.5025pt x 15.05624pt>
 File: pictures/../pictures/browser-sync/start.png Graphic file (type png)
 
 <use pictures/../pictures/browser-sync/start.png>
@@ -2105,7 +2106,7 @@ Package pdftex.def Info: pictures/../pictures/browser-sync/start.png used on in
 put line 275.
 (pdftex.def)             Requested size: 134.50215pt x 15.0562pt.
 
-<pictures/../pictures/browser-sync/start2.png, id=192, 621.32124pt x 113.42375p
+<pictures/../pictures/browser-sync/start2.png, id=188, 621.32124pt x 113.42375p
 t>
 ./tex/evaluation.tex:278: Illegal unit of measure (pt inserted).
 <to be read again> 
@@ -2141,18 +2142,18 @@ Overfull \hbox (23.20471pt too wide) in paragraph at lines 278--278
  [][] 
  []
 
-[35 <./pictures/../pictures/browser-sync/install.png> <./pictures/../pictures/b
+[34 <./pictures/../pictures/browser-sync/install.png> <./pictures/../pictures/b
 rowser-sync/init.png> <./pictures/../pictures/browser-sync/start.png>]
-<pictures/../pictures/browser-sync/connected.png, id=197, 412.54124pt x 19.0712
+<pictures/../pictures/browser-sync/connected.png, id=193, 412.54124pt x 19.0712
 4pt>
 File: pictures/../pictures/browser-sync/connected.png Graphic file (type png)
  <use pictures/../pictures/browser-sync/connected.png>
 Package pdftex.def Info: pictures/../pictures/browser-sync/connected.png used o
 n input line 284.
 (pdftex.def)             Requested size: 412.54024pt x 19.07118pt.
- [36 <./pictures/../pictures/browser-sync/start2.png> <./pictures/../pictures/b
-rowser-sync/connected.png>] [37]
-<pictures/../pictures/broadcast.jpg, id=204, 427.5975pt x 274.02374pt>
+ [35 <./pictures/../pictures/browser-sync/start2.png> <./pictures/../pictures/b
+rowser-sync/connected.png>] [36]
+<pictures/../pictures/broadcast.jpg, id=201, 427.5975pt x 274.02374pt>
 ./tex/evaluation.tex:310: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
@@ -2182,8 +2183,20 @@ File: pictures/../pictures/broadcast.jpg Graphic file (type jpg)
 Package pdftex.def Info: pictures/../pictures/broadcast.jpg used on input line 
 310.
 (pdftex.def)             Requested size: 300.00128pt x 192.25433pt.
- [38]
-<pictures/../pictures/broadcastroom.jpg, id=208, 495.8525pt x 331.2375pt>
+
+
+./tex/evaluation.tex:311: Package glossaries Error: Glossary entry `FRAMEWORK' 
+has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.311 
+      
+You need to define a glossary entry before you can use it.
+
+[37] <pictures/../pictures/broadcastroom.jpg, id=205, 495.8525pt x 331.2375pt>
 ./tex/evaluation.tex:318: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
@@ -2213,8 +2226,21 @@ File: pictures/../pictures/broadcastroom.jpg Graphic file (type jpg)
 Package pdftex.def Info: pictures/../pictures/broadcastroom.jpg used on input l
 ine 318.
 (pdftex.def)             Requested size: 349.99976pt x 233.8055pt.
- [39 <./pictures/../pictures/broadcast.jpg>]
-<pictures/../pictures/socketio/server_1.png, id=212, 459.7175pt x 210.7875pt>
+
+
+./tex/evaluation.tex:319: Package glossaries Error: Glossary entry `FRAMEWORK' 
+has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 
+      
+You need to define a glossary entry before you can use it.
+
+[38 <./pictures/../pictures/broadcast.jpg>]
+<pictures/../pictures/socketio/server_1.png, id=209, 459.7175pt x 210.7875pt>
 ./tex/evaluation.tex:328: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
@@ -2244,8 +2270,21 @@ File: pictures/../pictures/socketio/server_1.png Graphic file (type png)
 Package pdftex.def Info: pictures/../pictures/socketio/server_1.png used on inp
 ut line 328.
 (pdftex.def)             Requested size: 350.02025pt x 160.48964pt.
- [40 <./pictures/../pictures/broadcastroom.jpg>]
-<pictures/../pictures/socketio/client_1.png, id=216, 371.3875pt x 57.21375pt>
+
+
+./tex/evaluation.tex:329: Package glossaries Error: Glossary entry `FRAMEWORK' 
+has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.329 	\subsubsection
+                     {Clientseitig}
+You need to define a glossary entry before you can use it.
+
+[39 <./pictures/../pictures/broadcastroom.jpg>]
+<pictures/../pictures/socketio/client_1.png, id=213, 371.3875pt x 57.21375pt>
 ./tex/evaluation.tex:332: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
@@ -2276,7 +2315,7 @@ Package pdftex.def Info: pictures/../pictures/socketio/client_1.png used on inp
 ut line 332.
 (pdftex.def)             Requested size: 350.00533pt x 53.91972pt.
 
-<pictures/../pictures/socketio/client_2.png, id=217, 259.97125pt x 46.1725pt>
+<pictures/../pictures/socketio/client_2.png, id=214, 259.97125pt x 46.1725pt>
 ./tex/evaluation.tex:336: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
@@ -2306,13 +2345,39 @@ File: pictures/../pictures/socketio/client_2.png Graphic file (type png)
 Package pdftex.def Info: pictures/../pictures/socketio/client_2.png used on inp
 ut line 336.
 (pdftex.def)             Requested size: 249.99797pt x 44.40115pt.
- [41 <./pictures/../pictures/socketio/server_1.png> <./pictures/../pictures/soc
-ketio/client_1.png> <./pictures/../pictures/socketio/client_2.png>]) [42]
+
+
+./tex/evaluation.tex:340: Package glossaries Error: Glossary entry `FRAMEWORK' 
+has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 
+      
+You need to define a glossary entry before you can use it.
+
+[40 <./pictures/../pictures/socketio/server_1.png> <./pictures/../pictures/sock
+etio/client_1.png> <./pictures/../pictures/socketio/client_2.png>])
+
+./Abschlussarbeit_s744818_ss2014.tex:461: Package glossaries Error: Glossary en
+try `FRAMEWORK' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.461 \include{./tex/evaluation}
+                                
+You need to define a glossary entry before you can use it.
+
+[41]
 \openout2 = `./tex/zusammenfassung.aux'.
 
  (./tex/zusammenfassung.tex
 Kapitel 6.
-[43
+[42
 
 
 
@@ -2337,7 +2402,7 @@ Overfull \hbox (5.4944pt too wide) in paragraph at lines 30--88
  [][] 
  []
 
-[44] [45]) [46] (./Abschlussarbeit_s744818_ss2014.gls
+[43] [44]) [45] (./Abschlussarbeit_s744818_ss2014.gls
 Overfull \hbox (1.65823pt too wide) in paragraph at lines 5--5
 \T1/ptm/m/n/13 schen ei-nem Brow-ser und dem Ser-ver. Die-ses er-mög-licht es, 
 HTTP-
@@ -2355,26 +2420,26 @@ Overfull \hbox (10.06506pt too wide) in paragraph at lines 5--5
  " [[]] 
  []
 
-[47
+[46
 
 
 
 
 ]
-Overfull \hbox (13.27313pt too wide) in paragraph at lines 30--30
+Overfull \hbox (13.27313pt too wide) in paragraph at lines 61--61
 []\T1/ptm/m/n/13 " Do-cu-ment Ob-ject Mo-del (DOM) ist ei-ne Spe-zi-fi-ka-ti-on
  ei-ner Schnitt-
  []
 
-[48]
-Overfull \hbox (2.78328pt too wide) in paragraph at lines 44--44
+[47]
+Overfull \hbox (2.78328pt too wide) in paragraph at lines 101--101
 []\T1/ptm/m/n/13 " .htaccess-Dateien sind Server-Konfigurationsdateien für Ver-
 zeich-
  []
 
-[49] [50]) [51]
-./Abschlussarbeit_s744818_ss2014.tex:473: Undefined control sequence.
-l.473 \bibitem[Wiki01]{2} \url
+[48] [49] [50]) [51]
+./Abschlussarbeit_s744818_ss2014.tex:484: Undefined control sequence.
+l.484 \bibitem[Wiki01]{2} \url
                               {http://de.wikipedia.org/w/index.php?title=Aja...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2382,8 +2447,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:473: Misplaced alignment tab character &.
-l.473 ...w/index.php?title=Ajax\_(Programmierung)&
+./Abschlussarbeit_s744818_ss2014.tex:484: Misplaced alignment tab character &.
+l.484 ...w/index.php?title=Ajax\_(Programmierung)&
                                                   oldid=129355492}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2393,13 +2458,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (66.90411pt too wide) in paragraph at lines 473--474
+Overfull \hbox (66.90411pt too wide) in paragraph at lines 484--485
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Ajax_(Programmierung
 )oldid=129355492 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:474: Undefined control sequence.
-l.474 \bibitem[ScVi]{3}\url
+./Abschlussarbeit_s744818_ss2014.tex:485: Undefined control sequence.
+l.485 \bibitem[ScVi]{3}\url
                            {http://irlnathan.github.io/sailscasts/blog/2013/...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2408,19 +2473,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 []\T1/ptm/m/n/13 http://irlnathan.github.io/sailscasts/blog/2013/10/10/building
 -a-sails-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--475
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
 \T1/ptm/m/n/13 application-ep21-integrating-socket-dot-io-and-sails-with-custom
 -
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:475: Undefined control sequence.
-l.475 \bibitem[Wiki02]{4} \url
+./Abschlussarbeit_s744818_ss2014.tex:486: Undefined control sequence.
+l.486 \bibitem[Wiki02]{4} \url
                               {http://de.wikipedia.org/w/index.php?title=Jav...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2428,8 +2493,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:475: Misplaced alignment tab character &.
-l.475 ...kipedia.org/w/index.php?title=JavaScript&
+./Abschlussarbeit_s744818_ss2014.tex:486: Misplaced alignment tab character &.
+l.486 ...kipedia.org/w/index.php?title=JavaScript&
                                                   oldid=129548016}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2438,8 +2503,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Abschlussarbeit_s744818_ss2014.tex:476: Undefined control sequence.
-l.476 \bibitem[Wiki03]{5}\url
+./Abschlussarbeit_s744818_ss2014.tex:487: Undefined control sequence.
+l.487 \bibitem[Wiki03]{5}\url
                              {http://de.wikipedia.org/w/index.php?title=Bild...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2447,8 +2512,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:477: Undefined control sequence.
-l.477 \bibitem[Wiki04]{6}\url
+./Abschlussarbeit_s744818_ss2014.tex:488: Undefined control sequence.
+l.488 \bibitem[Wiki04]{6}\url
                              {http://de.wikipedia.org/w/index.php?title=Docu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2456,8 +2521,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:477: Misplaced alignment tab character &.
-l.477 .../index.php?title=Document\_Object\_Model&
+./Abschlussarbeit_s744818_ss2014.tex:488: Misplaced alignment tab character &.
+l.488 .../index.php?title=Document\_Object\_Model&
                                                   oldid=127850631}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2467,13 +2532,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (74.13199pt too wide) in paragraph at lines 477--478
+Overfull \hbox (74.13199pt too wide) in paragraph at lines 488--489
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Document_Object_Mode
 loldid=127850631 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:478: Undefined control sequence.
-l.478 \bibitem[Wiki05]{7}\url
+./Abschlussarbeit_s744818_ss2014.tex:489: Undefined control sequence.
+l.489 \bibitem[Wiki05]{7}\url
                              {http://de.wikipedia.org/w/index.php?title=Apac...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2481,8 +2546,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:478: Misplaced alignment tab character &.
-l.478 ...g/w/index.php?title=Apache\_HTTP\_Server&
+./Abschlussarbeit_s744818_ss2014.tex:489: Misplaced alignment tab character &.
+l.489 ...g/w/index.php?title=Apache\_HTTP\_Server&
                                                   oldid=129948624}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2492,13 +2557,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (57.31064pt too wide) in paragraph at lines 478--479
+Overfull \hbox (57.31064pt too wide) in paragraph at lines 489--490
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Apache_HTTP_Serverol
 did=129948624 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:479: Undefined control sequence.
-l.479 \bibitem[Wiki06]{8}\url
+./Abschlussarbeit_s744818_ss2014.tex:490: Undefined control sequence.
+l.490 \bibitem[Wiki06]{8}\url
                              {http://de.wikipedia.org/w/index.php?title=Anke...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2506,8 +2571,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:479: Misplaced alignment tab character &.
-l.479 ...edia.org/w/index.php?title=Anker\_(HTML)&
+./Abschlussarbeit_s744818_ss2014.tex:490: Misplaced alignment tab character &.
+l.490 ...edia.org/w/index.php?title=Anker\_(HTML)&
                                                   oldid=124884439}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2517,13 +2582,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (22.71779pt too wide) in paragraph at lines 479--480
+Overfull \hbox (22.71779pt too wide) in paragraph at lines 490--491
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Anker_(HTML)oldid=12
 4884439 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:480: Undefined control sequence.
-l.480 \bibitem[Wiki07]{9}\url
+./Abschlussarbeit_s744818_ss2014.tex:491: Undefined control sequence.
+l.491 \bibitem[Wiki07]{9}\url
                              {http://de.wikipedia.org/w/index.php?title=Digi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2531,8 +2596,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:480: Misplaced alignment tab character &.
-l.480 .../w/index.php?title=Digitales\_Zertifikat&
+./Abschlussarbeit_s744818_ss2014.tex:491: Misplaced alignment tab character &.
+l.491 .../w/index.php?title=Digitales\_Zertifikat&
                                                   oldid=129208084}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2542,13 +2607,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (40.20168pt too wide) in paragraph at lines 480--481
+Overfull \hbox (40.20168pt too wide) in paragraph at lines 491--492
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Digitales_Zertifikat
 oldid=129208084 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:481: Undefined control sequence.
-l.481 \bibitem[SeHt01]{10}\url
+./Abschlussarbeit_s744818_ss2014.tex:492: Undefined control sequence.
+l.492 \bibitem[SeHt01]{10}\url
                               {http://de.selfhtml.org/servercgi/server/htacc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2556,8 +2621,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:482: Undefined control sequence.
-l.482 \bibitem[Wiki08]{11}\url
+./Abschlussarbeit_s744818_ss2014.tex:493: Undefined control sequence.
+l.493 \bibitem[Wiki08]{11}\url
                               {http://de.wikipedia.org/w/index.php?title=GNU...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2565,8 +2630,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:482: Misplaced alignment tab character &.
-l.482 ....php?title=GNU\_General\_Public\_License&
+./Abschlussarbeit_s744818_ss2014.tex:493: Misplaced alignment tab character &.
+l.493 ....php?title=GNU\_General\_Public\_License&
                                                   oldid=130239300}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2576,13 +2641,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (100.83374pt too wide) in paragraph at lines 482--483
+Overfull \hbox (100.83374pt too wide) in paragraph at lines 493--494
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=GNU_General_Public_L
 icenseoldid=130239300 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:483: Undefined control sequence.
-l.483 \bibitem[Wiki09]{12}\url
+./Abschlussarbeit_s744818_ss2014.tex:494: Undefined control sequence.
+l.494 \bibitem[Wiki09]{12}\url
                               {http://de.wikipedia.org/w/index.php?title=MIT...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2590,8 +2655,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:483: Misplaced alignment tab character &.
-l.483 ...kipedia.org/w/index.php?title=MIT-Lizenz&
+./Abschlussarbeit_s744818_ss2014.tex:494: Misplaced alignment tab character &.
+l.494 ...kipedia.org/w/index.php?title=MIT-Lizenz&
                                                   oldid=125762366}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2601,12 +2666,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 483--484
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=MIT-
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:484: Undefined control sequence.
-l.484 \bibitem[Wiki10]{13}\url
+./Abschlussarbeit_s744818_ss2014.tex:495: Undefined control sequence.
+l.495 \bibitem[Wiki10]{13}\url
                               {http://de.wikipedia.org/w/index.php?title=Apa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2614,8 +2679,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:484: Misplaced alignment tab character &.
-l.484 ...edia.org/w/index.php?title=Apache-Lizenz&
+./Abschlussarbeit_s744818_ss2014.tex:495: Misplaced alignment tab character &.
+l.495 ...edia.org/w/index.php?title=Apache-Lizenz&
                                                   oldid=130033063}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2625,14 +2690,14 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Apache-
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:487: Missing } inserted.
+./Abschlussarbeit_s744818_ss2014.tex:498: Missing } inserted.
 <inserted text> 
                 }
-l.487 \end{thebibliography}
+l.498 \end{thebibliography}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2653,13 +2718,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 20229 strings out of 493315
- 348367 string characters out of 6137904
- 485299 words of memory out of 5000000
- 23063 multiletter control sequences out of 15000+600000
+ 20287 strings out of 493315
+ 349624 string characters out of 6137904
+ 486104 words of memory out of 5000000
+ 23121 multiletter control sequences out of 15000+600000
  59625 words of font info for 85 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 65i,12n,71p,1479b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,11n,71p,1479b,638s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/20
@@ -2667,7 +2732,7 @@ xlive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/20
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (60 pages, 1374991 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (60 pages, 1375095 bytes).
 
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)

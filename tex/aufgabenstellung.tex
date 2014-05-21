@@ -1,25 +1,25 @@
 \chapter{Aufgabenstellung}
 
-Die Aufgabe dieser Thesis ist die Evaluierung von Techniken zur parallel-synchronen Steuerung von Webapplikationen auf mobilen Endgeräten, um damit die Produktivität der Qualitätssicherung zu steigern.
+Die Aufgabe dieser Thesis ist die Evaluierung von Techniken zur \Gls{parallel-synchron}en Steuerung von Webapplikationen auf mobilen \Gls{moEn}en, um damit die Produktivität der \Gls{qs} zu steigern.
 	%%
 	%% ############# Annahmen und Einschränkungen
 	%%
 	\section{Problemstellung}
-	Ein Problem in der aktuellen Softwareentwicklung ist die immer weiter steigende Anzahl an Endgeräten, welche mit 			verschiedenen Bildschirmauflösungen und eigenen Betriebsystemen in unterschiedlichen Versionen auftreten. Ein 				Qualitätsprüfer, der einen hohen Qualitätsstandard hat, investiert daher linear ansteigend zur Anzahl der zu testenden Geräte Zeit, um vereinzelte Testszenarien durchzuarbeiten. Solch ein Testszenario kann Navigationsabläufe\footnote{ein 		Nutzerspezifischer Gang durch die Webseite}, das Ausfüllen und Validieren eines Formulars oder auch das Überprüfen 			funktionaler\footnote{aktive Links und deren Aufruf} Links sein. Bereits an dieser Stelle ist der zu investierende Aufwand, und dies 		wiederkehrend, enorm.
+	Ein Problem in der aktuellen Softwareentwicklung ist die immer weiter steigende Anzahl an \Gls{moEn}en, welche mit 			verschiedenen Bildschirmauflösungen und eigenen Betriebsystemen in unterschiedlichen Versionen auftreten. Ein 				Qualitätsprüfer, der einen hohen Qualitätsstandard hat, investiert daher linear ansteigend zur Anzahl der zu testenden Geräte Zeit, um vereinzelte Testszenarien durchzuarbeiten. Solch ein Testszenario kann Navigationsabläufe\footnote{ein 		Nutzerspezifischer Gang durch die Webseite}, das Ausfüllen und Validieren eines Formulars oder auch das Überprüfen 			funktionaler\footnote{aktive Links und deren Aufruf} Links sein. Bereits an dieser Stelle ist der zu investierende Aufwand, und dies 		wiederkehrend, enorm.
 	
 	\\Wenn der Qualitätsprüfer innerhalb eines Testszenarios einen schwerwiegenden Fehler bei einem der Geräte entdeckt, muss 		dieser den Vorgang beenden. Abgebrochen werden muss deshalb, da bei korrigierter Quellcodeumsetzung der Qualitätsprüfer nicht 	davon ausgehen darf, dass bereits kontrollierte Abschnitte immer noch voll funktionsfähig sind, da eventuell neue Fehler in bereits kontrollierten Segmenten auftreten können.
 	
 	\\Sollte ein Szenario aufgrund eines Fehler abgebrochen worden sein, wird dem Entwickler das Problem möglichst konkret 		geschildert. Dessen Aufgabe ist es nun das Problem zu beheben. Ist dies geschehen startet der Prüfer einen erneuten 			Durchgang des Szenarios. Ein generelles Problem was hier noch zusätzlich entstehen kann, ist der Umstand, dass sich gerade 		bei nur kleineren fixes\footnote{Problemlösungen, Codeanpassungen} und immer wieder auftretenden Testszenarioschleifen 		eine gewisse Routine einschleichen kann, worunter die Qualität des Produkts leidet.
 
-	\ig{../pictures/Testszenario}{Qualitätssicherung Testszenario}{Darstellung eines Qualitätssicherungsablaufes in der mobilen 		Anwendungsentwicklung}}
+	\ig{../pictures/Testszenario}{Qualitätssicherung Testszenario}{Darstellung eines \Gls{qs}sablaufes in der mobilen 		Anwendungsentwicklung}}
 	\pagebreak
 	
 	%%
 	%% ############# Zielsetzung
 	%%
 	\section{Zielsetzung}
-	 Das Ziel dieser Arbeit ist es, bestehende \mi{Frameworks} auf ihre Tauglichkeit in Bezug auf die parallel-synchrone Steuerung 	von mobilen Endgeräten zur Durchführung von Testszenarien zu evaluieren.
-	Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu kommen auf Desktopgeräten die aktuellen 			Versionen von Firefox, Chrome, Safari (nur für Mac-Desktopgeräte) und der Internet Explorer (nur für Windows-Desktops). Um 		eine allgemeine Testbarkeit zu gewährleisten werden die Frameworks auch auf Genauigkeit in virtuellen Umgebungen analysiert. 	Dabei können Abweichungen, seien sie noch so klein, entstehen. Bereits 1 Pixel Abweichung kann bereits ausschlaggebend 		sein einen Umbruch zu erzeugen und damit das Layout negativ zu verändern.
+	 Das Ziel dieser Arbeit ist es, bestehende \mi{\Gls{Framework}s} auf ihre Tauglichkeit in Bezug auf die \Gls{parallel-synchron}e Steuerung 	von mobilen \Gls{moEn}en zur Durchführung von Testszenarien zu evaluieren.
+	Hierzu werden auf mobilen \Gls{moEn}en die internen \Gls{Webbrowser} getestet. Hinzu kommen auf Desktopgeräten die aktuellen 			Versionen von Firefox, Chrome, Safari (nur für Mac-Desktopgeräte) und der Internet Explorer (nur für Windows-Desktops). Um 		eine allgemeine Testbarkeit zu gewährleisten werden die \Gls{Framework}s auch auf Genauigkeit in virtuellen Umgebungen analysiert. 	Dabei können Abweichungen, seien sie noch so klein, entstehen. Bereits 1 \Gls{Pixel} Abweichung kann bereits ausschlaggebend 		sein einen Umbruch zu erzeugen und damit das Layout negativ zu verändern.
 	
 	
 	
@@ -30,7 +30,7 @@ Die Aufgabe dieser Thesis ist die Evaluierung von Techniken zur parallel-synchro
 	%%
 	\section{Abgrenzungskriterien}
 	\subsubsection{Zeit}
-	Als eines der wichtigsten Abgrenzungskriterien gilt es die Einarbeitungszeit zu bewerten. Hier gilt je kürzer desto besser, immer gesehen in Relation 	zum Umfang des Frameworks. So ist ein Framework qualitativ hochwertiger zu bewerten, wenn es eine exponentielle Lernkurve in Relation zur Zeit vorweist.
+	Als eines der wichtigsten Abgrenzungskriterien gilt es die Einarbeitungszeit zu bewerten. Hier gilt je kürzer desto besser, immer gesehen in Relation 	zum Umfang des \Gls{Framework}s. So ist ein \Gls{Framework} qualitativ hochwertiger zu bewerten, wenn es eine exponentielle Lernkurve in Relation zur Zeit vorweist.
 
 \begin{figure}[H]
 	\centering
@@ -46,23 +46,23 @@ Die Aufgabe dieser Thesis ist die Evaluierung von Techniken zur parallel-synchro
 
 	\end{tikzpicture}
 	\vspace{-25pt}
-	\caption[Darstellung der Lernkurve für Frameworks]{Lernkurve für Frameworks}
+	\caption[Darstellung der Lernkurve für \Gls{Framework}s]{Lernkurve für \Gls{Framework}s}
 \end{figure}
 \vspace{-40pt}
 
 
 	\pagebreak
 	 \subsubsection{Erweiterbarkeit}
-	 In Hinsicht auf mehrere Endgeräte gibt es mehrere Aspekte zu analysieren. Zum einen ob das Framework auf verschiedene 	Arten an das System gebunden ist, wie etwa Android oder iOS. Zum anderen ob es eine Limitierung der Anzahl der 				anzuschliessenden Geräte gibt. 
+	 In Hinsicht auf mehrere \Gls{moEn}e gibt es mehrere Aspekte zu analysieren. Zum einen ob das \Gls{Framework} auf verschiedene 	Arten an das System gebunden ist, wie etwa Android oder iOS. Zum anderen ob es eine Limitierung der Anzahl der 				anzuschliessenden Geräte gibt. 
 
-	\\Unter den Aspekt der Erweiterbarkeit fällt auch die Möglichkeit das Framework um eigene Funktionalitäten zu erweitern. So 		sollte im Idealfall ein Framework ein Grundgerüst liefern, auf das der Entwickler mit eigenen Erweiterungen aufbauen kann um 	das gewünschte Ziel zu erreichen.
+	\\Unter den Aspekt der Erweiterbarkeit fällt auch die Möglichkeit das \Gls{Framework} um eigene Funktionalitäten zu erweitern. So 		sollte im Idealfall ein \Gls{Framework} ein Grundgerüst liefern, auf das der Entwickler mit eigenen Erweiterungen aufbauen kann um 	das gewünschte Ziel zu erreichen.
 	
 	\subsubsection{Steuerbefehle}
 	Ein wichtiger Aspekt dieser Arbeit ist die Steuerung, beziehungsweise die Generierung von Steuerbefehlen und deren Verteilung auf alle verbundenen Klienten. Insbesondere wurde in dieser Arbeit auf das Scrollen innerhalb einer \mbox{Web-Applikation}, das Ausfüllen von Formularen mit den dazugehörigen Eingabefeldern, sowie das Ausführen eventgesteuerter Aktionen.
 
-	\subsubsection{Unterstützte Browser}
-	Ein wichtiger Aspekt der durchzuführenden Tests wird die Unterstützung möglichst verschiedener Browser beinhalten. Dies hat 	den Grund, dass lediglich ein Framework, was eine große Spanne an Endgeräten abdeckt, die Chance hat, effektiv genutzt werden 	zu können.
+	\subsubsection{Unterstützte \Gls{Webbrowser}}
+	Ein wichtiger Aspekt der durchzuführenden Tests wird die Unterstützung möglichst verschiedener \Gls{Webbrowser} beinhalten. Dies hat 	den Grund, dass lediglich ein \Gls{Framework}, was eine große Spanne an \Gls{moEn}en abdeckt, die Chance hat, effektiv genutzt werden 	zu können.
 
 	\subsubsection{Virtuelle Umgebung}
-	Ein positiv in die Validierung einfließender Aspekt ist die Einbindung oder Verwendung des Frameworks innerhalb einer 			virtuellen Umgebung. Das wird durch den Fakt begründet das der Tester nicht immer im Besitz aller Testgeräte oder 				Umgebungen ist. So ist es ohne eine virtuelle Maschine zum Beispiel, nicht möglich eine Seite im Internet Explorer innerhalb 		einer MacOS-Umgebung zu testen, da diese ihn nicht unterstützt.
+	Ein positiv in die Validierung einfließender Aspekt ist die Einbindung oder Verwendung des \Gls{Framework}s innerhalb einer 			virtuellen Umgebung. Das wird durch den Fakt begründet das der Tester nicht immer im Besitz aller Testgeräte oder 				Umgebungen ist. So ist es ohne eine virtuelle Maschine zum Beispiel, nicht möglich eine Seite im Internet Explorer innerhalb 		einer MacOS-Umgebung zu testen, da diese ihn nicht unterstützt.
 
