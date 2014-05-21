@@ -7,30 +7,30 @@
 \contentsline {subsubsection}{Zeit}{7}
 \contentsline {subsubsection}{Erweiterbarkeit}{8}
 \contentsline {subsubsection}{Steuerbefehle}{8}
-\contentsline {subsubsection}{Unterst\IeC {\"u}tze Browser}{8}
+\contentsline {subsubsection}{Unterst\IeC {\"u}tzte Browser}{8}
 \contentsline {subsubsection}{Virtuelle Umgebung}{8}
 \contentsline {chapter}{\numberline {3}Grundlagen}{9}
 \contentsline {section}{\numberline {3.1}Grunds\IeC {\"a}tzlicher Aufbau}{9}
 \contentsline {section}{\numberline {3.2}Begriffskl\IeC {\"a}rung - entfernt und ausgelagert in glossar}{10}
-\contentsline {section}{\numberline {3.3}verwendete Hardware}{11}
+\contentsline {section}{\numberline {3.3}Verwendete Hardware}{11}
 \contentsline {subsubsection}{Apple iMac 27\texttt "}{11}
-\contentsline {subsubsection}{mobile Endger\IeC {\"a}te}{11}
+\contentsline {subsubsection}{Mobile Endger\IeC {\"a}te}{11}
 \contentsline {subsubsection}{Nokia Lumia 920}{11}
 \contentsline {subsubsection}{LG Nexus 4}{11}
 \contentsline {subsubsection}{Apple iPhone4 32 GB}{12}
 \contentsline {subsubsection}{Apple iPhone5s 16 GB}{12}
 \contentsline {subsubsection}{Apple iPad mini Wi-Fi 32GB}{12}
 \contentsline {subsubsection}{Microsoft Surfcae}{13}
-\contentsline {section}{\numberline {3.4}verwendete Software}{13}
+\contentsline {section}{\numberline {3.4}Verwendete Software}{13}
 \contentsline {subsubsection}{Virtuelle Maschine}{13}
-\contentsline {subsubsection}{verwendete Browser}{13}
+\contentsline {subsubsection}{Verwendete Browser}{13}
 \contentsline {chapter}{\numberline {4}Auswahl der Frameworks}{14}
 \contentsline {section}{\numberline {4.1}Frameworks als Komplettl\IeC {\"o}sung}{14}
 \contentsline {subsection}{\numberline {4.1.1}Ghostlab}{14}
 \contentsline {subsection}{\numberline {4.1.2}Adobe Edge Inspect}{15}
 \contentsline {subsection}{\numberline {4.1.3}Remote Preview}{15}
 \contentsline {subsection}{\numberline {4.1.4}Browser-Sync}{16}
-\contentsline {section}{\numberline {4.2}Frameworks als Einzelkomponente}{17}
+\contentsline {section}{\numberline {4.2}Frameworks als Teilkomponente}{17}
 \contentsline {subsection}{\numberline {4.2.1}NodeJS}{17}
 \contentsline {subsection}{\numberline {4.2.2}NPM socket.io}{17}
 \contentsline {subsection}{\numberline {4.2.3}Zombie.js}{17}
@@ -80,5 +80,5 @@
 \contentsline {subsection}{\numberline {5.6.5}Einsch\IeC {\"a}tzung zur Umsetzung eines eigenen Frameworks}{42}
 \contentsline {chapter}{\numberline {6}Zusammenfassung und Ausblick}{43}
 \contentsline {section}{\numberline {6.1}Zusammenfassung}{43}
-\contentsline {subsection}{\numberline {6.1.1}Ausblick}{44}
-\contentsline {chapter}{Glossar}{46}
+\contentsline {subsection}{\numberline {6.1.1}Ausblick}{46}
+\contentsline {chapter}{Glossar}{47}

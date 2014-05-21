@@ -1,40 +1,32 @@
 \chapter{Einleitung}
-%\tr{Eine Einleitung bietet die Möglichkeiten den Sinn und Zweck der Diplomarbeit für einen Durchschnittsinformatiker (ohne die Spezialkenntnisse, die Sie jetzt haben) verständlich zu beschreiben. Hier können Sie Hintergründe darstellen, wie die Arbeit und das Thema entstanden und selbstverständlich für Ihre Arbeit werben. Interessierte Leser entscheiden hier, ob diese Arbeit für sie fachlich interessant ist.}
 
-%\tr{	Eine kurze Beschreibung des allgemeinen Forschungsgebietes in ein bis zwei Absätzen. Die Einleitung sollte am Ende in ein bis zwei Sätzen die eigentlich untersuchte Fragestellung benennen.}
-%Thematische Hinführung (2 Absätze); diese besteht im Idealfall aus dem Einstieg (etwas, was an die allgemeine Erfahrung anknüpft und unmittelbar ersichtlich ist) und einem weiteren Absatz, in dem – ausgehend vom 		Einstieg – auf das eigentliche Thema fokussiert wird. In einer Arbeit über Online-Marketing mit Facebook beispielsweise würde es im 1. Absatz um Online-Marketing allgemein gehen und im 2. Absatz auf die besonderen 		Anforderungen im Zusammenhang mit Facebook verwiesen. (Kontrollfrage: „Worum geht es hier?“)
+In der modernen Webentwicklung durchläuft eine Anwendung verschiedene Etappen eines Entwicklungszykluses. Sie beginnt mit einem Auftrag oder einer Idee, darauf folgt dann die Spezifikation einzelner \mi{Usecases}\footnote{Szenario oder auch Anwendungsfall}. Im Anschluss folgt in der Regel die Entwicklung und Implementation\footnote{Einbindung} der einzelnen Komponenten. Am Ende der jeweiligen Implementationsphase durchläuft das Produkt\footnote{hier: einzelne Softwarekomponente} die Qualitätskontrolle. Sollten in dieser Phase Fehler auftreten wird das Produkt dem Entwickler zur erneuten Bearbeitung vorgelegt.
 
+\\Dieser Vorgang kann sich beliebig oft wiederholen. Bei großen und komplexen Softwaresystemen ist es trotz zeitgemäßer Implementierung nicht immer ausgeschlossen, dass \mi{Kaskadierungsfehler}\footnote{Fehler die nicht im eigentlichen Segment auftreten, sondern eine oder mehr Ebenen weiter unten in der Systemhirarchie} entstehen. Aus Sicht der Qualitätssicherung ist dies ein lästiges Problem, da sie  nach jedem erneuten Modifikationsvorganges eines Softwaresegments einen größeren Segmentblock, wenn nicht sogar das gesamte Softwaresystem, erneut testen muss.
 
-%\tr{Hier sollte der Hintergrund und die Motivation der Arbeit kurz angerissen werden. Nach Möglichkeit sollte man alle Aspekte, die im zweiten Kapitel ("Grundlagen") besprochen werden, hier schon einmal ansprechen, damit 		diese nicht später aus heiterem Himmel fallen. Insbesondere sollte der Hintergrund quasi "zwingend" den nächsten Teil der Einleitung motivieren:
-
-%\section{Hintergrund}	
-In der modernen Webentwicklung durchläuft eine Anwendung verschiedene Etappen eines Entwicklungszykluses. Er beginnt bei einem Auftrag oder einer Idee, darauf folgt dann die Spezifikation einzelner \mi{Usecases}\footnote{Szenario oder auch Anwendungsfall}. Im Anschluss folgt in der Regel die Entwicklung und Implementation\footnote{Einbindung} der einzelnen Komponenten. Am Ende der jeweiligen Implementationsphase durchläuft das Produkt\footnote{hier: einzelne Softwarekomponente} die Qualitätskontrolle. Sollten in diesem Abschnitt Fehler auftreten wird das Produkt dem Entwickler zur erneuten Bearbeitung vorgelegt.
-
-\\Dieser Vorgang kann sich beliebig oft wiederholen. Bei großen und komplexen Softwaresystemen ist es trotz zeitgemäßer Implementierung nicht immer Ausgeschlossen, dass \mi{Kaskadierungsfehler}\footnote{Fehler die nicht im eigentlichen Segment auftreten, sondern eine oder mehr Ebenen weiter unten in der Systemhirarchie} entstehen. Aus Sicht der Qualitätssicherung ist dies ein lästiges Problem, da diese nach jedem erneuten Modifikationsvorganges eines Softwaresegments einen größeren Segment-block, wenn nicht sogar das gesamte Softwaresystem erneut testen muss.
-
-\\Bei der Entwicklung auf und für mobile Endgeräte\footnote{Smartphones, Tabletts  oder Ähnliche} kommt noch ein erschwerender Faktor hinzu, nämlich die diversen, verschiedenen Bildschirmauflösungen. Diese können nicht nur die Darstellung des Inhaltes beeinflussen, sondern auch daraus folgend die Interaktionskonformität beeinflussen.
+\\Bei der Entwicklung auf mobilen und für mobile Endgeräte\footnote{Smartphones, Tabletts  oder Ähnliche} kommt noch ein erschwerender Faktor hinzu, nämlich die diversen, verschiedenen Bildschirmauflösungen. Diese können nicht nur die Darstellung des Inhalts beeinflussen, sondern auch daraus folgend die Interaktionskonformität beeinflussen.
 
 \ig{../pictures/Entwicklungsprozess}{Entwicklungsprozess}{Vereinfachte Darstellung eines Softwareentwicklungsprozesses}
 
 Im Optimalfall wird die Software erst nach vollständiger Homogenität auf allen unterstützen Geräten freigegeben.
 
-%\section{Problemstellung}
-\\Dieser zyklisch wiederkehrende Prozessablauf ist sehr Zeitintensiv und nimmt linear mit der Anzahl der zu testenden Geräte zu.
+\\Dieser zyklisch wiederkehrende Prozessablauf ist sehr zeitintensiv und nimmt linear mit der Anzahl der zu testenden Geräte zu.
 
-%\section{Operationalisierung der Fragestellung}
-\\Das Ergebnis dieser Forschungsarbeit soll zeigen, wie verschiedene \mi{Softwareframeworks} die Zeit, die in die Qualitätssicherung investiert wird, beeinflussen können, indem sie die Steuerung diverser Geräte parallel-synchron steuern. Die Evaluierung soll zeigen wo die Vorteile und Nachteile der einzelnen Werkzeuge liegen. Weiterhin soll gezeigt werden ob aktuelle \mi{Frameworks} erweiterbar sind um Beispielsweise automatisierte \mi{Testunits} zu implementieren. 
+\\Das Ergebnis dieser Forschungsarbeit soll zeigen, wie verschiedene \mi{Softwareframeworks} die Zeit, die in die Qualitätssicherung investiert wird, beeinflussen können, indem sie die Steuerung diverser Geräte parallel-synchron steuern. Unter dem Wortlaut parallel-synchron wird innerhalb dieser Arbeit, die synchrone Bedienung mehrerer Endgeräte innerhalb des gleichen Zeitintervalls verstanden. Die Evaluierung soll feststellen wo die Vorteile und Nachteile der einzelnen Werkzeuge liegen. Weiterhin soll ermittelt werden ob aktuelle \mi{Frameworks} erweiterbar sind um Beispielsweise automatisierte \mi{Testunits} zu implementieren. 
 
-%\section{Untersuchungsverlauf}
+
+
+
 \pagebreak
-Im Kapitel der Aufgabenstellung befasse ich mich ausschließlich mit der Ausformulierung der Aufgabenstellung. Ich ermittle welche Kriterien notwendig sind für die Durchführung der \mi{Evaluation} und lege fest, welche Wertigkeit die einzelnen Faktoren in Bezug auf die Gesamtbewertung erhalten. Ebenfalls lege ich in diesem Kapitel die \mi{Abgrenzungskriterien} fest, welche dazu dienen die Bearbeitung der Aufgabe innerhalb eines vordefinierten Rahmens zu halten.
+Im Kapitel der 'Aufgabenstellung' befasse ich mich ausschließlich mit der Ausformulierung der Aufgabenstellung. Ich ermittle notwendige Kriterien für die Durchführung der \mi{Evaluation} und lege fest, welche Wertigkeit die einzelnen Faktoren in Bezug auf die Gesamtbewertung erhalten. Ebenfalls benenne ich in diesem Kapitel die \mi{Abgrenzungskriterien}, welche dazu dienen die Bearbeitung der Aufgabe innerhalb eines vordefinierten Rahmens zu halten.
 
-\\In dem darauf folgenden Kapitel kläre ich alle allgemeinen sowie auch technischen Grundlagen, die notwendig sind diese \mi{Abschlussthesis} zu verstehen. Ich werde ausführlich auf verwendete Begriffe eingehen, sowie Begriffe die in dessen Umfeld entstanden sind. Ein weiterer Punkt innerhalb dieses Kapitels ist die Erläuterung Technischer Versuchs-aufbauten die im Rahmen der Thesis notwendig waren um eine Evaluation durchzuführen.
+\\In dem darauf folgenden Kapitel 'Grundlagen' kläre ich alle allgemeinen sowie auch technischen Grundlagen, die notwendig sind diese \mi{Abschlussthesis} zu verstehen. Ich gehe ausführlich auf verwendete Begriffe ein, sowie auf Begriffe die in diesem Umfeld entstanden sind. Ein weiterer Punkt innerhalb dieses Kapitels ist die Erläuterung Technischer Versuchsaufbauten die im Rahmen der Thesis notwendig waren um eine Evaluation durchzuführen.
 
-\\Im Kapitel der Technologien werde ich mich kurz mit den einzelnen \mi{Frameworks} befassen. Ich erläutere dessen Herkunft, womit sie werben und auf welchen Technologien sie Aufbauen. Des weiteren behandle ich in diesem Abschnitt Technologien die einzelne Funktionelle Komponenten sind, welche ich in Hinsicht auf die Entwicklung eines eigenen \mi{Frameworks} zur parallel-synchronen Steuerung von Webapplikationen auf mobilen Endgeräten auf einen Mehrwert untersuchen werde.
+\\Im Kapitel 'Auswahl der Frameworks' befasse ich mich kurz mit diversen \mi{Frameworks}. Ich erläutere deren Herkunft, womit sie werben und auf welchen Technologien sie aufbauen. Des Weiteren behandle ich in diesem Abschnitt Technologien die einzelne funktionelle Komponenten, welche ich in Hinsicht auf die Entwicklung eines eigenen \mi{Frameworks} zur parallel-synchronen Steuerung von Webapplikationen auf mobilen Endgeräten auf einen Mehrwert untersuchen werde.
 
-\\Das Kapitel der Evaluation der Techniken umfasst die Auswertung der erlangten Ergebnisse. Hier werde ich die Resultate meiner Versuchsreihen erläutern und wie man die Ergebnisse nutzen kann, eine optimierte Qualitätssicherung von Webapplikationen, mit dem Fokus auf mobilen Endgeräten, vorzunehmen .
+\\Das Kapitel 'Evaluation der Frameworks' umfasst die Auswertung der erlangten Ergebnisse. Hier erläutere ich die Resultate meiner Versuchsreihen und wie man die Ergebnisse nutzen kann, eine optimierte Qualitätssicherung von Webapplikationen, mit Fokus auf mobilen Endgeräten, vorzunehmen .
 
-\\Zum Abschluss werde ich meine Thesis noch einmal zusammenfassen und Fragen klären die während der Bearbeitungszeit auftraten. Probleme die entstanden werden hier erörtert.
+\\Zum Abschluss fasse ich meine Thesis noch einmal zusammen und kläre Fragen und Probleme die während der Bearbeitungszeit auftraten.
 
 \vfill
 \subsubsection{Anmerkung}

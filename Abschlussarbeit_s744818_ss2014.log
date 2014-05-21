@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  15 MAY 2014 16:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  21 MAY 2014 16:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1475,17 +1475,7 @@ Package Fancyhdr Warning: \headheight is too small (14.0pt):
 ]
 \openout2 = `./tex/abstract.aux'.
 
- (./tex/abstract.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 5--405
-\T1/ptm/m/n/13 TOREMOVE-->
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--405
-\T1/ptm/m/n/13 english trans-la-ti-on
- []
-
-[4
+ (./tex/abstract.tex) [4
 
 
 ] (./Abschlussarbeit_s744818_ss2014.toc [5
@@ -1496,8 +1486,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--405
 \tf@toc=\write9
 \openout9 = `Abschlussarbeit_s744818_ss2014.toc'.
 
- [6]
-(./Abschlussarbeit_s744818_ss2014.lof)
+
+[6] (./Abschlussarbeit_s744818_ss2014.lof)
 \tf@lof=\write10
 \openout10 = `Abschlussarbeit_s744818_ss2014.lof'.
 
@@ -1524,37 +1514,37 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              Support for \float@addtolists may be removed from
 (scrbook)              `scrbook' soon .
 
-LaTeX Font Info:    Calculating math sizes for size <10.83347> on input line 11
-.
+LaTeX Font Info:    Calculating math sizes for size <10.83347> on input line 3.
+
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.58339> not available
-(Font)              size <8> substituted on input line 11.
+(Font)              size <8> substituted on input line 3.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.41673> not available
-(Font)              size <5> substituted on input line 11.
+(Font)              size <5> substituted on input line 3.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.58339> not available
-(Font)              size <8> substituted on input line 11.
+(Font)              size <8> substituted on input line 3.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.41673> not available
-(Font)              size <5> substituted on input line 11.
+(Font)              size <5> substituted on input line 3.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.58339> not available
-(Font)              size <8> substituted on input line 11.
+(Font)              size <8> substituted on input line 3.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.41673> not available
-(Font)              size <5> substituted on input line 11.
+(Font)              size <5> substituted on input line 3.
 
 <pictures/../pictures/Entwicklungsprozess.jpg, id=69, 586.19pt x 586.19pt>
-./tex/einleitung.tex:17: Illegal unit of measure (pt inserted).
+./tex/einleitung.tex:9: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.17 ...llung eines Softwareentwicklungsprozesses}
+l.9 ...ellung eines Softwareentwicklungsprozesses}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1563,10 +1553,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./tex/einleitung.tex:17: Illegal unit of measure (pt inserted).
+./tex/einleitung.tex:9: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.17 ...llung eines Softwareentwicklungsprozesses}
+l.9 ...ellung eines Softwareentwicklungsprozesses}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1578,7 +1568,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/Entwicklungsprozess.jpg Graphic file (type jpg)
 <use pictures/../pictures/Entwicklungsprozess.jpg>
 Package pdftex.def Info: pictures/../pictures/Entwicklungsprozess.jpg used on i
-nput line 17.
+nput line 9.
 (pdftex.def)             Requested size: 400.0pt x 399.99927pt.
  [2
 
@@ -1590,16 +1580,16 @@ nput line 17.
  (./tex/aufgabenstellung.tex
 Kapitel 2.
 
-Overfull \hbox (17.16805pt too wide) in paragraph at lines 3--7
-\T1/ptm/m/n/13 Die Auf-ga-ben die-ser The-sis ist die Eva-lu-ie-rung von Tech-n
-i-ken zur parallel-synchronen
+Overfull \hbox (10.66805pt too wide) in paragraph at lines 3--7
+\T1/ptm/m/n/13 Die Auf-ga-be die-ser The-sis ist die Eva-lu-ie-rung von Tech-ni
+-ken zur parallel-synchronen
  []
 
 <pictures/../pictures/Testszenario.jpg, id=79, 483.8075pt x 549.05125pt>
-./tex/aufgabenstellung.tex:15: Illegal unit of measure (pt inserted).
+./tex/aufgabenstellung.tex:14: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.15 ...es in der mobilen 		Anwendungsentwicklung}
+l.14 ...es in der mobilen 		Anwendungsentwicklung}
                                                   }
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1608,10 +1598,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./tex/aufgabenstellung.tex:15: Illegal unit of measure (pt inserted).
+./tex/aufgabenstellung.tex:14: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.15 ...es in der mobilen 		Anwendungsentwicklung}
+l.14 ...es in der mobilen 		Anwendungsentwicklung}
                                                   }
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1623,16 +1613,16 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/Testszenario.jpg Graphic file (type jpg)
 <use pictures/../pictures/Testszenario.jpg>
 Package pdftex.def Info: pictures/../pictures/Testszenario.jpg used on input li
-ne 15.
+ne 14.
 (pdftex.def)             Requested size: 400.0pt x 453.96146pt.
 
-Underfull \hbox (badness 1895) in paragraph at lines 15--15
+Underfull \hbox (badness 1895) in paragraph at lines 14--14
 []\T1/ptm/m/n/13 Darstellung ei-nes Qua-li-täts-si-che-rungs-ab-lau-fes in der 
 mo-bi-len
  []
 
-./tex/aufgabenstellung.tex:15: Too many }'s.
-l.15 ...s in der mobilen 		Anwendungsentwicklung}}
+./tex/aufgabenstellung.tex:14: Too many }'s.
+l.14 ...s in der mobilen 		Anwendungsentwicklung}}
                                                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1643,12 +1633,12 @@ Such booboos are generally harmless, so keep going.
 
 
 ] [6 <./pictures/../pictures/Testszenario.jpg>]
-Overfull \hbox (19.29274pt too wide) in paragraph at lines 51--53
+Overfull \hbox (19.29274pt too wide) in paragraph at lines 47--49
  [][] 
  []
 
 [7]
-Overfull \hbox (3.01088pt too wide) in paragraph at lines 65--66
+Overfull \hbox (3.01088pt too wide) in paragraph at lines 61--62
 \T1/ptm/m/n/13 be-son-de-re wur-de in die-ser Ar-beit auf das Scrol-len in-ner-
 halb ei-ner [],
  []
@@ -1659,10 +1649,10 @@ halb ei-ner [],
  (./tex/begriffserklaerung.tex
 Kapitel 3.
 <pictures/../pictures/netzwerkaufbau.jpg, id=94, 348.30125pt x 355.3275pt>
-./tex/begriffserklaerung.tex:10: Illegal unit of measure (pt inserted).
+./tex/begriffserklaerung.tex:8: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.10 ... Ghostlab nach der Installation}{400}{300}
+l.8 ...n Ghostlab nach der Installation}{400}{300}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1671,10 +1661,10 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-./tex/begriffserklaerung.tex:10: Illegal unit of measure (pt inserted).
+./tex/begriffserklaerung.tex:8: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.10 ... Ghostlab nach der Installation}{400}{300}
+l.8 ...n Ghostlab nach der Installation}{400}{300}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1686,40 +1676,40 @@ two letters. (See Chapter 27 of The TeXbook.)
 File: pictures/../pictures/netzwerkaufbau.jpg Graphic file (type jpg)
 <use pictures/../pictures/netzwerkaufbau.jpg>
 Package pdftex.def Info: pictures/../pictures/netzwerkaufbau.jpg used on input 
-line 10.
+line 8.
 (pdftex.def)             Requested size: 294.0751pt x 300.00743pt.
 
 
-./tex/begriffserklaerung.tex:72: Package glossaries Error: Glossary entry `para
+./tex/begriffserklaerung.tex:70: Package glossaries Error: Glossary entry `para
 llel-synchron' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 		}
+l.70 		}
         
 You need to define a glossary entry before you can use it.
 
 
-./tex/begriffserklaerung.tex:72: Package glossaries Error: Glossary entry `Web-
+./tex/begriffserklaerung.tex:70: Package glossaries Error: Glossary entry `Web-
 Applikation' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 		}
+l.70 		}
         
 You need to define a glossary entry before you can use it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 \T1/ptm/m/n/13 TOREMOVE-->
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 
  []
 
@@ -1730,13 +1720,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--72
 
  <./pictures/../pictures/netzwerkaufbau.jpg>]
 
-./tex/begriffserklaerung.tex:72: LaTeX Error: There's no line here to end.
+./tex/begriffserklaerung.tex:70: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 		}
+l.70 		}
         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1749,12 +1739,12 @@ Package Fancyhdr Warning: \headheight is too small (15.59995pt):
  This may cause the page layout to be inconsistent, however.
 
 [10]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 81.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 79.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <13> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 81.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 79.
  [11]
 [12]) [13]
 \openout2 = `./tex/technologien.aux'.
@@ -1762,8 +1752,8 @@ LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <13> not available
  (./tex/technologien.tex
 Kapitel 4.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.59996> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 33.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 34.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [14
@@ -1772,13 +1762,13 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 ] [15]
-Underfull \hbox (badness 1014) in paragraph at lines 98--98
+Underfull \hbox (badness 1014) in paragraph at lines 99--99
 []\T1/ptm/m/n/13 von Browser-Sync ge-tes-te-te Brow-ser (Stand 21.03.2014, Ver-
 si-on
  []
 
 [16]
-Overfull \hbox (25.30664pt too wide) in paragraph at lines 117--118
+Overfull \hbox (25.30664pt too wide) in paragraph at lines 118--119
 \T1/ptm/m/n/13 mög-li-chen soll, die Com-pu-ter-maus ge-ne-rier-ten Be-we-gun-g
 en in äqui-va-len-te []
  []
@@ -1788,12 +1778,6 @@ en in äqui-va-len-te []
 
  (./tex/evaluation.tex
 Kapitel 5.
-
-Overfull \hbox (0.95763pt too wide) in paragraph at lines 50--51
-[] \T1/ptm/m/n/13 Schwer-punk-te der Be-wer-tung ha-ben soll-te, als das tes-te
-n von [].
- []
-
 [19
 
 
@@ -1897,8 +1881,8 @@ Package pdftex.def Info: pictures/../pictures/ghostlab/weinre.png used on input
 (pdftex.def)             Requested size: 400.0pt x 413.7391pt.
  [23 <./pictures/../pictures/ghostlab/workspaces.png>] [24 <./pictures/../pictu
 res/ghostlab/weinre.png>]
-Overfull \hbox (10.30403pt too wide) in paragraph at lines 174--175
-\T1/ptm/m/n/13 Das ein-rich-ten zum tes-ten auf mo-bi-len End-ge-rä-ten ver-läu
+Overfull \hbox (15.89426pt too wide) in paragraph at lines 174--175
+\T1/ptm/m/n/13 Das Ein-rich-ten zum Tes-ten auf mo-bi-len End-ge-rä-ten ver-läu
 ft syn-chron zu den Desktop-
  []
 
@@ -2334,12 +2318,26 @@ Kapitel 6.
 
 
 ]
-Overfull \hbox (0.33295pt too wide) in paragraph at lines 26--27
-\T1/ptm/m/n/13 fen, wel-ches die Pro-duk-ti-vi-tät in der Web-Applikationsentwi
-cklung stark op-ti-miert.
+
+./tex/zusammenfassung.tex:47: Package inputenc Error: Unicode char \u8:Ìˆ not s
+et up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 				Intuitive BenutzeroberflaÌˆ
+                                    che			&	1	&	1	&	1	&	0\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (5.4944pt too wide) in paragraph at lines 30--88
+ [][] 
  []
 
-) [44] [45] (./Abschlussarbeit_s744818_ss2014.gls
+[44] [45]) [46] (./Abschlussarbeit_s744818_ss2014.gls
 Overfull \hbox (1.65823pt too wide) in paragraph at lines 5--5
 \T1/ptm/m/n/13 schen ei-nem Brow-ser und dem Ser-ver. Die-ses er-mög-licht es, 
 HTTP-
@@ -2357,7 +2355,7 @@ Overfull \hbox (10.06506pt too wide) in paragraph at lines 5--5
  " [[]] 
  []
 
-[46
+[47
 
 
 
@@ -2368,20 +2366,13 @@ Overfull \hbox (13.27313pt too wide) in paragraph at lines 30--30
  ei-ner Schnitt-
  []
 
-[47]
+[48]
 Overfull \hbox (2.78328pt too wide) in paragraph at lines 44--44
 []\T1/ptm/m/n/13 " .htaccess-Dateien sind Server-Konfigurationsdateien für Ver-
 zeich-
  []
 
-[48] [49]) (./Abschlussarbeit_s744818_ss2014.ind [50] [51
-
-
-
-
-
-
-])
+[49] [50]) [51]
 ./Abschlussarbeit_s744818_ss2014.tex:473: Undefined control sequence.
 l.473 \bibitem[Wiki01]{2} \url
                               {http://de.wikipedia.org/w/index.php?title=Aja...
@@ -2652,7 +2643,6 @@ my insertion and my current dilemma will both disappear.
 [52
 
 
-
 ] (./Abschlussarbeit_s744818_ss2014.aux (./tex/erklaerung.aux)
 (./tex/sperrvermerk.aux) (./tex/abstract.aux) (./tex/einleitung.aux)
 (./tex/aufgabenstellung.aux) (./tex/begriffserklaerung.aux)
@@ -2663,13 +2653,13 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 20232 strings out of 493315
- 348539 string characters out of 6137904
- 460280 words of memory out of 5000000
+ 20229 strings out of 493315
+ 348367 string characters out of 6137904
+ 485299 words of memory out of 5000000
  23063 multiletter control sequences out of 15000+600000
  59625 words of font info for 85 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 65i,12n,71p,1709b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,12n,71p,1479b,618s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/20
@@ -2677,7 +2667,7 @@ xlive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/20
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (60 pages, 1370738 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (60 pages, 1374991 bytes).
 
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)

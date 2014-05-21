@@ -1,14 +1,13 @@
 \chapter{Aufgabenstellung}
-%\tr{Durch eine klare Beschreibung der Aufgabenstellung wird die zu lösende Aufgabe deutlich. Vorhandene Teillösungen oder -systeme können hier ebenfalls dargestellt werden. In vielen Fällen ist es auch hilfreich Sachverhalte oder Problemstellungen zu beschreiben, die nicht zur Aufgabenstellung gehören (Abgrenzung).}
-Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchronen Steuerung von Webapplikationen auf mobilen Endgeräten, um damit die Produktivität der Qualitätssicherung zu optimieren.
+
+Die Aufgabe dieser Thesis ist die Evaluierung von Techniken zur parallel-synchronen Steuerung von Webapplikationen auf mobilen Endgeräten, um damit die Produktivität der Qualitätssicherung zu steigern.
 	%%
 	%% ############# Annahmen und Einschränkungen
 	%%
 	\section{Problemstellung}
-	%\tr{Aus dem Hintergrund sollte die Wissenslücke klar werden, die durch die Abschlussarbeit geschlossen werden soll. Kurz 		sollte beschrieben werden, mit welchen Methoden die Arbeit versuchen will, diese zu schließen 			(empirische 		Untersuchung, Loganalyse, neuartige Programmkomponenten, etc.). Schließlich sollte man herausstellen, warum es wichtig ist, 	diese Wissenslücke zu schließen (wie profitiert die Welt davon).}
-	Ein Problem in der aktuellen Softwareentwicklung ist die immer mehr wachsende Anzahl an Endgeräten, welche mit 			verschiedenen Bildschirmauflösungen und eigenen Betriebsystemen in unterschiedlichen Versionen auftreten. Ein 				Qualitätsprüfer der einen hohen Qualitätsstandard hat investiert daher linear zu der Anzahl der zu testenden Geräte ansteigend 	Zeit, lediglich um vereinzelte Testszenarien durchzuarbeiten. Solch ein Testszenraio kann Navigationsabläufe\footnote{ein 		Nutzerspezifischer Gang durch die Webseite}, das ausfüllen und validieren eines Formular oder auch das überprüfen 			funktionaler\footnote{aktive Links und deren Aufruf} Links sein. Bereits an dieser Stelle ist die zu investierende Zeit, und dies 		wiederholt, enorm.
+	Ein Problem in der aktuellen Softwareentwicklung ist die immer weiter steigende Anzahl an Endgeräten, welche mit 			verschiedenen Bildschirmauflösungen und eigenen Betriebsystemen in unterschiedlichen Versionen auftreten. Ein 				Qualitätsprüfer, der einen hohen Qualitätsstandard hat, investiert daher linear ansteigend zur Anzahl der zu testenden Geräte Zeit, um vereinzelte Testszenarien durchzuarbeiten. Solch ein Testszenario kann Navigationsabläufe\footnote{ein 		Nutzerspezifischer Gang durch die Webseite}, das Ausfüllen und Validieren eines Formulars oder auch das Überprüfen 			funktionaler\footnote{aktive Links und deren Aufruf} Links sein. Bereits an dieser Stelle ist der zu investierende Aufwand, und dies 		wiederkehrend, enorm.
 	
-	\\Wenn der Qualitätsprüfer innerhalb eines Testszenarios einen schwerwiegenden Fehler bei einem der Geräte entdeckt, muss 		dieser den Vorgang beenden. Abgebrochen werden muss deshalb, da bei korrigierter Implementierung der Qualitätsprüfer nicht 	davon ausgehen darf, das bereits kontrollierte Abschnitte immer noch voll funktionsfähig sind, da eventuell neue Fehler in bereits 	Kontrollierten Segmenten auftreten können.
+	\\Wenn der Qualitätsprüfer innerhalb eines Testszenarios einen schwerwiegenden Fehler bei einem der Geräte entdeckt, muss 		dieser den Vorgang beenden. Abgebrochen werden muss deshalb, da bei korrigierter Quellcodeumsetzung der Qualitätsprüfer nicht 	davon ausgehen darf, dass bereits kontrollierte Abschnitte immer noch voll funktionsfähig sind, da eventuell neue Fehler in bereits kontrollierten Segmenten auftreten können.
 	
 	\\Sollte ein Szenario aufgrund eines Fehler abgebrochen worden sein, wird dem Entwickler das Problem möglichst konkret 		geschildert. Dessen Aufgabe ist es nun das Problem zu beheben. Ist dies geschehen startet der Prüfer einen erneuten 			Durchgang des Szenarios. Ein generelles Problem was hier noch zusätzlich entstehen kann, ist der Umstand, dass sich gerade 		bei nur kleineren fixes\footnote{Problemlösungen, Codeanpassungen} und immer wieder auftretenden Testszenarioschleifen 		eine gewisse Routine einschleichen kann, worunter die Qualität des Produkts leidet.
 
@@ -16,25 +15,22 @@ Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchr
 	\pagebreak
 	
 	%%
-	%% ############# Annahmen und Einschränkungen
-	%%
-	
-	%\section{Annahmen und Einschränkungen}
-	%\tr{Wenn die Arbeit wichtige Annahmen trifft, unter denen die Untersuchungsergebnisse gültig sind, oder die Allgemeinheit der 	getroffenen Aussagen wichtigen Einschränkungen unterliegt, sollten diese ebenfalls in der 		Einleitung 	beschrieben 		werden.}
-	
-	%%
 	%% ############# Zielsetzung
 	%%
 	\section{Zielsetzung}
 	 Das Ziel dieser Arbeit ist es, bestehende \mi{Frameworks} auf ihre Tauglichkeit in Bezug auf die parallel-synchrone Steuerung 	von mobilen Endgeräten zur Durchführung von Testszenarien zu evaluieren.
-	Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu kommen auf Desktopgeräten die aktuellen 			Versionen von Firefox, Chrome, Safari (nur für Mac-Desktopgeräte) und der Internet Explorer (nur für Windows-Desktops). Um 		eine Allgemeine Testbarkeit zu gewährleisten werden die Frameworks auch auf Genauigkeit in virtuellen Umgebungen analysiert. 	Dabei können Abweichungen, seien sie noch so klein, entstehen. Bereits 1 Pixel Abweichung kann bereits ausschlaggebend 		sein einen Umbruch zu erzeugen und damit das Layout negativ zu verändern.
+	Hierzu werden auf mobilen Endgeräten die internen Browser getestet. Hinzu kommen auf Desktopgeräten die aktuellen 			Versionen von Firefox, Chrome, Safari (nur für Mac-Desktopgeräte) und der Internet Explorer (nur für Windows-Desktops). Um 		eine allgemeine Testbarkeit zu gewährleisten werden die Frameworks auch auf Genauigkeit in virtuellen Umgebungen analysiert. 	Dabei können Abweichungen, seien sie noch so klein, entstehen. Bereits 1 Pixel Abweichung kann bereits ausschlaggebend 		sein einen Umbruch zu erzeugen und damit das Layout negativ zu verändern.
+	
+	
+	
+	
+	
 	%%
 	%% ############# Abgrenzungskriterien
 	%%
 	\section{Abgrenzungskriterien}
-	%\tr{Hier werden die Grundlagen für das zu entwickelnde Softwaresystem definiert. Zwar noch aus fachtechnischer Sicht werden 	hier die Anforderungen an das geplante Softwaresystem in möglichst formaler Form spezifiziert. 	Es 	sollen hier keine 		Lösungen präsentiert werden, sondern möglichst präzise die Anforderungen (Sollkonzept) an das geplante Softwaresystem mit 	seinen Schnittstellen, Informationsflüssen und Systemfunktionen 			dokumentiert 	werden. Verwendete Methoden 	können z.B. SA, SADT, Petri-Netze oder andere sein. Das Ergebnis ist ein für die Systementwicklung verwendbares 			Pflichtenheft. Über Art und Umfang des Pflichtenhefts sollten 	Sie mit Ihrem Betreuer sprechen.}
 	\subsubsection{Zeit}
-	Als eines der wichtigsten Abgrenzungskriterien gilt es die Einarbeitungszeit zu bewerten. Hier gilt je kürzer desto besser, immer gesehen in Relation 	zu dem Umfang des Frameworks. So ist ein Framework qualitativer zu bewerten, wenn es exponentielle Lernkurve in Relation zur Zeit vorweist.
+	Als eines der wichtigsten Abgrenzungskriterien gilt es die Einarbeitungszeit zu bewerten. Hier gilt je kürzer desto besser, immer gesehen in Relation 	zum Umfang des Frameworks. So ist ein Framework qualitativ hochwertiger zu bewerten, wenn es eine exponentielle Lernkurve in Relation zur Zeit vorweist.
 
 \begin{figure}[H]
 	\centering
@@ -46,7 +42,7 @@ Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchr
 	\draw[red,id=test1,samples=100,domain=0.0:9.0] plot(\x,{1.3*ln(\x+1)}); 
 	\draw[blue,domain=0:3.3] plot (\x,{-1+exp(ln(2)*\x)});
 	\draw[red,thick] (9,5) -- +(0.3,0) node[anchor=mid west,black] {unproduktive Lernkurve};
-	\draw[blue,thick] (9,5.5) -- +(0.3,0) node[anchor=mid west,black] {effiiziente Lernkurve};
+	\draw[blue,thick] (9,5.5) -- +(0.3,0) node[anchor=mid west,black] {effiziente Lernkurve};
 
 	\end{tikzpicture}
 	\vspace{-25pt}
@@ -57,15 +53,15 @@ Die Aufgaben dieser Thesis ist die Evaluierung von Techniken zur parallel-synchr
 
 	\pagebreak
 	 \subsubsection{Erweiterbarkeit}
-	 In Hinsicht auf mehrere Endgeräte gibt es mehrere Aspekte zum analysieren. Zum einen ob das Framework auf verschiedene 	Arten an das System gebunden ist, wie etwa Android oder iOS. Zum anderen ob es eine Limitierung der Anzahl der 				anzuschliessenden Geräte gibt. 
+	 In Hinsicht auf mehrere Endgeräte gibt es mehrere Aspekte zu analysieren. Zum einen ob das Framework auf verschiedene 	Arten an das System gebunden ist, wie etwa Android oder iOS. Zum anderen ob es eine Limitierung der Anzahl der 				anzuschliessenden Geräte gibt. 
 
-	\\Unter dem Aspekt der Erweiterbarkeit fällt auch die Möglichkeit das Framework um eigene Funktionalitäten zu erweitern. So 		sollte im Idealfall ein Framework ein Grundgerüst liefern, auf das der Entwickler mit eigenen Erweiterungen aufbauen kann um 	das gewünschte Ziel zu erreichen.
+	\\Unter den Aspekt der Erweiterbarkeit fällt auch die Möglichkeit das Framework um eigene Funktionalitäten zu erweitern. So 		sollte im Idealfall ein Framework ein Grundgerüst liefern, auf das der Entwickler mit eigenen Erweiterungen aufbauen kann um 	das gewünschte Ziel zu erreichen.
 	
 	\subsubsection{Steuerbefehle}
-	Ein wichtiger Aspekt dieser Arbeit ist die Steuerung, beziehungsweise die Generierung von Steuerbefehlen und deren Verteilung auf alle verbundenen Klienten. Insbesondere wurde in dieser Arbeit auf das Scrollen innerhalb einer \mbox{Web-Applikation}, das ausfüllen von Formularen mit den dazugehörigen Eingabefeldern, sowie das ausführen Eventgesteuerter Aktionen.
+	Ein wichtiger Aspekt dieser Arbeit ist die Steuerung, beziehungsweise die Generierung von Steuerbefehlen und deren Verteilung auf alle verbundenen Klienten. Insbesondere wurde in dieser Arbeit auf das Scrollen innerhalb einer \mbox{Web-Applikation}, das Ausfüllen von Formularen mit den dazugehörigen Eingabefeldern, sowie das Ausführen eventgesteuerter Aktionen.
 
-	\subsubsection{Unterstütze Browser}
-	Ein wichtiger Aspekt der durchzuführenden Tests wird die Unterstützung möglichst verschiedener Browser beinhalten. Dies hat 	den Grund, dass lediglich ein Framework, was eine große Spanne an Endgeräten abdeckt, in der Lage ist, effektiv genutzt werden 	zu können.
+	\subsubsection{Unterstützte Browser}
+	Ein wichtiger Aspekt der durchzuführenden Tests wird die Unterstützung möglichst verschiedener Browser beinhalten. Dies hat 	den Grund, dass lediglich ein Framework, was eine große Spanne an Endgeräten abdeckt, die Chance hat, effektiv genutzt werden 	zu können.
 
 	\subsubsection{Virtuelle Umgebung}
 	Ein positiv in die Validierung einfließender Aspekt ist die Einbindung oder Verwendung des Frameworks innerhalb einer 			virtuellen Umgebung. Das wird durch den Fakt begründet das der Tester nicht immer im Besitz aller Testgeräte oder 				Umgebungen ist. So ist es ohne eine virtuelle Maschine zum Beispiel, nicht möglich eine Seite im Internet Explorer innerhalb 		einer MacOS-Umgebung zu testen, da diese ihn nicht unterstützt.
