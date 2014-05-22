@@ -4,27 +4,27 @@ In der modernen Webentwicklung durchläuft eine Anwendung verschiedene Etappen e
 
 \\Dieser Vorgang kann sich beliebig oft wiederholen. Bei großen und komplexen Softwaresystemen ist es trotz zeitgemäßer Implementierung nicht immer ausgeschlossen, dass \mi{Kaskadierungsfehler}\footnote{Fehler die nicht im eigentlichen Segment auftreten, sondern eine oder mehr Ebenen weiter unten in der Systemhirarchie} entstehen. Aus Sicht der \Gls{qs} ist dies ein lästiges Problem, da sie  nach jedem erneuten Modifikationsvorganges eines Softwaresegments einen größeren Segmentblock, wenn nicht sogar das gesamte Softwaresystem, erneut testen muss.
 
-\\Bei der Entwicklung auf mobilen und für mobile \Gls{moEn}e\footnote{Smartphones, \Gls{Tablet}ts  oder Ähnliche} kommt noch ein erschwerender Faktor hinzu, nämlich die diversen, verschiedenen Bildschirmauflösungen. Diese können nicht nur die Darstellung des Inhalts beeinflussen, sondern auch daraus folgend die Interaktionskonformität beeinflussen.
+\\Bei der Entwicklung für mobile \Gls{moEn}e\footnote{Smartphones, \Gls{Tablet}ts  oder Ähnliche} kommt noch ein erschwerender Faktor hinzu, nämlich die diversen, verschiedenen Bildschirmauflösungen. Diese können nicht nur die Darstellung des Inhalts beeinflussen, sondern auch daraus folgend die Interaktionskonformität beeinflussen.
 
 \ig{../pictures/Entwicklungsprozess}{Entwicklungsprozess}{Vereinfachte Darstellung eines Softwareentwicklungsprozesses}
 
-Im Optimalfall wird die Software erst nach vollständiger Homogenität auf allen unterstützen Geräten freigegeben.
+Im Optimalfall wird die Software erst nach vollständiger Homogenität auf allen unterstützen Geräten freigegeben. Dies bedeutet, dass auf allen \Gls{moEn}n ein, identisches Gesamtergebnis, hinsichtlich der Darstellung und dem Nutzerverhalten, erzielt wurde. 
 
 \\Dieser zyklisch wiederkehrende Prozessablauf ist sehr zeitintensiv und nimmt linear mit der Anzahl der zu testenden Geräte zu.
 
-\\Das Ergebnis dieser Forschungsarbeit soll zeigen, wie verschiedene \mi{Softwareframeworks} die Zeit, die in die \Gls{qs} investiert wird, beeinflussen können, indem sie die Steuerung diverser Geräte \Gls{parallel-synchron} steuern. Unter dem Wortlaut \Gls{parallel-synchron} wird innerhalb dieser Arbeit, die simulierte synchrone Bedienung mehrerer \Gls{moEn}e innerhalb des gleichen Zeitintervalls verstanden. Die Evaluierung soll feststellen wo die Vorteile und Nachteile der einzelnen Werkzeuge liegen. Weiterhin soll ermittelt werden ob aktuelle \mi{\Gls{Framework}s} erweiterbar sind um Beispielsweise automatisierte \mi{Testunits} zu implementieren. 
+\\Das Ergebnis dieser Forschungsarbeit soll zeigen, wie verschiedene \mi{Softwareframeworks} die Zeit, die in die \Gls{qs} investiert wird, beeinflussen können, indem sie die Steuerung diverser Geräte \gls{parallel-synchron} steuern. Unter dem Wortlaut \gls{parallel-synchron} wird innerhalb dieser Arbeit, die simulierte synchrone Bedienung mehrerer \Gls{moEn}e innerhalb des gleichen Zeitintervalls verstanden. Die Evaluierung soll feststellen wo die Vorteile und Nachteile der einzelnen Werkzeuge liegen. Weiterhin soll ermittelt werden ob aktuelle \mi{\Gls{Framework}s} erweiterbar sind um beispielsweise automatisierte \mi{Testunits} zu implementieren. 
 
 
 
 
 \pagebreak
-Im Kapitel der 'Aufgabenstellung' befasse ich mich ausschließlich mit der Ausformulierung der Aufgabenstellung. Ich ermittle notwendige Kriterien für die Durchführung der \mi{Evaluation} und lege fest, welche Wertigkeit die einzelnen Faktoren in Bezug auf die Gesamtbewertung erhalten. Ebenfalls benenne ich in diesem Kapitel die \mi{Abgrenzungskriterien}, welche dazu dienen die Bearbeitung der Aufgabe innerhalb eines vordefinierten Rahmens zu halten.
+Im Kapitel der 'Aufgabenstellung' befasse ich mich ausschließlich mit der Ermittlung notwendiger Kriterien für die Durchführung der \mi{Evaluation} und lege fest, welche Wertigkeit die einzelnen Faktoren in Bezug auf die Gesamtbewertung erhalten. Ebenfalls benenne ich in diesem Kapitel die \mi{Abgrenzungskriterien}, welche dazu dienen die Bearbeitung der Aufgabe auf einen vordefinierten Zeitrahmen einzugrenzen.
 
-\\In dem darauf folgenden Kapitel 'Grundlagen' kläre ich alle allgemeinen sowie auch technischen Grundlagen, die notwendig sind diese \mi{Abschlussthesis} zu verstehen. Ich gehe ausführlich auf verwendete Begriffe ein, sowie auf Begriffe die in diesem Umfeld entstanden sind. Ein weiterer Punkt innerhalb dieses Kapitels ist die Erläuterung Technischer Versuchsaufbauten die im Rahmen der Thesis notwendig waren um eine Evaluation durchzuführen.
+\\In dem darauf folgenden Kapitel 'Grundlagen' kläre ich alle allgemeinen sowie auch technischen Grundlagen, die notwendig sind diese \mi{Abschlussthesis} zu verstehen. Ich gehe ausführlich auf verwendete Begriffe ein, sowie auf Begriffe die in diesem Umfeld entstanden sind. Ein weiterer Punkt innerhalb dieses Kapitels ist die Erläuterung technischer Versuchsaufbauten die im Rahmen der Thesis notwendig waren um eine Evaluation durchzuführen.
 
-\\Im Kapitel 'Auswahl der \Gls{Framework}s' befasse ich mich kurz mit diversen \mi{\Gls{Framework}s}. Ich erläutere deren Herkunft, womit sie werben und auf welchen Technologien sie aufbauen. Des Weiteren behandle ich in diesem Abschnitt Technologien die einzelne funktionelle Komponenten, welche ich in Hinsicht auf die Entwicklung eines eigenen \mi{\Gls{Framework}s} zur \Gls{parallel-synchron}en Steuerung von Webapplikationen auf mobilen \Gls{moEn}en auf einen Mehrwert untersuchen werde.
+\\Im Kapitel 'Auswahl der \Gls{Framework}s' befasse ich mich kurz mit diversen \mi{\Gls{Framework}s}. Ich erläutere deren Herkunft, womit sie werben und auf welchen Technologien sie aufbauen. Des Weiteren behandle ich in diesem Abschnitt Technologien die einzelne funktionelle Komponenten, welche ich in Hinsicht auf die Entwicklung eines eigenen \mi{\Gls{Framework}s} zur \gls{parallel-synchron}en Steuerung von Webapplikationen auf mobilen \Gls{moEn}en auf einen Mehrwert untersuchen werde.
 
-\\Das Kapitel 'Evaluation der \Gls{Framework}s' umfasst die Auswertung der erlangten Ergebnisse. Hier erläutere ich die Resultate meiner Versuchsreihen und wie man die Ergebnisse nutzen kann, eine optimierte \Gls{qs} von Webapplikationen, mit Fokus auf mobilen \Gls{moEn}en, vorzunehmen .
+\\Das Kapitel 'Evaluation der \Gls{Framework}s' umfasst die Auswertung der erlangten Ergebnisse. Hier erläutere ich die Resultate meiner Versuchsreihen und wie man die Ergebnisse nutzen kann, eine optimierte \Gls{qs} von Webapplikationen, mit Fokus auf mobile \Gls{moEn}e, vorzunehmen .
 
 \\Zum Abschluss fasse ich meine Thesis noch einmal zusammen und kläre Fragen und Probleme die während der Bearbeitungszeit auftraten.
 

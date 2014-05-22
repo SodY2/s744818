@@ -47,7 +47,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 	\caption{Kriterienübersicht: Konfiguration}
 \end{table}
 
-\\Der Teilschlüssel 'Funktion' wurde dupliziert und in einen Mobilteil und einen Desktopteil aufgeteilt. Das hat den Grund, dass das Testen von mobilen Seiten \mbox{andere} Schwerpunkte der Bewertung haben sollte, als das von \mbox{Desktopseiten}. So ist eine funktionierende synchrone Gestenkontrolle beim verwenden von mobilen Seiten zum Beispiel unerlässlich, wohingegen sie auf Desktops durch den Einsatz einer Maus tendenziell eher unhandlich in der Nutzung ist.
+\\Der Teilschlüssel 'Funktion' wurde dupliziert und in einen Mobilteil und einen Desktopteil aufgeteilt, da das Testen von mobilen Seiten \mbox{andere} Schwerpunkte der Bewertung haben sollte, als das von \mbox{Desktopseiten}. So ist eine funktionierende synchrone Gestenkontrolle beim Verwenden von mobilen Seiten zum Beispiel unerlässlich, wohingegen sie auf Desktops durch den Einsatz einer Maus tendenziell eher unhandlich in der Nutzung ist.
 \subsubsection{Funktion: Desktop}
 \begin{table}[H]
  	\vspace{-30pt}
@@ -59,7 +59,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 			\hline
 			\hline
 				Darstellung : normale Seiten			&2\\
-				Darstellung : \Gls{gesichert}e Seiten		&	2	\\
+				Darstellung : \gls{gesichert}e Seiten		&	2	\\
 				 Darstellung: normale Reaktionsgeschwindigkeit ( < 1 Sekunde)	&	2	\\
 				Funktion: Seitensteuerung			&	3	\\
 				Funktion: \Gls{Javascript}			&	1	\\
@@ -79,7 +79,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 			\hline
 			\hline
 				Darstellung : normale Seiten			&1\\
-				Darstellung : \Gls{gesichert}e Seiten		&	1	\\
+				Darstellung : \gls{gesichert}e Seiten		&	1	\\
 				 Darstellung: normale Reaktionsgeschwindigkeit ( < 1 Sekunde)	&	2	\\
 				Funktion: Seitensteuerung			&	4	\\
 				Funktion: \Gls{Javascript}			&	1	\\
@@ -162,7 +162,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 		\ig{../pictures/ghostlab/startbildschirm}{Startbildschirm Ghostlab}{Startbildschirm von Ghostlab nach der Installation}
 		
 		\subsection{Testen von Desktopbrowsern}
-		Durch Aufrufen der IP-Adresse des Rechners auf dem der Ghostlabserver läuft, verbindet sich der \Gls{Webbrowser} als Client und wird fortan durch gesendete Signale beeinflusst. Hierzu zählen auch virtuelle \Gls{Webbrowser}. Jeder Client wird nun gleichzeitig Sender und Empfänger für Signale, das bedeutet dass jede Aktion \Gls{parallel-synchron} auf allen anderen Clients gespiegelt wird. Hierzu zählen \Gls{Javascript}events, das Ausfüllen eines Formulars oder das Neuladen der gesamten Seite.
+		Durch Aufrufen der IP-Adresse des Rechners auf dem der Ghostlabserver läuft, verbindet sich der \Gls{Webbrowser} als Client und wird fortan durch gesendete Signale beeinflusst. Hierzu zählen auch virtuelle \Gls{Webbrowser}. Jeder Client wird nun gleichzeitig Sender und Empfänger für Signale, das bedeutet dass jede Aktion \gls{parallel-synchron} auf allen anderen Clients gespiegelt wird. Hierzu zählen \Gls{Javascript}events, das Ausfüllen eines Formulars oder das Neuladen der gesamten Seite.
 		\ig{../pictures/ghostlab/workspaces}{Übersicht Clients}{Darstellung von 4 verschiedenen Clients } 
 		
 		Über den Übersichtsbildschirm kann jeder verbundene Client einzeln inspiziert werden. Hier ist der Nutzer in der Lage sich durch das \Gls{DOM} zu navigieren oder temporäre CSS Anpassungen vorzunehmen. Die Handhabung ist intuitiv, was jedoch an dem verwendeten \Gls{Framework} \mi{Weinre} liegt.
@@ -227,7 +227,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 		\subsection{Fazit zu Adobe Edge Inspect}
 		Adobe Edge Inspect bedarf viel Aufwand für ein geringes Ergebnis. Man muss an drei verschiedenen Punkten Installationen vornehmen, die dann jedoch \mbox{ohne} Probleme miteinander harmoniert haben. Als besonders positiv möchte ich die Screenshotfunktion bewerten. In Zusammenspiel mit der öffentlich zugänglichen API lassen sich hierüber Screenshots im Landschafts-, als auch im \Gls{PoW} anfordern und durch eine externe \Gls{App}likationen auswerten. 
 		
-		\\Der Nutzen des Werkzeuges liegt am ehesten bei One-Page-Sites\footnote{Webseiten dessen Inhalt sich füllend auf die gesamte Seite erstrecken} oder für Fehlersuche innerhalb des \Gls{DOM} oder CSS Anpassungen mit \mi{weinre}. Unter dem Aspekt des \Gls{parallel-synchron}en Testens ist Adobe Edge Inspect nicht sinnvoll zu verwenden, da weder Steuerbefehle oder andere Gesten umgesetzt werden, noch werden die Nutzereingaben in Eingabefeldern mit anderen verbundenen Clients geteilt. Alle verbundenen Clients sind nur Empfänger und besitzen keine Möglichkeit als Sender zu fungieren. Folglich gehen alle Steuerbefehle vom Edge-Server aus.
+		\\Der Nutzen des Werkzeuges liegt am ehesten bei One-Page-Sites\footnote{Webseiten dessen Inhalt sich füllend auf die gesamte Seite erstrecken} oder für Fehlersuche innerhalb des \Gls{DOM} oder CSS Anpassungen mit \mi{weinre}. Unter dem Aspekt des \gls{parallel-synchron}en Testens ist Adobe Edge Inspect nicht sinnvoll zu verwenden, da weder Steuerbefehle oder andere Gesten umgesetzt werden, noch werden die Nutzereingaben in Eingabefeldern mit anderen verbundenen Clients geteilt. Alle verbundenen Clients sind nur Empfänger und besitzen keine Möglichkeit als Sender zu fungieren. Folglich gehen alle Steuerbefehle vom Edge-Server aus.
 	
 	\subsection{Tabellarische Evaluation}
 		\met{Gewichtungstabelle Evaluation von Adobe Edge Inspect}{10}{7}{0}{4}{8}{3}{10}
@@ -263,9 +263,9 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 \pagebreak
 	\section{\mi{Browser-Sync}}	
 	\subsection{Einrichtung der Testumgebung}
-	Als Vorraussetzung um Remote-Sync nutzen zu können, wird zu Beginn erst einmal eine \Gls{NodeJS} Implementation benötigt. Diese kann entweder über die Konsole installiert werden oder per Installationstool von der \Gls{NodeJS} Homepage.
+	Als Vorraussetzung um Remote-Sync nutzen zu können, wird zu Beginn erst einmal eine \gls{NodeJS} Implementation benötigt. Diese kann entweder über die Konsole installiert werden oder per Installationstool von der \gls{NodeJS} Homepage.
 	
-	\\Nach der \Gls{NodeJS} Installation wird per \Gls{NPM} das Paket von Browser-Sync per Konsole einmalig installiert:
+	\\Nach der \gls{NodeJS} Installation wird per \Gls{NPM} das Paket von Browser-Sync per Konsole einmalig installiert:
 	\iga{../pictures/browser-sync/install}{Browser-Sync Installation per Konsole}{Konsolenbefehl um Browser-Sync zu installieren}
 	
 	Nun muss für jedes neue oder bestehende Projekt einmalig im Projektordner Browser-Sync initialisiert werden. Browser-Sync legt in dem aktuellen Verzeichnis eine Konfigurationsdatei ab, in welcher man einzelne Optionen, wie z. B. die zu beobachtenden Dateien oder Einstellungen zum Synchronisationsverhalten. Dieser Aufruf erfolgt ebenfalls über die Konsole.
@@ -295,12 +295,12 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 	
 	
 	\section{Eigenes \mi{\Gls{Framework}}}
-	Der ursprüngliche Gedanke dieser Arbeit verfolgte den Ansatz ein eigenes \Gls{Framework} zu entwickeln, was die \Gls{parallel-synchron}e Steuerung auf mehreren \Gls{moEn}en insbesondere auf mobilen Geräten ermöglicht. Diesen Gedanken berücksichtigend, erfolgte eine Validierung verschiedener Einzeltechnologien, die nur gewisse Aspekte abdecken. Untersucht wurden diese hinsichtlich auf ihre tatsächliche Funktionalität, ihrer Installation und Kombinierbarkeit mit anderen verwendeten \Gls{Framework}s.
+	Der ursprüngliche Gedanke dieser Arbeit verfolgte den Ansatz ein eigenes \Gls{Framework} zu entwickeln, was die \gls{parallel-synchron}e Steuerung auf mehreren \Gls{moEn}en insbesondere auf mobilen Geräten ermöglicht. Diesen Gedanken berücksichtigend, erfolgte eine Validierung verschiedener Einzeltechnologien, die nur gewisse Aspekte abdecken. Untersucht wurden diese hinsichtlich auf ihre tatsächliche Funktionalität, ihrer Installation und Kombinierbarkeit mit anderen verwendeten \Gls{Framework}s.
 	
-\\Die Bibliotheken werden insbesondere auf ihre Implementation in einen Node.JS Server überprüft.
+\\Die Bibliotheken werden insbesondere auf ihre Implementation in einen \gls{NodeJS} Server überprüft.
 
-	\subsection{Installation eines Node.JS Servers}
-	Die Installation des Node.JS Servers erfolgt einfach über die Konsole unter Mac oder den Installer\footnote{erhältlich unter Nodejs.org}. Alleinstehend erfüllt dieser Server keinerlei der gewünschten Funktionen, jedoch dient dieser als Grundlage für einige nachfolgende \Gls{Framework}s. Node.JS ist eine gute Wahl aufgrund der hohen Verarbeitungsgeschwindigkeit, sowohl Client-, als auch Server-seitig. Weitere Pluspunkte sind die rasche Entwicklungsgeschwindigkeit, die hohe Vielfalt an Erweiterungen und Plugins, sowie eine sehr große aktive Entwicklergemeinde.
+	\subsection{Installation eines \gls{NodeJS} Servers}
+	Die Installation des \gls{NodeJS} Servers erfolgt einfach über die Konsole unter Mac oder den Installer\footnote{erhältlich unter Nodejs.org}. Alleinstehend erfüllt dieser Server keinerlei der gewünschten Funktionen, jedoch dient dieser als Grundlage für einige nachfolgende \Gls{Framework}s. \gls{NodeJS} ist eine gute Wahl aufgrund der hohen Verarbeitungsgeschwindigkeit, sowohl Client-, als auch Server-seitig. Weitere Pluspunkte sind die rasche Entwicklungsgeschwindigkeit, die hohe Vielfalt an Erweiterungen und Plugins, sowie eine sehr große aktive Entwicklergemeinde.
 	\subsection{Einbinden von socket.io}
 	socket.io lässt sich einfach über den \Gls{NPM} installieren. Es ermöglicht das Herstellen einer permanenten Verbindung mit dem Server über einen Socket. Der Vorteil liegt hierbei darin, dass keine zyklischen Anfragen an den Server gesendet werden. Stattdessen wird hier das Observer-Pattern umgesetzt und alle verbundenen Clients werden vom Server informiert, sobald eine Änderung des Status stattgefunden hat. 
 	
@@ -321,7 +321,7 @@ Für die Entwicklung eines eigenen \Gls{Framework}s wirft dies einige Probleme a
 	Das Beispiel soll veranschaulichen, wie ein einfacher Broadcast ohne Aktionsraum implementiert werden kann. Das Beispiel soll das Scrollevent des Clients abfangen und auf allen verbundenen Clients zur selben Position auf dem Bildschirm scrollen.
 	
 	\subsubsection{Serverseitig}
-	Zu Beginn werden die notwendigen Bibliotheken eingebunden um einen \Gls{NodeJS} Server starten zu können (Zeilen: 1-2). Im Anschluss wird  eine Serverinstanz von \Gls{NodeJS} erstellt (Zeile: 4) und gestartet auf Port 8001 (Zeile: 6). Dieser wird nun mit der socket.io Bibliothek verknüpft (Zeile: 7). Sofern nun ein Client sich mit dem Server verbindet wird das 'connection'-Event gefeuert (Zeile: 9) und der Client wartet auf ein selbst-definierten Methodenaufruf vom 'scroll' (Zeile: 11).
+	Zu Beginn werden die notwendigen Bibliotheken eingebunden um einen \gls{NodeJS} Server starten zu können (Zeilen: 1-2). Im Anschluss wird  eine Serverinstanz von \gls{NodeJS} erstellt (Zeile: 4) und gestartet auf Port 8001 (Zeile: 6). Dieser wird nun mit der socket.io Bibliothek verknüpft (Zeile: 7). Sofern nun ein Client sich mit dem Server verbindet wird das 'connection'-Event gefeuert (Zeile: 9) und der Client wartet auf ein selbst-definierten Methodenaufruf vom 'scroll' (Zeile: 11).
 	
 	\\Wenn am Server ein Srollevent eingegangen ist, sendet dieser dies per Broadcast an alle verbundenen Clienten (Zeile: 12).
 	
@@ -336,7 +336,7 @@ Für die Entwicklung eines eigenen \Gls{Framework}s wirft dies einige Probleme a
 	\igp{../pictures/socketio/client_2}{socket.io Quellcode Scrollbeispiel Clientseitig}{minifizierter Quellcode Clientseitig}{250}{250}
 
 	\subsection{Einschätzung zur Umsetzung eines eigenen \Gls{Framework}s}
-	Der Realisierung eines eigenen \Gls{Framework}s zur \Gls{parallel-synchron}en Steuerung von Webseiten steht nichts im Wege. Ein positiver Aspekt ist die sehr schnelle Datenübertragung in nahezu Echtzeit mittels Node.JS. Voraussetzung ist hierfür, dass die Geräte sich im gleichen Lokalen Netz befinden. Ein weiterer positiver Aspekt ist die einfache Implementierung von Steuersignalen über socket.io. Die modulare Grundstruktur der \Gls{Framework}s ermöglicht einen einfachen Einstieg in den Umgang mit dem \Gls{Framework}. So bietet es die Option die Standardfunktionen zu nutzen oder aber um eigene Funktionalität zu erweitern.
+	Der Realisierung eines eigenen \Gls{Framework}s zur \gls{parallel-synchron}en Steuerung von Webseiten steht nichts im Wege. Ein positiver Aspekt ist die sehr schnelle Datenübertragung in nahezu Echtzeit mittels \gls{NodeJS}. Voraussetzung ist hierfür, dass die Geräte sich im gleichen Lokalen Netz befinden. Ein weiterer positiver Aspekt ist die einfache Implementierung von Steuersignalen über socket.io. Die modulare Grundstruktur der \Gls{Framework}s ermöglicht einen einfachen Einstieg in den Umgang mit dem \Gls{Framework}. So bietet es die Option die Standardfunktionen zu nutzen oder aber um eigene Funktionalität zu erweitern.
 
 \\Die Struktur ermöglicht es sämtliche \Gls{Event}s abzufangen, egal ob mit jQuery oder anderen \Gls{Framework}s zur \Gls{Event}ermittlung, um diese dann in entsprechende Funktionen umzuwandeln und an alle Clients weiterzugeben. Der Einsatz eines Mastergerätes und das Nutzen von Aktionsräumen verhindern die irreführenden Rückkopplungen innerhalb des Nachrichtenzyklus. 
 
