@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  22 MAY 2014 16:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  26 MAY 2014 15:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1805,7 +1805,7 @@ nput line 166.
 ./tex/evaluation.tex:169: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.169 ...usgewähltes \Gls{DOM}-Element in Weinre}
+l.169 ...usgewähltes \Gls{DOM}-Element in weinre}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -1817,7 +1817,7 @@ two letters. (See Chapter 27 of The TeXbook.)
 ./tex/evaluation.tex:169: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
-l.169 ...usgewähltes \Gls{DOM}-Element in Weinre}
+l.169 ...usgewähltes \Gls{DOM}-Element in weinre}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2328,6 +2328,12 @@ You need to define a glossary entry before you can use it.
 
  (./tex/zusammenfassung.tex
 Kapitel 6.
+
+Overfull \hbox (5.70218pt too wide) in paragraph at lines 13--14
+[]\T1/ptm/m/n/13 Im An-schluss wur-den die []Fra-me-works in-stal-liert, kon-fi
+-gu-riert und mit dem Desktop-
+ []
+
 [44
 
 
@@ -2683,7 +2689,7 @@ xlive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/20
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (62 pages, 1378301 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (62 pages, 1378347 bytes).
 
 PDF statistics:
  287 PDF objects out of 1000 (max. 8388607)

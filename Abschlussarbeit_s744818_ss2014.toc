@@ -48,7 +48,7 @@
 \contentsline {section}{\numberline {5.2}Ghostlab Version 1.2.3}{23}
 \contentsline {subsection}{\numberline {5.2.1}Einrichtung der Testumgebung}{23}
 \contentsline {subsection}{\numberline {5.2.2}Testen von Desktopbrowsern}{23}
-\contentsline {subsection}{\numberline {5.2.3}Testen von mobilen \Gls {Webbrowser}n}{26}
+\contentsline {subsection}{\numberline {5.2.3}Testen von Mobilbrowsern}{26}
 \contentsline {subsection}{\numberline {5.2.4}Fazit zu Ghostlab}{27}
 \contentsline {subsection}{\numberline {5.2.5}Tabellarische Evaluation}{28}
 \contentsline {section}{\numberline {5.3}Adobe Edge Inspect CC}{29}
