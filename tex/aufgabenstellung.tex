@@ -28,7 +28,7 @@ Die Aufgabe dieser Thesis ist die Evaluierung von Techniken zur \gls{parallel-sy
 \vspace{-40pt}
 
 	
-	\\Sollte ein Szenario aufgrund eines Fehler abgebrochen worden sein, wird dem Entwickler das Problem möglichst konkret 		geschildert. Dessen Aufgabe ist es nun das Problem zu beheben. Ist dies geschehen startet der Prüfer einen erneuten 			Durchgang des Szenarios. Ein generelles Problem was hier noch zusätzlich besteht, ist der Umstand, dass sich gerade 		bei nur kleineren fixes\footnote{Problemlösungen, Codeanpassungen} und immer wieder auftretenden Testszenarioschleifen 		eine gewisse Routine einschleicht, worunter die Qualität des Produkts leiden kann.
+	\\Sollte ein Szenario aufgrund eines Fehler abgebrochen worden sein, wird dem Entwickler das Problem möglichst konkret 		geschildert. Dessen Aufgabe ist es nun das Problem zu beheben. Ist dies geschehen startet der Prüfer einen erneuten 			Durchgang des Szenarios. Ein generelles Problem was hier noch zusätzlich besteht, ist der Umstand, dass sich gerade 		bei nur kleineren Fixes\footnote{Problemlösungen, Codeanpassungen} und immer wieder auftretenden Testszenarioschleifen 		eine gewisse Routine einschleicht, worunter die Qualität des Produkts leiden kann.
 
 	\ig{../pictures/Testszenario}{Qualitätssicherung Testszenario}{Darstellung eines \Gls{qs}sablaufes in der mobilen 		Anwendungsentwicklung}}
 	\pagebreak
@@ -37,8 +37,8 @@ Die Aufgabe dieser Thesis ist die Evaluierung von Techniken zur \gls{parallel-sy
 	%% ############# Zielsetzung
 	%%
 	\section{Zielsetzung}
-	 Das Ziel dieser Arbeit ist es, bestehende \mi{\Gls{Framework}s} auf ihre Tauglichkeit in Bezug auf die \gls{parallel-synchron} e Steuerung von mobilen \Gls{moEn}en zur Durchführung von Testszenarien zu evaluieren.
-	Hierzu werden auf mobilen \Gls{moEn}en die internen \Gls{Webbrowser} getestet. Hinzu kommen auf Desktopgeräten die aktuellen Versionen von Firefox, Chrome, Safari (nur für Mac-Desktopgeräte) und der Internet Explorer (nur für Windows-Desktops). Diese sind entgegen der Ausgangssituation, nur mobile Browser zu bewerten, wichtig. In der derzeitigen Appentwicklung werden immer öfter plattformunabhängige responsive Weblösungen genutzt, welche sich dem jeweiligen Gerät anpassen. Um eine allgemeine Testbarkeit zu gewährleisten werden die \Gls{Framework}s auch auf Genauigkeit in virtuellen Umgebungen analysiert. Dabei können Abweichungen, seien sie noch so klein, entstehen. Bereits 1 \Gls{Pixel} Abweichung kann bereits ausschlaggebend sein einen Umbruch zu erzeugen und damit das Layout negativ zu verändern.
+	 Das Ziel dieser Arbeit ist es, bestehende \mi{\Gls{Framework}s} auf ihre Tauglichkeit in Bezug auf die \gls{parallel-synchron}e Steuerung von mobilen \Gls{moEn}en zur Durchführung von Testszenarien zu evaluieren.
+	Hierzu werden auf mobilen \Gls{moEn}en die internen \Gls{Webbrowser} getestet. Hinzu kommen auf Desktopgeräten die aktuellen Versionen von Firefox, Chrome, Safari (nur für Mac-Desktopgeräte) und der Internet Explorer (nur für Windows-Desktops). Diese sind entgegen der Ausgangssituation, nur mobile Browser zu bewerten, wichtig, denn in der derzeitigen Appentwicklung werden immer öfter plattformunabhängige responsive Weblösungen genutzt, welche sich dem jeweiligen Gerät anpassen. Um eine allgemeine Testbarkeit zu gewährleisten werden die \Gls{Framework}s auch auf Genauigkeit in virtuellen Umgebungen analysiert. Dabei können Abweichungen, seien sie noch so klein, entstehen. Bereits 1 \Gls{Pixel} Abweichung kann bereits ausschlaggebend sein einen Umbruch zu erzeugen und damit das Layout negativ zu verändern.
 	
 	
 	
@@ -49,7 +49,7 @@ Die Aufgabe dieser Thesis ist die Evaluierung von Techniken zur \gls{parallel-sy
 	%%
 	\section{Abgrenzungskriterien}
 	\subsubsection{Zeit}
-	Als eines der wichtigsten Abgrenzungskriterien gilt es die Einarbeitungszeit zu bewerten. Hier bedeutet je kürzer desto besser, immer gesehen in Relation 	zum Umfang des \Gls{Framework}s.Diese setzt sich aus verschiedenen Aspekten des Evaluationsschlüssels zusammen. So wirken sich etwa eine gut dokumentierte API, Installationsanleitungen oder ein guter Support, positiv auf die Einarbeitungszeit aus. Ein \Gls{Framework} ist als qualitativ hochwertiger zu bewerten, wenn es eine exponentielle Lernkurve in Relation zur Zeit vorweist.
+	Als eines der wichtigsten Abgrenzungskriterien gilt es die Einarbeitungszeit zu bewerten. Hier bedeutet je kürzer desto besser, immer gesehen in Relation 	zum Umfang des \Gls{Framework}s. Diese setzt sich aus verschiedenen Aspekten des Evaluationsschlüssels zusammen. So wirken sich etwa eine gut dokumentierte API, Installationsanleitungen oder ein guter Support positiv auf die Einarbeitungszeit aus. Ein \Gls{Framework} ist als qualitativ hochwertiger zu bewerten, wenn es eine exponentielle Lernkurve in Relation zur Zeit vorweist.
 
 \begin{figure}[H]
 	\centering
@@ -72,7 +72,7 @@ Die Aufgabe dieser Thesis ist die Evaluierung von Techniken zur \gls{parallel-sy
 
 	\pagebreak
 	 \subsubsection{Erweiterbarkeit}
-	 In Hinsicht auf mehrere \Gls{moEn}e gibt es mehrere Aspekte zu analysieren. Zum einen ob das \Gls{Framework} auf verschiedene 	Arten an das System gebunden ist, wie etwa Android oder iOS. Zum anderen ob es eine Limitierung der Anzahl der 				anzuschliessenden Geräte gibt. 
+	 In Hinsicht auf mehrere \Gls{moEn}e gibt es folgende Aspekte zu analysieren. Zum einen ob das \Gls{Framework} auf verschiedene 	Arten an das System gebunden ist, wie etwa Android oder iOS. Zum anderen ob es eine Limitierung der Anzahl der 				anzuschließenden Geräte gibt. 
 
 	\\Unter den Aspekt der Erweiterbarkeit fällt auch die Möglichkeit das \Gls{Framework} um eigene Funktionalitäten zu erweitern. So 		sollte im Idealfall ein \Gls{Framework} ein Grundgerüst liefern, auf das der Entwickler mit eigenen Erweiterungen aufbauen kann um 	das gewünschte Ziel zu erreichen.
 	
@@ -80,8 +80,8 @@ Die Aufgabe dieser Thesis ist die Evaluierung von Techniken zur \gls{parallel-sy
 	Ein wichtiger Aspekt dieser Arbeit ist die Steuerung, beziehungsweise die Generierung von Steuerbefehlen und deren Verteilung auf alle verbundenen Klienten. Insbesondere wurde in dieser Arbeit auf das Scrollen innerhalb einer \mbox{Web-Applikation}, das Ausfüllen von Formularen mit den dazugehörigen Eingabefeldern, sowie das Ausführen eventgesteuerter Aktionen Wert gelegt.
 
 	\subsubsection{Unterstützte \Gls{Webbrowser}}
-	Ein wichtiger Aspekt der durchzuführenden Tests wird die Unterstützung möglichst verschiedener \Gls{Webbrowser} beinhalten. Dies hat den Grund, dass lediglich ein \Gls{Framework}, was eine große Spanne an \Gls{moEn}en abdeckt, die Chance hat, effektiv genutzt werden zu können.
+	Ein wichtiger Aspekt der durchzuführenden Tests beinhaltete die Unterstützung möglichst verschiedener \Gls{Webbrowser}. Dies hat den Grund, dass lediglich ein \Gls{Framework}, welches eine große Spanne an \Gls{moEn}en abdeckt die Chance hat effektiv genutzt werden zu können.
 
 	\subsubsection{Virtuelle Umgebung}
-	Ein positiv in die Validierung einfließender Aspekt ist die Einbindung oder Verwendung des \Gls{Framework}s innerhalb einer virtuellen Umgebung. Das wird durch den Fakt begründet, dass der Tester nicht immer im Besitz aller Testgeräte oder Umgebungen ist. So ist es ohne eine virtuelle Maschine zum Beispiel, nicht möglich eine Seite im Internet Explorer innerhalb einer MacOS-Umgebung zu testen, da diese ihn nicht unterstützt.
+	Ein positiv in die Validierung einfließender Aspekt ist die Einbindung oder Verwendung des \Gls{Framework}s innerhalb einer virtuellen Umgebung. Das wird durch den Fakt begründet, dass der Tester nicht immer im Besitz aller Testgeräte oder Umgebungen ist. So ist es ohne eine virtuelle Maschine zum Beispiel nicht möglich eine Seite im Internet Explorer innerhalb einer MacOS-Umgebung zu testen, da diese ihn nicht unterstützt.
 

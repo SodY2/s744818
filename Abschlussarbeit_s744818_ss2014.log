@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  26 MAY 2014 15:13
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  27 MAY 2014 18:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1272,26 +1272,26 @@ File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
 (./tex/zusammenfassung.aux))
 \openout1 = `Abschlussarbeit_s744818_ss2014.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 18.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 19.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
@@ -1368,19 +1368,19 @@ Dictionary: glossaries-dictionary, Language: English
 <BHT-Logo-Basis.pdf, id=4, 303.39667pt x 99.95987pt>
 File: BHT-Logo-Basis.pdf Graphic file (type pdf)
  <use BHT-Logo-Basis.pdf>
-Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 399.
+Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 405.
 (pdftex.def)             Requested size: 128.0387pt x 42.18417pt.
 
-Overfull \hbox (2.47002pt too wide) in paragraph at lines 399--399
+Overfull \hbox (2.47002pt too wide) in paragraph at lines 405--405
 [][] [] 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <26.96207> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 399.
-./Abschlussarbeit_s744818_ss2014.tex:399: Undefined control sequence.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 405.
+./Abschlussarbeit_s744818_ss2014.tex:405: Undefined control sequence.
 \bhtTitelSeite ...orgelegte \thethesistyp \xspace 
                                                   \\ zur Erlangung des akade...
-l.399 \maketitle
+l.405 \maketitle
                 
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1389,38 +1389,38 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 399.
-LaTeX Font Info:    Calculating math sizes for size <13> on input line 399.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 405.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 405.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 399.
+(Font)              size <6> substituted on input line 405.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
-(Font)              size <12> substituted on input line 399.
+(Font)              size <12> substituted on input line 405.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
-(Font)              size <6> substituted on input line 399.
+(Font)              size <6> substituted on input line 405.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 399.
+(Font)              size <12> substituted on input line 405.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
-(Font)              size <6> substituted on input line 399.
+(Font)              size <6> substituted on input line 405.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 399.
+LaTeX Font Info:    Try loading font information for U+msa on input line 405.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 399.
+LaTeX Font Info:    Try loading font information for U+msb on input line 405.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
 
@@ -1437,14 +1437,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  </usr/local/texlive/2013/texmf-dist/tex/latex/bhtThesis/tryout/pictures/BHT-Lo
 go-Basis.pdf>]
-LaTeX Font Info:    Try loading font information for T1+phv on input line 400.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 406.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <13> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 400.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 406.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <26.96207> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 400.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 406.
 
 [1
 
@@ -2312,14 +2312,14 @@ You need to define a glossary entry before you can use it.
 [42 <./pictures/../pictures/socketio/server_1.png> <./pictures/../pictures/sock
 etio/client_1.png> <./pictures/../pictures/socketio/client_2.png>])
 
-./Abschlussarbeit_s744818_ss2014.tex:461: Package glossaries Error: Glossary en
+./Abschlussarbeit_s744818_ss2014.tex:467: Package glossaries Error: Glossary en
 try `FRAMEWORK' has not been defined.
 
 See the glossaries package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.461 \include{./tex/evaluation}
+l.467 \include{./tex/evaluation}
                                 
 You need to define a glossary entry before you can use it.
 
@@ -2341,21 +2341,21 @@ Overfull \hbox (5.70218pt too wide) in paragraph at lines 13--14
 
 ]
 
-./tex/zusammenfassung.tex:47: Package inputenc Error: Unicode char \u8:̈ not s
+./tex/zusammenfassung.tex:48: Package inputenc Error: Unicode char \u8:̈ not s
 et up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 				Intuitive Benutzeroberflä
+l.48 				Intuitive Benutzeroberflä
                                     che			&	1	&	1	&	1	&	0\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (5.4944pt too wide) in paragraph at lines 30--88
+Overfull \hbox (5.4944pt too wide) in paragraph at lines 31--89
  [][] 
  []
 
@@ -2395,8 +2395,8 @@ zeich-
  []
 
 [50] [51] [52]) [53]
-./Abschlussarbeit_s744818_ss2014.tex:484: Undefined control sequence.
-l.484 \bibitem[Wiki01]{2} \url
+./Abschlussarbeit_s744818_ss2014.tex:490: Undefined control sequence.
+l.490 \bibitem[Wiki01]{2} \url
                               {http://de.wikipedia.org/w/index.php?title=Aja...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2404,8 +2404,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:484: Misplaced alignment tab character &.
-l.484 ...w/index.php?title=Ajax\_(Programmierung)&
+./Abschlussarbeit_s744818_ss2014.tex:490: Misplaced alignment tab character &.
+l.490 ...w/index.php?title=Ajax\_(Programmierung)&
                                                   oldid=129355492}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2415,13 +2415,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (66.90411pt too wide) in paragraph at lines 484--485
+Overfull \hbox (66.90411pt too wide) in paragraph at lines 490--491
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Ajax_(Programmierung
 )oldid=129355492 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:485: Undefined control sequence.
-l.485 \bibitem[ScVi]{3}\url
+./Abschlussarbeit_s744818_ss2014.tex:491: Undefined control sequence.
+l.491 \bibitem[ScVi]{3}\url
                            {http://irlnathan.github.io/sailscasts/blog/2013/...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2430,19 +2430,19 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 []\T1/ptm/m/n/13 http://irlnathan.github.io/sailscasts/blog/2013/10/10/building
 -a-sails-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 \T1/ptm/m/n/13 application-ep21-integrating-socket-dot-io-and-sails-with-custom
 -
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:486: Undefined control sequence.
-l.486 \bibitem[Wiki02]{4} \url
+./Abschlussarbeit_s744818_ss2014.tex:492: Undefined control sequence.
+l.492 \bibitem[Wiki02]{4} \url
                               {http://de.wikipedia.org/w/index.php?title=Jav...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2450,8 +2450,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:486: Misplaced alignment tab character &.
-l.486 ...kipedia.org/w/index.php?title=JavaScript&
+./Abschlussarbeit_s744818_ss2014.tex:492: Misplaced alignment tab character &.
+l.492 ...kipedia.org/w/index.php?title=JavaScript&
                                                   oldid=129548016}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2460,8 +2460,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./Abschlussarbeit_s744818_ss2014.tex:487: Undefined control sequence.
-l.487 \bibitem[Wiki03]{5}\url
+./Abschlussarbeit_s744818_ss2014.tex:493: Undefined control sequence.
+l.493 \bibitem[Wiki03]{5}\url
                              {http://de.wikipedia.org/w/index.php?title=Bild...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2469,8 +2469,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:488: Undefined control sequence.
-l.488 \bibitem[Wiki04]{6}\url
+./Abschlussarbeit_s744818_ss2014.tex:494: Undefined control sequence.
+l.494 \bibitem[Wiki04]{6}\url
                              {http://de.wikipedia.org/w/index.php?title=Docu...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2478,8 +2478,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:488: Misplaced alignment tab character &.
-l.488 .../index.php?title=Document\_Object\_Model&
+./Abschlussarbeit_s744818_ss2014.tex:494: Misplaced alignment tab character &.
+l.494 .../index.php?title=Document\_Object\_Model&
                                                   oldid=127850631}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2489,13 +2489,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (74.13199pt too wide) in paragraph at lines 488--489
+Overfull \hbox (74.13199pt too wide) in paragraph at lines 494--495
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Document_Object_Mode
 loldid=127850631 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:489: Undefined control sequence.
-l.489 \bibitem[Wiki05]{7}\url
+./Abschlussarbeit_s744818_ss2014.tex:495: Undefined control sequence.
+l.495 \bibitem[Wiki05]{7}\url
                              {http://de.wikipedia.org/w/index.php?title=Apac...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2503,8 +2503,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:489: Misplaced alignment tab character &.
-l.489 ...g/w/index.php?title=Apache\_HTTP\_Server&
+./Abschlussarbeit_s744818_ss2014.tex:495: Misplaced alignment tab character &.
+l.495 ...g/w/index.php?title=Apache\_HTTP\_Server&
                                                   oldid=129948624}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2514,13 +2514,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (57.31064pt too wide) in paragraph at lines 489--490
+Overfull \hbox (57.31064pt too wide) in paragraph at lines 495--496
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Apache_HTTP_Serverol
 did=129948624 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:490: Undefined control sequence.
-l.490 \bibitem[Wiki06]{8}\url
+./Abschlussarbeit_s744818_ss2014.tex:496: Undefined control sequence.
+l.496 \bibitem[Wiki06]{8}\url
                              {http://de.wikipedia.org/w/index.php?title=Anke...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2528,8 +2528,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:490: Misplaced alignment tab character &.
-l.490 ...edia.org/w/index.php?title=Anker\_(HTML)&
+./Abschlussarbeit_s744818_ss2014.tex:496: Misplaced alignment tab character &.
+l.496 ...edia.org/w/index.php?title=Anker\_(HTML)&
                                                   oldid=124884439}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2539,13 +2539,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (22.71779pt too wide) in paragraph at lines 490--491
+Overfull \hbox (22.71779pt too wide) in paragraph at lines 496--497
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Anker_(HTML)oldid=12
 4884439 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:491: Undefined control sequence.
-l.491 \bibitem[Wiki07]{9}\url
+./Abschlussarbeit_s744818_ss2014.tex:497: Undefined control sequence.
+l.497 \bibitem[Wiki07]{9}\url
                              {http://de.wikipedia.org/w/index.php?title=Digi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2553,8 +2553,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:491: Misplaced alignment tab character &.
-l.491 .../w/index.php?title=Digitales\_Zertifikat&
+./Abschlussarbeit_s744818_ss2014.tex:497: Misplaced alignment tab character &.
+l.497 .../w/index.php?title=Digitales\_Zertifikat&
                                                   oldid=129208084}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2564,13 +2564,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (40.20168pt too wide) in paragraph at lines 491--492
+Overfull \hbox (40.20168pt too wide) in paragraph at lines 497--498
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Digitales_Zertifikat
 oldid=129208084 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:492: Undefined control sequence.
-l.492 \bibitem[SeHt01]{10}\url
+./Abschlussarbeit_s744818_ss2014.tex:498: Undefined control sequence.
+l.498 \bibitem[SeHt01]{10}\url
                               {http://de.selfhtml.org/servercgi/server/htacc...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2578,8 +2578,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:493: Undefined control sequence.
-l.493 \bibitem[Wiki08]{11}\url
+./Abschlussarbeit_s744818_ss2014.tex:499: Undefined control sequence.
+l.499 \bibitem[Wiki08]{11}\url
                               {http://de.wikipedia.org/w/index.php?title=GNU...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2587,8 +2587,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:493: Misplaced alignment tab character &.
-l.493 ....php?title=GNU\_General\_Public\_License&
+./Abschlussarbeit_s744818_ss2014.tex:499: Misplaced alignment tab character &.
+l.499 ....php?title=GNU\_General\_Public\_License&
                                                   oldid=130239300}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2598,13 +2598,13 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (100.83374pt too wide) in paragraph at lines 493--494
+Overfull \hbox (100.83374pt too wide) in paragraph at lines 499--500
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=GNU_General_Public_L
 icenseoldid=130239300 
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:494: Undefined control sequence.
-l.494 \bibitem[Wiki09]{12}\url
+./Abschlussarbeit_s744818_ss2014.tex:500: Undefined control sequence.
+l.500 \bibitem[Wiki09]{12}\url
                               {http://de.wikipedia.org/w/index.php?title=MIT...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2612,8 +2612,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:494: Misplaced alignment tab character &.
-l.494 ...kipedia.org/w/index.php?title=MIT-Lizenz&
+./Abschlussarbeit_s744818_ss2014.tex:500: Misplaced alignment tab character &.
+l.500 ...kipedia.org/w/index.php?title=MIT-Lizenz&
                                                   oldid=125762366}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2623,12 +2623,12 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=MIT-
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:495: Undefined control sequence.
-l.495 \bibitem[Wiki10]{13}\url
+./Abschlussarbeit_s744818_ss2014.tex:501: Undefined control sequence.
+l.501 \bibitem[Wiki10]{13}\url
                               {http://de.wikipedia.org/w/index.php?title=Apa...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2636,8 +2636,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./Abschlussarbeit_s744818_ss2014.tex:495: Misplaced alignment tab character &.
-l.495 ...edia.org/w/index.php?title=Apache-Lizenz&
+./Abschlussarbeit_s744818_ss2014.tex:501: Misplaced alignment tab character &.
+l.501 ...edia.org/w/index.php?title=Apache-Lizenz&
                                                   oldid=130033063}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -2647,14 +2647,14 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 495--496
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
 []\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Apache-
  []
 
-./Abschlussarbeit_s744818_ss2014.tex:498: Missing } inserted.
+./Abschlussarbeit_s744818_ss2014.tex:504: Missing } inserted.
 <inserted text> 
                 }
-l.498 \end{thebibliography}
+l.504 \end{thebibliography}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2675,10 +2675,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 20515 strings out of 493315
- 354361 string characters out of 6137904
- 486113 words of memory out of 5000000
- 23349 multiletter control sequences out of 15000+600000
+ 20544 strings out of 493315
+ 354888 string characters out of 6137904
+ 486629 words of memory out of 5000000
+ 23378 multiletter control sequences out of 15000+600000
  59625 words of font info for 85 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,11n,71p,1479b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2689,7 +2689,7 @@ xlive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/20
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (62 pages, 1378347 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (62 pages, 1378684 bytes).
 
 PDF statistics:
  287 PDF objects out of 1000 (max. 8388607)

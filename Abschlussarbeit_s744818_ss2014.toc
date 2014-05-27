@@ -19,7 +19,7 @@
 \contentsline {subsubsection}{Apple iPhone4 32 GB}{13}
 \contentsline {subsubsection}{Apple iPhone5s 16 GB}{13}
 \contentsline {subsubsection}{Apple iPad mini Wi-Fi 32GB}{13}
-\contentsline {subsubsection}{Microsoft Surfcae}{14}
+\contentsline {subsubsection}{Microsoft Surface}{14}
 \contentsline {section}{\numberline {3.3}Verwendete Software}{14}
 \contentsline {subsubsection}{Virtuelle Maschine}{14}
 \contentsline {subsubsection}{Verwendete \Gls {Webbrowser}}{14}
