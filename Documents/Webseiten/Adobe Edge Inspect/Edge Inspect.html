@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://html.adobe.com/edge/inspect/ -->
+<html lang="en" class="wf-adobeclean-n3-active wf-adobeclean-n4-active wf-active" data-ember-extension="1" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" src="./Edge Inspect_files/event"></script><script type="text/javascript" async="async">s_c_il[7].cdw=s_c_il[7].d.write;s_c_il[7].cdwb="";s_c_il[7].d.write=function(m){s_c_il[7].cdwb+=m};
+var TIDNum=Number(new Date);
+var TIDflag=0;
+var outgoingSAMCAPcode;
+var TIDquerysub="";
+if (s_adobe.getQueryParam('sdid')) {
+  outgoingSAMCAPcode=s_adobe.getQueryParam('sdid');
+   if (outgoingSAMCAPcode.match(/^[a-zA-Z0-9_]*$/)) {
+      TIDquerysub="sdid="+outgoingSAMCAPcode+"&";
+      TIDflag=1;
+   }
+}
+if(s_adobe.getQueryParam('trackingid')) {
+  outgoingSAMCAPcode=s_adobe.getQueryParam('trackingid');
+   if (outgoingSAMCAPcode.match(/^[a-zA-Z0-9_]*$/)) {
+      TIDquerysub=TIDquerysub+"trackingid="+outgoingSAMCAPcode+"&";
+      TIDflag=1;
+   }  
+}
+if(s_adobe.getQueryParam('promoid')) {
+  outgoingSAMCAPcode=s_adobe.getQueryParam('promoid');
+   if (outgoingSAMCAPcode.match(/^[a-zA-Z0-9_]*$/)) {
+      TIDquerysub=TIDquerysub+"promoid="+outgoingSAMCAPcode+"&";
+      TIDflag=1;
+   }  
+}
+if(TIDflag > 0) {
+  TIDquerysub=TIDquerysub.replace(/\&$/,"");
+  scTIDImg=document.createElement('img');
+  scTIDImg.src=document.location.protocol + '//www.adobe.com/images/pixel.gif?'+TIDNum+"&"+TIDquerysub;
+  scTIDImg.style.display="none";
+  document.body.appendChild(scTIDImg);
+}
+s_c_il[7].d.write=s_c_il[7].cdw;s_c_il[7].crl(0,1)</script><script type="text/javascript" src="./Edge Inspect_files/event(1)"></script><script type="text/javascript" async="async" src="./Edge Inspect_files/microsites.js"></script><script type="text/javascript" async="async" src="./Edge Inspect_files/creativeadobecom.js"></script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<title>Cross-browser testing, mobile | Edge Inspect CC | Edge Tools &amp; Services | Adobe &amp; HTML</title>
+<meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale = 1.0">
+<meta name="keywords" content="cross-browser testing, mobile simulator, mobile testing">
+<meta name="description" content="Adobe Edge Inspect is a workflow and preview tool for testing and simulating across multiple mobile web browsers. Learn more.">
+
+<!--[if lte IE 9]><link rel="stylesheet" href="/_/css/ie.css" type="text/css" media="screen" /><![endif]-->
+<!--[if lt IE 9]>
+	<script src="/_/js/modernizr.custom.95873.js"></script>
+	<![endif]-->
+
+<link rel="stylesheet" href="./Edge Inspect_files/screen.css" type="text/css" media="screen">
+<link rel="shortcut icon" href="http://html.adobe.com/_/img/favicon.ico">
+<script type="text/javascript" src="./Edge Inspect_files/vze1tyc.js"></script>
+<style type="text/css">.tk-adobe-clean{font-family:"adobe-clean",sans-serif;}</style><link rel="stylesheet" href="http://use.typekit.com/c/6ab4eb/adobe-clean:n3:n4.Pbf:N:2,PbZ:N:2/d?3bb2a6e53c9684ffdc9a98f6135b2a62e9fd3f37bbbb30d58844c72ca54eee1674e6d7d0642d87e56d4ca4bcdf665f6a5634d68950e42d50b3b37e6bdd3783cb5a5b0ea89f6259f33e1ce408f25e24f3fd0c083c7a7d195cc92b1927b30c33233494971e65e1d14429b54bab6c247d25647c3c97f4eef1f7e4cdf563e996d8c50aa5adb356dceb5bec65fe04d6b1a88852ec0cf4aba2666faa47e709008413800034022967ad8e464df09bd93b5955beda0ffab2313234783e5be9d38a07fb72d8112ba2bec20d153192263e6546b62637"><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript" src="./Edge Inspect_files/css3-mediaqueries.js"></script>
+</head>
+
+<body id="inspect" class="overview" data-ember-extension="1">
+<header role="banner">
+  <div class="container clearfix">
+    <div id="menuicon"><a href="http://html.adobe.com/edge/inspect/#footer_nav" onclick="s_objectID=&quot;http://html.adobe.com/edge/inspect/#footer_nav_1&quot;;return this.s_oc?this.s_oc(e):true">Menu</a></div>
+    <p><a href="http://html.adobe.com/" onclick="s_objectID=&quot;http://html.adobe.com/_1&quot;;return this.s_oc?this.s_oc(e):true">Adobe &amp; HTML</a></p>
+    <nav role="navigation">
+      <ul id="header_nav">
+        <li><a href="http://html.adobe.com/mission/" onclick="s_objectID=&quot;http://html.adobe.com/mission/_1&quot;;return this.s_oc?this.s_oc(e):true">Our Mission</a></li>
+<li><a href="http://html.adobe.com/webplatform/" onclick="s_objectID=&quot;http://html.adobe.com/webplatform/_1&quot;;return this.s_oc?this.s_oc(e):true">Web Platform</a></li>
+<li><a href="http://html.adobe.com/opensource/" onclick="s_objectID=&quot;http://html.adobe.com/opensource/_1&quot;;return this.s_oc?this.s_oc(e):true">Open Source</a></li>
+<li><a href="http://html.adobe.com/edge/" class="active" onclick="s_objectID=&quot;http://html.adobe.com/edge/_1&quot;;return this.s_oc?this.s_oc(e):true">Web Tools &amp; Services</a></li>
+<li><a href="http://html.adobe.com/events/" onclick="s_objectID=&quot;http://html.adobe.com/events/_1&quot;;return this.s_oc?this.s_oc(e):true">Events</a></li>
+
+      </ul>
+    </nav>
+    <h2><a href="http://www.adobe.com/" onclick="s_objectID=&quot;http://www.adobe.com/_1&quot;;return this.s_oc?this.s_oc(e):true">Adobe</a></h2>
+  </div>
+</header>
+<section id="subheader" role="region">
+  <div class="container">
+    <div class="herotitlecontainer">
+      <div class="herotitle"> <img class="heromnemonic" src="./Edge Inspect_files/edge_inspect_mnemonic.png" alt="Adobe Edge Inspect">
+        <div class="herotitletext">
+          <h1>Adobe Edge Inspect&nbsp;CC</h1>
+          <h2>Preview &amp; inspect web designs on devices.</h2>
+        </div>
+      </div>
+    </div>
+    <img src="./Edge Inspect_files/edge_inspect_hero.png" alt="Adobe Edge Inspect: cross-browser testing, mobile simulator"> </div>
+</section>
+<div class="topcalltoaction" role="region">
+  <div class="row">
+    <div class="twocol empty"></div>
+    <div class="fivecol calltoaction"> 
+      <p>All-new Edge Inspect is here. Join Creative Cloud to get <strong>Edge&nbsp;Inspect&nbsp;CC</strong> and all the tools you need to create, collaborate, and stay connected. Get started with a <strong>free</strong> Creative Cloud membership.<br>
+<a href="http://www.adobe.com/products/creativecloud.html?promoid=KGLJZ" onclick="s_objectID=&quot;http://www.adobe.com/products/creativecloud.html?promoid=KGLJZ_1&quot;;return this.s_oc?this.s_oc(e):true">What is Creative Cloud? →</a></p> 
+    </div>
+    <div class="threecol">
+      <a href="https://creative.adobe.com/products/inspect?promoid=KFKMN" class="btn" title="Join Creative Cloud to download and get started with Edge Inspect" onclick="s_objectID=&quot;https://creative.adobe.com/products/inspect?promoid=KFKMN_1&quot;;return this.s_oc?this.s_oc(e):true">Try</a><br>
+      <strong><a href="https://creative.adobe.com/plans?promoid=KFKMO" onclick="s_objectID=&quot;https://creative.adobe.com/plans?promoid=KFKMO_1&quot;;return this.s_oc?this.s_oc(e):true">Plan&nbsp;options</a></strong>
+    </div>
+    <div class="twocol empty last"></div>
+  </div>
+</div>
+<div class="submenu" role="region">
+  <div class="row">
+      <nav class="product-subnav" role="navigation">
+        <ul id="sub_nav">
+          <li><a href="http://html.adobe.com/edge/inspect/#" class="active" title="Adobe Edge Inspect overview" onclick="s_objectID=&quot;http://html.adobe.com/edge/inspect/_2&quot;;return this.s_oc?this.s_oc(e):true">Overview</a></li>
+          <li><a href="http://html.adobe.com/edge/inspect/features.html" class="item" onclick="s_objectID=&quot;http://html.adobe.com/edge/inspect/features.html#_1&quot;;return this.s_oc?this.s_oc(e):true">Features</a></li>
+          <li><a href="http://html.adobe.com/edge/inspect/faq.html" title="Adobe Edge Inspect frequently asked questions (FAQ)" class="item" onclick="s_objectID=&quot;http://html.adobe.com/edge/inspect/faq.html_1&quot;;return this.s_oc?this.s_oc(e):true">FAQ</a></li>
+          <li><a href="http://html.adobe.com/edge/inspect/tech-specs.html" title="Adobe Edge Inspect tech specs" class="item" onclick="s_objectID=&quot;http://html.adobe.com/edge/inspect/tech-specs.html_1&quot;;return this.s_oc?this.s_oc(e):true">Tech Specs</a></li>
+        </ul>
+      </nav>
+  </div>
+</div>
+<div class="feature" role="region">
+  <div class="row">
+    <div class="sixcol feature_image"> <img src="./Edge Inspect_files/edge_inspect_feature1.png" alt="Adobe Edge Inspect: Synchronized Browsing and Refreshing (Device Pairing)"> </div>
+    <div class="sixcol last feature_text">
+      <h3>Synchronized browsing and refreshing</h3>
+      <p>Wirelessly pair multiple iOS and Android devices to your computer. With Edge Inspect, you browse in Chrome, and all connected devices will stay in sync.</p>
+    </div>
+  </div>
+</div>
+<div class="feature" role="region">
+  <div class="row">
+    <div class="sixcol right feature_image"> <img src="./Edge Inspect_files/edge_inspect_feature2.png" alt="Adobe Edge Inspect: Remote Inspection"> </div>
+    <div class="sixcol right first feature_text">
+      <h3>Remote inspection</h3>
+      <p>Target a device for Remote inspection using familiar development tools, make changes to your HTML, CSS and JavaScript and see your device update instantly. Edge Inspect uses a hosted weinre server on Adobe.com.</p>
+    </div>
+  </div>
+</div>
+<div class="feature" role="region">
+  <div class="row">
+    <div class="sixcol feature_image"> <img src="./Edge Inspect_files/edge_inspect_feature3.png" alt="Adobe Edge Inspect: Screenshots"> </div>
+    <div class="sixcol last feature_text">
+      <h3>Screenshots</h3>
+      <p>Press a single button to grab screenshots from all your connected devices and easily save and send them to colleagues. Screenshots are transferred to your computer, to a folder you can specify.</p>
+    </div>
+  </div>
+</div>
+<div class="feature" role="region">
+  <div class="row">
+    <div class="sixcol right feature_image"> <img src="./Edge Inspect_files/edge_inspect_feature_reflow.png" alt="Adobe Edge Inspect: Edge tools integration" class="feature-image"> </div>
+    <div class="sixcol right first feature_text">
+      <h3>Edge tools integration</h3>
+      <p>Preview directly on devices in real-time while working in <a href="http://html.adobe.com/edge/reflow/" onclick="s_objectID=&quot;http://html.adobe.com/edge/reflow/_1&quot;;return this.s_oc?this.s_oc(e):true">Edge Reflow CC</a> and <a href="http://html.adobe.com/edge/code/" onclick="s_objectID=&quot;http://html.adobe.com/edge/code/_1&quot;;return this.s_oc?this.s_oc(e):true">Edge Code CC</a>. As you make changes to your pages, you can see how they look on devices.</p>
+    </div>
+  </div>
+</div>
+<div class="feature" role="region">
+  <div class="row">
+    <div class="sixcol feature_image"> <img src="./Edge Inspect_files/edge_inspect_feature_api.png" alt="Adobe Edge Inspect: Extensibility"> </div>
+    <div class="sixcol last feature_text">
+      <h3>Extensibility</h3>
+      <p>To make custom integrations easier, we now provide the Edge Inspect API. You can use this API to build custom browser extensions, use Edge Inspect as part of your build system, integrate Edge Inspect with an IDE or other application, and more. We hope you’ll find new ways to use the API that we haven’t thought of.</p>
+      <p>The <a href="http://adobe.com/go/edgeinspect_api" onclick="s_objectID=&quot;http://adobe.com/go/edgeinspect_api_1&quot;;return this.s_oc?this.s_oc(e):true">Edge Inspect API</a> is available on GitHub. Fork it and send us your pull requests!</p>
+    </div>
+  </div>
+</div>
+<div class="feature more" role="region">
+  <div class="row narrow">
+    <div>
+      <h3>... and more.</h3>
+      <p>Localhost URL support, hide/show Edge Inspect UI on devices, HTTP authentication support, cache management, URL monitoring, HTTPS support, Amazon Kindle Fire support, and preview on devices from Edge Code and Edge Reflow<br>
+        <a href="http://html.adobe.com/edge/inspect/features.html" onclick="s_objectID=&quot;http://html.adobe.com/edge/inspect/features.html_1&quot;;return this.s_oc?this.s_oc(e):true">All features →</a></p>
+    </div>
+  </div>
+</div>
+<div class="feature" id="testimonials" role="region">
+  <div class="row">
+    <div class="twelvecol">
+      <h3>What people are saying</h3>
+    </div>
+    <div class="fourcol">
+      <p>"It’s exciting to see Adobe using Google Chrome’s Developer Tools as the primary interface for debugging with Edge Inspect. As developers, we’re all used to this tool and it does such a great job, so to us it feels like a perfect fit – no need to learn something new."<br>
+        <small>Ryan Means, Associate Director of Software Design and Development, <a href="http://www.phenomblue.com/" onclick="s_objectID=&quot;http://www.phenomblue.com/_1&quot;;return this.s_oc?this.s_oc(e):true">Phenomblue</a></small></p>
+    </div>
+    <div class="fourcol">
+      <p>"We have more than 70 phones and tablets in our mobile test lab at Filament Group. Edge Inspect helps us test and debug our code faster and with less hassle. It’s an indispensable tool for mobile web development."<br>
+        <small>Todd Parker, Partner, <a href="http://filamentgroup.com/" onclick="s_objectID=&quot;http://filamentgroup.com/_1&quot;;return this.s_oc?this.s_oc(e):true">Filament Group</a></small></p>
+    </div>
+    <div class="fourcol last">
+      <p>"Edge Inspect saves us the step of pushing to a server to test or setting up a complicated way of previewing on multiple devices. It’s pretty indispensable to our workflow at this point."<br>
+        <small>Mike Swartz, Creative Director, <a href="http://upstatement.com/" onclick="s_objectID=&quot;http://upstatement.com/_1&quot;;return this.s_oc?this.s_oc(e):true">Upstatement</a></small></p>
+    </div>
+  </div>
+</div>
+<div class="bottomcalltoaction" role="region">
+  <div class="row">
+    <div class="twocol empty"></div>
+    <div class="fivecol"> 
+      <p>All-new Edge Inspect is here. Join Creative Cloud to get <strong>Edge&nbsp;Inspect&nbsp;CC</strong> and all the tools you need to create, collaborate, and stay connected. Get started with a <strong>free</strong> Creative Cloud membership.<br>
+<a href="http://www.adobe.com/products/creativecloud.html?promoid=KGLJZ" onclick="s_objectID=&quot;http://www.adobe.com/products/creativecloud.html?promoid=KGLJZ_2&quot;;return this.s_oc?this.s_oc(e):true">What is Creative Cloud? →</a></p> 
+    </div>
+    <div class="threecol">
+      <a href="https://creative.adobe.com/products/inspect?promoid=KFKMN" class="btn" title="Join Creative Cloud to download and get started with Edge Inspect" onclick="s_objectID=&quot;https://creative.adobe.com/products/inspect?promoid=KFKMN_2&quot;;return this.s_oc?this.s_oc(e):true">Try</a><br>
+      <strong><a href="https://creative.adobe.com/plans?promoid=KFKMO" onclick="s_objectID=&quot;https://creative.adobe.com/plans?promoid=KFKMO_2&quot;;return this.s_oc?this.s_oc(e):true">Plan&nbsp;options</a></strong>
+    </div>
+    <div class="twocol empty last"></div>
+  </div>
+</div>
+<section id="main">
+  <div id="feed" class="row">
+    <div id="blogs" class="sixcol">
+      <h3>Edge Inspect Blog</h3>
+      <p>
+      </p><ul id="rssoutput"><li class="adobe"><a href="http://blogs.adobe.com/edgeinspect/2013/10/06/edge-inspect-error-with-chrome-30/"><span class="date">Oct 6</span> <span class="title">Edge Inspect Error with Chrome 30</span></a></li><li class="adobe"><a href="http://blogs.adobe.com/edgeinspect/2013/06/20/edge-inspect-integration-with-edge-code-and-brackets/"><span class="date">Jun 21</span> <span class="title">Edge Inspect integration with Edge Code and Brackets</span></a></li><li class="adobe"><a href="http://blogs.adobe.com/edgeinspect/2013/06/18/introducing-the-edge-inspect-javascript-api/"><span class="date">Jun 18</span> <span class="title">Introducing the Edge Inspect JavaScript API</span></a></li><li class="adobe"><a href="http://blogs.adobe.com/edgeinspect/2013/06/18/edge-inspect-cc-now-available/"><span class="date">Jun 18</span> <span class="title">Edge Inspect CC now available</span></a></li><li class="adobe"><a href="http://blogs.adobe.com/edgeinspect/2013/05/06/meet-the-teams-night-at-adobe-max/"><span class="date">May 6</span> <span class="title">Meet the Teams night at Adobe MAX</span></a></li></ul>
+      <p></p>
+    </div>
+    <div id="resources" class="threecol">
+      <h3>Resources</h3>
+      <ul>
+        <li><a href="http://html.adobe.com/edge/inspect/features.html" title="Adobe Edge Inspect features" onclick="s_objectID=&quot;http://html.adobe.com/edge/inspect/features.html_2&quot;;return this.s_oc?this.s_oc(e):true">Features</a></li>
+        <li><a href="http://html.adobe.com/edge/inspect/faq.html" title="Adobe Edge Inspect frequently asked questions (FAQ)" onclick="s_objectID=&quot;http://html.adobe.com/edge/inspect/faq.html_1&quot;;return this.s_oc?this.s_oc(e):true">Frequently Asked Questions</a></li>
+        <li><a href="http://html.adobe.com/edge/inspect/tech-specs.html" title="Adobe Edge Inspect tech specs" onclick="s_objectID=&quot;http://html.adobe.com/edge/inspect/tech-specs.html_1&quot;;return this.s_oc?this.s_oc(e):true">Tech Specs</a></li>
+        <li><a href="http://html.adobe.com/edge/inspect/subscribe.html" title="Upgrade Adobe Edge Inspect" onclick="s_objectID=&quot;http://html.adobe.com/edge/inspect/subscribe.html_1&quot;;return this.s_oc?this.s_oc(e):true">Upgrade</a>
+      </li></ul>
+    </div>
+    <div id="elsewhere" class="threecol last">
+      <h3>Elsewhere</h3>
+      <ul>
+        <li><a class="service twitter_btn" href="https://twitter.com/EdgeInspect" target="_blank" onclick="s_objectID=&quot;https://twitter.com/EdgeInspect_1&quot;;return this.s_oc?this.s_oc(e):true">Follow us on Twitter</a></li>
+        <li><a class="service facebook_btn" href="https://www.facebook.com/EdgeInspect" target="_blank" onclick="s_objectID=&quot;https://www.facebook.com/EdgeInspect_1&quot;;return this.s_oc?this.s_oc(e):true">Find us on Facebook</a></li>
+        <li><a class="service blog_btn" href="http://blogs.adobe.com/edgeinspect" target="_blank" onclick="s_objectID=&quot;http://blogs.adobe.com/edgeinspect_1&quot;;return this.s_oc?this.s_oc(e):true">Team blog</a></li>
+        <li><a class="service support_btn" href="https://helpx.adobe.com/creative-cloud/learn/tutorials/edge-tools.html" title="Adobe Edge Inspect Help and Tutorials" onclick="s_objectID=&quot;https://helpx.adobe.com/creative-cloud/learn/tutorials/edge-tools.html_1&quot;;return this.s_oc?this.s_oc(e):true">Help and Tutorials</a></li>
+        <li><a class="service video_btn" href="http://www.youtube.com/playlist?list=PLtnj3l3GXueb1fuCNW1GDKvpy8MvhKNS8" target="_blank" title="Watch Edge Tools &amp; Services videos on YouTube" onclick="s_objectID=&quot;http://www.youtube.com/playlist?list=PLtnj3l3GXueb1fuCNW1GDKvpy8MvhKNS8_1&quot;;return this.s_oc?this.s_oc(e):true">Watch videos on YouTube</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<footer role="contentinfo">
+  <div class="container clearfix row">
+    <div class="eightcol right">
+      <nav role="navigation">
+        <ul id="footer_nav">
+          <li><a href="http://html.adobe.com/mission/" onclick="s_objectID=&quot;http://html.adobe.com/mission/_2&quot;;return this.s_oc?this.s_oc(e):true">Our Mission</a></li>
+<li><a href="http://html.adobe.com/webplatform/" onclick="s_objectID=&quot;http://html.adobe.com/webplatform/_2&quot;;return this.s_oc?this.s_oc(e):true">Web Platform</a></li>
+<li><a href="http://html.adobe.com/opensource/" onclick="s_objectID=&quot;http://html.adobe.com/opensource/_2&quot;;return this.s_oc?this.s_oc(e):true">Open Source</a></li>
+<li><a href="http://html.adobe.com/edge/" class="active" onclick="s_objectID=&quot;http://html.adobe.com/edge/_2&quot;;return this.s_oc?this.s_oc(e):true">Web Tools &amp; Services</a></li>
+<li><a href="http://html.adobe.com/events/" onclick="s_objectID=&quot;http://html.adobe.com/events/_2&quot;;return this.s_oc?this.s_oc(e):true">Events</a></li>
+
+        </ul>
+      </nav>
+    </div>
+    <div id="legal" class="fourcol first right"> 
+      <p>Copyright © 2014 Adobe Systems Incorporated. All rights reserved. Use of this website signifies your agreement to the <a href="http://www.adobe.com/go/gffooter_terms_of_use" target="_blank" onclick="s_objectID=&quot;http://www.adobe.com/go/gffooter_terms_of_use_1&quot;;return this.s_oc?this.s_oc(e):true">Terms of Use</a> and <a href="http://www.adobe.com/privacy" target="_blank" onclick="s_objectID=&quot;http://www.adobe.com/privacy_1&quot;;return this.s_oc?this.s_oc(e):true">Privacy Policy and Cookies</a>.</p> 
+      <p><strong>English</strong> | <a href="http://html.adobe.com/fr/" onclick="s_objectID=&quot;http://html.adobe.com/fr/_1&quot;;return this.s_oc?this.s_oc(e):true" title="French">Français</a> | <a href="http://html.adobe.com/jp/" onclick="s_objectID=&quot;http://html.adobe.com/jp/_1&quot;;return this.s_oc?this.s_oc(e):true" title="Japanese">日本語</a></p> 
+    </div>
+  </div>
+</footer>
+<!--
+EDGE INSPECT RSS FEED PROCESSING
+Derived from Google JSAPI Feeds example. Licensed under Apache license 2.0 (http://www.apache.org/licenses/LICENSE-2.0.html).
+-->
+
+<script src="./Edge Inspect_files/jsapi" type="text/javascript"></script>
+<script type="text/javascript">  
+  google.load("feeds", "1");
+  
+  // Callback function, for when a feed is loaded.
+  function feedLoaded(result) {
+    if (!result.error) {
+      // Grab the container we will put the results into
+      var container = document.getElementById("rssoutput");
+      container.innerHTML = '';
+      
+      // Loop through the feeds, putting each entry in its own object
+      for (var i = 0; i < result.feed.entries.length; i++) {
+        var entry = result.feed.entries[i];
+        
+        // Create all tags for container inner HTML
+        var row = document.createElement("li");
+        var link = document.createElement("a");
+        var dateSpan = document.createElement("span");
+        var titleSpan = document.createElement("span");
+        
+        // Assign attributes for all tags
+        row.setAttribute("class","adobe");      
+        link.setAttribute("href",entry.link);
+        dateSpan.setAttribute("class","date");
+        titleSpan.setAttribute("class","title");
+        
+        // Append the tag contents from inside out
+        var entryDate= new Date(entry.publishedDate);
+        dateSpan.appendChild(document.createTextNode(formatDate(entryDate)));
+        titleSpan.appendChild(document.createTextNode(entry.title));   
+        link.appendChild(dateSpan);
+        link.appendChild(document.createTextNode(" "));
+        link.appendChild(titleSpan);
+        row.appendChild(link);
+        
+        container.appendChild(row);
+      }
+    }
+  }
+  
+  function OnLoad() {
+    // Create a feed instance
+    var feed = new google.feeds.Feed("http://feeds.feedburner.com/adobeandhtml_edgeinspect");
+    feed.setNumEntries(5);
+    
+    // Calling load sends the request off.  It requires a callback function.
+    feed.load(feedLoaded);
+  }
+  
+  // For format Sep 24
+  function formatDate(obj) {
+    var month=new Array();
+    month[0]="Jan";
+    month[1]="Feb";
+    month[2]="Mar";
+    month[3]="Apr";
+    month[4]="May";
+    month[5]="Jun";
+    month[6]="Jul";
+    month[7]="Aug";
+    month[8]="Sep";
+    month[9]="Oct";
+    month[10]="Nov";
+    month[11]="Dec";
+    var m = month[obj.getMonth()];   
+    return m + " " + obj.getDate();
+  }
+  
+  google.setOnLoadCallback(OnLoad);
+</script><script src="./Edge Inspect_files/saved_resource" type="text/javascript"></script><link href="./Edge Inspect_files/default+de.css" type="text/css" rel="stylesheet"><script src="./Edge Inspect_files/default+de.I.js" type="text/javascript"></script> 
+<!-- Omniture -->
+<script language="JavaScript" type="text/javascript"><!--
+var s_code=' ';
+var s_Host=window.location.hostname.toLowerCase();
+var s_account="mxmacromedia"; // Production Report Suite
+var scJsHost = (("https:" == document.location.protocol) ? "https://www.adobe.com" : "http://wwwimages.adobe.com");
+document.write(unescape("%3Cscript src='" + scJsHost + "/uber/js/omniture_s_code_rm.js' type='text/javascript'%3E%3C/script%3E"));
+//--></script><script src="./Edge Inspect_files/omniture_s_code_rm.js" type="text/javascript"></script><div id="mboxScriptContainer" style="display:none;visibility:hidden;"></div><style>.mboxDefault{visibility:hidden;}</style>
+<script language="JavaScript" type="text/javascript"><!--
+var s_docURL=document.URL.toLowerCase();
+if (s_docURL.indexOf("adobe.com/jp")!=-1) s.channel="html.adobe.com:JP";
+else if (s_docURL.indexOf("adobe.com/de")!=-1) s.channel="html.adobe.com:DE";
+else if (s_docURL.indexOf("adobe.com/fr")!=-1) s.channel="html.adobe.com:FR";
+else if (s_docURL.indexOf("adobe.com/cn")!=-1) s.channel="html.adobe.com:CN";
+else s.channel="html.adobe.com:EN";
+
+// Customizable by Agency - add new domain name
+s.linkInternalFilters="javascript:,adobe.com,macromedia.com,photoshop.com,acrobat.com,scene7.com,businesscatalyst.com,openscreenproject.org,flex.org,acrobatusers.com,worldsecuresystems.com,www.willyoubelong.com,adobeconnectforeveryone.com,../";
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<!-- Set TID Cookie -->
+<script language="JavaScript" type="text/javascript">
+<!--
+var TIDNum=Number(new Date);
+var TIDquery=window.location.search;
+var TIDflag=0;
+var incomingSAMCAPcode;
+var outgoingSAMCAPcode;
+var TIDquerysub="";
+if (TIDquery.indexOf("sdid=") != -1) {
+incomingSAMCAPcode=(TIDquery.split(("sdid="),2));
+outgoingSAMCAPcode=(incomingSAMCAPcode[1]);
+if (outgoingSAMCAPcode.indexOf("&") != -1)
+  outgoingSAMCAPcode=outgoingSAMCAPcode.substring(0,outgoingSAMCAPcode.indexOf("&"));
+if (outgoingSAMCAPcode.match(/^[a-zA-Z0-9_]*$/)) {
+  TIDquerysub="sdid="+outgoingSAMCAPcode+"&";
+  TIDflag=1;
+}
+}
+if (TIDquery.indexOf("trackingid") != -1) {
+incomingSAMCAPcode=(TIDquery.split(("trackingid="),2));
+outgoingSAMCAPcode=(incomingSAMCAPcode[1]);
+if (outgoingSAMCAPcode.indexOf("&") != -1)
+  outgoingSAMCAPcode=outgoingSAMCAPcode.substring(0,outgoingSAMCAPcode.indexOf("&"));
+if (outgoingSAMCAPcode.match(/^[a-zA-Z0-9_]*$/)) {
+  TIDquerysub=TIDquerysub+"trackingid="+outgoingSAMCAPcode+"&";
+  TIDflag=1;
+}
+}
+if (TIDquery.indexOf("promoid") != -1) {
+incomingSAMCAPcode=(TIDquery.split(("promoid="),2));
+outgoingSAMCAPcode=(incomingSAMCAPcode[1]);
+if (outgoingSAMCAPcode.indexOf("&") != -1)
+  outgoingSAMCAPcode=outgoingSAMCAPcode.substring(0,outgoingSAMCAPcode.indexOf("&"));
+if (outgoingSAMCAPcode.match(/^[a-zA-Z0-9_]*$/)) {
+  TIDquerysub=TIDquerysub+"promoid="+outgoingSAMCAPcode;
+  TIDflag=1;
+}
+}
+if(TIDflag > 0)
+	document.write('<img src="' + document.location.protocol + '//www.adobe.com/images/pixel.gif?'+TIDNum+"&"+TIDquerysub +'" height=1 width=1 alt="" />');
+//--></script>
+<script language="JavaScript" type="text/javascript">//<![CDATA[
+var scJsHost = (("https:" == document.location.protocol) ? "https://www.adobe.com" : "http://wwwimages.adobe.com");
+document.write(unescape("%3Cscript src='" + scJsHost + "/uber/js/atm/s_code_microsites.js' type='text/javascript'%3E%3C/script%3E"));
+//]]></script><script src="./Edge Inspect_files/s_code_microsites.js" type="text/javascript"></script>
+<script type="text/javascript">//<![CDATA[
+if(s_adobe){
+	s_adobe.s_URL=location.hostname+((location.pathname.charAt(0)=='/')?location.pathname:'/'+location.pathname);
+	s_adobe.s_URLSplit=s_adobe.s_URL.split("/");
+	s_adobe.pageName=s_adobe.s_URLSplit.join(":");
+	if (s_adobe.s_URL.indexOf("adobe.com/jp")!=-1) s_adobe.prop4="jp";
+	else if (s_adobe.s_URL.indexOf("adobe.com/de")!=-1) s_adobe.prop4="de";
+	else if (s_adobe.s_URL.indexOf("adobe.com/fr")!=-1) s_adobe.prop4="fr";
+	else if (s_adobe.s_URL.indexOf("adobe.com/cn")!=-1) s_adobe.prop4="cn";
+	else s_adobe.prop4="en";
+	s_adobe.channel="Products";
+	s_adobe.t()
+}//]]></script>
+
+
+<script type="text/javascript" src="chrome-extension://bmdblncegkenkacieihfhpjfppoconhi/in-page-script.js"></script><iframe id="destination_publishing_iframe_adobe_0" src="./Edge Inspect_files/dest4.html" style="display: none; width: 0px; height: 0px;"></iframe></body></html>

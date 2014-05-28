@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://zombie.labnotes.org/ -->
+<html data-ember-extension="1"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Insanely fast, headless full-stack testing using Node.js</title>
+    <link href="./zombieJS_files/screen.css" media="screen,projection" rel="stylesheet" type="text/css">
+    <link href="./zombieJS_files/github.css" media="screen,projection,print" rel="stylesheet" type="text/css">
+    <link href="./zombieJS_files/print.css" media="print" rel="stylesheet" type="text/css">
+  </head>
+  <body data-ember-extension="1">
+    <div id="header">
+      <div class="title"><a href="./zombieJS_files/zombieJS.html">Zombie.js</a></div>
+    </div>
+    <div id="sidebar">
+      <ul class="navigation">
+        <li><a href="./zombieJS_files/zombieJS.html">Getting Started</a></li>
+        <li><a href="http://zombie.labnotes.org/API">The API</a></li>
+        <li><a href="http://zombie.labnotes.org/selectors">CSS Selectors</a></li>
+        <li><a href="http://zombie.labnotes.org/troubleshoot">Troubleshooting</a></li>
+        <li><a href="http://zombie.labnotes.org/guts">The Guts</a></li>
+        <li><a href="http://zombie.labnotes.org/zombie.pdf">Download PDF</a></li>
+        <li>&nbsp;</li>
+        <li><a href="https://groups.google.com/forum/?hl=en#!forum/zombie-js">Google Group</a></li>
+        <li><a href="irc://irc.freenode.net/zombie.js">IRC: #zombie.js</a></li>
+        <li><a href="https://github.com/assaf/zombie">Github/Issues</a></li>
+        <li><a href="http://zombie.labnotes.org/changelog">Changelog</a></li>
+        <li><a href="http://zombie.labnotes.org/source/">Annotated Source</a></li>
+        <li><a href="http://zombie.labnotes.org/coverage">Code Coverage</a></li>
+        <li><a href="http://travis-ci.org/assaf/zombie"><img src="./zombieJS_files/zombie.png"></a></li>
+      </ul>
+      <div class="donate">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+          ">
+          <input type="image" src="./zombieJS_files/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="./zombieJS_files/pixel.gif" width="1" height="1">
+        </form>
+        More Magic!
+      </div>
+    </div>
+    <div id="content">
+      <h1>Insanely fast, headless full-stack testing using Node.js</h1>
+      <h2 id="The-Bite">The Bite</h2><p>If you're going to write an insanely fast, headless browser, how can you not
+call it Zombie?  Zombie it is.</p><p>Zombie.js is a lightweight framework for testing client-side JavaScript code in
+a simulated environment.  No browser required.</p><p>Let's try to sign up to a page and see what happens:</p><pre><code><span class="keyword">var</span> Browser = require(<span class="string">"zombie"</span>);
+<span class="keyword">var</span> assert = require(<span class="string">"assert"</span>);
+
+<span class="comment">// Load the page from localhost</span>
+browser = <span class="keyword">new</span> Browser()
+browser.visit(<span class="string">"http://localhost:3000/"</span>, <span class="function"><span class="keyword">function</span> <span class="params">()</span> {</span>
+
+  <span class="comment">// Fill email, password and submit form</span>
+  browser.
+    fill(<span class="string">"email"</span>, <span class="string">"zombie@underworld.dead"</span>).
+    fill(<span class="string">"password"</span>, <span class="string">"eat-the-living"</span>).
+    pressButton(<span class="string">"Sign Me Up!"</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+
+      <span class="comment">// Form submitted, new page loaded.</span>
+      assert.ok(browser.success);
+      assert.equal(browser.text(<span class="string">"title"</span>), <span class="string">"Welcome To Brains Depot"</span>);
+
+    })
+
+});</code></pre><p>Well, that was easy.</p><h2 id="Infection">Infection</h2><p>To install Zombie.js you need Node.js, NPM, a C++ compiler and Python.</p><p>On OS X start by installing XCode, or use the <a href="https://github.com/kennethreitz/osx-gcc-installer">OSX GCC
+installer</a> (less to
+download).</p><p>Next, assuming you're using the mighty <a href="http://mxcl.github.com/homebrew/">Homebrew</a>:</p><pre><code>$ brew install node
+$ node --version
+v0.<span class="number">6.2</span>
+$ curl http:<span class="comment">//npmjs.org/install.sh | sudo sh</span>
+$ npm --version
+<span class="number">1.0</span>.<span class="number">106</span>
+$ npm install zombie</code></pre><p>On Ubuntu try these steps:</p><pre><code>$ sudo apt-get install python-software-properties
+$ sudo add-apt-repository ppa:chris-lea/node.js
+$ sudo apt-get update
+$ sudo apt-get install nodejs nodejs-dev npm
+$ node --version
+v0.6.2
+$ npm --version
+1.0.106
+$ npm install zombie</code></pre><p>On Windows you'll need Cygwin to get access to GCC, Python, etc.  <a href="https://github.com/joyent/node/wiki/Building-node.js-on-Cygwin-(Windows)">Read
+this</a>
+for detailed instructions and troubleshooting.</p><h2 id="Walking">Walking</h2><p>To start off we're going to need a browser.  A browser maintains state across
+requests: history, cookies, HTML5 local and session stroage, etc.  A browser
+has a main window, and typically a document loaded into that window.</p><p>You can create a new <code>Browser</code> and point it at a document, either by setting the
+<code>location</code> property or calling its <code>visit</code> function.  As a shortcut, you can
+just call the <code>Browser.visit</code> function with a URL and callback:</p><pre><code>Browser.visit(<span class="string">"http://localhost:3000/"</span>, <span class="function"><span class="keyword">function</span> <span class="params">(e, browser)</span> {</span>
+  <span class="comment">// The browser argument is an instance of Browser class</span>
+  ...
+})</code></pre><p>The browser will load the document and if the document includes any scripts,
+also load and execute these scripts.  It will then process some events, for
+example, anything your scripts do on page load.  All of that, just like a real
+browser, happens asynchronously.</p><p>To wait for the page to fully load and process events, you pass <code>visit</code> a
+callback function.  Zombie will then call your callback with <code><span class="literal">null</span></code>, the browser
+object, the status code of the last response, and an array of errors (hopefully
+empty).  This is JavaScript, so you don't need to declare all these arguments,
+and in fact can access them as <code>browser.statusCode</code> and <code>browser.errors</code>.</p><p>(Why would the first callback argument be <code><span class="literal">null</span></code>?  It works great when using
+asynchronous testing frameworks like
+<a href="http://visionmedia.github.com/mocha/).">Mocha</a></p><p>Zombie also supports promises.  When you call functions like <code>visit</code>, <code>wait</code> or
+<code>clickLink</code> without a callback, you get a
+<a href="http://documentup.com/kriskowal/q/#tutorial">promise</a>.  After the browser is
+done processing, it either fulfills or rejects the promise.</p><p>For example:</p><pre><code>browser.visit(<span class="string">"http://localhost:3000/"</span>).
+  then(<span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    assert.equal(browser.text(<span class="string">"H1"</span>), <span class="string">"Deferred zombies"</span>);
+  }).
+  fail(<span class="function"><span class="keyword">function</span><span class="params">(error)</span> {</span>
+    console.log(<span class="string">"Oops"</span>, error);
+  });</code></pre><p>Another way to simplify your code is to catch all errors from one place using
+events, for example:</p><pre><code>browser.on(<span class="string">"error"</span>, <span class="function"><span class="keyword">function</span><span class="params">(error)</span> {</span>
+  console.error(error);
+})
+browser.visit(<span class="string">"http://localhost:3000/"</span>).
+  then(<span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    assert.equal(browser.text(<span class="string">"H1"</span>), <span class="string">"Deferred zombies"</span>);
+    <span class="comment">// Chaining works by returning a promise here</span>
+    <span class="keyword">return</span> browser.clickLink(<span class="string">"Hit me"</span>);
+  }).
+  then(<span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    assert.equal(browser.text(<span class="string">"H1"</span>), <span class="string">"Ouch"</span>);
+  });</code></pre><p>Most errors that occur – resource loading and JavaScript execution – are not
+fatal, so rather the stopping processing, they are collected in
+<code>browser.errors</code>.  For example:</p><pre><code>browser.visit(<span class="string">"http://localhost:3000/"</span>, <span class="function"><span class="keyword">function</span> <span class="params">()</span> {</span>
+  assert.ok(browser.success);
+  <span class="keyword">if</span> (browser.error )
+    console.dir(<span class="string">"Errors reported:"</span>, browser.errors);
+})</code></pre><p>Whenever you want to wait for all events to be processed, just call
+<code>browser.wait</code> with a callback.  If you know how long the wait is (e.g.
+animation or page transition), you can pass a duration (in milliseconds) as the
+first argument.  You can also pass a function that would return true when done.</p><p>Otherwise, Zombie makes best judgement by waiting for about half a second for
+the page to load resources (scripts, XHR requests, iframes), process DOM events,
+and fire timeouts events.  It is quite common for pages to fire timeout events
+as they load, e.g. jQuery's <code>onready</code>.  Usually these events delay the test by
+no more than a few milliseconds.</p><p>Read more <a href="http://zombie.labnotes.org/API">on the Browser API</a></p><h2 id="Hunting">Hunting</h2><p>There are several ways you can inspect the contents of a document.  For
+starters, there's the <a href="http://www.w3.org/DOM/DOMTR">DOM API</a>, which you can use
+to find elements and traverse the document tree.</p><p>You can also use CSS selectors to pick a specific element or node list.
+Zombie.js implements the <a href="http://www.w3.org/TR/selectors-api/">DOM Selector
+API</a>.  These functions are available from
+every element, the document, and the <code>Browser</code> object itself.</p><p>To get the HTML contents of an element, read its <code>innerHTML</code> property.  If you
+want to include the element itself with its attributes, read the element's
+<code>outerHTML</code> property instead.  Alternatively, you can call the <code>browser.html</code>
+function with a CSS selector and optional context element.  If the function
+selects multiple elements, it will return the combined HTML of them all.</p><p>To see the textual contents of an element, read its <code>textContent</code> property.
+Alternatively, you can call the <code>browser.text</code> function with a CSS selector and
+optional context element.  If the function selects multiple elements, it will
+return the combined text contents of them all.</p><p>Here are a few examples for checking the contents of a document:</p><pre><code><span class="comment">// Make sure we have an element with the ID brains.</span>
+assert.ok(browser.query(<span class="string">"#brains"</span>));
+
+<span class="comment">// Make sure body has two elements with the class hand.</span>
+assert.lengthOf(browser.body.queryAll(<span class="string">".hand"</span>), <span class="number">2</span>);
+
+<span class="comment">// Check the document title.</span>
+assert.equal(browser.text(<span class="string">"title"</span>), <span class="string">"The Living Dead"</span>);
+
+<span class="comment">// Show me the document contents.</span>
+console.log(browser.html());
+
+<span class="comment">// Show me the contents of the parts table:</span>
+console.log(browser.html(<span class="string">"table.parts"</span>));</code></pre><p>CSS selectors are implemented by Sizzle.js.  In addition to CSS 3 selectors you
+get additional and quite useful extensions, such as <code>:not(selector)</code>,
+<code>[NAME!=VALUE]</code>, <code>:contains(TEXT)</code>, <code>:first/:last</code> and so forth.  Check out the
+<a href="https://github.com/jeresig/sizzle/wiki">Sizzle.js documentation</a> for more
+details.</p><p>Read more <a href="http://zombie.labnotes.org/API">on the Browser API</a> and <a href="http://zombie.labnotes.org/selectors">CSS selectors</a></p><h2 id="Feeding">Feeding</h2><p>You're going to want to perform some actions, like clicking links, entering
+text, submitting forms.  You can certainly do that using the <a href="http://www.w3.org/DOM/DOMTR">DOM
+API</a>, or several of the convenience functions we're
+going to cover next.</p><p>To click a link on the page, use <code>clickLink</code> with selector and callback.  The
+first argument can be a CSS selector (see _<a href="http://zombie.labnotes.org/#hunting)_">Hunting</a>, the <code>A</code> element, or the
+text contents of the <code>A</code> element you want to click.</p><p>The second argument is a callback, which much like the <code>visit</code> callback gets
+fired after all events are processed.</p><p>Let's see that in action:</p><pre><code><span class="comment">// Now go to the shopping cart page and check that we have</span>
+<span class="comment">// three bodies there.</span>
+browser.clickLink(<span class="string">"View Cart"</span>, <span class="function"><span class="keyword">function</span><span class="params">(e, browser, status)</span> {</span>
+  assert.lengthOf(browser.queryAll(<span class="string">"#cart .body"</span>), <span class="number">3</span>);
+});</code></pre><p>To submit a form, use <code>pressButton</code>.  The first argument can be a CSS selector,
+the button/input element. the button name (the value of the <code>name</code> argument) or
+the text that shows on the button.  You can press any <code>BUTTON</code> element or
+<code>INPUT</code> of type <code>submit</code>, <code>reset</code> or <code>button</code>.  The second argument is a
+callback, just like <code>clickLink</code>.</p><p>Of course, before submitting a form, you'll need to fill it with values.  For
+text fields, use the <code>fill</code> function, which takes two arguments: selector and
+the field value.  This time the selector can be a CSS selector, the input
+element, the field name (its <code>name</code> attribute), or the text that shows on the
+label associated with that field.</p><p>Zombie.js supports text fields, password fields, text areas, and also the new
+HTML5 fields types like email, search and url.</p><p>The <code>fill</code> function returns a reference to the browser, so you can chain several
+functions together.  Its sibling functions <code>check</code> and <code>uncheck</code> (for check
+boxes), <code>choose</code> (for radio buttons) and <code>select</code> (for drop downs) work the same
+way.</p><p>Let's combine all of that into one example:</p><pre><code><span class="comment">// Fill in the form and submit.</span>
+browser.
+  fill(<span class="string">"Your Name"</span>, <span class="string">"Arm Biter"</span>).
+  fill(<span class="string">"Profession"</span>, <span class="string">"Living dead"</span>).
+  select(<span class="string">"Born"</span>, <span class="string">"1968"</span>).
+  uncheck(<span class="string">"Send me the newsletter"</span>).
+  pressButton(<span class="string">"Sign me up"</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+
+    <span class="comment">// Make sure we got redirected to thank you page.</span>
+    assert.equal(browser.location.pathname, <span class="string">"/thankyou"</span>);
+
+  });</code></pre><p>Read more <a href="http://zombie.labnotes.org/API">on the Browser API</a></p><h2 id="Believing">Believing</h2><p>Here are some guidelines for writing tests using Zombie,
+<a href="http://documentup.com/kriskowal/q/">promises</a> and
+<a href="http://visionmedia.github.com/mocha/">Mocha</a>.</p><p>Let's start with a simple example:</p><pre><code>describe(<span class="string">"visit"</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+  before(<span class="function"><span class="keyword">function</span><span class="params">(done)</span> {</span>
+    <span class="keyword">this</span>.browser = <span class="keyword">new</span> Browser();
+    <span class="keyword">this</span>.browser
+      .visit(<span class="string">"/promises"</span>)
+      .then(done, done);
+  });
+
+  it(<span class="string">"should load the promises page"</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    assert.equal(<span class="keyword">this</span>.browser.location.pathname, <span class="string">"/promises"</span>);
+  });
+});</code></pre><p>The call to <code>visit</code> returns a promise.  Once the page loads successfully, the
+promise will resolve and call the first callback (<code>done</code>) with no arguments.
+This will run the test and evaluate the assertion.  Success.</p><p>If there's an error, the promise fails and calls the second callback (also
+<code>done</code>) with an error.  Calling it with an <code>Error</code> argument causes Mocha to fail
+the test.</p><p>Now let's chain promises together:</p><pre><code>browser
+  .visit(<span class="string">"/promises"</span>) <span class="comment">// Step 1, open a page</span>
+  .then(<span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    <span class="comment">// Step 2, fill-in the form</span>
+    browser.fill(<span class="string">"Email"</span>, <span class="string">"armbiter@example.com"</span>);
+    browser.fill(<span class="string">"Password"</span>, <span class="string">"b100d"</span>);
+  })
+  .then(<span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    <span class="comment">// Step 3, resolve the next promise with this value.</span>
+    <span class="keyword">return</span> <span class="string">"OK"</span>;
+  })
+  .then(<span class="function"><span class="keyword">function</span><span class="params">(value)</span> {</span>
+    <span class="comment">// Step 4, previous step got us to resolve with this value.</span>
+    assert.equal(value, <span class="string">"OK"</span>);
+  })
+  .then(<span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    <span class="comment">// Step 5, click the button and wait for something to happen</span>
+    <span class="comment">// by returning another promise.</span>
+    <span class="keyword">return</span> browser.pressButton(<span class="string">"Let me in"</span>);
+  })
+  .then(done, done);</code></pre><p>The first step is easy, it loads a page and returns a promise.  When that
+promise resolves, it calls the function of the second step which fills the two
+form fields.  That step is itself a promise that resolves with no value.</p><p>The third step follows, and here we simply return a value.  As a result, the
+next promise will resolve with that value, as you can see in the fourth step.
+Another way to think about it is: step four is chained to a new promise with the
+value "OK".</p><p>On to step five where we press the button, which submits the form and loads the
+response page.  All of that happens after <code>pressButton</code>, so we want to wait for
+it before moving to the sixth and last step.</p><p>Luckily, <code>pressButton</code> - just like <code>wait</code> - returns a promise which gets
+fulfilled after the browser is done processing events and loading resources.  By
+returning this new promise, we cause the next step to wait for this promise to
+resolve.</p><p>In short: the very last step is chained to a new promise returned by
+<code>pressButton</code>.  You can use this pattern whenever you need to wait, after
+<code>visit</code>, <code>reload</code>, <code>clickLink</code>, etc.</p><p><strong>Note:</strong> In CoffeeScript a function that doesn't end with explicit <code><span class="keyword">return</span></code>
+statement would return the value of the last statement.  If you're seeing
+promises resolved with unexpected values, you may need to end your function
+with a <code><span class="keyword">return</span></code>.</p><p>In real life the ability to chain promises helps us structure complex scenarios
+out of reusable steps.  Like so:</p><pre><code>browser
+  .visit(<span class="string">"/promises"</span>)
+  .then( fillInName.bind(browser) )
+  .then( fillInAddress.bind(browser) )
+  .then( fillInCreditCard.bind(browser) )
+  .then(<span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    browser.pressButton(<span class="string">"Buy it!"</span>)
+  })
+  .then(done, done);</code></pre><p><strong>Note:</strong> This usage of <code>bind</code> is one way to allow a function defined in another
+context to use the <code>Browser</code> object available in this context.</p><p>Let's talk about error handling.  In promise-land, an error causes the promise
+to be rejected.  However, errors are not re-thrown out of the promise, and so
+this code will fail silently:</p><pre><code>browser
+  .visit(<span class="string">"/promises"</span>)
+  .then(<span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    <span class="comment">// This throws an error, which gets caught and rejects</span>
+    <span class="comment">// the promise.</span>
+    assert(<span class="literal">false</span>, <span class="string">"I fail!"</span>);
+  })
+  .then(done);</code></pre><p>Rejection may not be fun, but you've got to deal with it.</p><p>When a promise gets rejected, that rejection travels down the chain, so you only
+need to catch it at the very end.  The examples we started with do that by
+calling <code>then</code> with the same callback for handling the resolved and rejected
+cases.</p><p>If your test case expects an error to happen, write it like this:</p><pre><code>browser
+  .visit(<span class="string">"/promises"</span>)
+  .then(<span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+    assert(<span class="literal">false</span>, <span class="string">"I fail!"</span>)
+  })
+  .fail(<span class="function"><span class="keyword">function</span><span class="params">(error)</span> {</span>
+    <span class="comment">// Error happened, test is done.  Otherwise, done never</span>
+    <span class="comment">// gets called and Mocha will fail this test.</span>
+    done();
+  });</code></pre><p>Another way of dealing with errors:</p><pre><code>before(<span class="function"><span class="keyword">function</span><span class="params">(done)</span> {</span>
+  <span class="keyword">this</span>.browser = <span class="keyword">new</span> Browser();
+  <span class="keyword">this</span>.browser
+    .visit(<span class="string">"/no-such-page"</span>)
+    .<span class="keyword">finally</span>(done);
+});
+
+it(<span class="string">"should report an error"</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+  assert(<span class="keyword">this</span>.browser.error);
+})</code></pre><p>Unlike <code>then</code>, the <code><span class="keyword">finally</span></code> callback gets called on either success or failure
+and with no value.</p><p>Read more <a href="http://documentup.com/kriskowal/q/">about promises</a>.</p><h2 id="Readiness">Readiness</h2><p>Zombie.js supports the following:</p><ul><li>HTML5 parsing and dealing with tag soups</li><li><a href="http://www.w3.org/DOM/DOMTR">DOM Level 3</a> implementation</li><li>HTML5 form fields (<code>search</code>, <code>url</code>, etc)</li><li>CSS3 Selectors with <a href="http://sizzlejs.com/">some extensions</a></li><li>Cookies and <a href="http://dev.w3.org/html5/webstorage/">Web Storage</a></li><li><code>XMLHttpRequest</code> in all its glory</li><li><code>setTimeout</code>/<code>setInterval</code></li><li><code>pushState</code>, <code>popstate</code> and <code>hashchange</code> events</li><li><code>alert</code>, <code>confirm</code> and <code>prompt</code></li><li>WebSockets and Server-Sent Events</li></ul><h2 id="In-The-Family">In The Family</h2><p><strong><a href="https://github.com/plataformatec/capybara-zombie">capybara-zombie</a></strong> --
+Capybara driver for zombie.js running on top of node.</p><p><strong><a href="https://github.com/mileskin/zombie-jasmine-spike">zombie-jasmine-spike</a></strong> --
+Spike project for trying out Zombie.js with Jasmine</p><p><strong><a href="http://visionmedia.github.com/mocha/">Mocha</a></strong> -- mocha - simple, flexible,
+fun javascript test framework for node.js &amp; the browser. (BDD, TDD, QUnit styles
+via interfaces)</p><p><strong><a href="https://github.com/Behat/Mink">Mink</a></strong> -- PHP 5.3 acceptance test framework
+for web applications</p><h2 id="Reporting-Glitches">Reporting Glitches</h2><p><strong>Step 1:</strong> Run Zombie with debugging turned on, the trace will help figure out
+what it's doing. For example:</p><pre><code>Browser.debug = <span class="literal">true</span>
+<span class="keyword">var</span> browser = <span class="keyword">new</span> Browser()
+browser.visit(<span class="string">"http://thedead"</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+  console.log(status, browser.errors);
+  ...
+});</code></pre><p><strong>Step 2:</strong> Wait for it to finish processing, then dump the current browser
+state:</p><p>   browser.dump();</p><p><strong>Step 3:</strong> If publicly available, include the URL of the page you're trying to
+access.  Even better, provide a test script I can run from the Node.js console
+(similar to step 1 above).</p><p>Read more <a href="http://zombie.labnotes.org/troubleshoot">about troubleshooting</a></p><h2 id="Giving-Back">Giving Back</h2><ul><li>Find <a href="http://github.com/assaf/zombie">assaf/zombie on Github</a></li><li>Fork the project</li><li>Add tests</li><li>Make your changes</li><li>Send a pull request</li></ul><p>Read more <a href="http://zombie.labnotes.org/guts">about the guts of Zombie.js</a> and check out the outstanding
+<a href="http://zombie.labnotes.org/todo">to-dos</a>.</p><p>Follow announcements, ask questions on <a href="https://groups.google.com/forum/?hl=en#!forum/zombie-js">the Google
+Group</a></p><p>Get help on IRC: join <a href="irc://irc.freenode.net/zombie.js">zombie.js on Freenode</a>
+or <a href="http://webchat.freenode.net/?channels=zombie-js">web-based IRC</a></p><h2 id="Brains">Brains</h2><p>Zombie.js is copyright of <a href="http://labnotes.org/">Assaf Arkin</a>, released under the
+MIT License</p><p>Blood, sweat and tears of joy:</p><p><a href="http://boblail.tumblr.com/">Bob Lail boblail</a></p><p><a href="https://github.com/brianmcd">Brian McDaniel</a></p><p><a href="https://github.com/djanowski">Damian Janowski aka djanowski</a></p><p><a href="http://blog.plataformatec.com.br/">José Valim aka josevalim</a></p><p><a href="http://www.justinlatimer.com/">Justin Latimer</a></p><p>And all the fine people mentioned in <a href="http://zombie.labnotes.org/changelog">the changelog</a>.</p><p>Zombie.js is written in
+<a href="http://jashkenas.github.com/coffee-script/">CoffeeScript</a> for
+<a href="http://nodejs.org/">Node.js</a></p><p>DOM emulation by Elijah Insua's <a href="http://jsdom.org/">JSDOM</a></p><p>HTML5 parsing by Aria Stewart's <a href="https://github.com/aredridel/html5">HTML5</a></p><p>CSS selectors by John Resig's <a href="http://sizzlejs.com/">Sizzle.js</a></p><p>XPath support using Google's <a href="http://code.google.com/p/ajaxslt/">AJAXSLT</a></p><p>JavaScript execution contexts using
+<a href="https://github.com/brianmcd/contextify">Contextify</a></p><p>HTTP(S) requests using <a href="https://github.com/mikeal/request">Request</a></p><p>Cookie support using <a href="https://github.com/goinstant/node-cookie">Tough Cookie</a></p><p>Promises support via <a href="http://documentup.com/kriskowal/q/">Q</a></p><p>Magical Zombie Girl by <a href="http://www.flickr.com/people/tohoscope/">Toho Scope</a></p><h2 id="See-Also">See Also</h2><p><strong>zombie-api</strong>(7), <strong>zombie-troubleshoot</strong>(7), <strong>zombie-selectors</strong>(7),
+<strong>zombie-changelog</strong>(7), <strong>zombie-todo</strong>(7)</p>
+
+    </div>
+    <div id="footer">
+      Zombie.js brought to you by <a href="https://github.com/assaf/zombie/contributors">very alive people</a>.
+    </div>
+    <script type="text/javascript" async="" src="./zombieJS_files/ga.js"></script><script type="text/javascript">
+      var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-1828623-10']);_gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  
+
+<script type="text/javascript" src="chrome-extension://bmdblncegkenkacieihfhpjfppoconhi/in-page-script.js"></script></body></html>

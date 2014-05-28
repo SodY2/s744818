@@ -1,0 +1,2753 @@
+<!DOCTYPE html>
+<!-- saved from url=(0893)http://disqus.com/embed/comments/?base=default&disqus_version=e91c102d&f=sailscasts&t_i=http%3A%2F%2Firlnathan.github.io%2Fsailscasts%2Fblog%2F2013%2F10%2F10%2Fbuilding-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events%2F&t_u=http%3A%2F%2Firlnathan.github.io%2Fsailscasts%2Fblog%2F2013%2F10%2F10%2Fbuilding-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events%2F&t_d=Building%20a%20Sails%20Application%3A%20Ep21%20-%20Integrating%20socket.io%20and%20sails%20with%20custom%20controller%20actions%20using%20Real%20Time%20Model%20Events.%20-%20sailsCasts&t_t=Building%20a%20Sails%20Application%3A%20Ep21%20-%20Integrating%20socket.io%20and%20sails%20with%20custom%20controller%20actions%20using%20Real%20Time%20Model%20Events.%20-%20sailsCasts&s_o=default#2 -->
+<html lang="en" dir="ltr" class="js no-touch localstorage sessionstorage contenteditable use-opacity-transitions"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Disqus Comments</title>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+    <style>
+        html {
+            overflow: hidden;
+        }
+        
+    </style>
+
+<link rel="stylesheet" href="http://a.disquscdn.com/next/styles/lounge.acedd86f0e1b3cdc403ce207be0fe51a.css"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/config" src="config.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common.bundle" src="common.48dfd4ff1b7a17dea0eaec40ac824fff.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lounge.bundle" src="lounge.06187d3517ac07ea9533de01ed6cd226.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="http://www.google-analytics.com/ga.js" src="ga.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="http://b.scorecardresearch.com/beacon.js" src="beacon.js"></script><style id="css_1401278033452"></style><!--<base target="_parent" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/">--><base href="." target="_parent"><link rel="stylesheet" href="http://a.disquscdn.com/next/styles/discovery.910f97da6dc6da8c3f21770c34898a20.css"><script src="event.js" async="" charset="UTF-8"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="//a.disquscdn.com/next/discovery.ca32296f8203b414987cef88075f6a61.js" src="discovery.ca32296f8203b414987cef88075f6a61.js"></script><script src="event(1).js" async="" charset="UTF-8"></script><script src="event(2).js" async="" charset="UTF-8"></script></head>
+<body class="serif" style="">
+    
+    <!--[if lte IE 8]>
+<script src="//a.disquscdn.com/1400712252/build/vendor/ie8.js"></script>
+<![endif]-->
+<!--[if IE 9]>
+<script src="//a.disquscdn.com/1400712252/build/vendor/ie9.js"></script>
+<![endif]-->
+
+    
+<script type="text/json" id="disqus-urls">{
+    "root":"//disqus.com",
+    "next":"//a.disquscdn.com/next/e91c102d"
+}</script>
+
+    
+
+    
+    <script type="text/json" id="disqus-forumData">{"session":{"canModerate":false,"isReadOnly":null,"audienceSyncVerified":false,"canReply":true,"notificationCount":null,"mustVerifyEmail":false},"features":{},"forum":{"name":"sailsCasts","founder":"26770072","settings":{"canEnableSponsoredComments":false,"hasCustomAvatar":false,"allowAnonPost":false,"allowMedia":true,"moderatorText":"","typeface":"auto","promotedDiscoveryEnabled":false,"discoveryMax":false,"ssoRequired":false,"discoveryLocked":false,"audienceSyncEnabled":false,"organicDiscoveryEnabled":true,"backplaneEnabled":false,"discoveryThumbnailsEnabled":false,"colorScheme":"auto","sponsoredCommentsEnabled":false,"linkAffiliationEnabled":true},"url":"http://irlnathan.github.io/sailscasts/","favicon":{"permalink":"http://disqus.com/api/forums/favicons/sailscasts.jpg","cache":"//a.disquscdn.com/1400712252/images/favicon-default.png"},"language":"en","avatar":{"small":{"permalink":"http://disqus.com/api/forums/avatars/sailscasts.jpg?size=32","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"large":{"permalink":"http://disqus.com/api/forums/avatars/sailscasts.jpg?size=92","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"}},"pk":2507456,"id":"sailscasts"}}</script>
+
+    
+    <script type="text/json" id="disqus-threadData">{"cursor":{"hasPrev":false,"prev":null,"total":15,"hasNext":false,"next":"1:0:0"},"code":0,"response":{"lastModified":1400110333,"posts":[{"isFlagged":false,"forum":"sailscasts","parent":null,"author":{"username":"vusansarma","about":"","name":"vusan sarma","url":"","isAnonymous":false,"rep":1.232689,"profileUrl":"http://disqus.com/vusansarma/","reputation":1.232689,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2014-03-03T12:11:28","id":"97138204","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/vusansarma.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/vusansarma.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png","large":{"permalink":"http://disqus.com/api/users/avatars/vusansarma.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Does it also work on newer versions? I'm using 0.10.0","createdAt":"2014-03-03T12:11:40","id":"1268339437","thread":"1844392380","depth":0,"numReports":0,"likes":2,"isEdited":true,"message":"\u003cp>Does it also work on newer versions? I'm using 0.10.0\u003c/p>","isSpam":false,"isHighlighted":false,"points":2},{"isFlagged":false,"forum":"sailscasts","parent":1268339437,"author":{"username":"larsdol","about":"","name":"Lars Dol","url":"","isAnonymous":false,"rep":1.232124,"profileUrl":"http://disqus.com/larsdol/","reputation":1.232124,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2014-05-02T11:20:58","id":"105479964","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/larsdol.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/larsdol.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png","large":{"permalink":"http://disqus.com/api/users/avatars/larsdol.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"I've been wondering the same thing, I'm using 0.10-rc5, and getting debug messages in my terminal saying:\n\ndebug: Deprecated:   `Model.subscribe(socket, null, ...)`\n\ndebug: See http://links.sailsjs.org/docs/config/pubsub\n\ndebug: (\u2318 + double-click to open link from terminal)\n\ndebug: Please use instance rooms instead (or raw sails.sockets.*() methods.)\n\n\n\n.subscribe deprecated? Or what's happening :)?","createdAt":"2014-05-02T11:23:21","id":"1366062857","thread":"1844392380","depth":1,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>I've been wondering the same thing, I'm using 0.10-rc5, and getting debug messages in my terminal saying:\u003c/p>\u003cp>debug: Deprecated:   `Model.subscribe(socket, null, ...)`\u003c/p>\u003cp>debug: See \u003ca href=\"http://links.sailsjs.org/docs/config/pubsub\" rel=\"nofollow\">http://links.sailsjs.org/docs/...\u003c/a>\u003c/p>\u003cp>debug: (\u2318 + double-click to open link from terminal)\u003c/p>\u003cp>debug: Please use instance rooms instead (or raw sails.sockets.*() methods.)\u003c/p>\u003cp>.subscribe deprecated? Or what's happening :)?\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":null,"author":{"username":"cristian_gonzalez_valencia","about":"","name":"cristian gonzalez valencia","url":"","isAnonymous":false,"rep":1.232124,"profileUrl":"http://disqus.com/cristian_gonzalez_valencia/","reputation":1.232124,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2014-05-14T23:24:00","id":"107027561","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/cristian_gonzalez_valencia.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/cristian_gonzalez_valencia.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png","large":{"permalink":"http://disqus.com/api/users/avatars/cristian_gonzalez_valencia.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"}}},"media":[{"forum":"sailscasts","thumbnailUrl":"//a.disquscdn.com/get?url=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FK5u7UCan2wU%2Fhqdefault.jpg&key=jP85cFMUCAU80LOm2c8Jxg","description":"i have an error in sails","thread":"1844392380","title":"error sockets sailsJs","url":"http://youtu.be/K5u7UCan2wU","htmlHeight":480,"mediaType":"3","metadata":{"create_method":"preview","thumbnail":"//a.disquscdn.com/get?url=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FK5u7UCan2wU%2Fhqdefault.jpg&key=jP85cFMUCAU80LOm2c8Jxg"},"thumbnailWidth":480,"html":"\u003ciframe width=\"854\" src=\"//cdn.embedly.com/widgets/media.html?src=http%3A%2F%2Fwww.youtube.com%2Fembed%2FK5u7UCan2wU%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DK5u7UCan2wU&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FK5u7UCan2wU%2Fhqdefault.jpg&amp;key=12cf9f1196df4531bf5bd1d514b3c9e3&amp;type=text%2Fhtml&amp;schema=youtube\" height=\"480\" scrolling=\"no\" frameborder=\"no\">\u003c/iframe>","providerName":"YouTube","type":"2","resolvedUrl":"http://www.youtube.com/watch?v=K5u7UCan2wU","thumbnailHeight":360,"post":"1385955608","thumbnailURL":"//a.disquscdn.com/get?url=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FK5u7UCan2wU%2Fhqdefault.jpg&key=jP85cFMUCAU80LOm2c8Jxg","htmlWidth":854,"id":1734812,"location":""}],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Hi !!!, I really like your videos and have learned a lot with them and i not had no errors until today, I think the error that I have has to do with the version of sails. Here I leave a video of the error and I would greatly appreciate your help.\n\nmy repository in github is : https://github.com/CristianG540/SailsCastsProyect1\n\nthis is the video: http://youtu.be/K5u7UCan2wU","createdAt":"2014-05-14T23:31:48","id":"1385955608","thread":"1844392380","depth":0,"numReports":0,"likes":0,"isEdited":true,"message":"\u003cp>Hi !!!, I really like your videos and have learned a lot with them and i not had no errors until today, I think the error that I have has to do with the version of sails. Here I leave a video of the error and I would greatly appreciate your help.\u003c/p>\u003cp>my repository in github is : \u003ca href=\"https://github.com/CristianG540/SailsCastsProyect1\" rel=\"nofollow\">https://github.com/CristianG54...\u003c/a>\u003c/p>\u003cp>this is the video: \u003ca href=\"http://youtu.be/K5u7UCan2wU\" rel=\"nofollow\">http://youtu.be/K5u7UCan2wU\u003c/a>\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":null,"author":{"username":"disqus_H0AAmw2xqq","about":"","name":"Chris Turner","url":"","isAnonymous":false,"rep":1.234338,"profileUrl":"http://disqus.com/disqus_H0AAmw2xqq/","reputation":1.234338,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2014-04-25T00:57:26","id":"104538403","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar32.jpg?1398739789"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789","large":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"I'm using 0.9.16 and I'm noticing some problems after the part where the User.publishUpdate() methods are added to the SessionController.js, in the create and destroy sections:\n\nFirst, when starting the Sails server, it spits out an error for each tab that is open:\nerror: No session data returned, and an error was encountered saving session data for the first time: undefined\n\n\n\nAlso, I'm getting no console message in the incognito browser tab when logging into the standard browser tab.\n\n\nAny ideas why?","createdAt":"2014-04-25T01:01:46","id":"1354447777","thread":"1844392380","depth":0,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>I'm using 0.9.16 and I'm noticing some problems after the part where the User.publishUpdate() methods are added to the SessionController.js, in the create and destroy sections:\u003c/p>\u003cp>First, when starting the Sails server, it spits out an error for each tab that is open:\u003cbr>error: No session data returned, and an error was encountered saving session data for the first time: undefined\u003c/p>\u003cp>Also, I'm getting no console message in the incognito browser tab when logging into the standard browser tab.\u003c/p>\u003cp>Any ideas why?\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":1354447777,"author":{"username":"irlnathan","about":"","name":"irlnathan","url":"","isAnonymous":false,"rep":1.244075,"profileUrl":"http://disqus.com/irlnathan/","reputation":1.244075,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2012-05-29T15:39:01","id":"26770072","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png","large":{"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Hiya Chris,\n\n\nSend me a link to your repo and I'll take a look.\n\n\nBest, Irl","createdAt":"2014-04-25T18:03:42","id":"1355490452","thread":"1844392380","depth":1,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>Hiya Chris,\u003c/p>\u003cp>Send me a link to your repo and I'll take a look.\u003c/p>\u003cp>Best, Irl\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":1355490452,"author":{"username":"disqus_H0AAmw2xqq","about":"","name":"Chris Turner","url":"","isAnonymous":false,"rep":1.234338,"profileUrl":"http://disqus.com/disqus_H0AAmw2xqq/","reputation":1.234338,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2014-04-25T00:57:26","id":"104538403","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar32.jpg?1398739789"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789","large":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"https://github.com/SlowburnAZ/SailsJS_activityOverlord","createdAt":"2014-04-25T18:39:55","id":"1355543520","thread":"1844392380","depth":2,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>\u003ca href=\"https://github.com/SlowburnAZ/SailsJS_activityOverlord\" rel=\"nofollow\">https://github.com/SlowburnAZ/...\u003c/a>\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":1355543520,"author":{"username":"irlnathan","about":"","name":"irlnathan","url":"","isAnonymous":false,"rep":1.244075,"profileUrl":"http://disqus.com/irlnathan/","reputation":1.244075,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2012-05-29T15:39:01","id":"26770072","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png","large":{"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Hiya Chris,\n\n\nThe first issue with the error: No session... --> This will happen anytime you have open tabs and the quit the server.  When you bring the server back-up it's trying to connect but there's a mismatch because the id of the open tab doesn't match up...It's normal and when you refresh the browser the ids get back in sync.\n\n\nI cloned your project and the socket messages displayed in both the console and incognito console...so I'm not sure why you're having a problem?\n\n\nBest, Irl","createdAt":"2014-04-26T03:33:41","id":"1356115710","thread":"1844392380","depth":3,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>Hiya Chris,\u003c/p>\u003cp>The first issue with the error: No session... --&gt; This will happen anytime you have open tabs and the quit the server.  When you bring the server back-up it's trying to connect but there's a mismatch because the id of the open tab doesn't match up...It's normal and when you refresh the browser the ids get back in sync.\u003c/p>\u003cp>I cloned your project and the socket messages displayed in both the console and incognito console...so I'm not sure why you're having a problem?\u003c/p>\u003cp>Best, Irl\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":1356115710,"author":{"username":"disqus_H0AAmw2xqq","about":"","name":"Chris Turner","url":"","isAnonymous":false,"rep":1.234338,"profileUrl":"http://disqus.com/disqus_H0AAmw2xqq/","reputation":1.234338,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2014-04-25T00:57:26","id":"104538403","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar32.jpg?1398739789"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789","large":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Irl,\n\nSo, I've tried running this code on another machine, just to rule out any environmental issues.\n\nI still cannot get the other browser tab to show any socket messages in the console. Per your screencast, I bring up the site in a normal browser tab, and I bring it up in an incognito tab.  When I log in in the normal tab, I get no socket messages in the incognito tab.  The UI also doesn't update.  \n\nThis brings up another question...  in your SessionController code, you have the following:\n\nUser.publishUpdate(user.id, {\nloggedIn: true,\nid: user.id\n});\n\n\n\nI'm confused by this, and wondering how your example is even showing any UI updates...  your User model doesn't *have* a \"loggedIn\" attribute, does it?  Shouldn't that be \"online\"?","createdAt":"2014-04-29T02:03:18","id":"1360007505","thread":"1844392380","depth":4,"numReports":0,"likes":0,"isEdited":true,"message":"\u003cp>Irl,\u003c/p>\u003cp>So, I've tried running this code on another machine, just to rule out any environmental issues.\u003c/p>\u003cp>I still cannot get the other browser tab to show any socket messages in the console. Per your screencast, I bring up the site in a normal browser tab, and I bring it up in an incognito tab.  When I log in in the normal tab, I get no socket messages in the incognito tab.  The UI also doesn't update.\u003c/p>\u003cp>This brings up another question...  in your SessionController code, you have the following:\u003c/p>\u003cp>User.publishUpdate(\u003ca href=\"http://user.id\" rel=\"nofollow\">user.id\u003c/a>, {\u003cbr>loggedIn: true,\u003cbr>id: \u003ca href=\"http://user.id\" rel=\"nofollow\">user.id\u003c/a>\u003cbr>});\u003c/p>\u003cp>I'm confused by this, and wondering how your example is even showing any UI updates...  your User model doesn't *have* a \"loggedIn\" attribute, does it?  Shouldn't that be \"online\"?\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":1360007505,"author":{"username":"disqus_H0AAmw2xqq","about":"","name":"Chris Turner","url":"","isAnonymous":false,"rep":1.234338,"profileUrl":"http://disqus.com/disqus_H0AAmw2xqq/","reputation":1.234338,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2014-04-25T00:57:26","id":"104538403","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar32.jpg?1398739789"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789","large":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Well, I found one problem with my code:  \nI had \"socket.get('/user/subscribe');\" inside the socket.on('message'...)\n\n\nMy bad.\n\n\n\n\nHowever, the \"loggedIn\" thing still has me confused.  I'm guessing you must mean \"online\".","createdAt":"2014-04-29T02:23:23","id":"1360025537","thread":"1844392380","depth":5,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>Well, I found one problem with my code:  \u003cbr>I had \"socket.get('/user/subscribe');\" inside the socket.on('message'...)\u003c/p>\u003cp>My bad.\u003c/p>\u003cp>However, the \"loggedIn\" thing still has me confused.  I'm guessing you must mean \"online\".\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":1360025537,"author":{"username":"irlnathan","about":"","name":"irlnathan","url":"","isAnonymous":false,"rep":1.244075,"profileUrl":"http://disqus.com/irlnathan/","reputation":1.244075,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2012-05-29T15:39:01","id":"26770072","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png","large":{"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Hi Chris,\n\n\nWhen I publishUpdate when a new session is created, I need an attribute to pass to the client that would convey whether the user was logged in or not and based on that value update the ui.  In hindsight I probably should of used online for my attribute name.   I'm glad you have it working!  \n\n\nBest, Irl","createdAt":"2014-04-29T02:37:50","id":"1360038094","thread":"1844392380","depth":6,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>Hi Chris,\u003c/p>\u003cp>When I publishUpdate when a new session is created, I need an attribute to pass to the client that would convey whether the user was logged in or not and based on that value update the ui.  In hindsight I probably should of used online for my attribute name.   I'm glad you have it working!\u003c/p>\u003cp>Best, Irl\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":1360038094,"author":{"username":"disqus_H0AAmw2xqq","about":"","name":"Chris Turner","url":"","isAnonymous":false,"rep":1.234338,"profileUrl":"http://disqus.com/disqus_H0AAmw2xqq/","reputation":1.234338,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2014-04-25T00:57:26","id":"104538403","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar32.jpg?1398739789"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789","large":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Oh, so your loggedIn attribute is not referencing the 'online' attribute of the User model?","createdAt":"2014-04-29T02:49:47","id":"1360047762","thread":"1844392380","depth":7,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>Oh, so your loggedIn attribute is not referencing the 'online' attribute of the User model?\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":1360047762,"author":{"username":"irlnathan","about":"","name":"irlnathan","url":"","isAnonymous":false,"rep":1.244075,"profileUrl":"http://disqus.com/irlnathan/","reputation":1.244075,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2012-05-29T15:39:01","id":"26770072","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png","large":{"permalink":"http://disqus.com/api/users/avatars/irlnathan.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"loggedIn is not referencing the online attribute. loggedIn is an attribute that is set on a successful .save() of the user model.  I could have called the attribute `foo`.  The point is, that it \"stores\" whether the person is logged in and when the message is received by the client via app.js, there's code which does one thing if loggedIn is true and another if it's a value other than true.","createdAt":"2014-04-29T03:20:51","id":"1360072232","thread":"1844392380","depth":8,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>loggedIn is not referencing the online attribute. loggedIn is an attribute that is set on a successful .save() of the user model.  I could have called the attribute `foo`.  The point is, that it \"stores\" whether the person is logged in and when the message is received by the client via app.js, there's code which does one thing if loggedIn is true and another if it's a value other than true.\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":1356115710,"author":{"username":"disqus_H0AAmw2xqq","about":"","name":"Chris Turner","url":"","isAnonymous":false,"rep":1.234338,"profileUrl":"http://disqus.com/disqus_H0AAmw2xqq/","reputation":1.234338,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2014-04-25T00:57:26","id":"104538403","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar32.jpg?1398739789"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789","large":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Wow, that's weird!\n\nMaybe the problem is with the environment I was working in.  I'll try again on a different machine to see if that makes any difference.\n\nThanks for checking it out!","createdAt":"2014-04-26T04:03:55","id":"1356136399","thread":"1844392380","depth":4,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>Wow, that's weird!\u003c/p>\u003cp>Maybe the problem is with the environment I was working in.  I'll try again on a different machine to see if that makes any difference.\u003c/p>\u003cp>Thanks for checking it out!\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":1356136399,"author":{"username":"disqus_H0AAmw2xqq","about":"","name":"Chris Turner","url":"","isAnonymous":false,"rep":1.234338,"profileUrl":"http://disqus.com/disqus_H0AAmw2xqq/","reputation":1.234338,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2014-04-25T00:57:26","id":"104538403","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar32.jpg?1398739789"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789","large":{"permalink":"http://disqus.com/api/users/avatars/disqus_H0AAmw2xqq.jpg","cache":"//a.disquscdn.com/uploads/users/10453/8403/avatar92.jpg?1398739789"}}},"media":[],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"Well, I don't know what's going on, but sockets just aren't working for me.  I guess I'll just clone your project and go from there.  :-(","createdAt":"2014-04-26T04:17:14","id":"1356145379","thread":"1844392380","depth":5,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>Well, I don't know what's going on, but sockets just aren't working for me.  I guess I'll just clone your project and go from there.  :-(\u003c/p>","isSpam":false,"isHighlighted":false,"points":0},{"isFlagged":false,"forum":"sailscasts","parent":null,"author":{"username":"amirkheirabad","about":"","name":"Amir Kheirabad","url":"","isAnonymous":false,"rep":1.232862,"profileUrl":"http://disqus.com/amirkheirabad/","reputation":1.232862,"location":"","isPrivate":false,"isPrimary":true,"joinedAt":"2013-12-16T02:10:36","id":"86281215","avatar":{"small":{"permalink":"http://disqus.com/api/users/avatars/amirkheirabad.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar32.png"},"isCustom":false,"permalink":"http://disqus.com/api/users/avatars/amirkheirabad.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png","large":{"permalink":"http://disqus.com/api/users/avatars/amirkheirabad.jpg","cache":"//a.disquscdn.com/1400712252/images/noavatar92.png"}}},"media":[{"forum":"sailscasts","thumbnailUrl":"//a.disquscdn.com/get?url=http%3A%2F%2Fsocket.io%2Fimages%2Fforkme.png&key=kgIz_8lRcL1E0hu3TX86hQ","description":"How to use Installing npm install socket.io Using with Node HTTP server For this example, simply run `npm install socket.io` Using with the Express 3 web framework Express 3 requires that you instantiate a `http.Server` to attach socket.io to first:/p> Using with the Express web framework You can serve normal pages and AJAX requests with Express, and attach your socket.io server For this example, simply run `npm install socket.io express` Sending and receiving events.","thread":"1844392380","title":"Socket.IO","url":"socket.io","htmlHeight":null,"mediaType":"4","metadata":{"create_method":"preview","thumbnail":"//a.disquscdn.com/get?url=http%3A%2F%2Fsocket.io%2Fimages%2Fforkme.png&key=kgIz_8lRcL1E0hu3TX86hQ"},"thumbnailWidth":149,"html":"","providerName":"Socket","type":"6","resolvedUrl":"http://socket.io/","thumbnailHeight":149,"post":"1165231643","thumbnailURL":"//a.disquscdn.com/get?url=http%3A%2F%2Fsocket.io%2Fimages%2Fforkme.png&key=kgIz_8lRcL1E0hu3TX86hQ","htmlWidth":null,"id":28743,"location":""}],"isDeleted":false,"isApproved":true,"dislikes":0,"raw_message":"hi ...\ni work on chat room project with sails.js ... \nbut i know how to use socket.io in sails for chat room ...?","createdAt":"2013-12-16T02:10:45","id":"1165231643","thread":"1844392380","depth":0,"numReports":0,"likes":0,"isEdited":false,"message":"\u003cp>hi ...\u003cbr>i work on chat room project with sails.js ... \u003cbr>but i know how to use \u003ca href=\"http://socket.io\" rel=\"nofollow\">socket.io\u003c/a> in sails for chat room ...?\u003c/p>","isSpam":false,"isHighlighted":false,"points":0}],"thread":{"feed":"http://sailscasts.disqus.com/building_a_sails_application_ep21_integrating_socketio_and_sails_with_custom_controller_actions_usin/latest.rss","uploadAdd":"//sailscasts.disqus.com/thread/building_a_sails_application_ep21_integrating_socketio_and_sails_with_custom_controller_actions_usin/async_media_upload/","identifiers":["http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/"],"dislikes":0,"likes":1,"message":"","id":"1844392380","createdAt":"2013-10-10T22:52:55","category":"2544777","clean_title":"Building a Sails Application: Ep21 - Integrating socket.io and sails with custom controller actions using Real Time Model Events.","userScore":0,"moderators":[26770072],"isDeleted":false,"hasStreaming":false,"uploadRemove":"//sailscasts.disqus.com/thread/building_a_sails_application_ep21_integrating_socketio_and_sails_with_custom_controller_actions_usin/async_media_remove/","isClosed":false,"link":"http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/","slug":"building_a_sails_application_ep21_integrating_socketio_and_sails_with_custom_controller_actions_usin","forum":"sailscasts","author":"26770072","posts":15,"userSubscription":false,"title":"Building a Sails Application: Ep21 - Integrating socket.io and sails with custom controller actions using Real Time Model Events. - sailsCasts","highlightedPost":null}},"order":"popular"}</script>
+
+    
+
+    <div id="fixed-content"></div>
+
+    <script src="lounge.load.js"></script>
+    
+
+
+<div id="layout" data-tracking-area="layout">
+
+<div id="discovery-top" data-tracking-area="discovery-north"></div>
+
+<div id="onboard" data-tracking-area="onboard"></div>
+
+<div id="highlighted-post" data-tracking-area="highlighted" class="highlighted-post" style="display: none;"></div>
+
+<header id="main-nav" data-tracking-area="main-nav">
+
+<nav class="nav nav-primary">
+<ul>
+<li class="tab-conversation active">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-role="post-count" class="publisher-nav-color" data-nav="conversation"><span class="comment-count">
+
+15 comments
+
+</span>
+
+
+<span class="comment-count-placeholder">
+Comments
+</span></a>
+</li>
+<li class="tab-community">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="publisher-nav-color" data-nav="community" id="community-tab">
+
+
+<span class="community-name">
+
+<strong>sailsCasts</strong>
+
+</span>
+
+
+<strong class="community-name-placeholder">Community</strong>
+</a>
+</li>
+<li class="dropdown user-menu" data-role="logout"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="dropdown-toggle" data-toggle="dropdown">
+<span class="dropdown-toggle-wrapper">
+
+
+<span>
+Login
+</span>
+
+
+</span> <span class="caret"></span>
+</a>
+
+<ul class="dropdown-menu">
+
+
+
+
+<li>
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="auth:disqus">Disqus</a>
+</li>
+<li>
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="auth:facebook">Facebook</a>
+</li>
+<li>
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="auth:twitter">Twitter</a>
+</li>
+<li>
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="auth:google">Google</a>
+</li>
+
+
+
+
+
+
+
+</ul></li>
+<li class="notification-menu" data-role="notification-menu"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="notification-container" data-action="auth:disqus">
+<span class="notification-icon icon-disqus"></span></a></li>
+</ul>
+</nav>
+
+</header>
+
+
+
+
+<section id="conversation" data-role="main" data-tracking-area="main">
+
+<div class="nav nav-secondary" data-tracking-area="secondary-nav">
+<ul>
+
+<li data-role="post-sort" class="dropdown sorting">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="dropdown-toggle" data-nav="conversation" data-toggle="dropdown">
+Sort by Best
+
+
+<span class="caret"></span>
+</a>
+<ul class="dropdown-menu">
+<li class="selected">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="sort" data-sort="popular">Best</a>
+</li>
+
+<li>
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="sort" data-sort="desc">Newest</a>
+</li>
+
+<li>
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="sort" data-sort="asc">Oldest</a>
+</li>
+</ul>
+</li>
+
+
+<li id="thread-votes" class="favorite pull-right">
+<!-- rendered dynamically -->
+<div class="thread-likes" data-role="vote-button"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="upvote" title="Favorite this discussion">
+<span class="label">Favorite</span>
+<span class="icon-star"></span>
+<span class="icon-check"></span>
+</a></div></li>
+
+<li id="thread-share-menu" class="dropdown share-menu">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="dropdown-toggle" data-toggle="dropdown" title="Share">
+<span class="label">Share</span> <span class="icon-export"></span>
+</a>
+<ul class="share-menu dropdown-menu pull-right">
+<li class="share">Share this discussion on
+<ul>
+<li class="twitter">
+<a data-action="share:twitter" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#">Twitter</a>
+</li>
+<li class="facebook">
+<a data-action="share:facebook" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#">Facebook</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+
+<div id="posts">
+
+<div id="form"><form class="reply"><div class="alert error" style="display:none" role="alert">
+<a class="close" data-action="dismiss-alert" title="Dismiss">×</a>
+<span></span>
+</div>
+
+<div class="postbox">
+<div class="avatar">
+
+<span class="user">
+<img data-role="user-avatar" src="noavatar92.d1dee965677e7cc8d58afe004a6d8282.png">
+</span>
+
+</div>
+
+<div class="textarea-wrapper" data-role="textarea" dir="auto"><div><span class="placeholder">Join the discussion…</span><div class="textarea" tabindex="-1" role="textbox" aria-multiline="true" contenteditable="true" data-role="editable" aria-label="Join the discussion…" style="overflow: auto; max-height: 350px;"><p><br></p></div><div style="display: none;"><ul class="suggestions">
+<li class="header">
+<h5>in this conversation</h5>
+</li>
+</ul></div></div>
+<div data-role="drag-drop-placeholder" class="media-drag-hover" style="display: none">
+<div class="drag-text">
+⬇ Drag and drop your images here to upload them.
+</div>
+</div>
+
+<div class="media-preview empty" data-role="media-preview">
+<ul data-role="media-legacy-list"></ul>
+<ul data-role="media-rich-list"></ul>
+<div class="media-expanded empty" data-role="media-preview-expanded">
+
+<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-role="media-preview-expanded-image">
+</div>
+</div>
+
+<div class="edit-alert" role="postbox-alert"></div>
+<div class="post-actions">
+<ul class="wysiwyg">
+
+<li>
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" tabindex="-1" data-action="attach" class="attach" title="Upload Images"><span>Attach</span></a>
+<input type="file" data-role="media-upload" tabindex="-1" class="regular" accept="image/*">
+</li>
+
+
+</ul>
+
+
+</div>
+</div>
+
+
+<div data-role="login-form"><div><section class="auth-section logged-out">
+<div class="connect">
+<h6>Sign in with</h6>
+
+<ul data-role="login-menu" class="services login-buttons">
+
+
+
+<li class="auth-disqus">
+<button type="button" data-action="auth:disqus" title="Disqus"><i class="icon-disqus"></i></button>
+</li>
+<li class="auth-facebook">
+<button type="button" data-action="auth:facebook" title="Facebook"><i class="icon-facebook-circle"></i></button>
+</li>
+<li class="auth-twitter">
+<button type="button" data-action="auth:twitter" title="Twitter"><i class="icon-twitter-circle"></i></button>
+</li>
+<li class="auth-google">
+<button type="button" data-action="auth:google" title="Google"><i class="icon-google-plus-circle"></i></button>
+</li>
+<li class="auth-signup">
+<button type="button" data-action="auth:disqus" title="Disqus">Sign up for Disqus</button>
+</li>
+</ul>
+
+</div>
+
+<div class="guest">
+<h6 class="guest-form-title">
+
+or register with Disqus
+
+</h6>
+
+<div class="what-is-disqus help-icon">
+<div id="rules" class="tooltip show">
+<h3>Disqus is a conversation network</h3>
+<ul>
+<li><span>Disqus never moderates or censors. The rules on this community are its own.</span></li>
+<li><span>Your email is safe with us. It's only used for moderation and optional notifications.</span></li>
+<li><span>Don't be a jerk or do anything illegal. Everything is easier that way.</span></li>
+</ul>
+<p class="clearfix"><a href="http://docs.disqus.com/kb/terms-and-policies/" class="btn btn-small" target="_blank">Read full terms and conditions</a></p>
+</div>
+</div>
+
+<p class="input-wrapper">
+<input dir="auto" type="text" placeholder="Name" name="display_name" maxlength="30">
+</p>
+
+<div class="guest-details " data-role="guest-details">
+<p class="input-wrapper">
+<input dir="auto" type="email" placeholder="Email" name="email">
+</p>
+
+<p class="input-wrapper">
+<input dir="auto" type="password" placeholder="Password" name="password">
+</p>
+
+<input type="checkbox" name="author-guest" style="display:none">
+
+
+</div>
+</div>
+<div class="proceed">
+
+<button type="submit" class="btn submit" aria-label="Next"><span class="icon-proceed"></span></button>
+
+</div>
+
+</section></div></div>
+
+</div></form></div>
+
+<button class="alert realtime" style="display: none;" data-role="realtime-notification">
+
+</button>
+
+
+<div id="no-posts" style="display: none;">Be the first to comment.</div>
+
+<ul id="post-list" class="post-list"><li class="post" id="post-1268339437"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/vusansarma/" class="user" data-action="profile" data-user="97138204">
+<img data-role="user-avatar" data-user="97138204" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="97138204" data-role="username">vusan sarma</a></span>
+
+
+
+
+
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1268339437" data-role="relative-time" class="time-ago" title="Monday, March 3 2014 1:11 PM">3 months ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>Does it also work on newer versions? I'm using 0.10.0</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-2" data-action="upvote" title="">
+<span class="updatable count" data-role="likes">2</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1268339437">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1268339437">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"><li class="post" id="post-1366062857"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/larsdol/" class="user" data-action="profile" data-user="105479964">
+<img data-role="user-avatar" data-user="105479964" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="105479964" data-role="username">Lars Dol</a></span>
+
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1268339437" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> vusan sarma</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1366062857" data-role="relative-time" class="time-ago" title="Friday, May 2 2014 1:23 PM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>I've been wondering the same thing, I'm using 0.10-rc5, and getting debug messages in my terminal saying:</p><p>debug: Deprecated:   `Model.subscribe(socket, null, ...)`</p><p>debug: See <a href="http://links.sailsjs.org/docs/config/pubsub" rel="nofollow">http://links.sailsjs.org/docs/...</a></p><p>debug: (⌘ + double-click to open link from terminal)</p><p>debug: Please use instance rooms instead (or raw sails.sockets.*() methods.)</p><p>.subscribe deprecated? Or what's happening :)?</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1366062857">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1366062857">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"></ul></li></ul></li><li class="post" id="post-1385955608"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/cristian_gonzalez_valencia/" class="user" data-action="profile" data-user="107027561">
+<img data-role="user-avatar" data-user="107027561" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="107027561" data-role="username">cristian gonzalez valencia</a></span>
+
+
+
+
+
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1385955608" data-role="relative-time" class="time-ago" title="Thursday, May 15 2014 1:31 AM">14 days ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>Hi !!!, I really like your videos and have learned a lot with them and i not had no errors until today, I think the error that I have has to do with the version of sails. Here I leave a video of the error and I would greatly appreciate your help.</p><p>my repository in github is : <a href="https://github.com/CristianG540/SailsCastsProyect1" rel="nofollow">https://github.com/CristianG54...</a></p><p>this is the video: <span><a href="http://youtu.be/K5u7UCan2wU" rel="nofollow">http://youtu.be/K5u7UCan2wU</a></span></p><div class="media-mode-deferred"><div data-role="post-media">
+
+<a class="media-button media-button-expand publisher-color publisher-border-color" href="http://youtu.be/K5u7UCan2wU" rel="nofollow" target="_blank" data-action="expand" title="YouTube – error sockets sailsJs">
+<i class="icon-video publisher-background-color"></i>
+Play
+</a>
+<a class="media-button media-button-contract publisher-color publisher-border-color" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" target="_blank" data-action="contract">
+<i class="icon-cancel publisher-background-color"></i> Hide
+</a>
+
+<div class="media-content-loader" data-role="content-loader"></div>
+
+<div data-role="content-placeholder" class="media-content-placeholder" style="height: 409.7423887587822px;"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="media-force-load" data-action="force-load"><i class="icon-video"></i></a></div>
+</div></div>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1385955608">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1385955608">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"></ul></li><li class="post" id="post-1354447777"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/disqus_H0AAmw2xqq/" class="user" data-action="profile" data-user="104538403">
+<img data-role="user-avatar" data-user="104538403" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="104538403" data-role="username">Chris Turner</a></span>
+
+
+
+
+
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1354447777" data-role="relative-time" class="time-ago" title="Friday, April 25 2014 3:01 AM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>I'm using 0.9.16 and I'm noticing some problems after the part where the User.publishUpdate() methods are added to the SessionController.js, in the create and destroy sections:</p><p>First, when starting the Sails server, it spits out an error for each tab that is open:<br>error: No session data returned, and an error was encountered saving session data for the first time: undefined</p><p>Also, I'm getting no console message in the incognito browser tab when logging into the standard browser tab.</p><p>Any ideas why?</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1354447777">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1354447777">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"><li class="post" id="post-1355490452"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/irlnathan/" class="user" data-action="profile" data-user="26770072">
+<img data-role="user-avatar" data-user="26770072" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="26770072" data-role="username">irlnathan</a></span>
+
+
+<span class="badge moderator">Mod</span>
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1354447777" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> Chris Turner</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1355490452" data-role="relative-time" class="time-ago" title="Friday, April 25 2014 8:03 PM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>Hiya Chris,</p><p>Send me a link to your repo and I'll take a look.</p><p>Best, Irl</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1355490452">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1355490452">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"><li class="post" id="post-1355543520"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/disqus_H0AAmw2xqq/" class="user" data-action="profile" data-user="104538403">
+<img data-role="user-avatar" data-user="104538403" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="104538403" data-role="username">Chris Turner</a></span>
+
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1355490452" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> irlnathan</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1355543520" data-role="relative-time" class="time-ago" title="Friday, April 25 2014 8:39 PM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p><a href="https://github.com/SlowburnAZ/SailsJS_activityOverlord" rel="nofollow">https://github.com/SlowburnAZ/...</a></p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1355543520">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1355543520">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"><li class="post" id="post-1356115710"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/irlnathan/" class="user" data-action="profile" data-user="26770072">
+<img data-role="user-avatar" data-user="26770072" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="26770072" data-role="username">irlnathan</a></span>
+
+
+<span class="badge moderator">Mod</span>
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1355543520" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> Chris Turner</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1356115710" data-role="relative-time" class="time-ago" title="Saturday, April 26 2014 5:33 AM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>Hiya Chris,</p><p>The first issue with the error: No session... --&gt; This will happen anytime you have open tabs and the quit the server.  When you bring the server back-up it's trying to connect but there's a mismatch because the id of the open tab doesn't match up...It's normal and when you refresh the browser the ids get back in sync.</p><p>I cloned your project and the socket messages displayed in both the console and incognito console...so I'm not sure why you're having a problem?</p><p>Best, Irl</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1356115710">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1356115710">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"><li class="post" id="post-1360007505"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/disqus_H0AAmw2xqq/" class="user" data-action="profile" data-user="104538403">
+<img data-role="user-avatar" data-user="104538403" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="104538403" data-role="username">Chris Turner</a></span>
+
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1356115710" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> irlnathan</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360007505" data-role="relative-time" class="time-ago" title="Tuesday, April 29 2014 4:03 AM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>Irl,</p><p>So, I've tried running this code on another machine, just to rule out any environmental issues.</p><p>I still cannot get the other browser tab to show any socket messages in the console. Per your screencast, I bring up the site in a normal browser tab, and I bring it up in an incognito tab.  When I log in in the normal tab, I get no socket messages in the incognito tab.  The UI also doesn't update.</p><p>This brings up another question...  in your SessionController code, you have the following:</p><p>User.publishUpdate(<a href="http://user.id/" rel="nofollow">user.id</a>, {<br>loggedIn: true,<br>id: <a href="http://user.id/" rel="nofollow">user.id</a><br>});</p><p>I'm confused by this, and wondering how your example is even showing any UI updates...  your User model doesn't *have* a "loggedIn" attribute, does it?  Shouldn't that be "online"?</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360007505">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1360007505">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"><li class="post" id="post-1360025537"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/disqus_H0AAmw2xqq/" class="user" data-action="profile" data-user="104538403">
+<img data-role="user-avatar" data-user="104538403" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="104538403" data-role="username">Chris Turner</a></span>
+
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360007505" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> Chris Turner</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360025537" data-role="relative-time" class="time-ago" title="Tuesday, April 29 2014 4:23 AM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>Well, I found one problem with my code:  <br>I had "socket.get('/user/subscribe');" inside the socket.on('message'...)</p><p>My bad.</p><p>However, the "loggedIn" thing still has me confused.  I'm guessing you must mean "online".</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360025537">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1360025537">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"><li class="post" id="post-1360038094"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/irlnathan/" class="user" data-action="profile" data-user="26770072">
+<img data-role="user-avatar" data-user="26770072" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="26770072" data-role="username">irlnathan</a></span>
+
+
+<span class="badge moderator">Mod</span>
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360025537" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> Chris Turner</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360038094" data-role="relative-time" class="time-ago" title="Tuesday, April 29 2014 4:37 AM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>Hi Chris,</p><p>When I publishUpdate when a new session is created, I need an attribute to pass to the client that would convey whether the user was logged in or not and based on that value update the ui.  In hindsight I probably should of used online for my attribute name.   I'm glad you have it working!</p><p>Best, Irl</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360038094">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1360038094">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"><li class="post" id="post-1360047762"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/disqus_H0AAmw2xqq/" class="user" data-action="profile" data-user="104538403">
+<img data-role="user-avatar" data-user="104538403" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="104538403" data-role="username">Chris Turner</a></span>
+
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360038094" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> irlnathan</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360047762" data-role="relative-time" class="time-ago" title="Tuesday, April 29 2014 4:49 AM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>Oh, so your loggedIn attribute is not referencing the 'online' attribute of the User model?</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360047762">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1360047762">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"><li class="post" id="post-1360072232"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/irlnathan/" class="user" data-action="profile" data-user="26770072">
+<img data-role="user-avatar" data-user="26770072" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="26770072" data-role="username">irlnathan</a></span>
+
+
+<span class="badge moderator">Mod</span>
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360047762" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> Chris Turner</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360072232" data-role="relative-time" class="time-ago" title="Tuesday, April 29 2014 5:20 AM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>loggedIn is not referencing the online attribute. loggedIn is an attribute that is set on a successful .save() of the user model.  I could have called the attribute `foo`.  The point is, that it "stores" whether the person is logged in and when the message is received by the client via app.js, there's code which does one thing if loggedIn is true and another if it's a value other than true.</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1360072232">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1360072232">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"></ul></li></ul></li></ul></li></ul></li></ul></li><li class="post" id="post-1356136399"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/disqus_H0AAmw2xqq/" class="user" data-action="profile" data-user="104538403">
+<img data-role="user-avatar" data-user="104538403" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="104538403" data-role="username">Chris Turner</a></span>
+
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1356115710" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> irlnathan</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1356136399" data-role="relative-time" class="time-ago" title="Saturday, April 26 2014 6:03 AM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>Wow, that's weird!</p><p>Maybe the problem is with the environment I was working in.  I'll try again on a different machine to see if that makes any difference.</p><p>Thanks for checking it out!</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1356136399">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1356136399">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"><li class="post" id="post-1356145379"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/disqus_H0AAmw2xqq/" class="user" data-action="profile" data-user="104538403">
+<img data-role="user-avatar" data-user="104538403" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="104538403" data-role="username">Chris Turner</a></span>
+
+
+
+
+
+
+<span><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1356136399" class="parent-link" data-role="parent-link"><i aria-hidden="true" class="icon-forward" title="in reply to"></i> Chris Turner</a></span>
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1356145379" data-role="relative-time" class="time-ago" title="Saturday, April 26 2014 6:17 AM">a month ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>Well, I don't know what's going on, but sockets just aren't working for me.  I guess I'll just clone your project and go from there.  :-(</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1356145379">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1356145379">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li class="post" id="post-1165231643"><div role="alert"></div>
+
+<div data-role="post-content" class="post-content">
+
+<ul class="post-menu dropdown" data-role="menu">
+<li class="collapse">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Collapse"><span>−</span></a>
+</li>
+<li class="expand">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="collapse" title="Expand"><span>+</span></a>
+</li>
+
+
+<li class="" role="menu">
+
+
+<a class="dropdown-toggle" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="flag" data-role="flag" title="Flag as inappropriate">
+<i aria-hidden="true" class="icon icon-flag"></i>
+</a>
+
+
+</li>
+
+</ul>
+
+<div class="indicator"></div>
+
+
+
+
+<div class="avatar hovercard">
+<a href="http://disqus.com/amirkheirabad/" class="user" data-action="profile" data-user="86281215">
+<img data-role="user-avatar" data-user="86281215" src="noavatar92.png" alt="Avatar">
+</a>
+</div>
+
+
+<div class="post-body">
+<header>
+<span class="post-byline">
+
+<span class="author publisher-anchor-color"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="profile" data-user="86281215" data-role="username">Amir Kheirabad</a></span>
+
+
+
+
+
+
+</span>
+
+<span class="post-meta">
+<span class="bullet time-ago-bullet" aria-hidden="true">•</span>
+
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1165231643" data-role="relative-time" class="time-ago" title="Monday, December 16 2013 3:10 AM">5 months ago</a>
+
+</span>
+
+
+</header>
+
+
+<div class="post-body-inner">
+
+<div class="post-message-container" data-role="message-container">
+
+<div class="publisher-anchor-color" data-role="message-content">
+<div class="post-message " data-role="message" dir="auto">
+
+<p>hi ...<br>i work on chat room project with sails.js ... <br>but i know how to use <a href="http://socket.io/" rel="nofollow">socket.io</a> in sails for chat room ...?</p>
+
+</div>
+
+<span class="post-media"><ul data-role="post-media-list"></ul></span>
+</div>
+</div>
+<a class="see-more hidden" title="see more" data-action="see-more">see more</a>
+</div>
+
+<footer>
+
+<menu>
+
+<li class="voting" data-role="voting">
+
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="vote-up  count-0" data-action="upvote" title="Vote up">
+<span class="updatable count" data-role="likes">0</span>
+<span class="control"><i aria-hidden="true" class="icon icon-arrow-2"></i></span>
+</a>
+<span role="button" class="vote-down  count-0" title="Vote down">
+
+<span class="control"><i aria-hidden="true" class="icon icon-arrow"></i></span>
+
+<span class="tooltip">You must sign in to down-vote this post.</span>
+
+</span>
+
+</li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+<li class="reply" data-role="reply-link">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="reply">
+<i class="icon icon-mobile icon-reply"></i><span class="text">Reply</span></a></li>
+<li class="bullet" aria-hidden="true">•</li>
+
+
+
+
+
+<li class="share">
+<a class="toggle"><i class="icon icon-mobile icon-share"></i><span class="text">Share ›</span></a>
+<ul>
+<li class="twitter"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:twitter">Twitter</a></li>
+<li class="facebook"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="share:facebook">Facebook</a></li>
+<li class="link"><a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#comment-1165231643">Link</a></li>
+</ul>
+</li>
+
+
+
+<li class="realtime" data-role="realtime-notification:1165231643">
+<span style="display:none;" class="realtime-replies"></span>
+<a style="display:none;" href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" class="btn btn-small"></a>
+
+</li>
+
+
+
+</menu>
+
+</footer>
+</div>
+
+
+<div data-role="blacklist-form"></div>
+<div class="reply-form-container" data-role="reply-form"></div>
+</div>
+
+
+<ul data-role="children" class="children"></ul></li></ul>
+
+<div class="load-more" data-role="more" style="display: none;">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="more-posts" class="btn">Load more comments</a>
+</div>
+</div>
+
+</section>
+
+<section id="community" data-tracking-area="main" style="display:none" data-role="main" data-outbound-link="embed:community" class="loading">
+
+</section>
+
+<section id="dashboard" style="display:none" data-role="main" data-tracking-area="main">
+
+
+<p style="line-height: 1.4">Nothing for you here ... yet. But as you comment with Disqus and follow
+other Disqus users, you will start to receive notifications here, as well as a personalized
+feed of activity by you and the people you follow. So get out there and participate in
+some discussions!</p>
+</section>
+
+<section id="profile" style="display:none" data-role="main" data-tracking-area="main">
+</section>
+
+<div id="discovery" data-tracking-area="discovery-south" style="position: static; visibility: visible; display: block; width: 100%;"><div id="discovery-main-c341" class="discovery-main style-variant-default">
+<div id="discovery-note" class="discovery-note">
+
+<div class="alert">
+<button class="close" data-action="discovery-help-close" title="Close this box">×</button>
+Disqus helps you find new and interesting content, discussions and products. Some sponsors and ecommerce sites may pay us for these recommendations and links. 
+<a href="http://help.disqus.com/customer/portal/articles/666278-introducing-promoted-discovery-and-f-a-q-" target="_blank">Learn more</a>
+ or 
+<a href="https://www.surveymonkey.com/s/GHK872T" target="_blank">
+give us feedback</a>.
+
+</div>
+
+</div>
+
+<div class="discovery-options">
+<button class="discovery-help" data-action="discovery-help">
+What's this?
+</button>
+</div>
+
+
+
+<section id="col-organic-c341" class="col-organic discovery-col-0 ">
+<header class="discovery-col-header">
+
+
+<h2>Also on 
+<strong>sailsCasts</strong>
+</h2>
+
+
+
+
+</header>
+<ul class="discovery-posts"><li class="discovery-post post-0" id="discovery-link-organic-1980635943">
+<a href="http://redirect.disqus.com/url?url=http%3A%2F%2Firlnathan.github.io%2Fsailscasts%2Fblog%2F2013%2F11%2F19%2Fsailscasts-answers-ep3-how-do-i-create-sample-dummy-users-for-my-sails-project%2F%3ABK1NCytO1mGg_qwBFlUOYu7PJyc&imp=13fom1maage5d&prev_imp&forum_id=2507456&forum=sailscasts&thread_id=1844392380&major_version=metadata&thread=1980635943&zone=internal_discovery" class="publisher-anchor-color">
+
+
+<header class="discovery-post-header">
+<h3 title="sailsCasts Answers: Ep3 - How do I create sample &#39;dummy&#39; users for my sails project?">
+<span data-role="discovery-thread-title" class="title line-truncate" data-line-truncate="2">
+sailsCasts Answers: Ep3 - How do I create sample 'dummy' users for my sails project?
+</span>
+
+
+
+</h3>
+
+
+<ul class="meta">
+
+<li class="comments">
+
+
+2 comments
+
+
+</li>
+
+
+<li class="time">6 months ago</li>
+
+</ul>
+
+</header>
+
+
+
+</a><a href="http://redirect.disqus.com/url?url=http%3A%2F%2Firlnathan.github.io%2Fsailscasts%2Fblog%2F2013%2F11%2F19%2Fsailscasts-answers-ep3-how-do-i-create-sample-dummy-users-for-my-sails-project%2F%3ABK1NCytO1mGg_qwBFlUOYu7PJyc&imp=13fom1maage5d&prev_imp&forum_id=2507456&forum=sailscasts&thread_id=1844392380&major_version=metadata&thread=1980635943&zone=internal_discovery" class="top-comment" data-role="discovery-top-comment">
+<img alt="Avatar" data-role="discovery-avatar">
+<p><span class="user" data-role="discovery-top-comment-author">adriftatsea</span> — <span data-role="discovery-top-comment-snippet" class="line-truncate" data-line-truncate="3"> Dig it.  However, how does one use this to set passwords when  using bcrypt in the User Model  ('encryptedPassword') ?For example, when cloning …</span></p>
+</a>
+
+
+
+</li>
+
+<li class="discovery-post post-1" id="discovery-link-organic-2122481192">
+<a href="http://redirect.disqus.com/url?url=http%3A%2F%2Firlnathan.github.io%2Fsailscasts%2Fblog%2F2014%2F01%2F14%2Fsailscasts-answers-ep7-how-do-i-create-a-restful-json-crud-api-in-sails-from-scratch%2F%3ARdODkAFSFeF1KPts1X6aO-aJzKM&imp=13fom1maage5d&prev_imp&forum_id=2507456&forum=sailscasts&thread_id=1844392380&major_version=metadata&thread=2122481192&zone=internal_discovery" class="publisher-anchor-color">
+
+
+<header class="discovery-post-header">
+<h3 title="sailsCasts Answers: Ep7: How do I create a restful json CRUD api in sails from scratch?">
+<span data-role="discovery-thread-title" class="title line-truncate" data-line-truncate="2">
+sailsCasts Answers: Ep7: How do I create a restful json CRUD api in sails from scratch?
+</span>
+
+
+
+</h3>
+
+
+<ul class="meta">
+
+<li class="comments">
+
+
+4 comments
+
+
+</li>
+
+
+<li class="time">4 months ago</li>
+
+</ul>
+
+</header>
+
+
+
+</a><a href="http://redirect.disqus.com/url?url=http%3A%2F%2Firlnathan.github.io%2Fsailscasts%2Fblog%2F2014%2F01%2F14%2Fsailscasts-answers-ep7-how-do-i-create-a-restful-json-crud-api-in-sails-from-scratch%2F%3ARdODkAFSFeF1KPts1X6aO-aJzKM&imp=13fom1maage5d&prev_imp&forum_id=2507456&forum=sailscasts&thread_id=1844392380&major_version=metadata&thread=2122481192&zone=internal_discovery" class="top-comment" data-role="discovery-top-comment">
+<img alt="Avatar" data-role="discovery-avatar">
+<p><span class="user" data-role="discovery-top-comment-author">Kenneth Kwan</span> — <span data-role="discovery-top-comment-snippet" class="line-truncate" data-line-truncate="3">Awesome! For the Where clause, could "or" be used? could "in" be used?</span></p>
+</a>
+
+
+
+</li>
+
+<li class="discovery-post post-2" id="discovery-link-organic-1844393444">
+<a href="http://redirect.disqus.com/url?url=http%3A%2F%2Firlnathan.github.io%2Fsailscasts%2Fblog%2F2013%2F10%2F10%2Fbuilding-a-sails-application-ep22-manipulating-the-dom-based-upon-changes-via-real-time-model-events%2F%3AGHA-pjaf1M4EvhAwiZrb-IroZ24&imp=13fom1maage5d&prev_imp&forum_id=2507456&forum=sailscasts&thread_id=1844392380&major_version=metadata&thread=1844393444&zone=internal_discovery" class="publisher-anchor-color">
+
+
+<header class="discovery-post-header">
+<h3 title="Building a Sails Application: Ep22 - Manipulating the DOM based upon changes via Real Time Model Events.">
+<span data-role="discovery-thread-title" class="title line-truncate" data-line-truncate="2">  Building a Sails Application: Ep22 - Manipulating the DOM based upon changes via Real Time …</span>
+
+
+
+</h3>
+
+
+<ul class="meta">
+
+<li class="comments">
+
+
+6 comments
+
+
+</li>
+
+
+<li class="time">8 months ago</li>
+
+</ul>
+
+</header>
+
+
+
+</a><a href="http://redirect.disqus.com/url?url=http%3A%2F%2Firlnathan.github.io%2Fsailscasts%2Fblog%2F2013%2F10%2F10%2Fbuilding-a-sails-application-ep22-manipulating-the-dom-based-upon-changes-via-real-time-model-events%2F%3AGHA-pjaf1M4EvhAwiZrb-IroZ24&imp=13fom1maage5d&prev_imp&forum_id=2507456&forum=sailscasts&thread_id=1844392380&major_version=metadata&thread=1844393444&zone=internal_discovery" class="top-comment" data-role="discovery-top-comment">
+<img alt="Avatar" data-role="discovery-avatar">
+<p><span class="user" data-role="discovery-top-comment-author">Jesse Carter</span> — <span data-role="discovery-top-comment-snippet" class="line-truncate" data-line-truncate="3"> Hi irlnathan, thanks again for another awesome screen cast. I'm digging the extra production value you've put it it really looks nice …</span></p>
+</a>
+
+
+
+</li>
+
+<li class="discovery-post post-3" id="discovery-link-organic-1661679949">
+<a href="http://redirect.disqus.com/url?url=http%3A%2F%2Firlnathan.github.io%2Fsailscasts%2Fblog%2F2013%2F08%2F28%2Fbuilding-a-sails-application-ep8-building-a-user-list%2F%3A2Gvw7cnQUgHaNQphFjnVV45OXOE&imp=13fom1maage5d&prev_imp&forum_id=2507456&forum=sailscasts&thread_id=1844392380&major_version=metadata&thread=1661679949&zone=internal_discovery" class="publisher-anchor-color">
+
+
+<header class="discovery-post-header">
+<h3 title="Building a Sails Application: Ep8 - Building an Admin Page.">
+<span data-role="discovery-thread-title" class="title line-truncate" data-line-truncate="2">
+Building a Sails Application: Ep8 - Building an Admin Page.
+</span>
+
+
+
+</h3>
+
+
+<ul class="meta">
+
+<li class="comments">
+
+
+3 comments
+
+
+</li>
+
+
+<li class="time">9 months ago</li>
+
+</ul>
+
+</header>
+
+
+
+</a><a href="http://redirect.disqus.com/url?url=http%3A%2F%2Firlnathan.github.io%2Fsailscasts%2Fblog%2F2013%2F08%2F28%2Fbuilding-a-sails-application-ep8-building-a-user-list%2F%3A2Gvw7cnQUgHaNQphFjnVV45OXOE&imp=13fom1maage5d&prev_imp&forum_id=2507456&forum=sailscasts&thread_id=1844392380&major_version=metadata&thread=1661679949&zone=internal_discovery" class="top-comment" data-role="discovery-top-comment">
+<img alt="Avatar" data-role="discovery-avatar">
+<p><span class="user" data-role="discovery-top-comment-author">Arianto Gunawan</span> — <span data-role="discovery-top-comment-snippet" class="line-truncate" data-line-truncate="3"> Great tutorial, one question though, the unique validation doesn't seem to work with sails 0.9.7, and it's not in the Model docs, is …</span></p>
+</a>
+
+
+
+</li></ul>
+</section>
+
+
+</div></div>
+
+<div id="footer" data-tracking-area="footer">
+<ul>
+<li class="logo"><a href="http://disqus.com/" title="Powered by Disqus">Powered by Disqus</a></li>
+<li id="thread-subscribe-button" class="email"> 
+<div class="default">
+<a href="http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/#" data-action="subscribe" title="Subscribe and get email updates from this discussion"><i aria-hidden="true" class="icon-mail"></i><span class="clip">Subscribe</span> <i aria-hidden="true" class="icon-checkmark"></i></a>
+</div>
+<div class="form">
+<div class="input-wrapper"><input id="thread-subscribe-email" type="email" placeholder="yourname@email.com"></div>
+</div>
+</li>
+<li class="install">
+<a href="https://disqus.com/websites/?utm_source=sailscasts&utm_medium=Disqus-Footer" target="_blank">
+<i aria-hidden="true" class="icon-disqus"></i>
+<span class="clip">Add Disqus to your site</span>
+</a>
+</li>
+</ul>
+</div>
+</div></body></html>

@@ -1,21 +1,21 @@
 \begin{theindex}
 
-  \item Abgrenzungskriterien, 4
-  \item Abschlussthesis, 4
-  \item Adobe Edge Inspect, 16, 27
+  \item \Gls {Framework}, 38
+  \item \Gls {Framework}s, 4, 8
 
   \indexspace
 
-  \item Browser-Sync, 17, 33
+  \item Abgrenzungskriterien, 4
+  \item Abschlussthesis, 4
+  \item Adobe Edge Inspect, 16, 29
+
+  \indexspace
+
+  \item Browser-Sync, 17, 36
 
   \indexspace
 
   \item Evaluation, 4
-
-  \indexspace
-
-  \item Framework, 35
-  \item Frameworks, 3, 4, 6
 
   \indexspace
 
@@ -32,24 +32,19 @@
 
   \indexspace
 
-  \item NodeJS, 18
-
-  \indexspace
-
   \item Phantom Limb, 18
 
   \indexspace
 
-  \item Remote Preview, 16, 31
+  \item Remote Preview, 16, 34
 
   \indexspace
 
-  \item socket.io, 18
-  \item Softwareframeworks, 3
+  \item Softwareframeworks, 2
 
   \indexspace
 
-  \item Testunits, 3
+  \item Testunits, 4
 
   \indexspace
 
@@ -57,7 +52,7 @@
 
   \indexspace
 
-  \item Weinre, 23, 28, 30
+  \item weinre, 24, 31, 33
 
   \indexspace
 

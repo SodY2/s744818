@@ -1,11 +1,11 @@
 \glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
 \begin{theglossary}\glossaryheader
 \glsgroupheading{A}\relax \glsresetentrylist %
-\glossaryentryfield{Ajax}{\glsnamefont{AJAX}}{\z {Ajax (Apronym von engl. Asynchronous JavaScript and XML) bezeichnet ein Konzept der asynchronen Datenübertragung zwischen einem Browser und dem Server. Dieses ermöglicht es, HTTP-Anfragen durchzuführen, während eine HTML-Seite angezeigt wird und die Seite zu verändern, ohne sie komplett neu zu laden}{2} }{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{Ajax}{\glsnamefont{AJAX}}{\z {Kunstwort für Asynchronous JavaScript and XML. Auf JavaScript basierende Technik, die die asynchrone Übertragung von Daten zwischen Client und Server betrifft.}{2} }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{16}}}%
-\glossaryentryfield{Anker}{\glsnamefont{Anker}}{\z {Ein Anker bezeichnet eine Sprungmarke innerhalb eines HTML-Dokuments.}{8} Diese wird in der Regel durch ein Hashtag (\#) gekennzeichnet}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{Anker}{\glsnamefont{Anker}}{\z {Anker oder Sprungmarken sind Elemente, die eine Stelle innerhalb einer Datei markieren.}{8} Diese wird in der Regel durch ein Hashtag (\#) gekennzeichnet}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{35}}}%
-\glossaryentryfield{Apache}{\glsnamefont{Apache}}{\z {Der Apache HTTP Server ist ein quelloffenes und freies Produkt der Apache Software Foundation und der meistbenutzte Webserver im Internet.}{7}}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{Apache}{\glsnamefont{Apache}}{\z {Software für den Betrieb eines Webservers. Der Apache Server ist meist in der als "LAMP" bezeichneten Kombination aus Linux Betriebssystem, Apache Webserver, MySQL Datenbank und der Programmiersprache PHP installiert.}{7}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{18}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{23}\delimN 
@@ -17,7 +17,7 @@
 		\setentrycounter[]{page}\glsnumberformat{29}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{31\delimR 33}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{50\delimN 51}}}%
-\glossaryentryfield{BA}{\glsnamefont{Auflösung}}{\z {Die Bildauflösung ist ein umgangssprachliches Maß für die Bildgröße einer Rastergrafik. Sie wird durch die Gesamtzahl der Bildpunkte oder durch die Anzahl der Spalten (Breite) und Zeilen (Höhe) einer Rastergrafik angegeben.}{5}}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{BA}{\glsnamefont{Auflösung}}{\z {Die Bildauflösung wird oft auch nur als Auflösung bezeichnet. Sie gibt an, aus wie vielen Bildpunkten (Picture Element (Pixel) [engl.]) ein digitales Fernsehbild besteht.}{5}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{32}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{38}}}\glsgroupskip
 \glsgroupheading{B}\relax \glsresetentrylist %
@@ -56,7 +56,7 @@
 		\setentrycounter[]{page}\glsnumberformat{29}}}%
 \glossaryentryfield{Devicelab}{\glsnamefont{Devicelab}}{Ein physikalischer Ort, an dem es eine Vielzahl an miteinander verbundenen Mobilgeräten und \Gls {Computer}n gibt}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{47}}}%
-\glossaryentryfield{DOM}{\glsnamefont{DOM}}{\z {Document Object Model (DOM) ist eine Spezifikation einer Schnittstelle für den Zugriff auf HTML- oder XML-Dokumente. Sie wird vom World Wide Web Consortium definiert.}{6}}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{DOM}{\glsnamefont{DOM}}{\z {Document Object Model (DOM) ist eine plattform- sowie sprachenunabhängige Schnittstellenbeschreibung für den Zugriff auf die Elemente eines HTML- oder XML-Dokuments.}{6}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{17}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{24\delimN 25}\delimN 
@@ -113,7 +113,7 @@
 \glossaryentryfield{Input}{\glsnamefont{Input}}{Verschiedene Eingabefelder in einem HTML-Dokument, zum Beispiel Texteingabe oder \Gls {Checkbox}en}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
 \glsgroupheading{J}\relax \glsresetentrylist %
-\glossaryentryfield{Javascript}{\glsnamefont{Javascript}}{\z {JavaScript (kurz JS) ist eine Skriptsprache, die ursprünglich für dynamisches HTML in Webbrowsern entwickelt wurde, um Benutzerinteraktionen auszuwerten, Inhalte zu verändern, nachzuladen oder zu generieren und so die Möglichkeiten von HTML und CSS zu erweitern. Heute findet JavaScript auch außerhalb von Browsern Anwendung, so etwa auf Servern und in Microcontrollern}{4}}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{Javascript}{\glsnamefont{Javascript}}{\z {JavaScript ist eine vielseitige Programmiersprache, mit der sich komplexe Anwendungen entwickeln lassen. Interpreter für JavaScript sind in allen modernen Web-Browsern integriert, daher ist die Sprache erheblich verbreitet. Daneben wird JavaScript zum Scripten einiger populärer Software genutzt. JavaScript wird in der Hauptsache Client-seitig verwendet und es ist damit möglich, auf Webseiten dynamisch Einfluss zu nehmen.}{4}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{15\delimN 16}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{18}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{21}\delimN 

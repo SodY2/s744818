@@ -1,0 +1,997 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0044)http://www.vodori.com/blog/phantom-limb.html -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="dj_webkit dj_chrome dj_contentbox wf-adelle1adelle2-n4-active wf-adelle1adelle2-i4-active wf-adelle1adelle2-n6-active wf-adelle1adelle2-i6-active wf-dejarip1dejarip2-n4-active wf-dejarip1dejarip2-n5-active wf-dejarip1dejarip2-n7-active wf-active" data-ember-extension="1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+	
+
+
+
+
+
+	
+		<meta name="description" content="">
+		<meta name="keywords" content="[Technology] ">
+		<meta name="date" content="Fri Jan 21 06:00:00 UTC 2011">
+
+        <meta property="og:url" content="http://www.vodori.com/blog/phantom-limb.html">
+		<meta property="og:title" content="Phantom Limb">
+		<meta property="og:image" content="/static/images/logo/logo.gif">
+		<meta property="og:type" content="article">
+        <meta property="og:description" content="">
+	
+
+
+<title>
+    
+        
+            Phantom Limb | Vodori Blog
+        
+        
+    
+</title>
+
+<link rel="icon" href="http://www.vodori.com/static/images/logo/favicon.ico" type="image/x-icon">
+<link rel="Shortcut Icon" href="http://www.vodori.com/static/images/logo/favicon.ico">
+<link rel="alternate" type="application/rss+xml" title="The Vodori.com Blog" href="http://www.vodori.com/rss/feed.xml">
+
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+<link href="./PhantomLimb_files/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./PhantomLimb_files/blog-fonts.css" type="text/css" media="all">
+<link rel="stylesheet" href="./PhantomLimb_files/main.css" type="text/css" media="all">
+<link rel="stylesheet" href="./PhantomLimb_files/blog.css" type="text/css" media="all">
+<!--[if IE 6]>
+	<link rel="stylesheet" href="http://www-static.vodori.com/_cache_-1382699114-17693370686296462101512982052938700522/static/css/ie6.css" type="text/css" media="all" />
+<![endif]-->
+
+
+<link href="./PhantomLimb_files/css(1)" rel="stylesheet" type="text/css">
+<script src="./PhantomLimb_files/cb=gapi.loaded_1" async=""></script><script src="./PhantomLimb_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" async="" src="./PhantomLimb_files/plusone.js" gapi_processed="true"></script><script type="text/javascript" async="" src="./PhantomLimb_files/ga.js"></script><script type="text/javascript" src="./PhantomLimb_files/mgw3usz.js"></script>
+	
+	
+<style type="text/css">.tk-adelle{font-family:"adelle-1","adelle-2",serif;}.tk-dejarip{font-family:"dejarip-1","dejarip-2",sans-serif;}</style><link rel="stylesheet" href="http://use.typekit.com/k/mgw3usz-d.css?3bb2a6e53c9684ffdc9a9af11d5b2a620ecc366e1cec4c7dd51591e505133ea5513b5213cf5bc8389a436dffb3f9e8b475ceee02c9ffe73568ece282564bee773efbcdb2e4a50221f12c819c98"><script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window.djConfig = {
+        parseOnLoad: true,
+
+        
+            isDebug: false,
+            debugAtAllCosts: false,
+        
+
+        
+        isAuthorMode: false,
+        
+        isPreviewMode: false,
+        isLiveMode: true,
+        useAuthorPrefix: true
+    }
+</script>
+
+<script type="text/javascript" src="./PhantomLimb_files/swfobject.js"></script>
+<script type="text/javascript" src="./PhantomLimb_files/jwplayer.js"></script>
+
+<script type="text/javascript" src="./PhantomLimb_files/dojo.js" charset="utf-8"></script>
+
+
+    
+    
+        <script type="text/javascript" src="./PhantomLimb_files/visitor-layer.js"></script>
+        <script type="text/javascript">
+            dojo.require("vodori.visitor-layer");
+        </script>
+    
+
+
+
+
+
+
+
+
+        <script charset="UTF-8" src="./PhantomLimb_files/de.js"></script><style type="text/css">.a2a_menu, .a2a_menu *{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;float:none;margin:0;padding:0;height:auto;width:auto;}.a2a_menu{width: 300px;}.a2a_menu table{border-collapse:collapse;border-spacing:0;width:auto}.a2a_menu table,.a2a_menu tbody,.a2a_menu td,.a2a_menu tr{border:0;margin:0;padding:0;background-color:#FFF} .a2a_menu td{vertical-align:top}.a2a_menu,.a2a_menu_inside{border-radius:16px;}.a2a_menu{display:none;z-index:9999999;position:absolute;direction:ltr;min-width:200px;background:#EEE;background:rgba(238,238,238,.6);font:12px Arial,Helvetica,sans-serif;color:#000;line-height:12px;border:1px solid transparent;_border:1px solid #EEE;padding:7px;vertical-align:baseline;overflow:hidden}.a2a_menu_inside{background-color:#FFF;border: 1px solid #CCC;padding:8px}.a2a_menu a span, .a2a_tabs .a2a_tab_selected span{color:#00F}.a2a_menu a:hover span, .a2a_tabs div span,.a2a_tabs a span{color:#000}.a2a_menu a,#a2a_hist_list a,.a2a_tabs div{color:#00F;text-decoration:none;font:12px Arial,Helvetica,sans-serif;line-height:12px;height:auto;width:auto;outline:none;-moz-outline:none;border-radius:8px;}.a2a_menu a:visited,#a2a_hist_list a:visited{color:#00F}.a2a_menu a:hover,.a2a_menu a:active,.a2a_menu a.a2a_i:focus,.a2a_tabs div:hover{color:#000;border:1px solid #CCC;background-color:#EEE;text-decoration:none}.a2a_menu span,.a2a_img{background:url(http://static.addtoany.com/menu/icons.26.png) no-repeat;border:0;display:block;line-height:16px}.a2a_menu span.a2a_i_find{height:16px;left:5px;position:absolute;top:2px;width:16px}#a2a_menu_container{display:inline-block} #a2a_menu_container{_display:inline} .a2a_menu_title_container{margin-bottom:2px;padding:6px}.a2a_menu_find_container{position:relative;text-align:left;margin:4px 1px;padding:1px 24px 1px 0;border:1px solid #CCC;border-radius:8px;}.a2a_cols_container{border-bottom-right-radius:8px;border-top-right-radius:8px}.a2a_cols_container .a2a_col1{overflow-x:hidden;overflow-y:auto;-webkit-overflow-scrolling:touch}.a2a_menu input, .a2a_menu input[type="text"]{display:block;background-image:none;box-shadow:none;line-height:100%;margin:0;overflow:hidden;padding:0;-moz-box-shadow:none;-webkit-box-shadow:none;-webkit-appearance:none} .a2a_menu_title_container input.a2a_menu_title{color:#000;background-color:#FFF;border:0;margin:0;padding:0;width:99%}.a2a_menu_find_container input.a2a_menu_find{position:relative;left:24px;color:#000;font-size:12px;padding:2px 0;outline:0;border:0;background-color:transparent;_background-color:#FFF;width:99%} .a2a_clear{clear:both} .a2a_img, .a2a_svg { display:block; overflow:hidden; }.a2a_img{height:16px;line-height:16px;width:16px;}.a2a_svg{height:32px;line-height:32px;width:32px;}.a2a_default_style a{float:left;line-height:16px;padding:0 2px}.a2a_default_style a:hover .a2a_img,.a2a_default_style a:hover .a2a_svg,.a2a_floating_style a:hover .a2a_img,.a2a_floating_style a:hover .a2a_svg { opacity: .7;}.a2a_default_style .a2a_svg, .a2a_floating_style .a2a_svg { border-radius:14% ;} .a2a_default_style .a2a_img, .a2a_default_style .a2a_dd, .a2a_default_style .a2a_svg{float:left}.a2a_default_style .a2a_img_text{margin-right:4px}.a2a_default_style .a2a_divider{border-left:1px solid #000;display:inline;float:left;height:16px;line-height:16px;margin:0 5px}.a2a_kit a{cursor:pointer}.a2a_floating_style { background-color: #fff; border-radius: 6px; padding: 4px; position: fixed; z-index: 9999998; }.a2a_vertical_style a { display: block; padding: 4px; }.a2a_floating_style.a2a_default_style { bottom: 0; }.a2a_floating_style.a2a_default_style a { padding: 4px; }.a2a_nowrap{white-space:nowrap}.a2a_note{margin:0 auto;padding:9px;font-size:12px;text-align:center}.a2a_note .a2a_note_note{margin:0;color:#000}.a2a_wide a{display:block;margin-top:3px;border:1px solid #EEE;padding:3px;text-align:center}.a2a_tabs{float:left;margin:0 0 3px} .a2a_tabs a,.a2a_tabs div{margin:1px;background-color:#EEE; border:1px solid #EEE; font-size:11px; padding:6px 12px ; white-space:nowrap} .a2a_tabs a span, .a2a_tabs div span{display:inline-block;padding-left:20px;height:auto;width:auto} .a2a_tabs_default a span, .a2a_tabs_default div span{height:auto;max-width:99px;overflow:hidden;padding-left:20px;width:auto;_width:expression(this.clientWidth > 99? "97px" : "auto");}.a2a_tabs a, .a2a_tabs a:visited, .a2a_tabs a:hover, .a2a_tabs div, .a2a_tabs div:hover{cursor:pointer;border-bottom:1px solid #EEE;color:#000;border-bottom-left-radius:0;-webkit-border-bottom-left-radius:0;-moz-border-radius-bottomleft:0;border-bottom-right-radius:0;-webkit-border-bottom-right-radius:0;-moz-border-radius-bottomright:0}a.a2a_tab_selected, a.a2a_tab_selected:visited,a.a2a_tab_selected:hover,a.a2a_tab_selected:active,a.a2a_tab_selected:focus, div.a2a_tab_selected,div.a2a_tab_selected:hover{color:#00F;background-color:#FFF;border:1px solid #CCC;border-bottom:1px solid #FFF}a.a2a_i{display:block;float:left;border:1px solid #FFF;padding:4px 6px;text-align:left;white-space:nowrap;width:126px;}a.a2a_i span{padding-left:20px}.a2a_x_shorten a.a2a_i{width:116px}a.a2a_sss{font-weight:700}a.a2a_ind{display:inline;margin:0;padding:0} a.a2a_email_client span{display:inline-block;height:16px;line-height:16px;margin:0 2px;padding-left:0;width:16px;}a.a2a_menu_show_more_less{margin:4px 0 8px;padding:0}a.a2a_menu_show_more_less span{display:inline-block;height:14px;margin:0 auto;vertical-align:baseline;width:16px} div.a2a_menu_powered_by{background-color:#EEE;font-size:9px;color:#999;text-align:center;margin-top:4px;padding:3px;border-radius:8px;}div.a2a_menu_powered_by a,div.a2a_menu_powered_by a:visited{display:inline;font-size:9px;color:#999}div.a2a_menu_powered_by a:hover{border:0;text-decoration:underline}iframe.a2a_shim{border:0;position:absolute;z-index:999999;}.a2a_dd img {border:0;-ms-touch-action:manipulation;}.a2a_i_a2a{background-position:0 0!important}.a2a_i_a2a_bw{background-position:0 -17px!important}.a2a_i_agregator{background-position:0 -34px!important}.a2a_i_aim{background-position:0 -51px!important}.a2a_i_allvoices{background-position:0 -68px!important}.a2a_i_amazon{background-position:0 -85px!important}.a2a_i_aol{background-position:0 -102px!important}.a2a_i_app_net{background-position:0 -119px!important}.a2a_i_apple_mail{background-position:0 -136px!important}.a2a_i_arto{background-position:0 -153px!important}.a2a_i_baidu{background-position:0 -170px!important}.a2a_i_bebo{background-position:0 -187px!important}.a2a_i_bibsonomy{background-position:0 -204px!important}.a2a_i_bitty{background-position:0 -221px!important}.a2a_i_blinklist{background-position:0 -238px!important}.a2a_i_blogger{background-position:0 -255px!important}.a2a_i_bloglines{background-position:0 -272px!important}.a2a_i_blogmarks{background-position:0 -289px!important}.a2a_i_bloomberg_current{background-position:0 -306px!important}.a2a_i_bookmark{background-position:0 -323px!important}.a2a_i_bookmarks_fr{background-position:0 -340px!important}.a2a_i_box{background-position:0 -357px!important}.a2a_i_buddymarks{background-position:0 -374px!important}.a2a_i_buffer{background-position:0 -391px!important}.a2a_i_care2{background-position:0 -408px!important}.a2a_i_chrome{background-position:0 -425px!important}.a2a_i_citeulike{background-position:0 -442px!important}.a2a_i_clear{background-position:0 -459px!important}.a2a_i_dailyrotation{background-position:0 -476px!important}.a2a_i_darr{background-position:0 -493px!important}.a2a_i_darr_wt{background-position:0 -510px!important}.a2a_i_default{background-position:0 -527px!important}.a2a_i_delicious{background-position:0 -544px!important}.a2a_i_designfloat{background-position:0 -561px!important}.a2a_i_diaspora{background-position:0 -578px!important}.a2a_i_digg{background-position:0 -595px!important}.a2a_i_diigo{background-position:0 -612px!important}.a2a_i_dzone{background-position:0 -629px!important}.a2a_i_email{background-position:0 -646px!important}.a2a_i_email_bw{background-position:0 -663px!important}.a2a_i_evernote{background-position:0 -680px!important}.a2a_i_facebook{background-position:0 -697px!important}.a2a_i_fark{background-position:0 -714px!important}.a2a_i_feed{background-position:0 -731px!important}.a2a_i_feedblitz{background-position:0 -748px!important}.a2a_i_feedbucket{background-position:0 -765px!important}.a2a_i_feedly{background-position:0 -782px!important}.a2a_i_feedmailer{background-position:0 -799px!important}.a2a_i_find{background-position:0 -816px!important}.a2a_i_fireant{background-position:0 -833px!important}.a2a_i_firefox{background-position:0 -850px!important}.a2a_i_flipboard{background-position:0 -867px!important}.a2a_i_folkd{background-position:0 -884px!important}.a2a_i_friendfeed{background-position:0 -901px!important}.a2a_i_funp{background-position:0 -918px!important}.a2a_i_gmail{background-position:0 -935px!important}.a2a_i_google{background-position:0 -952px!important}.a2a_i_google_plus{background-position:0 -969px!important}.a2a_i_hatena{background-position:0 -986px!important}.a2a_i_instapaper{background-position:0 -1003px!important}.a2a_i_itunes{background-position:0 -1020px!important}.a2a_i_jamespot{background-position:0 -1037px!important}.a2a_i_jumptags{background-position:0 -1054px!important}.a2a_i_khabbr{background-position:0 -1071px!important}.a2a_i_kindle{background-position:0 -1088px!important}.a2a_i_klipfolio{background-position:0 -1105px!important}.a2a_i_linkagogo{background-position:0 -1122px!important}.a2a_i_linkatopia{background-position:0 -1139px!important}.a2a_i_linkedin{background-position:0 -1156px!important}.a2a_i_livejournal{background-position:0 -1173px!important}.a2a_i_mail_ru{background-position:0 -1190px!important}.a2a_i_mendeley{background-position:0 -1207px!important}.a2a_i_meneame{background-position:0 -1224px!important}.a2a_i_miro{background-position:0 -1241px!important}.a2a_i_mister-wong{background-position:0 -1258px!important}.a2a_i_my_msn{background-position:0 -1275px!important}.a2a_i_myspace{background-position:0 -1292px!important}.a2a_i_netlog{background-position:0 -1309px!important}.a2a_i_netvibes{background-position:0 -1326px!important}.a2a_i_netvouz{background-position:0 -1343px!important}.a2a_i_newsalloy{background-position:0 -1360px!important}.a2a_i_newsisfree{background-position:0 -1377px!important}.a2a_i_newstrust{background-position:0 -1394px!important}.a2a_i_newsvine{background-position:0 -1411px!important}.a2a_i_nowpublic{background-position:0 -1428px!important}.a2a_i_odnoklassniki{background-position:0 -1445px!important}.a2a_i_oknotizie{background-position:0 -1462px!important}.a2a_i_oldreader{background-position:0 -1479px!important}.a2a_i_orkut{background-position:0 -1496px!important}.a2a_i_outlook{background-position:0 -1513px!important}.a2a_i_outlook_com{background-position:0 -1530px!important}.a2a_i_pdf{background-position:0 -1547px!important}.a2a_i_phonefavs{background-position:0 -1564px!important}.a2a_i_pinboard{background-position:0 -1581px!important}.a2a_i_pinterest{background-position:0 -1598px!important}.a2a_i_plurk{background-position:0 -1615px!important}.a2a_i_pocket{background-position:0 -1632px!important}.a2a_i_podnova{background-position:0 -1649px!important}.a2a_i_print{background-position:0 -1666px!important}.a2a_i_printfriendly{background-position:0 -1683px!important}.a2a_i_protopage{background-position:0 -1700px!important}.a2a_i_pusha{background-position:0 -1717px!important}.a2a_i_rapidfeeds{background-position:0 -1734px!important}.a2a_i_reddit{background-position:0 -1751px!important}.a2a_i_rediff{background-position:0 -1768px!important}.a2a_i_segnalo{background-position:0 -1785px!important}.a2a_i_share{background-position:0 -1802px!important}.a2a_i_sina_weibo{background-position:0 -1819px!important}.a2a_i_sitejot{background-position:0 -1836px!important}.a2a_i_slashdot{background-position:0 -1853px!important}.a2a_i_springpad{background-position:0 -1870px!important}.a2a_i_startaid{background-position:0 -1887px!important}.a2a_i_stumbleupon{background-position:0 -1904px!important}.a2a_i_stumpedia{background-position:0 -1921px!important}.a2a_i_symbaloo{background-position:0 -1938px!important}.a2a_i_technotizie{background-position:0 -1955px!important}.a2a_i_thefreedictionary{background-position:0 -1972px!important}.a2a_i_thefreelibrary{background-position:0 -1989px!important}.a2a_i_thunderbird{background-position:0 -2006px!important}.a2a_i_tuenti{background-position:0 -2023px!important}.a2a_i_tumblr{background-position:0 -2040px!important}.a2a_i_twiddla{background-position:0 -2057px!important}.a2a_i_twitter{background-position:0 -2074px!important}.a2a_i_typepad{background-position:0 -2091px!important}.a2a_i_uarr{background-position:0 -2108px!important}.a2a_i_uarr_wt{background-position:0 -2125px!important}.a2a_i_viadeo{background-position:0 -2142px!important}.a2a_i_vk{background-position:0 -2159px!important}.a2a_i_wanelo{background-position:0 -2176px!important}.a2a_i_webnews{background-position:0 -2193px!important}.a2a_i_whatsapp{background-position:0 -2210px!important}.a2a_i_windows_mail{background-position:0 -2227px!important}.a2a_i_winksite{background-position:0 -2244px!important}.a2a_i_wists{background-position:0 -2261px!important}.a2a_i_wordpress{background-position:0 -2278px!important}.a2a_i_xerpi{background-position:0 -2295px!important}.a2a_i_xing{background-position:0 -2312px!important}.a2a_i_yahoo{background-position:0 -2329px!important}.a2a_i_yigg{background-position:0 -2346px!important}.a2a_i_yim{background-position:0 -2363px!important}.a2a_i_yoolink{background-position:0 -2380px!important}.a2a_i_youmob{background-position:0 -2397px!important}</style></head><body class=" tundra" data-ember-extension="1"><div style="position: static;"><iframe id="a2apage_sm_ifr" height="1" width="1" title="AddToAny Utility Frame" transparency="true" allowtransparency="true" frameborder="0" src="./PhantomLimb_files/sm11.html" style="border: 0px; left: 0px; top: 0px; position: absolute; z-index: 100000; display: none;"></iframe><div id="a2apage_dropdown" class="a2a_menu" onmouseover="a2a.onMouseOver_stay()" style="display:none"><div class="a2a_menu_inside"><div id="a2apage_title_container" class="a2a_menu_title_container" style="display:none"><input id="a2apage_title" class="a2a_menu_title"></div><div class="a2apage_wide a2a_wide"><div class="a2a_tabs a2a_tabs_default"><div id="a2apage_DEFAULT" class="a2a_tab_selected" style="margin-right:1px"><span class="a2a_i_a2a">Teilen</span></div></div><div class="a2a_tabs"><div title="Teile per E-Mail" id="a2apage_EMAIL" style="margin-right:1px"><span class="a2a_i_email_bw">E-Mail</span></div></div></div><div class="a2a_clear"></div><div id="a2apage_find_container" class="a2a_menu_find_container"><input id="a2apage_find" class="a2a_menu_find" type="text" onclick="a2a.focus_find()" onkeyup="a2a.do_find()" autocomplete="off" onfocus="a2a[&#39;page&#39;].find_focused=true;a2a.onMouseOver_stay()" title="Finde deinen Bookmarkdienst"><span id="a2apage_find_icon" class="a2a_i_find" onclick="a2a.focus_find()"></span></div><div id="a2apage_cols_container" class="a2a_cols_container"><div class="a2a_col1" id="a2apage_col1"><a id="a2apage_favoriten" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span style="background-image: url(http://www.favoriten.de/buttons/16x16_3.gif);">Favoriten</span></a><a id="a2apage_reddit" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_reddit">Reddit</span></a><a id="a2apage_slashdot" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_slashdot">Slashdot</span></a><a id="a2apage_digg" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_digg">Digg</span></a><a id="a2apage_stumbleupon" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_stumbleupon">StumbleUpon</span></a><a id="a2apage_blogger_post" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_blogger">Blogger Post</span></a><a id="a2apage_newsvine" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_newsvine">NewsVine</span></a><a id="a2apage_wordpress" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_wordpress">WordPress</span></a><a id="a2apage_tumblr" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_tumblr">Tumblr</span></a><a id="a2apage_facebook" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_facebook">Facebook</span></a><a id="a2apage_twitter" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_twitter">Twitter</span></a><a id="a2apage_google_plus" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_google_plus">Google+</span></a><a id="a2apage_pinterest" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_pinterest">Pinterest</span></a><a id="a2apage_linkedin" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_linkedin">LinkedIn</span></a><a id="a2apage_google_bookmarks" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_google">Google Bookmarks</span></a><a id="a2apage_delicious" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_delicious">Delicious</span></a><a id="a2apage_myspace" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_myspace">MySpace</span></a><a id="a2apage_yahoo_bookmarks" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_yahoo">Yahoo Bookmarks</span></a><a id="a2apage_bebo" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_bebo">Bebo</span></a><a id="a2apage_mister_wong" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_mister-wong">Mister-Wong</span></a><a id="a2apage_app_net" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_app_net">App.net</span></a><a id="a2apage_wanelo" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_wanelo">Wanelo</span></a><a id="a2apage_orkut" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_orkut">Orkut</span></a><a id="a2apage_xing" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_xing">XING</span></a><a id="a2apage_buffer" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_buffer">Buffer</span></a><a id="a2apage_evernote" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_evernote">Evernote</span></a><a id="a2apage_whatsapp" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_whatsapp">WhatsApp</span></a><a id="a2apage_mendeley" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_mendeley">Mendeley</span></a><a id="a2apage_pocket" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_pocket">Pocket</span></a><a id="a2apage_vk" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_vk">VK</span></a><a id="a2apage_pinboard" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_pinboard">Pinboard</span></a><a id="a2apage_springpad" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_springpad">Springpad</span></a><a id="a2apage_flipboard" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_flipboard">Flipboard</span></a><a id="a2apage_arto" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_arto">Arto</span></a><a id="a2apage_aim" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_aim">AIM</span></a><a id="a2apage_yahoo_messenger" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_yim">Yahoo Messenger</span></a><a id="a2apage_plurk" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_plurk">Plurk</span></a><a id="a2apage_diaspora" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_diaspora">Diaspora</span></a><a id="a2apage_typepad_post" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_typepad">TypePad Post</span></a><a id="a2apage_box_net" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_box">Box.net</span></a><a id="a2apage_kindle_it" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_kindle">Kindle It</span></a><a id="a2apage_baidu" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_baidu">Baidu</span></a><a id="a2apage_netlog" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_netlog">Netlog</span></a><a id="a2apage_citeulike" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_citeulike">CiteULike</span></a><a id="a2apage_jumptags" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_jumptags">Jumptags</span></a><a id="a2apage_funp" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_funp">FunP</span></a><a id="a2apage_instapaper" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_instapaper">Instapaper</span></a><a id="a2apage_phonefavs" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_phonefavs">PhoneFavs</span></a><a id="a2apage_xerpi" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_xerpi">Xerpi</span></a><a id="a2apage_netvouz" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_netvouz">Netvouz</span></a><a id="a2apage_diigo" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_diigo">Diigo</span></a><a id="a2apage_bibsonomy" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_bibsonomy">BibSonomy</span></a><a id="a2apage_blogmarks" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_blogmarks">BlogMarks</span></a><a id="a2apage_startaid" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_startaid">StartAid</span></a><a id="a2apage_khabbr" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_khabbr">Khabbr</span></a><a id="a2apage_meneame" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_meneame">Meneame</span></a><a id="a2apage_yoolink" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_yoolink">Yoolink</span></a><a id="a2apage_bookmarks_fr" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_bookmarks_fr">Bookmarks.fr</span></a><a id="a2apage_technotizie" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_technotizie">Technotizie</span></a><a id="a2apage_friendfeed" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_friendfeed">FriendFeed</span></a><a id="a2apage_protopage_bookmarks" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_protopage">Protopage Bookmarks</span></a><a id="a2apage_blinklist" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_blinklist">Blinklist</span></a><a id="a2apage_yigg" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_yigg">YiGG</span></a><a id="a2apage_webnews" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_webnews">Webnews</span></a><a id="a2apage_segnalo" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_segnalo">Segnalo</span></a><a id="a2apage_pusha" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_pusha">Pusha</span></a><a id="a2apage_youmob" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_youmob">YouMob</span></a><a id="a2apage_fark" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_fark">Fark</span></a><a id="a2apage_allvoices" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_allvoices">Allvoices</span></a><a id="a2apage_jamespot" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_jamespot">Jamespot</span></a><a id="a2apage_twiddla" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_twiddla">Twiddla</span></a><a id="a2apage_linkagogo" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_linkagogo">LinkaGoGo</span></a><a id="a2apage_nowpublic" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_nowpublic">NowPublic</span></a><a id="a2apage_livejournal" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_livejournal">LiveJournal</span></a><a id="a2apage_linkatopia" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_linkatopia">Linkatopia</span></a><a id="a2apage_buddymarks" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_buddymarks">BuddyMarks</span></a><a id="a2apage_viadeo" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_viadeo">Viadeo</span></a><a id="a2apage_wists" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_wists">Wists</span></a><a id="a2apage_sitejot" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_sitejot">SiteJot</span></a><a id="a2apage_dzone" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_dzone">DZone</span></a><a id="a2apage_care2_news" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_care2">Care2 News</span></a><a id="a2apage_bitty_browser" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_bitty">Bitty Browser</span></a><a id="a2apage_odnoklassniki" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_odnoklassniki">Odnoklassniki</span></a><a id="a2apage_mail_ru" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_mail_ru">Mail.Ru</span></a><a id="a2apage_symbaloo_feeds" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_symbaloo">Symbaloo Feeds</span></a><a id="a2apage_folkd" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_folkd">Folkd</span></a><a id="a2apage_newstrust" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_newstrust">NewsTrust</span></a><a id="a2apage_amazon_wish_list" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_amazon">Amazon Wish List</span></a><a id="a2apage_printfriendly" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_printfriendly">PrintFriendly</span></a><a id="a2apage_tuenti" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_tuenti">Tuenti</span></a><a id="a2apage_email" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_email">Email</span></a><a id="a2apage_rediff" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank" style="display: none;"><span class="a2a_i_rediff">Rediff MyPage</span></a></div><div id="a2apage_2_col1" style="display:none"><a id="a2apage_google_gmail" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_gmail">Google Gmail</span></a><a id="a2apage_yahoo_mail" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_yahoo">Yahoo Mail</span></a><a id="a2apage_outlook_com" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_outlook_com">Outlook.com</span></a><a id="a2apage_aol_mail" rel="nofollow" class="a2a_i" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_aol">AOL Mail</span></a><a id="a2apage_any_email" rel="nofollow" class="a2a_i a2a_emailer" href="http://www.vodori.com/" target="_blank"><span class="a2a_i_email">Any email</span></a><a id="a2apage_email_client" rel="nofollow" class="a2a_i a2a_emailer a2a_email_client" href="http://www.vodori.com/" target=""><span class="a2a_i_outlook">&nbsp;</span><span class="a2a_i_windows_mail">&nbsp;</span><span class="a2a_i_apple_mail">&nbsp;</span><span class="a2a_i_thunderbird">&nbsp;</span></a></div><div class="a2a_clear"></div></div><div class="a2apage_wide a2a_wide"><a href="" id="a2apage_show_more_less" class="a2a_menu_show_more_less" onmouseover="img=this.firstChild;if(a2a.c.color_arrow_hover==&#39;fff&#39;){if(img.className.indexOf(&#39;_wt&#39;)==-1)img.className+=&#39;_wt&#39;}else img.className=img.className.replace(/_wt/,&#39;&#39;)" onmouseout="img=this.firstChild;if(a2a.c.color_arrow==&#39;fff&#39;){if(img.className.indexOf(&#39;_wt&#39;)==-1)img.className+=&#39;_wt&#39;}else img.className=img.className.replace(/_wt/,&#39;&#39;)" title="Alle anzeigen"><span class="a2a_i_darr"></span></a></div><div class="a2a_menu_powered_by" id="a2apage_powered_by" onmouseover="if(this.innerHTML!=this.orig&amp;&amp;!window.opera)this.innerHTML=this.orig;this.style.textAlign=&#39;center&#39;">By <a href="http://www.addtoany.com/" target="_blank" title="Share Buttons">AddToAny</a></div></div></div></div><span dojotype="pepper.analytics.Tracker" ua="UA-5610351-2" id="pepper_analytics_Tracker_0" dir="ltr" widgetid="pepper_analytics_Tracker_0"></span>
+        
+
+
+
+<script type="text/javascript">
+	var a2a_config = a2a_config || {};
+
+	// These services are given a lower priority than the user's inferred services.
+	// Which is to say that total control is not possible.
+	a2a_config.prioritize = ["reddit","slashdot","digg","stumbleupon","blogger_post","newsvine","wordpress","tumblr"];
+
+	// services to display in the top portion of the box
+	a2a_config.num_services = 10;
+
+	// disable hover
+	a2a_config.onclick = 1;
+</script>
+
+
+<script src="./PhantomLimb_files/shCore.js" type="text/javascript"></script>
+<script src="./PhantomLimb_files/shAutoloader.js" type="text/javascript"></script>
+<link href="./PhantomLimb_files/shCore.css" rel="stylesheet" type="text/css">
+<link href="./PhantomLimb_files/shThemeEclipse.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	dojo.addOnLoad(function() {
+		SyntaxHighlighter.defaults['auto-links'] = false;
+		SyntaxHighlighter.defaults['toolbar'] = false;
+
+		SyntaxHighlighter.autoloader.apply(null,
+		 [
+		  'applescript            /static/js/syntaxhighlighter/scripts/shBrushAppleScript.js',
+		  'bash shell             /static/js/syntaxhighlighter/scripts/shBrushBash.js',
+		  'cpp c                  /static/js/syntaxhighlighter/scripts/shBrushCpp.js',
+		  'c# c-sharp csharp      /static/js/syntaxhighlighter/scripts/shBrushCSharp.js',
+		  'css                    /static/js/syntaxhighlighter/scripts/shBrushCss.js',
+		  'diff patch pas         /static/js/syntaxhighlighter/scripts/shBrushDiff.js',
+		  'erl erlang             /static/js/syntaxhighlighter/scripts/shBrushErlang.js',
+		  'groovy                 /static/js/syntaxhighlighter/scripts/shBrushGroovy.js',
+		  'java                   /static/js/syntaxhighlighter/scripts/shBrushJava.js',
+		  'jfx javafx             /static/js/syntaxhighlighter/scripts/shBrushJavaFX.js',
+		  'js jscript javascript  /static/js/syntaxhighlighter/scripts/shBrushJScript.js',
+		  'perl pl                /static/js/syntaxhighlighter/scripts/shBrushPerl.js',
+		  'php                    /static/js/syntaxhighlighter/scripts/shBrushPhp.js',
+		  'text plain             /static/js/syntaxhighlighter/scripts/shBrushPlain.js',
+		  'py python              /static/js/syntaxhighlighter/scripts/shBrushPython.js',
+		  'ruby rails ror rb      /static/js/syntaxhighlighter/scripts/shBrushRuby.js',
+		  'scala                  /static/js/syntaxhighlighter/scripts/shBrushScala.js',
+		  'sql                    /static/js/syntaxhighlighter/scripts/shBrushSql.js',
+		  'xml xhtml xslt html    /static/js/syntaxhighlighter/scripts/shBrushXml.js'
+		 ]
+		);
+
+		SyntaxHighlighter.all();
+	});
+</script>
+
+
+
+
+
+    
+    
+    
+    
+        
+            
+				
+            
+        
+        
+            
+                <link rel="image_src" href="./PhantomLimb_files/blog-brian-carstensen.jpg">
+            
+        
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="shell">
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="header">
+	<div id="navigation">
+		<ul>
+            <li>
+                <a href="http://www.vodori.com/services">
+                    Services
+                </a>//
+            </li>
+            <li>
+                <a href="http://www.vodori.com/products">
+                    Products
+                </a>//
+            </li>
+            <li>
+                <a href="http://www.vodori.com/about-us">
+                    About Us
+                </a>//
+            </li>
+            <li>
+                <a href="http://www.vodori.com/careers">
+                    Careers
+                </a>//
+            </li>
+            <li>
+                <a href="http://www.vodori.com/blog.html" class="active">
+                    Blog
+                </a>//
+            </li>
+            <li>
+                <a href="http://www.vodori.com/contact">
+                    Contact
+                </a>
+            </li>
+		</ul>
+	</div>
+	<div class="cl">&nbsp;</div>
+</div>
+
+        
+
+
+<div id="main">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BLOG POST MAIN -->
+<div class="content-holder">
+
+	<div class="content-t notext"></div>
+
+	<div class="content">
+
+		<!-- BLOG HEADER LOGO -->
+		<div class="head">
+
+			<h1 id="logo">
+				<a class="notext" href="http://www.vodori.com/">vodori</a>
+			</h1>
+
+			<p class="blog-link">
+                // <a href="http://www.vodori.com/blog.html">THE BLOG</a>
+            </p>
+
+			<div class="cl">&nbsp;</div>
+
+		</div>
+
+		<!-- POST -->
+		
+
+		<div class="post tech">
+
+			<!-- POST LEFT -->
+			<div class="post-left">
+				
+					
+						
+						
+
+
+
+
+
+
+
+
+
+					
+				
+				
+					
+						<img src="./PhantomLimb_files/blog-brian-carstensen.jpg" alt="Brian Carstensen">
+					
+				
+
+				<p class="time">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <span class="month">01/</span><span class="day">21/</span><span class="year">2011</span>
+
+				</p>
+
+				
+					
+                        
+                    
+				
+
+			</div>
+
+			<!-- POST RIGHT -->
+			<div class="post-right">
+
+				<!-- POST RIGHT HEAD -->
+				<div class="post-head">
+					<h2 class="tech">
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    Phantom Limb
+  
+
+                    </h2>
+
+					<span class="author">
+                        
+                            
+                            
+                                
+                                    <a href="http://www.vodori.com/blog.html?author=Brian%20Carstensen">Brian Carstensen</a>
+                                
+                            
+                        
+					</span>
+					//
+					<span class="category">
+						in
+							
+                                
+                                
+                                    
+                                        
+                                            <a href="http://www.vodori.com/blog.html?category=Technology" class="tech">
+                                                Technology
+                                            </a>
+                                            
+                                        
+                                    
+                                
+                            
+						
+					</span>
+				</div>
+
+<!-- POST BODY -->
+				<div class="post-body tech">
+                    <div class="post-entry tech inner-post">
+                        
+
+
+
+
+
+
+
+
+
+<div class="main"><p><img style="float: left; margin-left: 8px; margin-right: 8px;" title="Phantom Limb" src="./PhantomLimb_files/phantom-limb-thumb.jpg" alt="Phantom Limb" height="175" width="142">With some mobile web app projects coming up at Vodori, I cleaned up Phantom Limb, a mobile web dev utility. Phantom Limb does just one thing:<br><br>It fires a corresponding touch event for each mouse event on the page.<br><br>Now you can test your mobile web app with your browser.</p></div>
+                    </div>
+				</div>
+
+				<div class="post-body tech">
+                    <div class="post-entry tech inner-post">
+                        
+
+
+
+
+
+
+
+
+
+<div class="main"><p>Mobile browsers ensure basic compatibility with normal sites by simulating mouse events. When a user touches a DOM node, the following events fire:</p>
+<ol>
+<li>`touchstart`, as a finger touches the screen</li>
+<li>`touchmove`, while the finger moves</li>
+<li>`touchend`, when the finger lifts off the screen</li>
+</ol>
+<p>If that node is clickable (it's a button, a link, or has a click event handler), the browser rapidly fires off the next series of events:</p>
+<ol>
+<li>`mouseover`</li>
+<li>`mousemove` (only once)</li>
+</ol>
+<p>And if those events don't change the DOM, the browser finally fires:</p>
+<ol>
+<li>`mousedown`</li>
+<li>`mouseup`</li>
+<li>`click`</li>
+</ol>
+<p>This behavior ensures that mouse events will function in a mouse-less environment, but you get more control and create a better experience in your mobile web app by using native touch events.</p>
+<p>Generally not a problem, except desktop browsers don't do touch events, so you'll have to do all your testing on the device itself (or the iOS Simulator app included with the iOS SDK), without the benefit of a decent debugger or comfortable posture.</p>
+<h3>Phantom Limb makes desktop browsers simulate touch events</h3>
+<p>Phantom Limb makes desktop browsers simulate touch events by dispatching a custom touch event for every mouse event it receives. A `mousedown` fires a `touchstart`. A `mousemove` fires a `touchmove` if the mouse is down, and a `mouseup` fires a `touchend`. These custom events are also assigned a `touches` array containing a reference to the event, just like a real touch event in a mobile browser.<br><br>I've only really been running it in Safari. I'm primarily writing for iOS, but Chrome and Firefox should work okay, too. Gestures/multitouch are not currently supported (that'll be quite the trick).<br><br>In Firefox, Phantom Limb converts inline `ontouchstart="doSometing();"` handlers into `node.addEventListener(...)` handlers. Inline event handlers can't be triggered by artificially dispatched events in Firefox. By adding listeners for inline handlers (and removing the inline handler) we can simulate touches for these nodes too.<br><br>...I lied. Phantom Limb does something else:</p>
+<h3>Phantom Limb replaces your mouse cursor with a creepy disembodied hand</h3>
+<p>I added this for my own amusement, and you can shut it off with the button in the bottom right corner. But it can serve a purpose while you're designing and testing a mobile web app.</p>
+<p>Fingers are kinda stubby, for one, and tend to be less accurate than a mouse cursor. By hiding the cursor and providing a sorta-inaccurate faux-finger to faux-poke the screen with, you'll get a sense of how easy it'll be to poke the right element on a real mobile device.</p>
+<p>Also, your hand is opaque (I hope) and covers up some portion of the screen on a mobile device. By blocking part of the screen, you'll be able to make sure the user will see everything they need to as they're interacting with your app.<br><br><a href="http://dl.dropbox.com/u/557187/phantom-limb/index.html" target="_blank">A basic Phantom Limb test page</a><br><br>And <a href="http://dl.dropbox.com/u/557187/metronome/index.html" target="_blank">here's Phantom Limb in action</a>, applied to my on-again-off-again metronome iPad webapp. Run it in Safari to get the full effect.<br><br>Phantom Limb can be activated from this bookmarklet:</p>
+<blockquote>
+<p>javascript:void(function(scriptSrc,config){var script=document.createElement('script');script.src=scriptSrc;script.type='text/javascript';script.addEventListener('load',function(){if('phantomLimb'in window){phantomLimb.init(config)}else{console.error('Phantom Limb could not be loaded')}},false);document.head.appendChild(script)}('https://github.com/brian-c/phantom-limb/raw/master/phantomLimb.js',{src:'https://github.com/brian-c/phantom-limb/raw/master/limb-black.png',lefty:false}));</p>
+</blockquote>
+<p>If you want to include it in your project, the latest source can be found on <a href="https://github.com/brian-c/phantom-limb" target="_blank">GitHub</a>.</p>
+<p>I'd love to read your suggestions or comments. And if you're interested in working on developments like this, Vodori is<a href="http://www.vodori.com/company/careers.html" target="_blank"> currently hiring for positions in Chicago</a>!</p></div>
+
+                    </div>
+				</div>
+
+				<!-- READ MORE -->
+				<div class="read-more">
+					<div class="read-more-b">
+						<div class="read-more-t">
+
+							<p class="head">
+								READ MORE.
+							</p>
+
+							<p class="related">
+								Related posts in:
+
+                                
+                                    
+								        <a href="http://www.vodori.com/blog.html?category=Technology" class="tech">Technology</a>
+							        
+               		 	        
+
+								
+
+								
+
+							</p>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="cl">&nbsp;</div>
+
+			<!-- POST BOTTOM -->
+			<div class="post-bottom">
+				<p>
+					<a class="a2a_dd" href="http://www.addtoany.com/share_save#url=http%3A%2F%2Fwww.vodori.com%2Fblog%2Fphantom-limb.html&title=Phantom%20Limb%20-%20The%20Vodori.com%20Blog&description=">
+						Share Article
+					</a>
+				</p>
+
+				<script type="text/javascript">
+					a2a_config.linkname = 'Phantom Limb - The Vodori.com Blog';
+					a2a_config.linkurl = 'http://www.vodori.com/blog/phantom-limb.html';
+				</script>
+				<script type="text/javascript" src="./PhantomLimb_files/page.js"></script>
+				
+				<ul class="social">
+					<li class="twitter">
+                        <a class="notext" href="http://twitter.com/share?url=http://www.vodori.com/blog/phantom-limb.html&text=Phantom%20Limb%20-%20The%20Vodori.com%20Blog" target="_blank">
+                            <img style="border: medium none ! important;" title="Twitter" src="./PhantomLimb_files/twiiter-button.gif" alt="Tweet" width="55" height="20">
+                        </a>
+					</li>
+					<li class="facebook">
+						<iframe src="./PhantomLimb_files/like.html" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:47px; height:21px;" allowtransparency="true">
+                        </iframe>
+					</li>
+					<li class="plusOne">
+						
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+<div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 32px; height: 20px; background: transparent;"><iframe frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 32px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1401277591561" name="I0_1401277591561" src="./PhantomLimb_files/fastbutton.html" data-gapiattached="true" title="+1"></iframe></div>
+					</li>
+				</ul>
+			</div>
+
+            
+                
+
+                
+                    
+                
+            
+
+            
+
+                
+                    
+                
+            
+
+
+		</div><!-- end post -->
+	</div><!-- end content -->
+
+	<div class="content-b notext"></div>
+
+</div><!-- end content-holder-->
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--googleoff: all-->
+<div class="sidebar">
+
+    <!-- BOX 1-->
+    <div class="box">
+        <!-- Search Box -->
+		<div class="search-form">
+			<form action="http://www.vodori.com/blog/search-results.html" method="post" name="search-form" id="search-form">
+				<label for="search">Search:</label>
+				<span>
+					<input id="search" name="q" value="" type="text" tabindex="1" class="search-input query-field">
+				</span>
+				<input type="submit" value="GO" class="submit">
+			</form>
+		</div>
+
+    </div>
+
+    <!-- BOX 2 -->
+    <div class="boxes">
+        <div class="left">
+            <h3>Categories</h3>
+            <ul class="side-nav">
+                <!-- Iterate through each category and count -->
+                
+                    <li class="
+
+
+
+
+
+
+
+
+creative">
+                        <a href="http://www.vodori.com/blog/category/Creative.html">
+                            <span class="color"></span>
+                            Creative
+                            <span>(36)</span>
+                        </a>
+                    </li>
+                
+                    <li class="
+
+
+
+
+
+
+
+
+strategy">
+                        <a href="http://www.vodori.com/blog/category/Strategy.html">
+                            <span class="color"></span>
+                            Strategy
+                            <span>(46)</span>
+                        </a>
+                    </li>
+                
+                    <li class="
+
+
+
+
+
+
+
+
+tech">
+                        <a href="http://www.vodori.com/blog/category/Technology.html">
+                            <span class="color"></span>
+                            Technology
+                            <span>(73)</span>
+                        </a>
+                    </li>
+                
+                    <li class="
+
+
+
+
+
+
+
+
+vodori">
+                        <a href="http://www.vodori.com/blog/category/Vodori-Culture.html">
+                            <span class="color"></span>
+                            Vodori Culture
+                            <span>(57)</span>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+
+        <div class="right">
+            <h3>Follow</h3>
+            <ul class="social-icons">
+                <li class="rss">
+                    <a href="http://www.vodori.com/rss/feed.xml"><span class="fa fa-rss"></span></a>
+                </li>
+                <li class="facebook"> <!-- TODO: check how this works & get correct link -->
+                    <a href="http://www.facebook.com/pages/Vodori/203811995759" target="_new"><span class="fa fa-facebook"></span></a>
+                </li>
+                <li class="twitter">
+                    <a href="http://www.twitter.com/vodori" target="_new"><span class="fa fa-twitter"></span></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cl">&nbsp;</div>
+    </div>
+
+    <!-- BOX 4 -->
+	<div class="box">
+		
+<div class="box orange-box">
+<h3>We’re Hiring in Chicago!</h3>
+<p>Join a group of smart, talented and passionate professionals.</p>
+<p><a onclick="_gaq.push([&#39;_trackEvent&#39;, &#39;Blog&#39;, &#39;Hiring&#39;, &#39;JoinOurForce&#39;]);" href="http://www.vodori.com/company/careers.html">See our open positions ›</a></p>
+</div>
+	</div>
+
+	
+
+
+
+
+
+
+
+
+
+<div class=""></div>
+
+	
+	    <!-- BOX 5 -->
+		<div class="box box-last">
+			<div class="box-b">
+				<div class="box-t">
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a id="cuf"></a>
+<h3>How’s It Going?</h3>
+<p>Do you have a question, comment or embarassing confession you don’t want the internet to know? <strong>Tell us in private.</strong></p>
+<div class="send-message">
+    <style text="type/css">
+        .pepperInvalid{ outline:none; background:none; }
+    </style>
+        <style text="type/css">
+        .pepperInvalid{ outline:none; background:none; }
+        .pepperValidationMessage  { margin-left:43px; margin-top:-49px; width:220px; }
+        .dijitTextBoxError .dijitValidationContainer { display:none; }
+    </style>
+
+    
+    <script>
+        dojo.addOnLoad(function () {
+           dojo.attr(dojo.byId('form'),'action','/contact/submitBlog.html');
+        });
+    </script>
+
+    <form id="form" action="http://www.vodori.com/contact/submitBlog.html" method="POST">
+
+            <!-- EMAIL ============================================================================================= -->
+            <div class="field-row">
+
+                <label for="emailAddress">
+                    Email:
+                </label>
+
+                <div class="form_field_input">
+                    <span class="field">
+
+                        
+                            <input id="emailAddress" name="emailAddress" tabindex="4" type="text" value="">
+                        
+
+                    </span>
+
+                    <div></div>
+                </div>
+
+            </div>
+
+            <!-- NAME ============================================================================================== -->
+            <div class="field-row">
+
+                <label for="name">
+                    Name:
+                </label>
+
+                <div class="form_field_input">
+                    <span class="field">
+
+                    
+                        <input id="name" name="name" tabindex="5" type="text" value="">
+                    
+
+                    </span>
+                    <div></div>
+                </div>
+                
+
+            </div>
+
+            <!-- MESSAGE =========================================================================================== -->
+            <div class="field-row last-row">
+
+                <label for="comments">
+                    Super Secret Message:
+                </label>
+
+                <div class="form_field_input">
+                    <textarea id="comments" name="comments" tabindex="6" required="true" rows="8" cols="40"></textarea>
+                </div>
+
+            </div>
+
+            <p class="submit-message">
+                <input type="submit" value="" tabindex="6" class="submit-message">
+            </p>
+            <!-- =================================================================================================== -->
+
+			<input id="url" name="url" type="hidden" value="/blog/phantom-limb.html">
+        <div class="cl">&nbsp;</div>
+
+    </form>
+
+</div>
+				</div>
+			</div>
+		</div>
+	
+</div> <!-- end sidebar -->
+<div class="cl">&nbsp;</div>
+<!--googleon: all-->
+</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+	<p>Copyright © 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    2014
+ Vodori - All Rights Reserved | <a href="http://www.vodori.com/privacy-policy">Privacy Policy</a></p>
+	<ul class="footer-nav">
+        <li>
+            <a href="http://www.vodori.com/index">
+                Home
+            </a>//
+        </li>
+        <li>
+            <a href="http://www.vodori.com/services">
+                Services
+            </a>//
+        </li>
+        <li>
+            <a href="http://www.vodori.com/products">
+                Products
+            </a>//
+        </li>
+        <li>
+            <a href="http://www.vodori.com/about-us">
+                About Us
+            </a>//
+        </li>
+        <li>
+            <a href="http://www.vodori.com/careers">
+                Careers
+            </a>//
+        </li>
+        <li>
+            <a href="http://www.vodori.com/blog.html" class="active">
+                Blog
+            </a>//
+        </li>
+        <li>
+            <a href="http://www.vodori.com/contact">
+                Contact
+            </a>
+        </li>
+	</ul>
+	
+</div>
+
+        
+
+
+
+
+<!-- ClickTale widget -->
+
+
+        <span dojotype="vodori.integration.ClickTale" projectid="3403" recordingratio="1.0" partitionid="www07">
+        </span>
+    
+
+    </div>
+
+
+<div id="ClickTaleDiv" style="display: none;"></div><script type="text/javascript" src="chrome-extension://bmdblncegkenkacieihfhpjfppoconhi/in-page-script.js"></script><iframe name="oauth2relay490586172" id="oauth2relay490586172" src="./PhantomLimb_files/postmessageRelay.html" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe></body></html>
