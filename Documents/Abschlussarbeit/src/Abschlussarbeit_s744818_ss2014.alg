@@ -1,0 +1,5 @@
+This is makeindex, version 2.15 [TeX Live 2013] (kpathsea + Thai support).
+Scanning style file ./Abschlussarbeit_s744818_ss2014.ist.............................done (29 attributes redefined, 0 ignored).
+Scanning input file Abschlussarbeit_s744818_ss2014.acn...done (0 entries accepted, 0 rejected).
+Nothing written in Abschlussarbeit_s744818_ss2014.acr.
+Transcript written in Abschlussarbeit_s744818_ss2014.alg.

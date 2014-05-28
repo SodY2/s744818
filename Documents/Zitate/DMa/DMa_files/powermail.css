@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tx-powermail {
+	padding:0 !important;
+	width:436px !important;
+}
+
+.powermail_form fieldset {
+	border:0 !important;
+	background:none !important;
+	background-image:none !important;
+	box-shadow:none !important;
+	filter:none !important;
+	margin:0;
+	padding:0;
+}
+
+.powermail_legend {
+    color: #001049;
+    font-size: 1em;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    float:none;
+}
+
+
+
+.powermail_label {
+    clear: left;
+    color: #000000;
+    display: block;
+    float: left;
+    font-weight: normal;
+    font-size:12px;
+    width: 120px;
+}
+
+.powermail_field {
+	width:200px;
+}
+
+#powermail_field_anrede {
+	width:80px;
+}
+
+.powermail_submit {
+    background-image: url("../gfx/submit_bg.gif");
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: -moz-use-text-color;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: none;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: medium;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: -moz-use-text-color;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: none;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: medium;
+    border-top-color: -moz-use-text-color;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-style: none;
+    border-top-width: medium;
+    box-shadow: 3px 3px 5px #DDDDDD;
+    color: white;
+    cursor: pointer;
+    float: none;
+    font-weight: bold;
+    height: 31px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+}
+
+.powermail_message_error {
+	border:0 !important;
+	background:none !important;
+	background-image:none !important;
+	box-shadow:none !important;
+	filter:none !important;
+	margin-bottom:20px !important;
+}
+
+.powermail_message_error li {
+	color:red;
+	font-weight:normal;
+  	font-size:12px;	
+}
+
+.powermail_fieldwrap_text {
+    font-size:12px;
+    margin-bottom:10px !important;
+}

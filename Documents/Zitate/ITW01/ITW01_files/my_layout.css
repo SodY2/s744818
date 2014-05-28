@@ -1,0 +1,33 @@
+/**
+ * ITWissen.info
+ *
+ * screen layout
+ *
+ * @package         yaml
+ * @version         3.1
+ * @project			ITWissen.info
+ * @site			www.itwissen.info
+ * @id				$Id: my_layout.css 48 2009-08-21 16:35:45Z sebastian_schreiber $
+ */
+
+/* core files compacted */
+@import url(../yaml/core/slim_base.css); 
+
+/* import screen layout */
+@import url(my_screen/my_basemod.css);
+@import url(my_screen/my_content.css); 
+
+/* import banner layout */
+@import url(my_screen/my_banner.css); 
+
+/* import menu styles */
+@import url(my_screen/my_navigation.css);
+
+/* import sr_feuser_register styles */
+@import url(my_screen/ext/sr_feuser_register.css);
+
+/* import itw styles */
+@import url(my_screen/ext/itw.css);
+
+/* import print css */
+@import url(my_print/my_print.css);

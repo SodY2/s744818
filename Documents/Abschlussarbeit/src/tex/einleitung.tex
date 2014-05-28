@@ -1,0 +1,31 @@
+\chapter{Einleitung}
+
+In der modernen Webentwicklung durchläuft eine Anwendung verschiedene Etappen eines Entwicklungszyklus. Sie beginnt mit einem Auftrag oder einer Idee, darauf folgt dann die Spezifikation einzelner \mi{Usecases}\footnote{Szenario oder auch Anwendungsfall}. Im Anschluss folgt in der Regel die Entwicklung und Implementation\footnote{Einbindung} der einzelnen Komponenten. Am Ende der jeweiligen Implementationsphase durchläuft das Produkt\footnote{hier: einzelne Softwarekomponente} die Qualitätskontrolle. Sollten in dieser Phase Fehler auftreten wird das Produkt dem Entwickler zur erneuten Bearbeitung vorgelegt.
+
+\\Dieser Vorgang kann sich beliebig oft wiederholen. Bei großen und komplexen Softwaresystemen ist es trotz zeitgemäßer Implementierung nicht immer ausgeschlossen, dass \mi{Kaskadierungsfehler}\footnote{Fehler die nicht im eigentlichen Segment auftreten, sondern eine oder mehr Ebenen weiter unten in der Systemhirarchie} entstehen. Aus Sicht der \Gls{qs} ist dies ein lästiges Problem, da sie  nach jedem erneuten Modifikationsvorganges eines Softwaresegments einen größeren Segmentblock, wenn nicht sogar das gesamte Softwaresystem, erneut testen muss.
+
+\\Bei der Entwicklung für mobile \Gls{moEn}e\footnote{Smartphones, \Gls{Tablet}ts  oder Ähnliche} kommt noch ein erschwerender Faktor hinzu, nämlich die diversen, verschiedenen Bildschirmauflösungen. Diese können nicht nur die Darstellung des Inhalts beeinflussen, sondern auch daraus folgend die Interaktionskonformität beeinflussen.
+
+\ig{../pictures/Entwicklungsprozess}{Entwicklungsprozess}{Vereinfachte Darstellung eines Softwareentwicklungsprozesses}
+
+Im Optimalfall wird die Software erst nach vollständiger Homogenität auf allen unterstützen Geräten freigegeben. Dies bedeutet, dass auf allen \Gls{moEn}en ein identisches Gesamtergebnis, hinsichtlich der Darstellung und dem Nutzerverhalten, erzielt wurde. 
+
+\\Dieser zyklisch wiederkehrende Prozessablauf ist sehr zeitintensiv und nimmt linear mit der Anzahl der zu testenden Geräte zu.
+
+\\Das Ergebnis dieser Forschungsarbeit soll zeigen, wie verschiedene \mi{Softwareframeworks} die Zeit, die in die \Gls{qs} investiert wird, beeinflussen können. Dies soll durch die \gls{parallel-synchron}e Steuerung diverser Geräte  erzielt werden. Unter dem Wortlaut \gls{parallel-synchron} wird innerhalb dieser Arbeit, die simulierte synchrone Bedienung mehrerer \Gls{moEn}e innerhalb des gleichen Zeitintervalls verstanden. Die Evaluierung soll feststellen wo die Vorteile und Nachteile der einzelnen Werkzeuge liegen. Weiterhin soll ermittelt werden ob aktuelle \mi{\Gls{Framework}s} erweiterbar sind um beispielsweise automatisierte \mi{Testunits} zu implementieren. 
+
+
+
+\\Im Kapitel der 'Aufgabenstellung' befasst sich der Autor sich ausschließlich mit der Ermittlung notwendiger Kriterien für die Durchführung der \mi{Evaluation} und legt fest, welche Wertigkeit die einzelnen Faktoren in Bezug auf die Gesamtbewertung erhalten. Ebenfalls benennt er in diesem Kapitel die \mi{Abgrenzungskriterien}, welche dazu dienen die Bearbeitung der Aufgabe auf einen vordefinierten Zeitrahmen einzugrenzen.
+
+\\In dem darauf folgenden Kapitel 'Grundlagen' klärt der Autor alle allgemeinen sowie auch technischen Grundlagen, die notwendig sind diese \mi{Abschlussthesis} zu verstehen. Er geht ausführlich auf verwendete Begriffe ein, sowie auf Begriffe die in diesem Umfeld entstanden sind. Ein weiterer Punkt innerhalb dieses Kapitels ist die Erläuterung technischer Versuchsaufbauten die im Rahmen der Thesis notwendig waren um eine Evaluation durchzuführen.
+
+\\Im Kapitel 'Auswahl der \Gls{Framework}s' befasst der Autor sich kurz mit diversen \mi{\Gls{Framework}s}. Es wird deren Herkunft erläutert, womit sie werben und auf welchen Technologien sie aufbauen. Des Weiteren behandelt er in diesem Abschnitt Technologien, die einzelne funktionelle Komponenten beinhalten, welche in Hinsicht auf die Entwicklung eines eigenen \mi{\Gls{Framework}s} zur \gls{parallel-synchron}en Steuerung von Webapplikationen auf mobilen \Gls{moEn}en einen Mehrwert liefern.
+
+\\Das Kapitel 'Evaluation der \Gls{Framework}s' umfasst die Auswertung der erlangten Ergebnisse. Hier erläutere ich die Resultate meiner Versuchsreihen und wie man die Ergebnisse nutzen kann, eine optimierte \Gls{qs} von Webapplikationen, mit Fokus auf mobile \Gls{moEn}e, vorzunehmen.
+
+\\Zum Abschluss fasse ich meine Thesis noch einmal zusammen und kläre Fragen und Probleme die während der Bearbeitungszeit auftraten.
+
+\vfill
+\subsubsection{Anmerkung}
+Aus Gründen der besseren Lesbarkeit wird für alle Personen und Funktionsbezeichnungen durchgängig das generische Maskulinum angewendet und bezieht in gleicher Weise Frauen und Männer ein.

@@ -1,0 +1,31 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Entwicklungsprozess}}{3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces Zeitaufwand pro Testger\IeC {\"a}t}}{6}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Qualit\IeC {\"a}tssicherung Testszenario}}{7}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces Darstellung der Lernkurve f\IeC {\"u}r \Gls {Framework}s}}{9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces \IeC {\"U}bersicht Netzarchitektur}}{11}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Startbildschirm Ghostlab}}{23}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces \IeC {\"U}bersicht Clients}}{24}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Exemplarisch Weinreansicht}}{25}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces \IeC {\"U}bersicht mobile Clients Ghostlab}}{26}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces Adobe Edge Inspect \Gls {Deamon} Icon}}{29}
+\contentsline {figure}{\numberline {\relax 5.6}{\ignorespaces Adobe Edge Inspect \Gls {App} Client hinzuf\IeC {\"u}gen}}{30}
+\contentsline {figure}{\numberline {\relax 5.7}{\ignorespaces Adobe Edge Inspect Chrome Extension}}{30}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Adobe Edge Inspect Ger\IeC {\"a}temanager}}{31}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Adobe Edge Inspect \Gls {App} Content Darstellung}}{32}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Remote Preview Steuerungsmaske}}{34}
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Browser-Sync Installation per Konsole}}{36}
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Browser-Sync Initiierung per Konsole}}{36}
+\contentsline {figure}{\numberline {\relax 5.13}{\ignorespaces Browser-Sync Starten per Konsole}}{36}
+\contentsline {figure}{\numberline {\relax 5.14}{\ignorespaces Browser-Sync Script-Tag}}{37}
+\contentsline {figure}{\numberline {\relax 5.15}{\ignorespaces Browser-Sync verbundener Client}}{37}
+\contentsline {figure}{\numberline {\relax 5.16}{\ignorespaces socket.io vereinfachte Darstellung eines Broadcasts}}{40}
+\contentsline {figure}{\numberline {\relax 5.17}{\ignorespaces socket.io vereinfachte Darstellung eines Broadcasts mit einem Aktionraum}}{41}
+\contentsline {figure}{\numberline {\relax 5.18}{\ignorespaces socket.io Quellcode Scrollbeispiel Serverseitig}}{42}
+\contentsline {figure}{\numberline {\relax 5.19}{\ignorespaces socket.io Quellcode Scrollbeispiel Clientseitig}}{42}
+\contentsline {figure}{\numberline {\relax 5.20}{\ignorespaces socket.io Quellcode Scrollbeispiel Clientseitig}}{42}
+\addvspace {10\p@ }

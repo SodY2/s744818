@@ -1,0 +1,511 @@
+\documentclass[13pt,a4paper,oneside]{scrbook} %#try: report, article, book, amsart
+
+%%
+%%------------------- Eigne Kommandos
+%%
+%Kommando zum erzeugen eines deutlichen REMOVE Blocks
+\newcommand{\tr}[1]{TOREMOVE-->\linebreak{#1} \linebreak <--TOREMOVE}
+
+%Kommando zum erzeugen eines Index Wortes
+\newcommand{\mi}[1]{\index{#1}#1}
+
+%Kommando zum erzeugen einer freizeile
+\renewcommand{\\}{\bigskip}
+
+%Kommando zum einfügen und skalieren eines Bildes
+\newcommand{\ig}[3]{
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=400,keepaspectratio]{#1}%
+	\caption[#2]{#3}%
+\end{figure}
+}
+
+%Kommando zur erstellung eines Zitats
+\newcommand{\z}[2]{
+	\begin{quote}
+			" #1 " \cite{#2}
+	\end{quote}
+} 
+
+\newcommand{\iga}[3]{
+\begin{figure}[H]
+	\centering
+	\includegraphics[keepaspectratio]{#1}%
+	\caption[#2]{#3}%
+\end{figure}
+}
+
+\newcommand{\igp}[5]{
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=#4, height=#5,,keepaspectratio]{#1}%
+	\caption[#2]{#3}%
+\end{figure}
+}
+
+%Kommando zur Erzeugung der evaluationstablle
+\usepackage{fp} 
+\usepackage[table]{xcolor}
+
+\newcommand{\met}[9]{
+
+	\begin{table}[H]
+	 \vspace{-20pt}
+ 		\centering
+		\rowcolors{1}{white}{lightgray}
+			\begin{tabular}{| p{8cm} | p{2cm} | p{2cm} |}
+			\hline
+				Komponente		 	&	Punkte	&	Wertigkeit\\
+			\hline
+			\hline
+				Installation			&	#2	&	10 \%\\
+				Konfiguration			&	#3	&	10 \%\\
+				Funktion: Desktop		&	#4	&	25 \%\\
+				Funktion: Mobil			&	#5	&	25 \%\\
+				Erweiterbarkeit			&	#6	&	10 \%\\
+				Unterst{\"u}tzte Browser				&	#7	&	10 \%\\
+				Aktivit{\"a}t			&	#8	&	10 \%\\
+				\hline
+				\hline
+				Gesamt				&	\FPeval\resultfp{clip((#2*1)+(#3*1)+(#4*2.5)+(#5*2.5)+(#6*1)+(#7*1)+(#8*1))} 												\resultfp 	&	100 \%\\
+				\hline
+				\end{tabular}
+			\caption{#1}
+	\end{table}
+
+}
+
+\newcommand{\mmet}[6]{
+	\subsubsection{#1}
+	 \vspace{-20pt}
+	\begin{table}[H]
+ 		\centering
+		\rowcolors{1}{white}{lightgray}
+			\begin{tabular}{| p{8cm} | p{5cm} |}
+			\hline
+				Komponente		 &	\\
+			\hline
+			\hline
+				Betriebssystem				&	#2	\\
+				Versionsnummer			&	#3	\\
+				Bildschirmdiagonale			&	#4	\\
+				Aufl{\"o}sung				&	#5	\\
+				Prim{\"a}re Ausrichtung		&	#6	\\
+				\end{tabular}
+			\caption{{\"U}bersicht #1}
+	\end{table}
+
+}
+
+%%
+%%------------------- Imports
+%%
+\RequirePackage{ifpdf}
+\usepackage{fancyunits}
+\usepackage[entwurf]{bhtThesis}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[toc]{glossaries}
+
+\makeindex 
+
+
+ 
+\makeglossaries
+ 
+ 
+%%
+%% ======================= GLOSSAR ANFANG
+%% setzen
+%% makeglossaries Abschlussarbeit_s744818_ss2014
+%% setzen
+%% 
+ 
+\newglossaryentry{Ajax}
+{
+    name=AJAX,
+    description={\z{Kunstwort für Asynchronous JavaScript and XML. Auf JavaScript basierende Technik, die die asynchrone Übertragung von Daten zwischen Client und Server betrifft.}{2}
+	}
+}
+
+ \newglossaryentry{moEn}
+{
+    name=Endgerät,
+    description={Komponenten mit primärer mobiler Nutzung werden umfassend als mobile Endgeräte gruppiert. Hierzu zählen 			Smarthphones und \Gls{Tablet}s}
+}
+
+ \newglossaryentry{Computer}
+{
+    name=Computer,
+    description={In dieser Arbeit werden gängige Modelle von Personal Computern oder Macs mit einem festen Arbeitsumfeld als Computer 	bezeichnet. Hierzu zählen auch tragbare Modelle und Laptops. Im Sinne der Thesis umschließe ich nachfolgend mit dem 		Begriff Desktop oben genannte Komponenten. Dies dient später der Differenzierung ob es sich um ein mobiles Endgerät 			handelt oder einem Computer}
+}
+
+
+ \newglossaryentry{Framework}
+{
+    name=Framework,
+    description={\z{Ein Framework ist eine semi-vollständige \Gls{App}likation. Es stellt für \Gls{App}likationen eine wiederverwendbare, 			gemeinsame Struktur zur Verfügung. Die Entwickler bauen das Framework in ihre eigene \Gls{App}likation ein, und erweitern es 		derart, dass es ihren spezifischen Anforderungen entspricht. Frameworks unterscheiden sich von Toolkits dahingehend, dass sie 	eine kohärente Struktur zur Verfügung stellen, anstatt einer einfachen Menge von Hilfsklassen.}{1}
+    Der Einfachheit halber wurden Sammlungen die nach dieser Definition eventuell unter den Begriff eines Toolkits fallen, ebenfalls als Framework betitelt
+	}
+}
+ 
+\newglossaryentry{Webbrowser}
+{
+    name=Browser,
+    description={\Gls{Computer}programm zur Darstellung von Inhalten des World Wide Web}
+}
+
+\newglossaryentry{HTML}
+{
+    name=HTML,
+    description={Die Hypertext Markup Language ist eine Auszeichnungsprache zur Beschreibung von Inhalten. Sie dient der Strukturierung von Texten, Links\footnote{Verweise zu anderen Inhalten}, Listen und Bildern eines Dokumentes. Eine HTML Seite wird von einem Webbrowser interpretiert und anschließend dargestellt. Die Entwicklung von HTML geschieht durch das World Wide Web Consortium (W3C) und den Web Hypertext \Gls{App}lication Technology Working Group (WHATWG) }
+}
+
+\newglossaryentry{Javascript}
+{
+    name=Javascript,
+    description={\z{JavaScript ist eine vielseitige Programmiersprache, mit der sich komplexe Anwendungen entwickeln lassen. Interpreter für JavaScript sind in allen modernen Web-Browsern integriert, daher ist die Sprache erheblich verbreitet. Daneben wird JavaScript zum Scripten einiger populärer Software genutzt. JavaScript wird in der Hauptsache Client-seitig verwendet und es ist damit möglich, auf Webseiten dynamisch Einfluss zu nehmen.}{4}}
+}
+
+\newglossaryentry{NodeJS}
+{
+    name=node.js,
+    description={Plattform um serverseitige eventgesteuerte Javascriptanwendungen zu entwickeln}
+}
+
+\newglossaryentry{PHP}
+{
+    name=PHP,
+    description={Eine an C und Perl angelehnte Scriptsprache für dynamische Webseiten}
+}
+
+\newglossaryentry{Devicelab}
+{
+    name=Devicelab,
+    description={Ein physikalischer Ort, an dem es eine Vielzahl an miteinander verbundenen Mobilgeräten und \Gls{Computer}n gibt}
+}
+
+\newglossaryentry{NPM}
+{
+    name=NPM,
+    description={Node Packaged Modules, eine Software zur Installation von NodeJS Bibliotheken}
+}
+
+\newglossaryentry{qs}
+{
+    name=Qualitätssicherung,
+    description={Station, welche ein Produkt (hier die Anwendung) durchlaufen und bestehen muss, um eine gewisse Qualität zu gewährleisten}
+}
+
+\newglossaryentry{VirtualBox}
+{
+    name=VirtualBox,
+    description={Virtuelle Desktopumgebung von Oracle. Wird genutzt um zum Beispiel ein anderes Betriebssystem, als das eigentlich genutzte, auf einer emulierten Rechnerumgebung, zu installieren}
+}
+
+\newglossaryentry{Smartphone}
+{
+    name=Smartphone,
+    description={Mobiltelefon mit \Gls{Computer}ähnlicher Struktur, meist mit Touchdisplay ausgestattet}
+}
+
+\newglossaryentry{Tablet}
+{
+    name=Tablet,
+    description={Tragbarer flacher \Gls{Computer} mit einem Touchscreen}
+}
+
+\newglossaryentry{PoW}
+{
+    name=Portraitmodus,
+    description={Vertikalausrichtung des Bildschirms eines mobilen Endgerätes}
+}
+
+\newglossaryentry{PaW}
+{
+    name=Panorama View,
+    description={Horizontalausrichtung des Bildschirms eines mobilen Endgerätes}
+}
+
+\newglossaryentry{Pixel}
+{
+    name=Pixel,
+    description={Auch bekannt als Bildpunkt. Farbwert einer digitalen Rastergrafik}
+}
+
+\newglossaryentry{BA}
+{
+    name=Auflösung,
+    description={\z{Die Bildauflösung wird oft auch nur als Auflösung bezeichnet.
+Sie gibt an, aus wie vielen Bildpunkten (Picture Element (Pixel) [engl.]) ein digitales Fernsehbild besteht.}{5}}
+}
+
+\newglossaryentry{Viewport}
+{
+    name=Viewport,
+    description={Der Viewport bezeichnet hier den Sichtbereich eines Bildes}
+}
+
+\newglossaryentry{Event}
+{
+    name= Event,
+    description={Übersetzbar als Ereignis. In der Ereignisgesteuerten Programmierung löst ein Event einen Funktionsaufruf aus}
+}
+
+\newglossaryentry{DOM}
+{
+    name=DOM,
+    description={\z{Document Object Model (DOM) ist eine plattform- sowie sprachenunabhängige Schnittstellenbeschreibung für den Zugriff auf die Elemente eines HTML- oder XML-Dokuments.}{6}}
+}
+
+\newglossaryentry{Apache}
+{
+    name= Apache,
+    description={\z{Software für den Betrieb eines Webservers. Der Apache Server ist meist in der als "LAMP" bezeichneten Kombination aus Linux Betriebssystem, Apache Webserver, MySQL Datenbank und der Programmiersprache PHP installiert.}{7}}
+}
+
+\newglossaryentry{Input}
+{
+    name= Input,
+    description={Verschiedene Eingabefelder in einem HTML-Dokument, zum Beispiel Texteingabe oder \Gls{Checkbox}en}
+}
+
+\newglossaryentry{Checkbox}
+{
+    name= Checkbox,
+    description={Eingabefeld zum Anhaken. Besitzt zwei Zustände, wahr und falsch}
+}
+
+\newglossaryentry{Radiobox}
+{
+    name= Radiobutton,
+    description={Eingabefeld für Einfachauswahl von mehreren Möglichkeiten. Besitzt zwei Zustände, wahr und falsch}
+}
+
+\newglossaryentry{Anker}
+{
+    name= Anker,
+    description={\z{Anker oder Sprungmarken sind Elemente, die eine Stelle innerhalb einer Datei markieren.}{8} Diese wird in der Regel durch ein Hashtag (\#) gekennzeichnet}
+}
+
+\newglossaryentry{gesichert}
+{
+    name= gesichert,
+    description={\z{Ein digitales Zertifikat ist ein digitaler Datensatz, der bestimmte Eigenschaften von Personen oder Objekten bestätigt und dessen Authentizität und Integrität durch kryptografische Verfahren geprüft werden kann. Das digitale Zertifikat enthält insbesondere die zu seiner Prüfung erforderlichen Daten.}{9}}
+}
+
+\newglossaryentry{Workspace}
+{
+    name= Workspace,
+    description={Als Workspace wird eine Arbeitsumgebung im physischen aber auch im virtuellen Bereich bezeichnet}
+}
+
+\newglossaryentry{Commit}
+{
+    name= Commit,
+    description={Ein Begriff aus der Versionsverwaltung, welcher eine bestätigte Änderung an einem (Software)projekt bezeichnet}
+}
+
+\newglossaryentry{Deamon}
+{
+    name= Daemon,
+    description={Ein Daemon ist ein im Hintergrund laufendes Programm, welches verschiedene Funktionalitäten bereitstellt}
+}
+
+\newglossaryentry{App}
+{
+    name= App,
+    description={Eine Applikation bezeichnet eine Anwendung oder auch ein \Gls{Computer}programm, welche gestellte Probleme beheben soll}
+}
+
+\newglossaryentry{htaccess}
+{
+    name= htaccess,
+    description={\z{.htaccess-Dateien sind Server-Konfigurationsdateien für Verzeichnisse, die zu Ihrem Web-Angebot gehören. So ist die .htaccess-Technik beispielsweise der übliche Weg, um nur bestimmten Benutzern den Zugriff auf bestimmte Daten zu erlauben.}{10}}
+}
+
+\newglossaryentry{GPL}
+{
+    name= GNU General Public License,
+    description={\z{Die GNU General Public License (auch GPL oder GNU GPL) ist die am weitesten verbreitete Software-Lizenz, welche den Endnutzern (Privatpersonen, Organisationen, Firmen) die Freiheiten garantiert, die mit ihr lizenzierte Software nutzen, studieren, verbreiten (kopieren) und ändern zu dürfen. Software, die diese Freiheitsrechte gewährt, wird Freie Software genannt. Die Lizenz wurde ursprünglich von Richard Stallman der Free Software Foundation (FSF) für das GNU-Projekt geschrieben.}{11}}
+}
+
+\newglossaryentry{MIT}
+{
+    name= MIT Lizenz,
+    description={\z{Die MIT-Lizenz, auch X-Lizenz oder X11-Lizenz genannt, ist eine aus dem Massachusetts Institute of Technology stammende Lizenz für die Benutzung verschiedener Arten von \Gls{Computer}software. Sie erlaubt die Wiederverwendung der unter ihr stehenden Software sowohl für Software, deren Quelltext frei einsehbar ist, als auch für Software, deren Quelltext nicht frei einsehbar ist.}{12}}
+}
+
+\newglossaryentry{AL2}
+{
+    name= Apache Lizenz 2,
+    description={\z{Die Apache-Lizenz wird von der Free Software Foundation als Lizenz für freie Software anerkannt und ist zu der GNU General Public License Version 3, nicht jedoch zur Version 2, kompatibel.}{13}}
+}
+
+\newglossaryentry{Cloud}
+{
+    name= Cloud,
+    description={Umgangssprachliche Bezeichnung für eine verteilte IT- bzw. \Gls{Computer}struktur}
+}
+
+\newglossaryentry{iFrame}
+{
+    name= iframe,
+    description={HTML-Element welches den Inhalt einer externen Seite anzeigen kann, auch Inlineframe}
+}
+
+\newglossaryentry{Grunt}
+{
+    name= Grunt,
+    description={Ein Javascript-Softwareframework zur automatisierten Job-Verwaltung. Die Software wrd genutzt um zum Beispiel nach jedem erfolgreichen Build, eine Reihe an Test absolvieren zu lassen}
+}
+
+\newglossaryentry{Test}
+{
+    name= Test,
+    description={Ein Test wird im Idealfall vor der Implementierung einer Funktion geschrieben und soll gewährleisten, dass nach jeder Änderung im Programmcode diese Funktion ihren Zweck noch erfüllt. Eine Testsuite ist eine Ansammlung von Tests die nacheinander absolviert werden}
+}
+
+\newglossaryentry{parallel-synchron}
+{
+    name= parallel-synchron,
+    description={Simulierte synchrone Bedienung mehrerer \Gls{moEn}e innerhalb des gleichen Zeitintervalls}
+}
+
+\newglossaryentry{Subnetz}
+{
+    name= Subnetz,
+    description={Ein Subnetz bezeichnet ein Teilnetz eines Netzwerkes}
+}
+
+%%
+%% ======================= GLOSSAR ENDE
+%%
+
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+%%
+%% Pfad zu den Bildern
+%%
+\graphicspath{
+  {pictures/}
+}
+
+%%
+%% Titel, Autor und Betreuer
+%%
+\include{./tex/deckblatt_config}
+
+%%
+%% ############# Deckblatt
+%%
+\maketitle
+\chapter* { }
+\pagenumbering{roman}
+
+%%
+%% ############# Erklärung
+%%
+\include{./tex/erklaerung}
+
+%%
+%% ############# Datenschutz
+%%
+\include{./tex/sperrvermerk}
+
+%%
+%% ############# Abstract
+%%
+\include{./tex/abstract}
+
+%%
+%% ############# Inhaltsverzeichnis
+%%
+\tableofcontents
+
+%%
+%% ############# Abbildungsverzeichnis
+%%
+\listoffigures
+
+%%
+%% ############# Tabellenverzeichnis
+%%
+\listoftables
+
+%%
+%% ############# Maincontent
+%%
+\pagenumbering{arabic}
+
+%%
+%% ############# Einleitung
+%%
+\include{./tex/einleitung}
+
+%%
+%% ############# Aufgabenstellung
+%%
+\include{./tex/aufgabenstellung}
+
+%%
+%% ############# Grundlagen
+%%
+\include{./tex/begriffserklaerung}
+
+%%
+%% ############# Technologien
+%%
+\include{./tex/technologien}
+
+%%
+%% ############# Evaluation
+%%	
+\include{./tex/evaluation}
+
+%%
+%% ############# Fazit und Ausblick
+%%	
+\include{./tex/zusammenfassung}
+
+%%
+%% ############# Glossarausgabe
+%%
+\clearpage
+\printglossary[style=altlist,title=Glossar]
+
+%% 
+%% ############# Indexverzeichnis
+%\printindex
+%%
+%% ############# Literaturverzeichnis
+%%
+
+\begin{thebibliography}{999}
+
+\bibitem[RJBF88]{1}Ralph E. Johnson, Brian Foote: “Designing Reusable Classes” im "Journal of Object-Oriented Programming" (1988)
+\bibitem[WL01]{2} \url{http://wirtschaftslexikon.gabler.de/Definition/ajax.html}
+\bibitem[ScVi]{3}\url{http://irlnathan.github.io/sailscasts/blog/2013/10/10/building-a-sails-application-ep21-integrating-socket-dot-io-and-sails-with-custom-controller-actions-using-real-time-model-events/}
+\bibitem[ITW01]{4} \url{http://www.itwissen.info/definition/lexikon/JavaScript-JavaScript.html}
+\bibitem[DMa]{5}\url{http://www.die-medienanstalten.de/themen/digitale-welt/glossar/erweiterte-erklaerungen/bildaufloesung.html}
+\bibitem[ITW02]{6}\url{http://www.itwissen.info/definition/lexikon/document-object-model-DOM.html}
+\bibitem[Sumo01]{7}\url{http://www.sumo.de/definition-apache-server.html}
+\bibitem[HW01]{8}\url{http://www.html-world.de/205/hyperlinks-und-anker/}
+\bibitem[Wiki01]{9}\url{http://de.wikipedia.org/w/index.php?title=Digitales\_Zertifikat\&oldid=129208084}
+\bibitem[SeHt01]{10}\url{http://de.selfhtml.org/servercgi/server/htaccess.htm}
+\bibitem[Wiki02]{11}\url{http://de.wikipedia.org/w/index.php?title=GNU\_General\_Public\_License
+\&oldid=130239300}
+\bibitem[Wiki03]{12}\url{http://de.wikipedia.org/w/index.php?title=MIT-Lizenz\&oldid=125762366}
+\bibitem[Wiki04]{13}\url{http://de.wikipedia.org/w/index.php?title=Apache-Lizenz\&oldid=130033063}
+
+
+\end{thebibliography}
+
+\end{document}
+
+
+

@@ -1,0 +1,2618 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  28 MAY 2014 15:48
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Abschlussarbeit_s744818_ss2014.tex
+(./Abschlussarbeit_s744818_ss2014.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2012/07/29 v3.11b KOMA-Script document class (book)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 117.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 118.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 119.
+Package scrbook Info: You've used obsolete option `13pt'.
+(scrbook)             \KOMAExecuteOptions{fontsize=13pt} will be
+(scrbook)             used instead.
+(scrbook)             You may simply replace `13pt'
+(scrbook)             by `fontsize=13pt'.
+Class scrbook Info: You've used standard option `oneside'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `twoside=false'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `twoside=false' there
+(scrbook)           instead of `oneside', too.
+
+
+Class scrbook Warning: Using fallback calculation to setup font sizes
+(scrbook)              for basic size `13pt' on input line 1368.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 1368.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
+
+Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+Package typearea Info: You've used standard option `a4paper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=a4'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=a4' there
+(typearea)             instead of `a4paper', too.
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+
+Package typearea Warning: DIV for 13.0pt and used papersize
+(typearea)                not defined!
+(typearea)                Using DIV=1.
+
+DIV calculation for typearea with good linewidth.
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 9
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 398.33862pt
+(typearea)              DIV departure   = 0%
+(typearea)              \evensidemargin = 27.31467pt
+(typearea)              \oddsidemargin  = 27.31467pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 574.59857pt
+(typearea)              \topmargin      = -21.27576pt
+(typearea)              \headheight     = 19.49994pt
+(typearea)              \headsep        = 23.39993pt
+(typearea)              \topskip        = 13.0pt
+(typearea)              \footskip       = 54.59985pt
+(typearea)              \baselineskip   = 15.59996pt
+(typearea)              on input line 1213.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count87
+\c@table=\count88
+\bibindent=\dimen102
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count89
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count90
+\FP@xia=\count91
+\FP@xib=\count92
+\FP@xfa=\count93
+\FP@xfb=\count94
+\FP@rega=\count95
+\FP@regb=\count96
+\FP@regs=\count97
+\FP@times=\count98
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count99
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks15
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+\everycr=\toks16
+\minrowclearance=\skip49
+)
+\rownum=\count101
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bhtThesis/fancyunits/fancyunits.s
+ty
+Package: fancyunits 2004/05/02 v1.0 for type setting units
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen105
+)))
+(./bhtThesis.sty
+Package: bhtThesis 2010/07/21 v0.1 Beuth-Hochschule Abschlussarbeit-Style
+
+2010/07/21 v0.1 BHT-Thesis-Style, S. Tschirley, tschirley@bht-berlin.de
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen106
+\Gin@req@width=\dimen107
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+\TX@col@width=\dimen108
+\TX@old@table=\dimen109
+\TX@old@col=\dimen110
+\TX@target=\dimen111
+\TX@delta=\dimen112
+\TX@cols=\count102
+\TX@ftn=\toks18
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count103
+\mult@box=\box27
+\multicol@leftmargin=\dimen113
+\c@unbalance=\count104
+\c@collectmore=\count105
+\doublecol@number=\count106
+\multicoltolerance=\count107
+\multicolpretolerance=\count108
+\full@width=\dimen114
+\page@free=\dimen115
+\premulticols=\dimen116
+\postmulticols=\dimen117
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box28
+\last@line=\box29
+\mult@rightbox=\box30
+\mult@grightbox=\box31
+\mult@gfirstbox=\box32
+\mult@firstbox=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\c@columnbadness=\count109
+\c@finalcolumnbadness=\count110
+\last@try=\dimen118
+\multicolovershoot=\dimen119
+\multicolundershoot=\dimen120
+\mult@nat@firstbox=\box51
+\colbreak@box=\box52
+\multicol@sort@counter=\count111
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/changebar/changebar.sty
+Package: changebar 2005/09/18 v3.5c Indicate changes with marginal bars
+\cb@nextpoint=\count112
+\cb@topleft=\count113
+\cb@topright=\count114
+\cb@botleft=\count115
+\cb@botright=\count116
+\cb@cnta=\count117
+\cb@cntb=\count118
+\cb@dima=\dimen121
+\cb@curbarwd=\dimen122
+\cb@page=\count119
+\cb@pagecount=\count120
+\cb@odd@left=\dimen123
+\cb@odd@right=\dimen124
+\cb@even@left=\dimen125
+\cb@even@right=\dimen126
+\cb@writexy=\write3
+\cb@readxy=\read1
+\openout3 = `Abschlussarbeit_s744818_ss2014.cb2'.
+
+\changebarwidth=\skip52
+\deletebarwidth=\skip53
+\changebarsep=\skip54
+\c@changebargrey=\count121
+\cb@write=\write4
+\cb@read=\read2
+\openout4 = `Abschlussarbeit_s744818_ss2014.cb'.
+
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
+\babel@savecnt=\count122
+\U@D=\dimen127
+)
+\l@naustrian = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 92.
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ae/ae.sty
+Package: ae 2001/02/12 1.3 Almost European Computer Modern
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)
+LaTeX Font Info:    Try loading font information for T1+aer on input line 100.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ae/t1aer.fd
+File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
+)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen128
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count123
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count124
+\leftroot@=\count125
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count126
+\DOTSCASE@=\count127
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen129
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count128
+\c@MaxMatrixCols=\count129
+\dotsspace@=\muskip10
+\c@parentequation=\count130
+\dspbrk@lvl=\count131
+\tag@help=\toks21
+\row@=\count132
+\column@=\count133
+\maxfields@=\count134
+\andhelp@=\toks22
+\eqnshift@=\dimen130
+\alignsep@=\dimen131
+\tagshift@=\dimen132
+\tagwidth@=\dimen133
+\totwidth@=\dimen134
+\lineht@=\dimen135
+\@envbody=\toks23
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+BHT style for pdfLaTeX is used
+(/usr/local/texlive/2013/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip58
+\f@ncyO@elh=\skip59
+\f@ncyO@erh=\skip60
+\f@ncyO@olh=\skip61
+\f@ncyO@orh=\skip62
+\f@ncyO@elf=\skip63
+\f@ncyO@erf=\skip64
+\f@ncyO@olf=\skip65
+\f@ncyO@orf=\skip66
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count135
+\float@exts=\toks25
+\float@box=\box55
+\@float@everytoks=\toks26
+
+
+/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty:102: LaTeX Error: 
+Command \float@end already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102   \let\@endfloatbox\relax\end@float}
+                                          
+? s
+OK, entering \scrollmode...
+
+/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty:108: LaTeX Error: 
+Command \float@dblend already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108   \let\@endfloatbox\relax\end@dblfloat}
+                                             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\@floatcapt=\box56
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2013/04/21 v3.05 (NLCT)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+\XKV@depth=\count136
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/glossaries/base/mfirstuc.sty
+Package: mfirstuc 2012/05/21 v1.06 (NLCT)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count137
+)
+\etb@tempcnta=\count138
+)
+\@glsmfirst=\toks29
+\@glsmrest=\toks30
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2013/01/15 v2.13 (NLCT)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count139
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2013/01/15 v2.13 (NLCT)
+)
+\@dtl@toks=\toks31
+\@dtl@tmpcount=\count140
+\dtl@tmplength=\skip67
+\dtl@sortresult=\count141
+\@dtl@numgrpsepcount=\count142
+\@dtl@datatype=\count143
+\dtl@codeA=\count144
+\dtl@codeB=\count145
+\@dtl@foreach@level=\count146
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/translator/translator.sty
+Package: translator 2010/06/12 ver 1.10
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/beamer/translator/translator-lang
+uage-mappings.tex))
+\gls@level=\count147
+\@gls@tmpb=\toks32
+\gls@tmplen=\skip68
+\glswrite=\write5
+\glskeylisttok=\toks33
+\glslabeltok=\toks34
+\glsshorttok=\toks35
+\glslongtok=\toks36
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2007/07/04 v1.01 (NLCT)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2012/11/11 v3.04 (NLCT)
+\glslistdottedwidth=\skip69
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2012/09/21 v3.03 (NLCT)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip70
+\LTright=\skip71
+\LTpre=\skip72
+\LTpost=\skip73
+\LTchunksize=\count148
+\LTcapwidth=\dimen136
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@cols=\count149
+\LT@rows=\count150
+\c@LT@tables=\count151
+\c@LT@chunks=\count152
+\LT@p@ftn=\toks37
+)
+Class scrbook Info: longtable captions redefined on input line 43.
+\glsdescwidth=\skip74
+\glspagelistwidth=\skip75
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2012/09/21 v3.03 (NLCT)
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count153
+\ST@wd=\dimen137
+\ST@rightskip=\skip76
+\ST@leftskip=\skip77
+\ST@parfillskip=\skip78
+\ST@pageleft=\dimen138
+\ST@headht=\dimen139
+\ST@tailht=\dimen140
+\ST@pagesofar=\dimen141
+\ST@pboxht=\dimen142
+\ST@lineht=\dimen143
+\ST@stretchht=\dimen144
+\ST@prevht=\dimen145
+\ST@toadd=\dimen146
+\ST@dimen=\dimen147
+\ST@pbox=\box61
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2012/09/21 v3.03 (NLCT)
+\glstreeindent=\skip79
+))
+\@indexfile=\write6
+\openout6 = `Abschlussarbeit_s744818_ss2014.idx'.
+
+
+Writing index file Abschlussarbeit_s744818_ss2014.idx
+\glo@main@file=\write7
+\openout7 = `Abschlussarbeit_s744818_ss2014.glo'.
+
+Package glossaries Info: Writing glossary file Abschlussarbeit_s744818_ss2014.g
+lo on input line 116.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks38
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box62
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks41
+))
+\pgf@x=\dimen148
+\pgf@y=\dimen149
+\pgf@xa=\dimen150
+\pgf@ya=\dimen151
+\pgf@xb=\dimen152
+\pgf@yb=\dimen153
+\pgf@xc=\dimen154
+\pgf@yc=\dimen155
+\w@pgf@writea=\write8
+\r@pgf@reada=\read3
+\c@pgf@counta=\count154
+\c@pgf@countb=\count155
+\c@pgf@countc=\count156
+\c@pgf@countd=\count157
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count158
+\pgfsyssoftpath@bigbuffer@items=\count159
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen156
+\pgfmath@count=\count160
+\pgfmath@box=\box63
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count161
+))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen157
+\pgf@picmaxx=\dimen158
+\pgf@picminy=\dimen159
+\pgf@picmaxy=\dimen160
+\pgf@pathminx=\dimen161
+\pgf@pathmaxx=\dimen162
+\pgf@pathminy=\dimen163
+\pgf@pathmaxy=\dimen164
+\pgf@xx=\dimen165
+\pgf@xy=\dimen166
+\pgf@yx=\dimen167
+\pgf@yy=\dimen168
+\pgf@zx=\dimen169
+\pgf@zy=\dimen170
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen171
+\pgf@path@lasty=\dimen172
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen173
+\pgf@shorten@start@additional=\dimen174
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count162
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen175
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen176
+\pgf@pt@y=\dimen177
+\pgf@pt@temp=\dimen178
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen179
+\pgf@sys@shading@range@num=\count163
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box67
+))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box68
+)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen180
+\pgf@nodesepend=\dimen181
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen182
+\pgffor@skip=\dimen183
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count164
+\pgfplotmarksize=\dimen184
+)
+\tikz@lastx=\dimen185
+\tikz@lasty=\dimen186
+\tikz@lastxsaved=\dimen187
+\tikz@lastysaved=\dimen188
+\tikzleveldistance=\dimen189
+\tikzsiblingdistance=\dimen190
+\tikz@figbox=\box69
+\tikz@tempbox=\box70
+\tikztreelevel=\count165
+\tikznumberofchildren=\count166
+\tikznumberofcurrentchild=\count167
+\tikz@fig@count=\count168
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count169
+\pgfmatrixcurrentcolumn=\count170
+\pgf@matrix@numberofcolumns=\count171
+)
+\tikz@expandcount=\count172
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+(/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
+)
+\@input{./tex/deckblatt_config.aux}
+\openout2 = `./tex/deckblatt_config.aux'.
+
+(./tex/deckblatt_config.tex (./Abschlussarbeit_s744818_ss2014.aux
+(./tex/erklaerung.aux) (./tex/sperrvermerk.aux) (./tex/abstract.aux)
+(./tex/einleitung.aux) (./tex/aufgabenstellung.aux)
+(./tex/begriffserklaerung.aux) (./tex/technologien.aux) (./tex/evaluation.aux)
+(./tex/zusammenfassung.aux))
+\openout1 = `Abschlussarbeit_s744818_ss2014.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 19.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 19.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count173
+\scratchdimen=\dimen191
+\scratchbox=\box71
+\nofMPsegments=\count174
+\nofMParguments=\count175
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count176
+\MPscratchDim=\dimen192
+\MPnumerator=\count177
+\makeMPintoPDFobject=\count178
+\everyMPtoPDFconversion=\toks48
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/glossaries/dict/glossaries-dictio
+nary-English.dict
+Dictionary: glossaries-dictionary, Language: English 
+) ABD: EveryShipout initializing macros)
+<BHT-Logo-Basis.pdf, id=4, 303.39667pt x 99.95987pt>
+File: BHT-Logo-Basis.pdf Graphic file (type pdf)
+ <use BHT-Logo-Basis.pdf>
+Package pdftex.def Info: BHT-Logo-Basis.pdf used on input line 406.
+(pdftex.def)             Requested size: 128.0387pt x 42.18417pt.
+
+Overfull \hbox (2.47002pt too wide) in paragraph at lines 406--406
+[][] [] 
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <26.96207> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 406.
+./Abschlussarbeit_s744818_ss2014.tex:406: Undefined control sequence.
+\bhtTitelSeite ...orgelegte \thethesistyp \xspace 
+                                                  \\ zur Erlangung des akade...
+l.406 \maketitle
+                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <13> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 406.
+LaTeX Font Info:    Calculating math sizes for size <13> on input line 406.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 406.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <13> not available
+(Font)              size <12> substituted on input line 406.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <6.5> not available
+(Font)              size <6> substituted on input line 406.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 406.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <6.5> not available
+(Font)              size <6> substituted on input line 406.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 406.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 406.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+
+ []
+
+[1
+
+\openout5 = `Abschlussarbeit_s744818_ss2014.ist'.
+
+
+
+\select@language{ngerman}
+\@writefile{toc}{\select@language{ngerman}}
+\@writefile{lof}{\select@language{ngerman}}
+\@writefile{lot}{\select@language{ngerman}}
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </usr/lo
+cal/texlive/2013/texmf-dist/tex/latex/bhtThesis/tryout/pictures/BHT-Logo-Basis.
+pdf>]
+LaTeX Font Info:    Try loading font information for T1+phv on input line 407.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <13> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 407.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <26.96207> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 407.
+ [1
+
+
+]
+\openout2 = `./tex/erklaerung.aux'.
+
+
+(./tex/erklaerung.tex) [2
+
+
+
+]
+\openout2 = `./tex/sperrvermerk.aux'.
+
+ (./tex/sperrvermerk.tex
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <18.72003> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
+)
+
+Package Fancyhdr Warning: \headheight is too small (14.0pt): 
+ Make it at least 15.59995pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3
+
+
+]
+\openout2 = `./tex/abstract.aux'.
+
+ (./tex/abstract.tex) [4
+
+
+] (./Abschlussarbeit_s744818_ss2014.toc [5
+
+
+
+])
+\tf@toc=\write9
+\openout9 = `Abschlussarbeit_s744818_ss2014.toc'.
+
+
+[6] (./Abschlussarbeit_s744818_ss2014.lof)
+\tf@lof=\write10
+\openout10 = `Abschlussarbeit_s744818_ss2014.lof'.
+
+ [7
+
+
+]
+(./Abschlussarbeit_s744818_ss2014.lot)
+\tf@lot=\write11
+\openout11 = `Abschlussarbeit_s744818_ss2014.lot'.
+
+ [1
+
+
+]
+\openout2 = `./tex/einleitung.aux'.
+
+ (./tex/einleitung.tex
+Kapitel 1.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              You should use the features of package `tocbasic'
+(scrbook)              instead of \float@addtolists.
+(scrbook)              Support for \float@addtolists may be removed from
+(scrbook)              `scrbook' soon .
+
+LaTeX Font Info:    Calculating math sizes for size <10.83347> on input line 3.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <7.58339> not available
+(Font)              size <8> substituted on input line 3.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.41673> not available
+(Font)              size <5> substituted on input line 3.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <7.58339> not available
+(Font)              size <8> substituted on input line 3.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.41673> not available
+(Font)              size <5> substituted on input line 3.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <7.58339> not available
+(Font)              size <8> substituted on input line 3.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.41673> not available
+(Font)              size <5> substituted on input line 3.
+
+<pictures/../pictures/Entwicklungsprozess.jpg, id=69, 586.19pt x 586.19pt>
+./tex/einleitung.tex:9: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.9 ...ellung eines Softwareentwicklungsprozesses}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/einleitung.tex:9: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.9 ...ellung eines Softwareentwicklungsprozesses}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/Entwicklungsprozess.jpg Graphic file (type jpg)
+<use pictures/../pictures/Entwicklungsprozess.jpg>
+Package pdftex.def Info: pictures/../pictures/Entwicklungsprozess.jpg used on i
+nput line 9.
+(pdftex.def)             Requested size: 400.0pt x 399.99927pt.
+ [2
+
+
+
+] [3 <./pictures/../pictures/Entwicklungsprozess.jpg>]) [4]
+\openout2 = `./tex/aufgabenstellung.aux'.
+
+ (./tex/aufgabenstellung.tex
+Kapitel 2.
+
+Overfull \hbox (10.66805pt too wide) in paragraph at lines 3--7
+\T1/ptm/m/n/13 Die Auf-ga-be die-ser The-sis ist die Eva-lu-ie-rung von Tech-ni
+-ken zur []parallel-synchronen
+ []
+
+[5
+
+
+
+
+] <pictures/../pictures/Testszenario.jpg, id=83, 483.8075pt x 549.05125pt>
+./tex/aufgabenstellung.tex:33: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.33 ...es in der mobilen 		Anwendungsentwicklung}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/aufgabenstellung.tex:33: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.33 ...es in der mobilen 		Anwendungsentwicklung}
+                                                  }
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/Testszenario.jpg Graphic file (type jpg)
+<use pictures/../pictures/Testszenario.jpg>
+Package pdftex.def Info: pictures/../pictures/Testszenario.jpg used on input li
+ne 33.
+(pdftex.def)             Requested size: 400.0pt x 453.96146pt.
+
+Underfull \hbox (badness 1895) in paragraph at lines 33--33
+[]\T1/ptm/m/n/13 Darstellung ei-nes []Qua-li-täts-si-che-rungs-ab-lau-fes in de
+r mo-bi-len
+ []
+
+./tex/aufgabenstellung.tex:33: Too many }'s.
+l.33 ...s in der mobilen 		Anwendungsentwicklung}}
+                                                  
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+[6] [7 <./pictures/../pictures/Testszenario.jpg>]
+Overfull \hbox (19.29274pt too wide) in paragraph at lines 66--68
+ [][] 
+ []
+
+[8] [9]
+Overfull \hbox (3.01088pt too wide) in paragraph at lines 80--81
+\T1/ptm/m/n/13 be-son-de-re wur-de in die-ser Ar-beit auf das Scrol-len in-ner-
+halb ei-ner [],
+ []
+
+) [10]
+\openout2 = `./tex/begriffserklaerung.aux'.
+
+ (./tex/begriffserklaerung.tex
+Kapitel 3.
+<pictures/../pictures/netzwerkaufbau.jpg, id=100, 348.30125pt x 355.3275pt>
+./tex/begriffserklaerung.tex:8: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.8 ...ktur}{Ãœbersicht Netzarchitektur}{400}{300}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/begriffserklaerung.tex:8: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.8 ...ktur}{Ãœbersicht Netzarchitektur}{400}{300}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/netzwerkaufbau.jpg Graphic file (type jpg)
+<use pictures/../pictures/netzwerkaufbau.jpg>
+Package pdftex.def Info: pictures/../pictures/netzwerkaufbau.jpg used on input 
+line 8.
+(pdftex.def)             Requested size: 294.0751pt x 300.00743pt.
+ [11
+
+
+
+
+ <./pictures/../pictures/netzwerkaufbau.jpg>]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 20.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <13> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 20.
+
+[12] [13]) [14]
+\openout2 = `./tex/technologien.aux'.
+
+ (./tex/technologien.tex
+Kapitel 4.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <15.59996> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 34.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) [15
+
+
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (15.59995pt): 
+ Make it at least 15.6325pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+Underfull \hbox (badness 1014) in paragraph at lines 97--97
+[]\T1/ptm/m/n/13 von Browser-Sync ge-tes-te-te []Brow-ser (Stand 21.03.2014, Ve
+r-si-on
+ []
+
+[17]
+Overfull \hbox (25.30664pt too wide) in paragraph at lines 116--117
+\T1/ptm/m/n/13 mög-li-chen soll, die []Com-pu-ter-maus ge-ne-rier-ten Be-we-gun
+-gen in äqui-va-len-te []
+ []
+
+[18]) [19]
+\openout2 = `./tex/evaluation.aux'.
+
+ (./tex/evaluation.tex
+Kapitel 5.
+[20
+
+
+
+
+] [21]
+Overfull \hbox (1.24196pt too wide) in paragraph at lines 111--112
+\T1/ptm/m/n/13 Ein wei-te-rer wich-ti-ger Aspekt ist die Un-ter-stüt-zung mög-l
+ichst al-ler gän-gi-gen []Brow-
+ []
+
+[22]
+<pictures/../pictures/ghostlab/startbildschirm.png, id=140, 811.03pt x 632.3625
+pt>
+./tex/evaluation.tex:162: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.162 ...chirm von Ghostlab nach der Installation}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:162: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.162 ...chirm von Ghostlab nach der Installation}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/ghostlab/startbildschirm.png Graphic file (type png)
+
+<use pictures/../pictures/ghostlab/startbildschirm.png>
+Package pdftex.def Info: pictures/../pictures/ghostlab/startbildschirm.png used
+ on input line 162.
+(pdftex.def)             Requested size: 400.0pt x 311.88664pt.
+
+<pictures/../pictures/ghostlab/workspaces.png, id=141, 2557.555pt x 1263.72125p
+t>
+./tex/evaluation.tex:166: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.166 ...Darstellung von 4 verschiedenen Clients }
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:166: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.166 ...Darstellung von 4 verschiedenen Clients }
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/ghostlab/workspaces.png Graphic file (type png)
+<use pictures/../pictures/ghostlab/workspaces.png>
+Package pdftex.def Info: pictures/../pictures/ghostlab/workspaces.png used on i
+nput line 166.
+(pdftex.def)             Requested size: 400.0pt x 197.6295pt.
+ [23 <./pictures/../pictures/ghostlab/startbildschirm.png>]
+<pictures/../pictures/ghostlab/weinre.png, id=146, 1284.8pt x 1328.965pt>
+./tex/evaluation.tex:169: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.169 ...usgewÃ¤hltes \Gls{DOM}-Element in weinre}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:169: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.169 ...usgewÃ¤hltes \Gls{DOM}-Element in weinre}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/ghostlab/weinre.png Graphic file (type png)
+<use pictures/../pictures/ghostlab/weinre.png>
+Package pdftex.def Info: pictures/../pictures/ghostlab/weinre.png used on input
+ line 169.
+(pdftex.def)             Requested size: 400.0pt x 413.7391pt.
+
+Overfull \hbox (5.2391pt too wide) in paragraph at lines 168--170
+\T1/ptm/m/n/13 tem-po-rä-re CSS An-pas-sun-gen vor-zu-neh-men. Die Hand-ha-bung
+ ist in-tui-tiv, was haupt-
+ []
+
+[24 <./pictures/../pictures/ghostlab/workspaces.png>] [25 <./pictures/../pictur
+es/ghostlab/weinre.png>]
+Overfull \hbox (15.89426pt too wide) in paragraph at lines 174--175
+\T1/ptm/m/n/13 Das Ein-rich-ten zum Tes-ten auf mo-bi-len []End-ge-rä-ten ver-l
+äuft syn-chron zu den Desktop-
+ []
+
+
+<pictures/../pictures/ghostlab/uebersicht_mobil.png, id=153, 803.0pt x 625.3362
+4pt>
+./tex/evaluation.tex:177: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.177 ...ostlabÃ¼bersicht der verbundenen Clients}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:177: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.177 ...ostlabÃ¼bersicht der verbundenen Clients}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/ghostlab/uebersicht_mobil.png Graphic file (type png
+)
+<use pictures/../pictures/ghostlab/uebersicht_mobil.png>
+Package pdftex.def Info: pictures/../pictures/ghostlab/uebersicht_mobil.png use
+d on input line 177.
+(pdftex.def)             Requested size: 400.0pt x 311.50325pt.
+ [26 <./pictures/../pictures/ghostlab/uebersicht_mobil.png>]
+
+./tex/evaluation.tex:184: Package inputenc Error: Unicode char \u8:Ìˆ not set u
+p for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 ...zu haben. Diese lassen sich erst - abhaÌˆ
+                                                  ngig vom jeweiligen \Gls{W...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (5.7727pt too wide) in paragraph at lines 184--185
+\T1/ptm/m/n/13 Aus-füh-ren von []Ja-vas-cript läuft ein-wand-frei. Das Aus-fül-
+len von []In-put-fel-dern, []Check-
+ []
+
+[27] [28]
+<pictures/../pictures/adobeedgeinspect/icon.png, id=163, 25.09375pt x 16.06pt>
+File: pictures/../pictures/adobeedgeinspect/icon.png Graphic file (type png)
+
+<use pictures/../pictures/adobeedgeinspect/icon.png>
+Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/icon.png used on
+ input line 202.
+(pdftex.def)             Requested size: 25.09367pt x 16.05995pt.
+
+<pictures/../pictures/adobeedgeinspect/iphone_2.png, id=164, 642.4pt x 1140.26p
+t>
+./tex/evaluation.tex:209: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.209 ...se zum 			Edge Inspect Rechner}{200}{350}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:209: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.209 ...se zum 			Edge Inspect Rechner}{200}{350}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/adobeedgeinspect/iphone_2.png Graphic file (type png
+)
+<use pictures/../pictures/adobeedgeinspect/iphone_2.png>
+Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/iphone_2.png use
+d on input line 209.
+(pdftex.def)             Requested size: 197.18149pt x 349.99716pt.
+
+<pictures/../pictures/adobeedgeinspect/desktop_2.png, id=165, 304.13625pt x 191
+.71625pt>
+File: pictures/../pictures/adobeedgeinspect/desktop_2.png Graphic file (type pn
+g)
+ <use pictures/../pictures/adobeedgeinspect/desktop_2.png>
+Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/desktop_2.png us
+ed on input line 210.
+(pdftex.def)             Requested size: 304.1355pt x 191.71577pt.
+ [29 <./pictures/../pictures/adobeedgeinspect/icon.png>]
+<pictures/../pictures/adobeedgeinspect/desktop_3.png, id=170, 308.15125pt x 237
+.88875pt>
+File: pictures/../pictures/adobeedgeinspect/desktop_3.png Graphic file (type pn
+g)
+ <use pictures/../pictures/adobeedgeinspect/desktop_3.png>
+Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/desktop_3.png us
+ed on input line 213.
+(pdftex.def)             Requested size: 308.15048pt x 237.88815pt.
+ [30 <./pictures/../pictures/adobeedgeinspect/iphone_2.png (PNG copy)> <./pictu
+res/../pictures/adobeedgeinspect/desktop_2.png>]
+<pictures/../pictures/adobeedgeinspect/iphone_3.png, id=174, 642.4pt x 1140.26p
+t>
+./tex/evaluation.tex:222: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.222 ...ge Inspect \Gls{App} unter iOS}{200}{350}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:222: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.222 ...ge Inspect \Gls{App} unter iOS}{200}{350}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/adobeedgeinspect/iphone_3.png Graphic file (type png
+)
+<use pictures/../pictures/adobeedgeinspect/iphone_3.png>
+Package pdftex.def Info: pictures/../pictures/adobeedgeinspect/iphone_3.png use
+d on input line 222.
+(pdftex.def)             Requested size: 197.18149pt x 349.99716pt.
+ [31 <./pictures/../pictures/adobeedgeinspect/desktop_3.png>] [32 <./pictures/.
+./pictures/adobeedgeinspect/iphone_3.png (PNG copy)>] [33]
+<pictures/../pictures/remotepreview/eingabemaske.png, id=184, 819.06pt x 418.56
+375pt>
+./tex/evaluation.tex:247: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.247 ...ske zur Eingabe der 			aufzurufenden URL}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:247: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.247 ...ske zur Eingabe der 			aufzurufenden URL}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/remotepreview/eingabemaske.png Graphic file (type pn
+g)
+<use pictures/../pictures/remotepreview/eingabemaske.png>
+Package pdftex.def Info: pictures/../pictures/remotepreview/eingabemaske.png us
+ed on input line 247.
+(pdftex.def)             Requested size: 400.0pt x 204.41464pt.
+ [34 <./pictures/../pictures/remotepreview/eingabemaske.png>] [35]
+Overfull \hbox (6.4964pt too wide) in paragraph at lines 266--267
+\T1/ptm/m/n/13 Als Vor-raus-set-zung um Remote-Sync nut-zen zu kön-nen, wird zu
+ Be-ginn ei-ne []
+ []
+
+
+<pictures/../pictures/browser-sync/install.png, id=193, 198.7425pt x 29.10875pt
+>
+File: pictures/../pictures/browser-sync/install.png Graphic file (type png)
+ <use pictures/../pictures/browser-sync/install.png>
+Package pdftex.def Info: pictures/../pictures/browser-sync/install.png used on 
+input line 269.
+(pdftex.def)             Requested size: 198.742pt x 29.10867pt.
+
+<pictures/../pictures/browser-sync/init.png, id=194, 639.38875pt x 50.1875pt>
+./tex/evaluation.tex:272: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.272 ...l um Browser-Sync zu imitieren}{450}{200}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:272: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.272 ...l um Browser-Sync zu imitieren}{450}{200}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/browser-sync/init.png Graphic file (type png)
+<use pictures/../pictures/browser-sync/init.png>
+Package pdftex.def Info: pictures/../pictures/browser-sync/init.png used on inp
+ut line 272.
+(pdftex.def)             Requested size: 450.00813pt x 35.32245pt.
+
+Overfull \hbox (23.2168pt too wide) in paragraph at lines 272--272
+ [][] 
+ []
+
+
+Overfull \hbox (12.82567pt too wide) in paragraph at lines 271--272
+[]\T1/ptm/m/n/13 Nun muss für je-des neue oder be-ste-hen-de Pro-jekt ein-ma-li
+g im Pro-jek-t-ord-ner Browser-
+ []
+
+
+<pictures/../pictures/browser-sync/start.png, id=195, 134.5025pt x 15.05624pt>
+File: pictures/../pictures/browser-sync/start.png Graphic file (type png)
+
+<use pictures/../pictures/browser-sync/start.png>
+Package pdftex.def Info: pictures/../pictures/browser-sync/start.png used on in
+put line 275.
+(pdftex.def)             Requested size: 134.50215pt x 15.0562pt.
+
+<pictures/../pictures/browser-sync/start2.png, id=196, 621.32124pt x 113.42375p
+t>
+./tex/evaluation.tex:278: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.278 ...e mit einzufÃ¼gendem Quellcode}{450}{200}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:278: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.278 ...e mit einzufÃ¼gendem Quellcode}{450}{200}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/browser-sync/start2.png Graphic file (type png)
+<use pictures/../pictures/browser-sync/start2.png>
+Package pdftex.def Info: pictures/../pictures/browser-sync/start2.png used on i
+nput line 278.
+(pdftex.def)             Requested size: 449.99605pt x 82.14789pt.
+
+Overfull \hbox (23.20471pt too wide) in paragraph at lines 278--278
+ [][] 
+ []
+
+[36 <./pictures/../pictures/browser-sync/install.png> <./pictures/../pictures/b
+rowser-sync/init.png> <./pictures/../pictures/browser-sync/start.png>]
+<pictures/../pictures/browser-sync/connected.png, id=200, 412.54124pt x 19.0712
+4pt>
+File: pictures/../pictures/browser-sync/connected.png Graphic file (type png)
+ <use pictures/../pictures/browser-sync/connected.png>
+Package pdftex.def Info: pictures/../pictures/browser-sync/connected.png used o
+n input line 284.
+(pdftex.def)             Requested size: 412.54024pt x 19.07118pt.
+ [37 <./pictures/../pictures/browser-sync/start2.png> <./pictures/../pictures/b
+rowser-sync/connected.png>]
+
+./tex/evaluation.tex:299: Package glossaries Error: Glossary entry `FRAMEWORK' 
+has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299 
+      
+You need to define a glossary entry before you can use it.
+
+[38] <pictures/../pictures/broadcast.jpg, id=207, 427.5975pt x 274.02374pt>
+./tex/evaluation.tex:310: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.310 ...}{socket.io Broadcast \cite{3}}{300}{300}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:310: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.310 ...}{socket.io Broadcast \cite{3}}{300}{300}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/broadcast.jpg Graphic file (type jpg)
+<use pictures/../pictures/broadcast.jpg>
+Package pdftex.def Info: pictures/../pictures/broadcast.jpg used on input line 
+310.
+(pdftex.def)             Requested size: 300.00128pt x 192.25433pt.
+
+
+./tex/evaluation.tex:311: Package glossaries Error: Glossary entry `FRAMEWORK' 
+has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.311 
+      
+You need to define a glossary entry before you can use it.
+
+[39] <pictures/../pictures/broadcastroom.jpg, id=211, 495.8525pt x 331.2375pt>
+./tex/evaluation.tex:318: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.318 ...t.io Broadcast mit Aktionsraum}{350}{350}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:318: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.318 ...t.io Broadcast mit Aktionsraum}{350}{350}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/broadcastroom.jpg Graphic file (type jpg)
+<use pictures/../pictures/broadcastroom.jpg>
+Package pdftex.def Info: pictures/../pictures/broadcastroom.jpg used on input l
+ine 318.
+(pdftex.def)             Requested size: 349.99976pt x 233.8055pt.
+
+
+./tex/evaluation.tex:319: Package glossaries Error: Glossary entry `FRAMEWORK' 
+has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 
+      
+You need to define a glossary entry before you can use it.
+
+[40 <./pictures/../pictures/broadcast.jpg>]
+<pictures/../pictures/socketio/server_1.png, id=215, 459.7175pt x 210.7875pt>
+./tex/evaluation.tex:328: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.328 ...zierter Quellcode Serverseitig}{350}{350}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:328: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.328 ...zierter Quellcode Serverseitig}{350}{350}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/socketio/server_1.png Graphic file (type png)
+<use pictures/../pictures/socketio/server_1.png>
+Package pdftex.def Info: pictures/../pictures/socketio/server_1.png used on inp
+ut line 328.
+(pdftex.def)             Requested size: 350.02025pt x 160.48964pt.
+
+
+./tex/evaluation.tex:329: Package glossaries Error: Glossary entry `FRAMEWORK' 
+has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.329 	\subsubsection
+                     {Clientseitig}
+You need to define a glossary entry before you can use it.
+
+[41 <./pictures/../pictures/broadcastroom.jpg>]
+<pictures/../pictures/socketio/client_1.png, id=220, 371.3875pt x 57.21375pt>
+./tex/evaluation.tex:332: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.332 ...zierter Quellcode Clientseitig}{350}{350}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:332: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.332 ...zierter Quellcode Clientseitig}{350}{350}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/socketio/client_1.png Graphic file (type png)
+<use pictures/../pictures/socketio/client_1.png>
+Package pdftex.def Info: pictures/../pictures/socketio/client_1.png used on inp
+ut line 332.
+(pdftex.def)             Requested size: 350.00533pt x 53.91972pt.
+
+<pictures/../pictures/socketio/client_2.png, id=221, 259.97125pt x 46.1725pt>
+./tex/evaluation.tex:336: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.336 ...zierter Quellcode Clientseitig}{250}{250}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+./tex/evaluation.tex:336: Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.336 ...zierter Quellcode Clientseitig}{250}{250}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+File: pictures/../pictures/socketio/client_2.png Graphic file (type png)
+<use pictures/../pictures/socketio/client_2.png>
+Package pdftex.def Info: pictures/../pictures/socketio/client_2.png used on inp
+ut line 336.
+(pdftex.def)             Requested size: 249.99797pt x 44.40115pt.
+
+
+./tex/evaluation.tex:340: Package glossaries Error: Glossary entry `FRAMEWORK' 
+has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 
+      
+You need to define a glossary entry before you can use it.
+
+[42 <./pictures/../pictures/socketio/server_1.png> <./pictures/../pictures/sock
+etio/client_1.png> <./pictures/../pictures/socketio/client_2.png>])
+
+./Abschlussarbeit_s744818_ss2014.tex:468: Package glossaries Error: Glossary en
+try `FRAMEWORK' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 \include{./tex/evaluation}
+                                
+You need to define a glossary entry before you can use it.
+
+[43]
+\openout2 = `./tex/zusammenfassung.aux'.
+
+ (./tex/zusammenfassung.tex
+Kapitel 6.
+
+Overfull \hbox (5.70218pt too wide) in paragraph at lines 13--14
+[]\T1/ptm/m/n/13 Im An-schluss wur-den die []Fra-me-works in-stal-liert, kon-fi
+-gu-riert und mit dem Desktop-
+ []
+
+[44
+
+
+
+
+]
+
+./tex/zusammenfassung.tex:48: Package inputenc Error: Unicode char \u8:Ìˆ not s
+et up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 				Intuitive BenutzeroberflaÌˆ
+                                    che			&	1	&	1	&	1	&	0\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (5.4944pt too wide) in paragraph at lines 31--89
+ [][] 
+ []
+
+[45] [46]) [47] (./Abschlussarbeit_s744818_ss2014.gls [48
+
+
+
+
+] [49]
+Overfull \hbox (2.78328pt too wide) in paragraph at lines 107--107
+[]\T1/ptm/m/n/13 " .htaccess-Dateien sind Server-Konfigurationsdateien für Ver-
+zeich-
+ []
+
+[50]
+Overfull \hbox (6.85718pt too wide) in paragraph at lines 124--124
+\T1/ptm/m/n/13 ten ei-ni-ger po-pu-lä-rer Soft-wa-re ge-nutzt. Ja-vaS-cript wir
+d in der Haupt-
+ []
+
+[51]
+Overfull \hbox (6.77611pt too wide) in paragraph at lines 183--183
+\T1/ptm/m/n/13 an-de-res Be-triebs-sys-tem, als das ei-gent-lich ge-nutz-te, au
+f ei-ner emu-lier-ten Rech-
+ []
+
+[52]) [53]
+./Abschlussarbeit_s744818_ss2014.tex:491: Undefined control sequence.
+l.491 \bibitem[WL01]{2} \url
+                            {http://wirtschaftslexikon.gabler.de/Definition/...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Abschlussarbeit_s744818_ss2014.tex:492: Undefined control sequence.
+l.492 \bibitem[ScVi]{3}\url
+                           {http://irlnathan.github.io/sailscasts/blog/2013/...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+[]\T1/ptm/m/n/13 http://irlnathan.github.io/sailscasts/blog/2013/10/10/building
+-a-sails-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+\T1/ptm/m/n/13 application-ep21-integrating-socket-dot-io-and-sails-with-custom
+-
+ []
+
+./Abschlussarbeit_s744818_ss2014.tex:493: Undefined control sequence.
+l.493 \bibitem[ITW01]{4} \url
+                             {http://www.itwissen.info/definition/lexikon/Ja...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Abschlussarbeit_s744818_ss2014.tex:494: Undefined control sequence.
+l.494 \bibitem[DMa]{5}\url
+                          {http://www.die-medienanstalten.de/themen/digitale...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+[]\T1/ptm/m/n/13 http://www.die-medienanstalten.de/themen/digitale-
+ []
+
+./Abschlussarbeit_s744818_ss2014.tex:495: Undefined control sequence.
+l.495 \bibitem[ITW02]{6}\url
+                            {http://www.itwissen.info/definition/lexikon/doc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+[]\T1/ptm/m/n/13 http://www.itwissen.info/definition/lexikon/document-object-mo
+del-
+ []
+
+./Abschlussarbeit_s744818_ss2014.tex:496: Undefined control sequence.
+l.496 \bibitem[Sumo01]{7}\url
+                             {http://www.sumo.de/definition-apache-server.html}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Abschlussarbeit_s744818_ss2014.tex:497: Undefined control sequence.
+l.497 \bibitem[HW01]{8}\url
+                           {http://www.html-world.de/205/hyperlinks-und-anker/}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Abschlussarbeit_s744818_ss2014.tex:498: Undefined control sequence.
+l.498 \bibitem[Wiki01]{9}\url
+                             {http://de.wikipedia.org/w/index.php?title=Digi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (50.31554pt too wide) in paragraph at lines 498--499
+[]\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Digitales_Zertifikat
+&oldid=129208084 
+ []
+
+./Abschlussarbeit_s744818_ss2014.tex:499: Undefined control sequence.
+l.499 \bibitem[SeHt01]{10}\url
+                              {http://de.selfhtml.org/servercgi/server/htacc...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./Abschlussarbeit_s744818_ss2014.tex:500: Undefined control sequence.
+l.500 \bibitem[Wiki02]{11}\url
+                              {http://de.wikipedia.org/w/index.php?title=GNU...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (8.27415pt too wide) in paragraph at lines 500--502
+[]\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=GNU_General_Public_L
+icense
+ []
+
+./Abschlussarbeit_s744818_ss2014.tex:502: Undefined control sequence.
+l.502 \bibitem[Wiki03]{12}\url
+                              {http://de.wikipedia.org/w/index.php?title=MIT...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+[]\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=MIT-
+ []
+
+./Abschlussarbeit_s744818_ss2014.tex:503: Undefined control sequence.
+l.503 \bibitem[Wiki04]{13}\url
+                              {http://de.wikipedia.org/w/index.php?title=Apa...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--504
+[]\T1/ptm/m/n/13 http://de.wikipedia.org/w/index.php?title=Apache-
+ []
+
+[54
+
+
+] (./Abschlussarbeit_s744818_ss2014.aux (./tex/erklaerung.aux)
+(./tex/sperrvermerk.aux) (./tex/abstract.aux) (./tex/einleitung.aux)
+(./tex/aufgabenstellung.aux) (./tex/begriffserklaerung.aux)
+(./tex/technologien.aux) (./tex/evaluation.aux) (./tex/zusammenfassung.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 20486 strings out of 493315
+ 353656 string characters out of 6137904
+ 486481 words of memory out of 5000000
+ 23330 multiletter control sequences out of 15000+600000
+ 54181 words of font info for 81 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 65i,11n,71p,1479b,695s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
+xlive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/20
+13/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fon
+ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
+rw/times/utmr8a.pfb>
+Output written on Abschlussarbeit_s744818_ss2014.pdf (62 pages, 1375097 bytes).
+
+PDF statistics:
+ 287 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+

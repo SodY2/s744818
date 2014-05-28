@@ -1,0 +1,226 @@
+/* CSS Document */
+
+*{
+font-family:arial;
+}
+h1{
+font-size:16px;
+font-weight:bold;
+}
+h2, h3 {
+font-size:13px;
+font-weight:bold;
+}
+#inhalt-re h1{
+font-size:13px;
+font-weight:bold;
+}
+
+p{
+font-size:13px;
+}
+tr {
+page-break-inside:avoid;
+}
+td, th {
+font-size:13px;
+text-align:left;
+}
+li{
+font-size:13px;
+list-style-type:square !important;
+}
+a{
+font-size:13px;
+text-decoration:none;
+margin:0;
+padding:0;
+}
+dl{
+font-size:13px;
+}
+li a{
+font-size:13px;
+}
+dl.csc-menu dt a{
+	list-style:none;
+	background:url("../gfx/listenpunkt_inh.gif")  no-repeat 0px 5px ;
+	padding:0 0 0 10px;
+	margin:3px 0 0 0;
+	color:#0061A7 !important;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.copyright{
+font-size:13px;
+}
+
+.logo-print{
+	margin: 20px 0;
+	display:block;
+}
+
+#logo-alm, #logo-kek, #logo-kjm {
+	display:none;
+}
+
+#imagebild{
+display:none;
+}
+#hauptmenu{
+display:none;
+}
+#rootline{
+display:none;
+}
+#sitetitle{
+display:none;
+}
+#inhalt-navi{
+display:none;
+}
+#themen{
+display:none;
+}
+#themen-inh{
+display:none;
+}
+#drucken{
+display:none;
+}
+#footerpfeil{
+display:none;
+}
+span.footer {
+display:none;
+}
+.glossar-links {
+display:none;
+}
+.tx-vckekmediendatenbank-pi1 form, .tx-vckekmediendatenbank-pi1 .auswahl, img.expander {
+display:none;
+}
+.tx-vckekmediendatenbank-pi1 .anteil {
+display:inline;
+}
+
+#inhalt-li{
+	float:left;
+	width:440px;
+	margin:0 0 20px 0;
+	padding:0 20px 0 0;
+}
+
+#inhalt-li.breit{
+	width:670px;
+}
+
+#inhalt-re{
+	float:left;
+	width:200px;
+	margin:0;
+	padding:0;
+}
+
+.clearer{
+	clear:both;
+}
+
+#footer-inh{
+	/*width:700px;*/
+	/*height:30px;*/
+	margin:20px 0 0 0;
+	position:relative;
+	display:none;
+}
+
+
+
+#footer-text{
+	color:#000000;
+	font-size:0.9em;
+	display:none;
+}
+
+#footer-text span.copyright{
+	display:none;
+}
+
+#footer-text li{
+	display:none;
+}
+
+
+
+/*
+
+.sitemap {
+
+}
+
+.sitemap1 {
+	width:395px;
+	padding-top:10px;
+	padding-bottom:2px;
+	padding-left:5px;
+}
+
+* html .sitemap1 {
+	width:400px;
+}
+
+.sitemap1 A {
+	text-decoration:none;
+	color: black;
+	font-weight:bold;
+                font-size:0.95em;
+}
+
+.sitemap2 {
+
+	width:365px;
+	padding: 2px 5px 2px 30px;
+}
+
+* html .sitemap2 {
+	width:400px;
+}
+
+.sitemap2 A {
+	text-decoration:none;
+	color: black;
+	font-weight:bold;
+                font-size:0.95em;
+}
+
+.sitemap3 {
+	width:335px;
+	padding: 2px 5px 2px 60px;
+}
+
+* html .sitemap3 {
+	width:400px;
+}
+
+.sitemap3 A {
+	text-decoration:none;
+	color: black;
+                font-size:0.95em;
+}
+
+.sitemap4 {
+	width:320px;
+	padding: 2px 5px 2px 75px;
+}
+
+* html .sitemap4 {
+	width:400px;
+}
+
+.sitemap4 A {
+	text-decoration:none;
+	color: black;
+	font-size:0.95em;
+}
+*/
