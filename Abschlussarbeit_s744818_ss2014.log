@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  27 MAY 2014 18:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  28 MAY 2014 13:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1735,7 +1735,13 @@ Kapitel 5.
 
 
 
-] [21] [22]
+] [21]
+Overfull \hbox (1.24196pt too wide) in paragraph at lines 111--112
+\T1/ptm/m/n/13 Ein wei-te-rer wich-ti-ger Aspekt ist die Un-ter-stüt-zung mög-l
+ichst al-ler gän-gi-gen []Brow-
+ []
+
+[22]
 <pictures/../pictures/ghostlab/startbildschirm.png, id=140, 811.03pt x 632.3625
 pt>
 ./tex/evaluation.tex:162: Illegal unit of measure (pt inserted).
@@ -1831,8 +1837,14 @@ File: pictures/../pictures/ghostlab/weinre.png Graphic file (type png)
 Package pdftex.def Info: pictures/../pictures/ghostlab/weinre.png used on input
  line 169.
 (pdftex.def)             Requested size: 400.0pt x 413.7391pt.
- [24 <./pictures/../pictures/ghostlab/workspaces.png>] [25 <./pictures/../pictu
-res/ghostlab/weinre.png>]
+
+Overfull \hbox (5.2391pt too wide) in paragraph at lines 168--170
+\T1/ptm/m/n/13 tem-po-rä-re CSS An-pas-sun-gen vor-zu-neh-men. Die Hand-ha-bung
+ ist in-tui-tiv, was haupt-
+ []
+
+[24 <./pictures/../pictures/ghostlab/workspaces.png>] [25 <./pictures/../pictur
+es/ghostlab/weinre.png>]
 Overfull \hbox (15.89426pt too wide) in paragraph at lines 174--175
 \T1/ptm/m/n/13 Das Ein-rich-ten zum Tes-ten auf mo-bi-len []End-ge-rä-ten ver-l
 äuft syn-chron zu den Desktop-
@@ -1871,7 +1883,29 @@ File: pictures/../pictures/ghostlab/uebersicht_mobil.png Graphic file (type png
 Package pdftex.def Info: pictures/../pictures/ghostlab/uebersicht_mobil.png use
 d on input line 177.
 (pdftex.def)             Requested size: 400.0pt x 311.50325pt.
- [26 <./pictures/../pictures/ghostlab/uebersicht_mobil.png>] [27] [28]
+ [26 <./pictures/../pictures/ghostlab/uebersicht_mobil.png>]
+
+./tex/evaluation.tex:184: Package inputenc Error: Unicode char \u8:Ìˆ not set u
+p for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 ...zu haben. Diese lassen sich erst - abhaÌˆ
+                                                  ngig vom jeweiligen \Gls{W...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (5.7727pt too wide) in paragraph at lines 184--185
+\T1/ptm/m/n/13 Aus-füh-ren von []Ja-vas-cript läuft ein-wand-frei. Das Aus-fül-
+len von []In-put-fel-dern, []Check-
+ []
+
+[27] [28]
 <pictures/../pictures/adobeedgeinspect/icon.png, id=163, 25.09375pt x 16.06pt>
 File: pictures/../pictures/adobeedgeinspect/icon.png Graphic file (type png)
 
@@ -1999,6 +2033,12 @@ Package pdftex.def Info: pictures/../pictures/remotepreview/eingabemaske.png us
 ed on input line 247.
 (pdftex.def)             Requested size: 400.0pt x 204.41464pt.
  [34 <./pictures/../pictures/remotepreview/eingabemaske.png>] [35]
+Overfull \hbox (6.4964pt too wide) in paragraph at lines 266--267
+\T1/ptm/m/n/13 Als Vor-raus-set-zung um Remote-Sync nut-zen zu kön-nen, wird zu
+ Be-ginn ei-ne []
+ []
+
+
 <pictures/../pictures/browser-sync/install.png, id=193, 198.7425pt x 29.10875pt
 >
 File: pictures/../pictures/browser-sync/install.png Graphic file (type png)
@@ -2103,8 +2143,20 @@ Package pdftex.def Info: pictures/../pictures/browser-sync/connected.png used o
 n input line 284.
 (pdftex.def)             Requested size: 412.54024pt x 19.07118pt.
  [37 <./pictures/../pictures/browser-sync/start2.png> <./pictures/../pictures/b
-rowser-sync/connected.png>] [38]
-<pictures/../pictures/broadcast.jpg, id=207, 427.5975pt x 274.02374pt>
+rowser-sync/connected.png>]
+
+./tex/evaluation.tex:299: Package glossaries Error: Glossary entry `FRAMEWORK' 
+has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299 
+      
+You need to define a glossary entry before you can use it.
+
+[38] <pictures/../pictures/broadcast.jpg, id=207, 427.5975pt x 274.02374pt>
 ./tex/evaluation.tex:310: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
@@ -2389,12 +2441,18 @@ Overfull \hbox (13.27313pt too wide) in paragraph at lines 65--65
  []
 
 [49]
-Overfull \hbox (2.78328pt too wide) in paragraph at lines 106--106
+Overfull \hbox (2.78328pt too wide) in paragraph at lines 107--107
 []\T1/ptm/m/n/13 " .htaccess-Dateien sind Server-Konfigurationsdateien für Ver-
 zeich-
  []
 
-[50] [51] [52]) [53]
+[50] [51]
+Overfull \hbox (6.77611pt too wide) in paragraph at lines 183--183
+\T1/ptm/m/n/13 an-de-res Be-triebs-sys-tem, als das ei-gent-lich ge-nutz-te, au
+f ei-ner emu-lier-ten Rech-
+ []
+
+[52]) [53]
 ./Abschlussarbeit_s744818_ss2014.tex:490: Undefined control sequence.
 l.490 \bibitem[Wiki01]{2} \url
                               {http://de.wikipedia.org/w/index.php?title=Aja...
@@ -2677,7 +2735,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  20544 strings out of 493315
  354888 string characters out of 6137904
- 486629 words of memory out of 5000000
+ 486638 words of memory out of 5000000
  23378 multiletter control sequences out of 15000+600000
  59625 words of font info for 85 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -2689,7 +2747,7 @@ xlive/2013/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/local/texlive/20
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fon
 ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb>
-Output written on Abschlussarbeit_s744818_ss2014.pdf (62 pages, 1378684 bytes).
+Output written on Abschlussarbeit_s744818_ss2014.pdf (62 pages, 1379013 bytes).
 
 PDF statistics:
  287 PDF objects out of 1000 (max. 8388607)

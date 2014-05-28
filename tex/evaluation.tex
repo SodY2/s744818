@@ -89,7 +89,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 	\caption{Kriterienübersicht: Mobil}
 \end{table}
 
-\\Da es in der Praxis kein \Gls{Framework} gab, welches zum Zeitpunkt dieser Arbeit in der Lage war alle gewünschten Aspekte abzudecken, war es wichtig das Werkzeug um eigene Funktionen oder externe \Gls{Framework}s zu ergänzen. Dies wurde unter Berücksichtigung der API, der Lizenz des \Gls{Framework}s und dessen Dokumentation bewertet.
+\\Da es in der Praxis kein \Gls{Framework} gab, welches zum Zeitpunkt dieser Arbeit in der Lage war alle gewünschten Aspekte abzudecken, war es erforderlich das Werkzeug um eigene Funktionen oder externe \Gls{Framework}s zu ergänzen. Dies wurde unter Berücksichtigung der API, der Lizenz des \Gls{Framework}s und dessen Dokumentation bewertet.
 \subsubsection{Erweiterbarkeit}
 \begin{table}[H]
  	\vspace{-30pt}
@@ -101,14 +101,14 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 			\hline
 			\hline
 				API Zugang			&5\\
-				API lizenzteschnich gesichert	&	2	\\
+				API lizenztechnisch gesichert	&	2	\\
 				API Dokumentation	&	3	\\
 				\hline
 		\end{tabular}
 	\caption{Kriterienübersicht: Erweiterbarkeit}
 \end{table}
 
-\\Ein weiterer wichtiger Aspekt, ist die Unterstützung möglichst vieler verschiedener \Gls{Webbrowser} auf dem Desktop, auf dem Mobilgerät und in der virtuellen Umgebung.
+\\Ein weiterer wichtiger Aspekt ist die Unterstützung möglichst aller gängigen \Gls{Webbrowser} auf dem Desktop, auf dem Mobilgerät und in der virtuellen Umgebung.
 
 \subsubsection{Browser Support (aktuelle Versionen)} 
 \begin{table}[H]
@@ -120,7 +120,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 				Kriterium		 &	Punktezahl\\
 			\hline
 			\hline
-				mobile Plattformen (iOS, Android, Windows)			&3\\
+				Mobile Plattformen (iOS, Android, Windows)			&3\\
 				Virtuelle \Gls{Webbrowser}	&	2	\\
 				Chrome				&	1	\\
 				Opera				&	1	\\
@@ -132,7 +132,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 	\caption{Kriterienübersicht: \Gls{Webbrowser}}
 \end{table}
 
-\\Die Aktivität einer Software lässt darauf schließen, ob und gegebenenfalls wie, diese sich in Zukunft entwickeln kann. So sind von einem inaktiven Entwicklungsstand, von über einem halben Jahr, keine neuen Ergebnisse mehr zu erwarten und man muss davon ausgehen, dass die Software um keine neuen Features erweitert werden wird.
+\\Die Aktivität eines (Open Source) Softwareprojektes lässt darauf schließen, ob und gegebenenfalls wie, diese sich in Zukunft entwickeln wird. So sind von einem inaktiven Entwicklungsstand von über einem halben Jahr keine neuen Ergebnisse mehr zu erwarten und man muss davon ausgehen, dass die Software um keine neuen Features erweitert werden wird.
 \subsubsection{Aktivität}
 \begin{table}[H]
  	\vspace{-30pt}
@@ -158,14 +158,14 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 	\pagebreak
 	\section{\mi{Ghostlab} Version 1.2.3}
 		\subsection {Einrichtung der Testumgebung}
-		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und ereignislos. Nachdem das Tool installiert wurde, erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine Seite auf einem lokalen \Gls{Apache} Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des Ghostlabservers ist dieser über den localhost\footnote{IP-Adresse des lokalen Rechners} auf Port 8005 (Default) von allen zu testenden Geräten erreichbar.
+		Ghostlab kommt von Hause aus mit einer 7-Tage-Testversion. Die Installation verlief einfach und komplikationslos. Nachdem das Tool installiert wurde, erfolgte die Zuweisung einer Website zu dem Ghostlabserver. Es wurden in diesem Fall sowohl eine Seite auf einem lokalen \Gls{Apache} Server getestet, als auch die mitgelieferte Demoseite von Ghostlab. Nach dem Start des Ghostlabservers ist dieser über den localhost\footnote{IP-Adresse des lokalen Rechners} auf Port 8005 (Default) von allen zu testenden Geräten erreichbar.
 		\ig{../pictures/ghostlab/startbildschirm}{Startbildschirm Ghostlab}{Startbildschirm von Ghostlab nach der Installation}
 		
 		\subsection{Testen von Desktopbrowsern}
 		Durch Aufrufen der IP-Adresse des Rechners auf dem der Ghostlabserver läuft, verbindet sich der \Gls{Webbrowser} als Client und wird fortan durch gesendete Signale beeinflusst. Hierzu zählen auch virtuelle \Gls{Webbrowser}. Jeder Client wird nun gleichzeitig Sender und Empfänger für Signale, das bedeutet, dass jede Aktion \gls{parallel-synchron} auf allen anderen Clients gespiegelt wird. Hierzu zählen \Gls{Javascript}events, das Ausfüllen eines Formulars oder das Neuladen der gesamten Seite.
 		\ig{../pictures/ghostlab/workspaces}{Übersicht Clients}{Darstellung von 4 verschiedenen Clients } 
 		
-		Über den Übersichtsbildschirm kann jeder verbundene Client einzeln inspiziert werden. Hier ist der Nutzer in der Lage sich durch das \Gls{DOM} zu navigieren oder temporäre CSS Anpassungen vorzunehmen. Die Handhabung ist intuitiv, was jedoch an dem verwendeten \Gls{Framework} \mi{weinre} liegt.
+		Über den Übersichtsbildschirm kann jeder verbundene Client einzeln inspiziert werden. Hier ist der Nutzer in der Lage sich durch das \Gls{DOM} zu navigieren oder temporäre CSS Anpassungen vorzunehmen. Die Handhabung ist intuitiv, was hauptsächlich an dem verwendeten \Gls{Framework} \mi{weinre} liegt.
 		\ig{../pictures/ghostlab/weinre}{Exemplarisch Weinreansicht}{ausgewähltes \Gls{DOM}-Element in weinre}
 		
 		\pagebreak
@@ -181,11 +181,11 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 		\subsection{Fazit zu Ghostlab}
 		Für diese Arbeit wurde Version 1.2.3 von Ghostlab genutzt. Zu diesem Zeitpunkt verfügte die Software noch über keinen Master/Slave-Modus\footnote{ein Gerät dient als Steuergerät, alle anderen folgen ihm}, dadurch kam es bei meinen Testgeräten bereits nach wenigen Minuten zu dem Problem, dass die Geräte sich in einer Endlosschleife von Senden und Empfangen der Steuerbefehle befanden. Für kommende Versionen ist ein solcher Modus laut den Entwicklern aber geplant. Das Problem rührt daher, dass einige Geräte schneller auf die übermittelten Befehle reagieren, als andere. Das führt dazu, dass die langsam ladenden Geräte in dem Augenblick wo sie das Signal umsetzen, für die schnelleren Geräte bereits wieder als Sender fungieren. Dieses Problem tritt bereits bei einer kleinen Anzahl von Geräten auf und wird deshalb als kritisch eingestuft. 
 
-		\\Das Testen in mehreren \Gls{Webbrowser}n auf einem Rechner lief hingegen sehr gut. Das Ausführen von \Gls{Javascript} läuft einwandfrei. Das Ausfüllen von \Gls{Input}s, \Gls{Checkbox}en, \Gls{Radiobox}en und das Absenden des Formulars funktionierte bis auf die Kalenderauswahl im Firefox \Gls{Webbrowser}s anstandslos. Ein Problem scheint das Werkzeug mit passwortgeschützten Seiten zu haben. Diese lassen sich erst nach mehrfacher, abhängig vom jeweiligen \Gls{Webbrowser}, Eingabe des Passwortes aufrufen. Diese Prozedur wiederholt sich für jede weitere Unterseite. 
+		\\Das Testen in mehreren \Gls{Webbrowser}n auf einem Rechner lief hingegen sehr gut. Das Ausführen von \Gls{Javascript} läuft einwandfrei. Das Ausfüllen von \Gls{Input}feldern, \Gls{Checkbox}en, \Gls{Radiobox}s und das Absenden des Formulars funktionierte bis auf die Kalenderauswahl im Firefox \Gls{Webbrowser} anstandslos. Ein Problem scheint das Werkzeug mit passwortgeschützten Seiten zu haben. Diese lassen sich erst - abhängig vom jeweiligen \Gls{Webbrowser} - nach mehrfacher Eingabe des Passwortes aufrufen. Diese Prozedur wiederholt sich für jede weitere Unterseite. 
 
-		\\Das Arbeiten in einer virtuellen Umgebung\footnote{es wurde \Gls{VirtualBox} von Oracle genutzt} wird problemlos unterstützt. Das einzige Problem, was ich analysieren konnte, war dass sich virtuelle \Gls{Webbrowser} nicht in einen \Gls{Workspace} integrieren lassen.
+		\\Das Arbeiten in einer virtuellen Umgebung\footnote{es wurde \Gls{VirtualBox} von Oracle genutzt} wird problemlos unterstützt. Das einzige analysierte Problem war, dass sich virtuelle \Gls{Webbrowser} nicht in einen \Gls{Workspace} integrieren lassen.
 
-		\\Ghostlab unterstützt die Funktion von \Gls{Workspace}s\footnote{Arbeitsumgebung oder auch Arbeitsumfeld}, welche die Position und Größe der verschiedenen \Gls{Webbrowser}fenster speichern. Per Knopfdruck lassen diese sich dann im Kollektiv öffnen, sofern in den \Gls{Webbrowser}einstellungen die Popups aktiviert sind, für die zu testende Seite. Dieses Feature\footnote{Funktion, welche ein Teil der Anwendung ist} bewerte ich als positiv gegenüber dem Zeitaufwand, diesen Vorgang immer wieder manuell auszuführen.
+		\\Ghostlab unterstützt die Funktion von \Gls{Workspace}s\footnote{Arbeitsumgebung oder auch Arbeitsumfeld}, welche die Position und Größe der verschiedenen \Gls{Webbrowser}fenster speichern. Per Knopfdruck lassen diese sich dann im Kollektiv öffnen, sofern in den \Gls{Webbrowser}einstellungen die Popups aktiviert sind. Dieses Feature\footnote{Funktion, welche ein Teil der Anwendung ist} bewerte ich als positiv gegenüber dem Zeitaufwand, diesen Vorgang immer wieder manuell auszuführen.
 
 		\\Als Kritikpunkt bewerte ich die nicht existente Möglichkeit, die Anwendung um eigene Funktionalität zu erweitern.
 
@@ -198,22 +198,22 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 	\pagebreak
 	\section{\mi{Adobe Edge Inspect} CC }
 		\subsection {Einrichtung der Testumgebung}
-		Es sind drei Schritte notwendig Adobe Edge Inspect zum Einsatz vorzubereiten. Als erstes benötigen wir den Client aus der Adobe Creative \Gls{Cloud} (CC) Kollektion. Diese gibt es zum Zeitpunkt dieser Arbeit in verschiedenen Modellen und beginnt bei der kostenlosen 30-Tage Testversion, geht über die Einzellizenz, für ausschliesslich Adobe Edge Inspect, von 24,59 € / Monat bis hin zum Komplett-Abo, was dann mit 61,49 € / Monat zu Buche schlägt. Nach Starten des Clients läuft dieser als \Gls{Deamon} im Hintergrund. 
+		Es sind drei Schritte notwendig Adobe Edge Inspect zum Einsatz vorzubereiten. Als erstes benötigt man den Client aus der Adobe Creative \Gls{Cloud} (CC) Kollektion. Diese gibt es zum Zeitpunkt dieser Arbeit in verschiedenen Modellen und beginnt bei der kostenlosen 30 Tage Testversion, geht über die Einzellizenz für ausschliesslich Adobe Edge Inspect von 24,59 € / Monat, bis hin zum Komplett-Abo was dann mit 61,49 € / Monat zu Buche schlägt. Nach Starten des Clients läuft dieser als \Gls{Deamon} im Hintergrund. 
 		\iga{../pictures/adobeedgeinspect/icon}{Adobe Edge Inspect \Gls{Deamon} Icon}{Der laufende \Gls{Deamon} von Adobe Edge Inspect}
 		
-		\\Als zweiten Schritt benötigen wir die zugehörige Chrome Extension von Adobe Edge Inspect. Diese wird über den Chrome \Gls{App}store installiert und kann nach einem \Gls{Webbrowser}neustart aktiviert werden.
+		\\Als zweiten Schritt benötigt man die zugehörige Chrome Extension von Adobe Edge Inspect. Diese wird über den Chrome \Gls{App}store installiert und wird nach einem \Gls{Webbrowser}neustart aktiviert.
 		
-		\\Als letztes benötigen wir noch die kostenlos erhältliche \Gls{App} aus dem jeweiligen Shop. Hier gilt für Android der Play Store und für iOS Geräte der \Gls{App}Store. Windowsgeräte werden derzeit nicht unterstützt.
+		\\Als letztes benötigt man noch die kostenlos erhältliche \Gls{App} aus dem jeweiligen Shop. Hier gilt für Android der Play Store und für iOS Geräte der \Gls{App}Store. Windows mobile wird derzeit nicht unterstützt.
 		
 		\\Sind diese drei Schritte erfolgreich durchgeführt worden, müssen nun die Geräte mit dem Server verbunden werden. Hierzu wird die \Gls{App} gestartet (der folgende Prozess verläuft unter Android wie auch unter iOS identisch) und per IP-Adresse mit der Adobe Edge Inspect Chrome Extension verbunden. Diese verlangt im Gegenzug einen Identifikationscode, welcher auf dem jeweiligen Gerät generiert wurde. Nach erfolgreicher Synchronisation wird das Gerät im Gerätemanager angezeigt.
 		\igp{../pictures/adobeedgeinspect/iphone_2}{Adobe Edge Inspect \Gls{App} Client hinzufügen}{Eingabe der IP-Adresse zum 			Edge Inspect Rechner}{200}{350}
 		\iga{../pictures/adobeedgeinspect/desktop_2}{Adobe Edge Inspect Chrome Extension}{Eingabe des Sicherheitscodes in die 		Chrome Extension}
 
-		\\Dieser hat mehrere Funktionen. Er liefert eine Übersicht aller verbundenen Clients und ermöglicht das Aufrufen von \mi{weinre} um z. B. das \Gls{DOM} oder verwendete Ressourcen zu inspizieren oder \Gls{Javascript} auszuführen. Über den Gerätemanager lassen sich auch verbundene Geräte wieder durch einen Klick entfernen. Des Weiteren kann man über dieses Interface Screenshot von allen verbundenen Geräten im aktuellen Zustand aufnehmen und anzeigen lassen. Weiterhin besteht die Möglichkeit den Darstellungsmodus auf den verbundenen Clients von der \Gls{App}darstellung auf Vollbild zu ändern.
+		\\Der Gerätemanager hat mehrere Funktionen. Er liefert eine Übersicht aller verbundenen Clients und ermöglicht das Aufrufen von \mi{weinre} um z. B. das \Gls{DOM} oder verwendete Ressourcen zu inspizieren oder \Gls{Javascript} auszuführen. Über den Gerätemanager lassen sich auch verbundene Geräte wieder durch einen Klick entfernen. Des Weiteren kann man über dieses Interface Screenshots von allen verbundenen Geräten im aktuellen Zustand aufnehmen und anzeigen lassen. Weiterhin besteht die Möglichkeit den Darstellungsmodus auf den verbundenen Clients von der \Gls{App}darstellung auf Vollbild zu ändern.
 		\iga{../pictures/adobeedgeinspect/desktop_3}{Adobe Edge Inspect Gerätemanager}{Übersicht der verbundenen Clients}
 		
 		\subsection{Testen von Desktopbrowsern}
-		Es gibt zum Zeitpunkt der Erstellung dieser Arbeit keine Möglichkeiten Desktopseiten mit Adobe Edge Inspect zu testen.
+		Es gab zum Zeitpunkt der Erstellung dieser Arbeit keine Möglichkeiten Desktopseiten mit Adobe Edge Inspect zu testen.
 		
 		\subsection{Testen von mobilen \Gls{Webbrowser}n}
 		Die Funktionalität zum Testen von mobilen Seiten beschränkt sich derzeit auf den synchronen Aufruf von Seiten über den Chromebrowser, mit installierter Extension als Steuergerät. Die verbundenen Geräte erkennen den Aufruf von Links und das Wechseln von Tabs innerhalb des \Gls{Webbrowser}s. Es besteht wie bereits beschrieben die Option die einzelnen Clients per \mi{weinre} zu untersuchen.
@@ -225,7 +225,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 		
 		\pagebreak
 		\subsection{Fazit zu Adobe Edge Inspect}
-		Adobe Edge Inspect bedarf viel Aufwand für ein unzureichendes Ergebnis. Man muss an drei verschiedenen Punkten Installationen vornehmen, die dann jedoch \mbox{ohne} Probleme miteinander harmonieren. Als besonders positiv möchte ich die Screenshotfunktion bewerten. In Zusammenspiel mit der öffentlich zugänglichen API lassen sich hierüber Screenshots im Landschafts-, als auch im \Gls{PoW} anfordern und durch eine externe \Gls{App}likationen auswerten. 
+		Adobe Edge Inspect bedarf viel Aufwand für ein unzureichendes Ergebnis. Man muss an drei verschiedenen Punkten Installationen vornehmen, die dann jedoch \mbox{ohne} Probleme miteinander harmonieren. Als besonders positiv bewerte ich die Screenshotfunktion. In Zusammenspiel mit der öffentlich zugänglichen API lassen sich hierüber Screenshots im Landschafts-, als auch im \Gls{PoW} anfordern und durch eine externe \Gls{App}likation auswerten. 
 		
 		\\Der Nutzen des Werkzeuges liegt am ehesten bei One-Page-Sites\footnote{Webseiten dessen Inhalt sich füllend auf die gesamte Seite erstrecken} oder für Fehlersuche innerhalb des \Gls{DOM} oder CSS Anpassungen mit \mi{weinre}. Unter dem Aspekt des \gls{parallel-synchron}en Testens ist Adobe Edge Inspect nicht sinnvoll zu verwenden, da weder Steuerbefehle oder andere Gesten umgesetzt werden, noch werden die Nutzereingaben in Eingabefeldern mit anderen verbundenen Clients geteilt. Alle verbundenen Clients sind nur Empfänger und besitzen keine Möglichkeit als Sender zu fungieren. Folglich gehen alle Steuerbefehle vom Edge-Server aus.
 	
@@ -250,7 +250,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 		 Das Testen der mobilen \Gls{Webbrowser} funktioniert parallel zum Testen von Desktopseiten. Positiv möchte ich hier erwähnen, dass das \Gls{Framework} auch wenn es dafür nicht ausgelegt ist, unter aktuellen Windowsgeräten funktioniert.			
 		
 		\subsection{Fazit zu Remote Preview}
-		Ein positiver Punkt, ist die Möglichkeit, letztendlich jeden \Gls{Webbrowser} unabhängig von dessen Betriebssystems in die 				Testumgebung zu integrieren, da diese einfach nur auf den \Gls{Apache}server oder die Dropbox zugreifen müssen. Als negativ führe ich hier die Tatsache auf, dass es ähnlich Adobe Edge Inspect lediglich dem Aufrufen von Seiten dient, jedoch nicht deren Bedienung. So ist es nicht möglich, weiteren Verlinkungen zu folgen, ohne diese von Hand in die Eingabemaske einzutragn oder Formulare auszufüllen. Das Darstellen von Seiten mit \Gls{Anker}n, funktioniert nur bedingt. Das Aufrufen von \gls{gesichert}en Seiten gelang nicht. Ebenfalls war es nicht möglich, zertifizierte Webseiten aufzurufen, was den Nutzungsgrad des \Gls{Framework}s stark einschränkt. Gut finde ich die Tatsache, dass Quellcode komplett zugänglich ist, da er 		unter der MIT Lizenz steht und	jederzeit in eigene Projekte eingebunden oder um eigene Funktionalität erweitert werden kann. Das Projekt scheint zum Zeitpunkt dieser Arbeit nicht weiterentwickelt zu werden. Für den Aufruf einer einfachen Seite auf n-Geräten ist dieses Projekt eine kostenlose Alternative zu Adobe Edge Inspect mit geringerem Funktionsumfang.
+		Ein positiver Punkt, ist die Möglichkeit, letztendlich jeden \Gls{Webbrowser} unabhängig von dessen Betriebssystems in die 				Testumgebung zu integrieren, da diese einfach nur auf den \Gls{Apache}server oder die Dropbox zugreifen müssen. Als negativ führe ich hier die Tatsache auf, dass es ähnlich Adobe Edge Inspect lediglich dem Aufrufen von Seiten dient, jedoch nicht deren Bedienung. So ist es nicht möglich, weiteren Verlinkungen zu folgen, ohne diese von Hand in die Eingabemaske einzutragen oder Formulare auszufüllen. Das Darstellen von Seiten mit \Gls{Anker}n funktioniert nur bedingt. Das Aufrufen von \gls{gesichert}en Seiten gelang nicht. Ebenfalls war es nicht möglich, zertifizierte Webseiten aufzurufen, was den Nutzungsgrad des \Gls{Framework}s stark einschränkt. Gut finde ich die Tatsache, dass der Quellcode komplett zugänglich ist, da er unter der MIT Lizenz steht und jederzeit in eigene Projekte eingebunden oder um eigene Funktionalität erweitert werden kann. Das Projekt scheint zum Zeitpunkt dieser Arbeit nicht weiterentwickelt zu werden. Für den Aufruf einer einfachen Seite auf n-Geräten ist dieses Projekt eine kostenlose Alternative zu Adobe Edge Inspect mit geringerem Funktionsumfang.
 		
 				
 		\subsection{Tabellarische Evaluation}
@@ -263,29 +263,29 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 \pagebreak
 	\section{\mi{Browser-Sync}}	
 	\subsection{Einrichtung der Testumgebung}
-	Als Vorraussetzung um Remote-Sync nutzen zu können, wird zu Beginn erst einmal eine \gls{NodeJS} Implementation benötigt. Diese kann entweder über die Konsole installiert werden oder per Installationstool von der \gls{NodeJS} Homepage.
+	Als Vorraussetzung um Remote-Sync nutzen zu können, wird zu Beginn eine \mbox{\gls{NodeJS}} Implementation benötigt. Diese kann entweder über die Konsole installiert werden oder per Installationstool von der \gls{NodeJS} Homepage.
 	
 	\\Nach der \gls{NodeJS} Installation wird per \Gls{NPM} das Paket von Browser-Sync per Konsole einmalig installiert:
 	\iga{../pictures/browser-sync/install}{Browser-Sync Installation per Konsole}{Konsolenbefehl um Browser-Sync zu installieren}
 	
-	Nun muss für jedes neue oder bestehende Projekt einmalig im Projektordner Browser-Sync initialisiert werden. Browser-Sync legt in dem aktuellen Verzeichnis eine Konfigurationsdatei ab, in welcher man einzelne Optionen, wie z. B. die zu beobachtenden Dateien oder Einstellungen zum Synchronisationsverhalten, festlegen kann. Dieser Aufruf erfolgt ebenfalls über die Konsole.
+	Nun muss für jedes neue oder bestehende Projekt einmalig im Projektordner Browser-Sync initialisiert werden. Browser-Sync legt in dem aktuellen Verzeichnis eine Konfigurationsdatei ab, in welcher man einzelne Optionen wie z. B. die zu beobachtenden Dateien oder Einstellungen zum Synchronisationsverhalten festlegen kann. Dieser Aufruf erfolgt ebenfalls über die Konsole.
 	\igp{../pictures/browser-sync/init}{Browser-Sync Initiierung per Konsole}{Konsolenbefehl um Browser-Sync zu imitieren}{450}{200}
 	
-	Nach der Initiierung des Servers startet man diesen mit dem Befehl :
+	Nach der Initiierung des Servers startet man diesen mit dem Befehl:
 	\iga{../pictures/browser-sync/start}{Browser-Sync Starten per Konsole}{Konsolenbefehl um Browser-Sync zu starten}
 	
-	Um nun die Kommunikation zwischen Server und Projekt zu gewährleisten, muss vor dem Ende des Body Elements der Indexdatei zusätzlicher Scriptcode eingefügt werden, welcher jedoch zum Release entfernt werden sollte. Der einzufügende Code  wird anhand der Konfigurationsdatei und der IP-Adresse des Servers generiert und per Konsole dem Nutzer mitgeteilt.
+	Um nun die Kommunikation zwischen Server und Projekt zu gewährleisten, muss vor dem <body> tag der Indexdatei zusätzlicher Scriptcode eingefügt werden, welcher jedoch zum Release entfernt werden sollte. Der einzufügende Code  wird anhand der Konfigurationsdatei und der IP-Adresse des Servers generiert und per Konsole dem Nutzer mitgeteilt.
 	\igp{../pictures/browser-sync/start2}{Browser-Sync Script-Tag}{Konsolenausgabe mit einzufügendem Quellcode}{450}{200}
 	
 	In künftigen Versionen wird es laut dem Entwickler nicht mehr notwendig sein die Versionsnummer mitanzugeben.
 	
 	\subsection{Testen von Desktopseiten}
-	Das Testen erfolgt durch Aufruf der Seite, in die der Steuercode eingetragen wurde, über den Browser. Die parallele Steuerung erfolgt direkt und synchron. Ist ein Browser erfolgreich verbunden, wird dies in der Konsole des Servers angezeigt.
+	Das Testen erfolgt durch Aufruf der Seite in die der Steuercode eingetragen wurde, direkt im Browser. Die parallele Steuerung erfolgt direkt und synchron. Ist ein Browser erfolgreich verbunden, wird dies in der Konsole des Servers angezeigt.
 	\iga{../pictures/browser-sync/connected}{Browser-Sync verbundener Client}{Konsolenausgabe bei erfolgreich verbundenem Client}
-	Das Folgen interner Links funktioniert nur unidirektional, sofern der Steuercode nicht mittels \Gls{Framework} oder von Hand in die verlinkten Dateien eingefügt wurde. Das Folgen externer Links erfolgt ebenfalls nur unidirektional. Auch das Aufrufen zertifizierter oder \gls{gesichert}er Seiten mit Passworteingabe, funktioniert problemlos. Beim Nutzen von Steuerbefehlen, traten nur bedingt Probleme auf. So gibt es zum Zeitpunkt dieser Arbeit Defizite im Umgang mit dem \Gls{Javascript}framework jQuery. So lassen sich z. B. Lightboxen öffnen, jedoch werden dann Befehle zum \mbox{Schließen} des Fensters nicht mehr erkannt und übermittelt. Das Ausfüllen von Formularen verlief bis auf eine Mehrfachauswahl fehlerfrei. Das Erkennen von Hoverevents funktionierte in der Version 0.7.2 noch nicht. Auch das parallele Verwenden von Sliderelementen war zu diesem Zeitpunkt noch nicht implementiert.
+	Das Folgen interner Links funktioniert nur unidirektional, sofern der Steuercode nicht mittels \Gls{Framework} oder von Hand in die verlinkten Dateien eingefügt wurde. Dies hat zur Folge, dass aufgerufene Seiten sich nicht mehr unter der Kontrolle des \Gls{Framework}s befinden. Das Folgen externer Links erfolgt ebenfalls nur unidirektional. Auch das Aufrufen zertifizierter oder \gls{gesichert}er Seiten mit Passworteingabe, funktioniert problemlos. Beim Nutzen von Steuerbefehlen, traten nur bedingt Probleme auf. So gibt es zum Zeitpunkt dieser Arbeit Defizite im Umgang mit dem \Gls{Javascript}framework jQuery. So lassen sich z. B. Lightboxen zwar öffnen, jedoch werden dann Befehle zum \mbox{Schließen} des Fensters nicht mehr erkannt und übermittelt. Das Ausfüllen von Formularen verlief bis auf eine Mehrfachauswahl fehlerfrei. Das Erkennen von Hoverevents funktionierte in der Version 0.7.2 noch nicht. Auch das parallele Verwenden von Sliderelementen war zu diesem Zeitpunkt noch nicht implementiert.
 	
 	\subsection{Testen von mobilen Browsern}
-	Das Testen von mobilen Browsern verläuft parallel zu Desktopseiten. Ein Aufruf über den internen Browser genügt um den Client am Server zu registrieren. Als zusätzliches Problem trat bei den mobilen Geräten ein Verziehen der Elemente auf. Die Geräte richten sich anhand der gescrollten Entfernung aus und nicht der Ausrichtung an der \Gls{HTML}-Struktur. Zum Zeitpunkt dieser Thesis bietet das \Gls{Framework} nicht die Möglichkeit der Ausrichtung an \Gls{DOM}-Elementen der Internetseite. So kommt es bei den Testgeräten zu Unstimmigkeiten in der Darstellung des Inhalts, welche durch die unterschiedlichen \Gls{BA}en und Ausrichtungen der Geräte zu Stande kommen.
+	Das Testen von mobilen Browsern verläuft parallel zu Desktopseiten. Ein Aufruf über den internen Browser genügt um den Client am Server zu registrieren. Als zusätzliches Problem trat bei den mobilen Geräten ein nichtsynchroner Versatz der Elemente auf. Die Geräte richten sich anhand der gescrollten Entfernung aus und nicht der Ausrichtung an der \Gls{HTML}-Struktur. Zum Zeitpunkt dieser Thesis bietet das \Gls{Framework} nicht die Möglichkeit der Ausrichtung an \Gls{DOM}-Elementen der Internetseite. So kommt es bei den Testgeräten zu Unstimmigkeiten in der Darstellung des Inhalts, welche durch die unterschiedlichen \Gls{BA}en und Ausrichtungen der Geräte zu Stande kommen.
 	
 	\subsection{Fazit zu Browser-Sync}
 	Browser-Sync ist ein vielversprechendes \Gls{Framework}, welches die zu untersuchenden Aspekte vollkommen abdeckt. Es bestehen noch relativ viele unausgereifte Komponenten, jedoch werden diese bei Auftreten zeitnah von den Entwicklern behoben. Generell scheint das \Gls{Framework} zum Zeitpunkt dieser Arbeit eine hohe Entwicklungsgeschwindigkeit zu besitzen. Es trat gelegentlich ein Fehler auf, bei dem ein verbundener Client, selbst nach mehrfacher Neuverbindung, nicht mehr auf die Steuersignale reagierte. Dieser Fehler trat meistens bei mehr als sechs verbundenen Clients auf. Das \Gls{Framework} ist zum Validieren von Websites gedacht, die sich noch in der Entwicklung befinden. Das Testen ist, aufgrund der notwendingen Testumgebung, nur als lokales Arbeiten angedacht. Als Pluspunkt wird das Injizieren von geändertem Code zur Entwicklungszeit gewertet. So ist es zum Beispiel möglich, vorgenommene Änderungen am Styling oder dem \Gls{DOM}, ohne weitere Handgriffe direkt auf allen Testgeräten zu begutachten.
@@ -305,7 +305,7 @@ Zur Evaluierung der einzelnen \Gls{Framework}s, wurde ein Schlüssel erstellt, w
 	socket.io lässt sich einfach über den \Gls{NPM} installieren. Es ermöglicht das Herstellen einer permanenten Verbindung mit dem Server über einen Socket. Der Vorteil liegt hierbei darin, dass keine zyklischen Anfragen an den Server gesendet werden. Stattdessen wird hier das Observer-Pattern umgesetzt und alle verbundenen Clients werden vom Server informiert, sobald eine Änderung des Status stattgefunden hat. 
 	
 	\subsection{Generierung von Steuerbefehlen über socket.io}
-	Der generelle Aufbau von socket.io sieht vor, dass der Client sich mit dem Server verbindet und eine permanente Verbindung mit diesem aufrecht erhält. Identifizierbar bleibt diese über eine generierte, einzigartige, alphanumerische Session ID. socket.io funktioniert nach den Observer-Pattern, was bedeutet, dass der Client nicht in zyklischen Abständen Anfragen an den Server sendet, sondern bei einer Änderung der Modelle oder zum Beispiel einem Funktionsaufruf vom Server mittels eines Broadcasts informiert wird. So entsteht das Problem, dass wenn ein Client eine Nachricht an den Server sendet, dieser allen Clients (auch dem Auslöser) diese Nachricht sendet. 
+	Der generelle Aufbau von socket.io sieht vor, dass der Client sich mit dem Server verbindet und eine permanente Verbindung mit diesem aufrecht erhält. Identifizierbar bleibt diese über eine generierte, einzigartige, alphanumerische Session ID. socket.io funktioniert nach dem Observer-Pattern, was bedeutet, dass der Client nicht in zyklischen Abständen Anfragen an den Server sendet, sondern bei einer Änderung der Modelle oder zum Beispiel einem Funktionsaufruf vom Server mittels eines Broadcasts informiert wird. So entsteht das Problem, dass wenn ein Client eine Nachricht an den Server sendet, dieser allen Clients (auch dem Auslöser) diese Nachricht sendet. 
 	
 	\igp{../pictures/broadcast}{socket.io vereinfachte Darstellung eines Broadcasts}{socket.io Broadcast \cite{3}}{300}{300}
 	
@@ -323,7 +323,7 @@ Für die Entwicklung eines eigenen \Gls{Framework}s wirft dies einige Probleme a
 	\subsubsection{Serverseitig}
 	Zu Beginn werden die notwendigen Bibliotheken eingebunden um einen \gls{NodeJS} Server starten zu können (Zeilen: 1-2). Im Anschluss wird  eine Serverinstanz von \gls{NodeJS} erstellt (Zeile: 4) und gestartet auf Port 8001 (Zeile: 6). Dieser wird nun mit der socket.io Bibliothek verknüpft (Zeile: 7). Sofern nun ein Client sich mit dem Server verbindet wird das 'connection'-Event gefeuert (Zeile: 9) und der Client wartet auf ein selbst-definierten Methodenaufruf vom 'scroll' (Zeile: 11).
 	
-	\\Wenn am Server ein Srollevent eingegangen ist, sendet dieser dies per Broadcast an alle verbundenen Clienten (Zeile: 12).
+	\\Wenn am Server ein Scrollevent eingegangen ist, sendet der Server das Event per Broadcast an alle verbundenen \Gls{moEn}e (Zeile: 12).
 	
 	\igp{../pictures/socketio/server_1}{socket.io Quellcode Scrollbeispiel Serverseitig}{minifizierter Quellcode Serverseitig}{350}{350}
 	\subsubsection{Clientseitig}
@@ -331,7 +331,7 @@ Für die Entwicklung eines eigenen \Gls{Framework}s wirft dies einige Probleme a
 	
 	\igp{../pictures/socketio/client_1}{socket.io Quellcode Scrollbeispiel Clientseitig}{minifizierter Quellcode Clientseitig}{350}{350}
 	
-	Zum anderen muss die Methode implementiert werden, welche vom Server gesendete \Gls{Event}s abfängt und verarbeitet. In diesem Beispiel wartet der Client auf ein \Gls{Event} vom Typ 'scroll'. Dieses bekommt einen Datensatz, die Scrollposition, mitgeliefert. Nach erfolgreichem \Gls{Event}aufruf wird per jQuery die Position des Bildausschnitts an den des mitgelieferten Datensatzes angepasst.
+	Zum anderen muss die Methode implementiert werden, welche vom Server gesendete \Gls{Event}s abfängt und verarbeitet. In diesem Beispiel wartet der Client auf ein \Gls{Event} vom Typ 'scroll'. Dieses bekommt einen Datensatz, die Scrollposition, mitgeliefert. Nach erfolgreichem \Gls{Event}aufruf wird per jQuery die Position des Bildausschnitts an die im Datensatz übermittelte Position angepasst.
 	
 	\igp{../pictures/socketio/client_2}{socket.io Quellcode Scrollbeispiel Clientseitig}{minifizierter Quellcode Clientseitig}{250}{250}
 
